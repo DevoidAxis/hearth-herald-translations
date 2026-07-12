@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="hh_mcm_allow_instant_marriage_hint" text="Pula a fase de cortejo -&gt; case um casal elegível imediatamente." />
+    <string id="hh_mcm_allow_instant_marriage_name" text="Permitir casamento instantâneo" />
+    <string id="hh_mcm_auto_summon_council_hint" text="Desligado (padrão): convoque o conselho você mesmo pelo Master Herald. Ligado: seus Heralds também enviam um breve resumo periódico (alertas + um link para o relatório completo) no intervalo definido abaixo." />
+    <string id="hh_mcm_auto_summon_council_name" text="Relatórios automáticos do conselho" />
+    <string id="hh_mcm_banner_kings_conservative_hint" text="Ignora a mutação de renda do Exchequer quando o Banner Kings está carregado. Ligado por padrão." />
+    <string id="hh_mcm_banner_kings_conservative_name" text="Banner Kings: Conservador" />
+    <string id="hh_mcm_banner_kings_disabled_hint" text="Desativa o bônus de renda do Exchequer independentemente da detecção. Sobrepõe o modo Conservador." />
+    <string id="hh_mcm_banner_kings_disabled_name" text="Banner Kings: Desativar o Exchequer por completo" />
+    <string id="hh_mcm_bonus_strength_high_hint" text="Aumenta todos os bônus de cargo em 50%. Exclusivo com as outras opções de Intensidade do Bônus." />
+    <string id="hh_mcm_bonus_strength_high_name" text="Intensidade do Bônus: Alta" />
+    <string id="hh_mcm_bonus_strength_low_hint" text="Reduz pela metade todos os bônus de cargo. Exclusivo com as outras opções de Intensidade do Bônus." />
+    <string id="hh_mcm_bonus_strength_low_name" text="Intensidade do Bônus: Baixa" />
+    <string id="hh_mcm_clan_home_relocation_cooldown_days_name" text="Tempo de recarga para mudar a Sede do Clã (dias)" />
+    <string id="hh_mcm_companion_limit_base_hint" text="Vagas extras de companheiros no nível 0 do clã. Padrão 4 (os quatro cargos de Herald). Sem teto artificial." />
+    <string id="hh_mcm_companion_limit_base_name" text="Companheiros: bônus base" />
+    <string id="hh_mcm_companion_limit_per_tier_hint" text="Vagas adicionais de companheiros por nível do clã (somadas ao bônus base)." />
+    <string id="hh_mcm_companion_limit_per_tier_name" text="Companheiros: por nível do clã" />
+    <string id="hh_mcm_compatibility_conservative_hint" text="Aplica limites de segurança para mods sobrepostos (Banner Kings, Improved Garrisons) mesmo quando não detectados. Desligado = detecção automática." />
+    <string id="hh_mcm_compatibility_conservative_name" text="Modo de Compatibilidade: Conservador" />
+    <string id="hh_mcm_conceive_chance_hint" text="Chance de sucesso quando um casal tenta gerar um herdeiro." />
+    <string id="hh_mcm_conceive_chance_name" text="Chance de conceber" />
+    <string id="hh_mcm_council_cadence_days_hint" text="Com que frequência o resumo automático do conselho é convocado quando ativado acima. Padrão 21 dias (cerca de uma estação)." />
+    <string id="hh_mcm_council_cadence_days_name" text="Intervalo dos relatórios do conselho (dias)" />
+    <string id="hh_mcm_defer_exchequer_finance_model_hint" text="Desligado por padrão. Desligado (Forçar): o HH entrega o bônus de renda do Exchequer por meio de uma sobreposição das finanças do clã que envolve e preserva qualquer outro mod de finanças e adiciona o bônus por cima, de forma idêntica no PC e no Steam Deck. Ligado (Adiar): se outro mod sobrescrever o modelo de finanças do clã, o HH cede a ele e o bônus de renda do Exchequer não é aplicado. Entra em vigor no próximo carregamento da campanha." />
+    <string id="hh_mcm_defer_exchequer_finance_model_name" text="Adiar a renda do Exchequer a outro mod de finanças" />
+    <string id="hh_mcm_diplomacy_fixes_conservative_hint" text="Revalida a posse da Sede do Clã a cada tique diário. Detecta transferências de assentamentos feitas pelo Diplomacy Fixes." />
+    <string id="hh_mcm_diplomacy_fixes_conservative_name" text="Diplomacy Fixes: Conservador" />
+    <string id="hh_mcm_disable_remote_tier_gating_hint" text="Desligado (padrão): ações importantes (intrigas, nomeações de heralds, mudança da sede do clã) só podem ser feitas remotamente quando o clã atinge o Nível 5 — em casa estão sempre disponíveis. Ligado: o acesso remoto a essas ações não exige nível (use o herald de qualquer lugar)." />
+    <string id="hh_mcm_disable_remote_tier_gating_name" text="Desativar bloqueio remoto por nível" />
+    <string id="hh_mcm_elite_recruit_multiplier_name" text="Multiplicador de recrutas de elite" />
+    <string id="hh_mcm_enable_arms_name" text="Ativar bônus de Arms" />
+    <string id="hh_mcm_enable_concubines_hint" text="Desligado por padrão. Acolha um membro da casa (consorte) vindo de uma taverna; presenteie/romance/tenha filhos; separe-se dele a qualquer momento. Interpretação de clã; nunca restrito a nenhum recurso de apoiadores." />
+    <string id="hh_mcm_enable_concubines_name" text="Ativar membros da casa (consortes)" />
+    <string id="hh_mcm_enable_exchequer_name" text="Ativar bônus do Exchequer" />
+    <string id="hh_mcm_enable_family_systems_hint" text="Interruptor mestre para romance, casamento, mentoria, herdeiros e membros da casa. Desligado = comportamento familiar padrão." />
+    <string id="hh_mcm_enable_family_systems_name" text="Ativar sistemas familiares" />
+    <string id="hh_mcm_enable_low_barrier_recruitment_hint" text="Recrute plebeus locais para o serviço (Muster) e converta bandidos capturados às suas cores via o Ransom Broker (Watch). Passa pelos cargos; os recrutas são companheiros comuns do clã." />
+    <string id="hh_mcm_enable_low_barrier_recruitment_name" text="Ativar recrutamento de baixa barreira" />
+    <string id="hh_mcm_enable_master_advanced_hint" text="Desativar oculta as ações de intriga e militares do menu Master. As leituras administrativas e de status permanecem." />
+    <string id="hh_mcm_enable_master_advanced_name" text="Ativar ações avançadas do Master Herald" />
+    <string id="hh_mcm_enable_meyc_soft_detection_name" text="Detecção leve de MEYC (suprime texto de sobreposição)" />
+    <string id="hh_mcm_enable_migration_debug_dialog_hint" text="No primeiro carregamento após a atualização, exibe uma janela única explicando o que foi migrado. Apenas em versões futuras." />
+    <string id="hh_mcm_enable_migration_debug_dialog_name" text="Mostrar janela de depuração da migração" />
+    <string id="hh_mcm_enable_mod_hint" text="Interruptor de desligamento mestre. Desativar interrompe todos os bônus e alertas; o elenco existente e o estado da Sede do Clã são preservados." />
+    <string id="hh_mcm_enable_mod_name" text="Ativar Hearth &amp; Herald" />
+    <string id="hh_mcm_enable_muster_name" text="Ativar bônus de Muster" />
+    <string id="hh_mcm_enable_pregnancy_control_hint" text="Peça a um casal que tente gerar um herdeiro (com chance de falhar) e envie um presente ao cônjuge para melhorar a relação." />
+    <string id="hh_mcm_enable_pregnancy_control_name" text="Ativar gravidez &amp; herdeiros" />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_hint" text="Liberte um lorde inimigo cativo mantido em seu grupo e traga-o para o seu clã como um lorde pleno. Passa pelo Watch." />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Ativar recrutamento de lorde prisioneiro" />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Recrute um lorde rebelde da mesma cultura que perdeu seu assento E ainda lidera um grupo (rebeldes sem terra e sem grupo são removidos pelo jogo antes que você possa alcançá-los). Passa pelo Muster." />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Ativar recrutamento de lorde rebelde" />
+    <string id="hh_mcm_enable_romance_hint" text="Corteje e case adultos elegíveis pelo Master Herald; designe um mentor para uma troca diária de XP de habilidade. Relações entre pessoas do mesmo sexo são suportadas de forma simétrica." />
+    <string id="hh_mcm_enable_romance_name" text="Ativar romance &amp; casamento" />
+    <string id="hh_mcm_enable_troop_promotion_hint" text="Veteranos que acumulam mérito de batalha suficiente podem ser enobrecidos como companheiros do clã pelo Master Herald (menu Households)." />
+    <string id="hh_mcm_enable_troop_promotion_name" text="Ativar promoção de tropa -&gt; companheiro" />
+    <string id="hh_mcm_enable_verbose_logging_name" text="Registro detalhado" />
+    <string id="hh_mcm_enable_watch_name" text="Ativar alertas do Watch" />
+    <string id="hh_mcm_garrison_xp_multiplier_name" text="Multiplicador de XP da guarnição" />
+    <string id="hh_mcm_group_balance_cooldowns" text="Balanceamento: Recargas" />
+    <string id="hh_mcm_group_balance_multipliers" text="Balanceamento: Multiplicadores" />
+    <string id="hh_mcm_group_clan_council" text="Conselho do Clã" />
+    <string id="hh_mcm_group_compatibility" text="Compatibilidade" />
+    <string id="hh_mcm_group_debug" text="Depuração" />
+    <string id="hh_mcm_group_family_clan_continuity" text="Família &amp; Continuidade do Clã" />
+    <string id="hh_mcm_group_general" text="Geral" />
+    <string id="hh_mcm_group_households" text="Households" />
+    <string id="hh_mcm_group_limits" text="Limites" />
+    <string id="hh_mcm_group_office_systems" text="Sistemas de Cargos" />
+    <string id="hh_mcm_group_tear_down" text="Desmontagem" />
+    <string id="hh_mcm_improved_garrisons_conservative_hint" text="Ignora as mutações de guarnição de Muster/Arms quando o Improved Garrisons está carregado. Ligado por padrão." />
+    <string id="hh_mcm_improved_garrisons_conservative_name" text="Improved Garrisons: Conservador" />
+    <string id="hh_mcm_improved_garrisons_disabled_hint" text="Desativa por completo os efeitos de guarnição de Muster + Arms. Os efeitos de grupo permanecem." />
+    <string id="hh_mcm_improved_garrisons_disabled_name" text="Improved Garrisons: Desativar efeitos de guarnição" />
+    <string id="hh_mcm_income_multiplier_name" text="Multiplicador de renda" />
+    <string id="hh_mcm_intrigue_cooldown_multiplier_name" text="Multiplicador de recarga de intrigas" />
+    <string id="hh_mcm_limit_companions_hint" text="Adiciona vagas extras de companheiros recrutáveis ao seu clã (aditivo, sobre o limite de nível padrão). Os oficiais Herald estacionados continuam não contando para a vaga (D2)." />
+    <string id="hh_mcm_limit_companions_name" text="Companheiros: ativar" />
+    <string id="hh_mcm_limit_party_count_hint" text="Aumenta o número de grupos que seu clã pode formar (grupos liderados por companheiros no mapa)." />
+    <string id="hh_mcm_limit_party_count_name" text="Número de grupos: ativar" />
+    <string id="hh_mcm_limit_party_size_hint" text="Aumenta o limite de tropas do seu grupo PRINCIPAL. Apenas para o jogador por design — grupos de IA/lordes mantêm os tamanhos padrão para o balanceamento do jogo." />
+    <string id="hh_mcm_limit_party_size_name" text="Tamanho do grupo: ativar (apenas seu grupo)" />
+    <string id="hh_mcm_limit_prisoners_hint" text="Aumenta o limite de prisioneiros do seu grupo PRINCIPAL. Apenas para o jogador por design." />
+    <string id="hh_mcm_limit_prisoners_name" text="Prisioneiros: ativar (apenas seu grupo)" />
+    <string id="hh_mcm_limits_enabled_hint" text="Desligado: nunca altera nenhum limite. Ligado: aplica os limites abaixo. Com 'Forçar sobre outros mods de limite' DESLIGADO este é o modo Automático — cedemos a um mod de limite detectado (ex.: TrueLimits) e só aplicamos quando nenhum está presente." />
+    <string id="hh_mcm_limits_enabled_name" text="Ativar conjunto de limites" />
+    <string id="hh_mcm_limits_forced_hint" text="Desligado (padrão) = Automático: cede a um mod de limite detectado (TrueLimits) e aplica os nossos apenas quando nenhum está presente. Ligado = Forçado: sempre aplica os nossos, ACUMULANDO sobre qualquer outro mod de limite." />
+    <string id="hh_mcm_limits_forced_name" text="Forçar sobre outros mods de limite" />
+    <string id="hh_mcm_master_action_cooldown_multiplier_name" text="Multiplicador de recarga de ações do Master" />
+    <string id="hh_mcm_max_gift_relation_per_day_hint" text="Limite diário de relação ganha com presentes ao cônjuge/consorte." />
+    <string id="hh_mcm_max_gift_relation_per_day_name" text="Relação máxima por presente por dia" />
+    <string id="hh_mcm_mentor_daily_xp_cap_hint" text="XP de habilidade diário concedido por par ao aprendiz (na habilidade mais forte do mentor). 0 desativa o tique de mentoria." />
+    <string id="hh_mcm_mentor_daily_xp_cap_name" text="Limite diário de XP de mentoria" />
+    <string id="hh_mcm_mentor_reciprocal_fraction_hint" text="Fração da concessão do aprendiz que o mentor também ganha (também limitada). 0 = ensino unilateral." />
+    <string id="hh_mcm_mentor_reciprocal_fraction_name" text="Parcela recíproca do mentor" />
+    <string id="hh_mcm_mentor_xp_multiplier_name" text="Multiplicador de XP de mentoria" />
+    <string id="hh_mcm_party_count_base_hint" text="Grupos extras do clã no nível 0. Múltiplos grupos liderados por companheiros para o clã dos sonhos." />
+    <string id="hh_mcm_party_count_base_name" text="Número de grupos: bônus base" />
+    <string id="hh_mcm_party_count_per_tier_hint" text="Grupos adicionais do clã por nível do clã." />
+    <string id="hh_mcm_party_count_per_tier_name" text="Número de grupos: por nível do clã" />
+    <string id="hh_mcm_party_size_base_hint" text="Vagas extras de tropa no grupo principal no nível 0 do clã. Para um exército de ~100 companheiros, defina isto alto E aumente o limite de companheiros." />
+    <string id="hh_mcm_party_size_base_name" text="Tamanho do grupo: bônus base" />
+    <string id="hh_mcm_party_size_per_tier_hint" text="Vagas adicionais de tropa no grupo principal por nível do clã." />
+    <string id="hh_mcm_party_size_per_tier_name" text="Tamanho do grupo: por nível do clã" />
+    <string id="hh_mcm_party_xp_multiplier_name" text="Multiplicador de XP do grupo" />
+    <string id="hh_mcm_prisoner_limit_base_hint" text="Vagas extras de prisioneiro no grupo principal no nível 0 do clã." />
+    <string id="hh_mcm_prisoner_limit_base_name" text="Prisioneiros: bônus base" />
+    <string id="hh_mcm_prisoner_limit_per_tier_hint" text="Vagas adicionais de prisioneiro no grupo principal por nível do clã." />
+    <string id="hh_mcm_prisoner_limit_per_tier_name" text="Prisioneiros: por nível do clã" />
+    <string id="hh_mcm_prisoner_lord_gold_cost_hint" text="Ouro para recrutar um lorde cativo. Um Watch Herald ativo reduz isso em um quarto." />
+    <string id="hh_mcm_prisoner_lord_gold_cost_name" text="Custo em ouro do lorde prisioneiro" />
+    <string id="hh_mcm_prisoner_lord_influence_cost_hint" text="Influência para recrutar um lorde cativo. Um Watch Herald ativo reduz isso em um quarto." />
+    <string id="hh_mcm_prisoner_lord_influence_cost_name" text="Custo em influência do lorde prisioneiro" />
+    <string id="hh_mcm_promotion_kill_threshold_hint" text="Abates que um TIPO de tropa deve acumular em seu grupo antes que uma possa ser enobrecida." />
+    <string id="hh_mcm_promotion_kill_threshold_name" text="Limiar de abates para promoção" />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_hint" text="Quando ativado, tropas de nível mais alto precisam de proporcionalmente mais mérito para promover (compensa seu maior poder inicial)." />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_name" text="Escalar limiar pelo nível da tropa" />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_hint" text="Quanto dos valores de habilidade da tropa o novo companheiro herda. 100 = poder de veterano completo." />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_name" text="Herança de habilidade na promoção %" />
+    <string id="hh_mcm_ransom_broker_gold_cost_hint" text="Moedas para converter cada bandido capturado em companheiro. Um Watch Herald ativo reduz o preço em um quarto." />
+    <string id="hh_mcm_ransom_broker_gold_cost_name" text="Custo do Ransom Broker (ouro)" />
+    <string id="hh_mcm_ransom_broker_max_per_visit_hint" text="Número máximo de bandidos que você pode converter em uma única visita ao broker." />
+    <string id="hh_mcm_ransom_broker_max_per_visit_name" text="Conversões do Ransom Broker por visita" />
+    <string id="hh_mcm_ransom_broker_skill_percent_hint" text="Quanto das habilidades do bandido o convertido mantém. Eles são combatentes, então mantêm mais (60 por padrão)." />
+    <string id="hh_mcm_ransom_broker_skill_percent_name" text="Habilidade do Ransom Broker %" />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_hint" text="Também oferece nobres sem terra de facções menores / mercenários (não apenas rebeldes). Desligado por padrão." />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_name" text="Recrutamento de lordes: incluir nobres de facções menores" />
+    <string id="hh_mcm_rebel_lord_influence_cost_hint" text="Influência para recrutar um lorde rebelde/sem terra. Um Muster Herald ativo reduz isso em um quarto." />
+    <string id="hh_mcm_rebel_lord_influence_cost_name" text="Custo em influência do lorde rebelde" />
+    <string id="hh_mcm_rebel_lord_same_culture_only_hint" text="Oferece apenas lordes da cultura do seu clã. Desligado = qualquer cultura." />
+    <string id="hh_mcm_rebel_lord_same_culture_only_name" text="Recrutamento de lordes: apenas mesma cultura" />
+    <string id="hh_mcm_recruit_multiplier_name" text="Multiplicador de recrutamento" />
+    <string id="hh_mcm_remote_access_cooldown_multiplier_name" text="Multiplicador de recarga de acesso remoto" />
+    <string id="hh_mcm_show_recovery_menu_option_name" text="Mostrar opção de menu Recuperar Heralds Ausentes" />
+    <string id="hh_mcm_tear_down_action_hint" text="Apaga o estado dos heralds de forma segura para o save, para que o mod possa ser desinstalado. As referências de Herói voltam à disponibilidade normal; nada é morto ou removido." />
+    <string id="hh_mcm_tear_down_action_name" text="Preparar save para desinstalação (irreversível)" />
+    <string id="hh_mcm_villager_recruit_gold_cost_hint" text="Moedas para levar um plebeu local ao serviço como companheiro. Um Muster Herald ativo reduz o preço em um quarto." />
+    <string id="hh_mcm_villager_recruit_gold_cost_name" text="Custo de recrutar aldeão (ouro)" />
+    <string id="hh_mcm_villager_recruit_min_age_hint" text="Idade inicial para plebeus recrutados." />
+    <string id="hh_mcm_villager_recruit_min_age_name" text="Idade mínima de recrutamento de aldeão" />
+    <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Quanto das habilidades da tropa local o plebeu herda. Baixa barreira = fraco (25 por padrão)." />
+    <string id="hh_mcm_villager_recruit_skill_percent_name" text="Habilidade de recrutamento de aldeão %" />
+    <string id="hh_mcm_watch_warning_hours_base_name" text="Horas de aviso do Watch (base)" />
+  </strings>
+</base>

@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <!-- Body-metaphor policy: plain function first in UI/tooltips,
+         metaphor in dialog. -->
+
+    <!-- Master Herald menu & generic action -->
+    <string id="ch_master_menu_text" text="You stand with your Master Herald. The household awaits your word — which matters concern you?" />
+    <string id="ch_leave" text="Step away from the Master Herald." />
+    <string id="ch_blocked_remote" text="Return to Clan Home to perform this action." />    <string id="ch_action_stub" text="{LABEL}: (stub) cooldown {DAYS} day(s)." />
+
+    <!-- Master Herald conversation -->
+    <string id="ch_speak_master_town" text="Speak with your Master Herald." />
+    <string id="ch_speak_master_castle" text="Speak with your Master Herald." />
+    <string id="ch_master_establish_open" text="The body stirs, my lord. Your heralds stand ready at the heart." />
+    <string id="ch_master_establish_ack" text="Tell me what you can do for the clan." />
+    <string id="ch_master_explain" text="Five offices serve this house. Mine is the Master — your voice and theirs to you. Four others wait for your appointment: an Exchequer for the coin, a Watch for the roads, a Muster for the levy, and an Arms for the drill. Each is yours to fill or leave empty as you see fit." />
+    <string id="ch_master_ongoing_open" text="At your service, my lord. The household waits." />
+    <string id="ch_master_open_menu" text="Show me the full ledger of actions." />
+    <string id="ch_master_appoint_intro" text="I want to appoint a Herald." />
+    <string id="ch_master_dismiss_intro" text="A Herald has served their time. I want to dismiss one." />
+    <string id="ch_master_leave" text="Farewell, Herald." />
+
+    <!-- Appointment flow -->
+    <string id="ch_appoint_pick_Exchequer" text="Exchequer Herald — steward of the coin." />
+    <string id="ch_appoint_pick_Watch" text="Watch Herald — eyes on the roads." />
+    <string id="ch_appoint_pick_Muster" text="Muster Herald — caller of the levy." />
+    <string id="ch_appoint_pick_Arms" text="Arms Herald — master of the drill." />
+    <string id="ch_appoint_cancel" text="On second thought, not yet." />
+    <string id="ch_appoint_candidates" text="Who shall I name to this office?" />
+    <string id="ch_appoint_no_one" text="No one suits the office today." />
+    <string id="ch_appoint_done" text="It is done. They will take their station within the day." />
+    <string id="ch_appointed" text="{HERO} takes office as {OFFICE} Herald." />
+
+    <!-- Dismiss flow -->
+    <string id="ch_dismiss_pick_Exchequer" text="Dismiss the Exchequer Herald." />
+    <string id="ch_dismiss_pick_Watch" text="Dismiss the Watch Herald." />
+    <string id="ch_dismiss_pick_Muster" text="Dismiss the Muster Herald." />
+    <string id="ch_dismiss_pick_Arms" text="Dismiss the Arms Herald." />
+    <string id="ch_dismiss_cancel" text="Never mind." />
+    <string id="ch_dismiss_done" text="As you say. The office stands empty." />
+    <string id="ch_dismissed" text="{HERO} is released from the {OFFICE} office." />
+
+    <!-- Clan Home lifecycle -->
+    <string id="ch_home_established" text="Clan Home set: {SETTLEMENT}" />
+    <string id="ch_home_auto_established" text="Your household has taken root in {SETTLEMENT}. Visit it to meet your Master Herald." />
+    <string id="ch_home_lost" text="The heart has been taken, but the house is not dead. Name us a new seat, and we will beat again." />
+    <string id="ch_home_lost_count1" text="1 herald released from office. Establish a new Clan Home in any owned town or castle." />
+    <string id="ch_home_lost_countn" text="{COUNT} heralds released from office. Establish a new Clan Home in any owned town or castle." />
+
+    <!-- Herald lifecycle -->
+    <string id="ch_herald_captured" text="Your {OFFICE} Herald, {HERO}, has been taken prisoner by {CAPTOR}." />
+    <string id="ch_herald_released" text="Your {OFFICE} Herald, {HERO}, has returned to office." />
+    <string id="ch_herald_died" text="Your {OFFICE} Herald, {HERO}, has died ({DETAIL}). The office stands empty." />
+
+    <!-- Watch warnings -->
+    <string id="ch_watch_warning" text="Watch Herald: a {FACTION} party ({PARTY}) is moving within reach of {SETTLEMENT}." />
+
+    <!-- Exchequer income tooltip -->
+    <string id="ch_exchequer_factor" text="Exchequer Herald" />
+
+    <!-- Intrigue actions -->
+    <string id="ch_intrigue_no_target" text="No worthy target available. Declare war first, or wait for an enemy clan to rise." />
+    <string id="ch_intrigue_ok" text="{ACTION} against {TARGET} — succeeded." />
+    <string id="ch_intrigue_fail" text="{ACTION} against {TARGET} — failed." />
+    <string id="ch_assassin_failed" text="Word has spread of your attempt. The whole faction holds it against you." />
+
+    <!-- Tear-down (MCM) -->
+    <string id="ch_teardown_no_campaign" text="[Hearth &amp; Herald] Cannot tear down: no active campaign." />
+    <string id="ch_teardown_done" text="[Hearth &amp; Herald] Tear-down complete. Save the game, then you may uninstall the mod safely." />
+
+    <!-- Households: troop -> companion promotion -->
+    <string id="ch_promo_eligible" text="A veteran {TROOP} has proven themselves and could be ennobled as a companion — speak with your Herald." />
+    <string id="ch_promo_none" text="No veterans have yet proven themselves enough to be ennobled, my lord." />
+    <string id="ch_promo_title" text="Veterans Ready for Elevation" />
+    <string id="ch_promo_desc" text="Choose veterans to ennoble as companions. Each joins your clan with the culture, skills, and arms of their service — one is taken from the ranks." />
+    <string id="ch_promo_pick" text="{TROOP} — 1 ready to elevate · {COUNT} serving" />
+    <string id="ch_promo_confirm" text="Ennoble" />
+    <string id="ch_cancel" text="Cancel" />
+    <string id="ch_promo_done" text="A veteran {TROOP} is ennobled — {NAME} joins your companions." />
+    <string id="ch_promo_gone" text="That soldier is no longer in your party." />
+      <!-- Completed keyed-string coverage 2026-06-25 (issue #118): all remaining static {=key} UI/dialogue/tooltip strings. -->
+    <string id="ch_act_back" text="Let us look elsewhere." />
+    <string id="ch_act_done" text="As you command. What else?" />
+    <string id="ch_act_root" text="The household stands ready. Which matters concern you, my lord?" />
+    <string id="ch_act_to_main" text="Let us turn to other matters." />
+    <string id="ch_act_to_main_ack" text="As you wish, my lord." />
+    <string id="ch_all_filled" text="Every herald office is already filled." />
+    <string id="ch_appoint_desc" text="Which office shall be filled?" />
+    <string id="ch_appoint_title" text="Appoint a Herald" />
+    <string id="ch_back" text="Back." />
+    <string id="ch_cat_admin" text="Administrative — clan records, council, and the seat of power." />
+    <string id="ch_cat_appoint" text="Appointments — assign, dismiss, and re-assign Heralds." />
+    <string id="ch_cat_household" text="Household — companions, governors, and family." />
+    <string id="ch_cat_intrigue" text="Intrigue — covert work against your enemies." />
+    <string id="ch_cat_military" text="Military — muster, drills, defences, and patrols." />
+    <string id="ch_cat_prompt" text="Which matter, my lord?" />
+    <string id="ch_cat_settlement" text="Settlement Support — loyalty, militia, food, unrest, and revenue." />
+    <string id="ch_cat_specialist" text="Specialist offices — call on a Herald&#x27;s particular craft." />
+    <string id="ch_cat_status" text="Status &amp; Reports — bonuses, warnings, and summaries." />
+    <string id="ch_consult_herald" text="Consult Master Herald" />
+    <string id="ch_council_auto_ok" text="Your Heralds convene in council — all is well across the house." />
+    <string id="ch_council_auto_warn" text="Your Heralds convene in council — {COUNT} matter(s) await your eye." />
+    <string id="ch_dismiss_desc" text="Which office&#x27;s herald shall be released?" />
+    <string id="ch_dismiss_title" text="Dismiss a Herald" />
+    <string id="ch_gate_consort" text="Enable household members in the mod options (Family &amp; Clan Continuity)." />
+    <string id="ch_gate_pregnancy" text="Enable pregnancy &amp; heirs in the mod options (Family &amp; Clan Continuity)." />
+    <string id="ch_gate_romance" text="Enable romance &amp; marriage in the mod options (Family &amp; Clan Continuity)." />
+    <string id="ch_letter_report" text="Field Report — where they are and how they fare" />
+    <string id="ch_letter_reproach" text="Letter of Reproach — a sharp correction, and favour to a notable" />
+    <string id="ch_limits_party_size" text="Clan household (Hearth &amp; Herald)" />
+    <string id="ch_limits_prisoners" text="Clan household (Hearth &amp; Herald)" />
+    <string id="ch_master_npc_name" text="Master Herald" />
+    <string id="ch_master_offices_intro" text="Let us see to the herald offices." />
+    <string id="ch_messenger_what" text="What Word" />
+    <string id="ch_messenger_what_desc" text="What shall your herald send to {NAME}?" />
+    <string id="ch_messenger_who" text="Send Word To" />
+    <string id="ch_messenger_who_desc" text="To which companion shall your herald send word?" />
+    <string id="ch_no_candidate2" text="No eligible candidate, my lord." />
+    <string id="ch_no_office" text="No office is available for that." />
+    <string id="ch_no_roster" text="No clan home is established yet." />
+    <string id="ch_no_vacant" text="No vacant office to move them to." />
+    <string id="ch_none_to_dismiss" text="No herald holds an office to dismiss." />
+    <string id="ch_none_to_reassign" text="No herald holds an office to re-assign." />
+    <string id="ch_none_to_suspend" text="No herald holds an office to suspend." />    <string id="ch_off_arms" text="The Arms — training and readiness." />
+    <string id="ch_off_exchequer" text="The Exchequer — income and the ledgers." />
+    <string id="ch_off_muster" text="The Muster — recruitment and levies." />
+    <string id="ch_off_watch" text="The Watch — scouting and early warning." />
+    <string id="ch_office_another" text="A different office." />
+    <string id="ch_office_appoint" text="Name someone to this office." />
+    <string id="ch_office_appointed" text="It is done. They take their station within the day." />
+    <string id="ch_office_candidates" text="Who shall I name to this office?" />
+    <string id="ch_office_detail" text="The {CH_OFFICE_NAME} office {CH_OFFICE_STATE}. What is your will?" />
+    <string id="ch_office_dismiss" text="Release {CH_OFFICE_HOLDER} from this office." />
+    <string id="ch_office_dismissed" text="It is done. The office stands empty." />
+    <string id="ch_office_done" text="That is all for now." />
+    <string id="ch_office_lbl_arms" text="Arms" />
+    <string id="ch_office_lbl_exch" text="Exchequer" />
+    <string id="ch_office_lbl_master" text="Master" />
+    <string id="ch_office_lbl_muster" text="Muster" />
+    <string id="ch_office_lbl_watch" text="Watch" />
+    <string id="ch_office_no_one" text="No one suits the office today." />
+    <string id="ch_office_state_held" text="is held by {NAME}" />
+    <string id="ch_office_state_vacant" text="stands empty" />
+    <string id="ch_offices_back" text="Let us turn to other matters." />
+    <string id="ch_offices_prompt" text="Which office concerns you, my lord?" />
+    <string id="ch_offices_to_main" text="As you wish, my lord." />
+    <string id="ch_open_actions" text="Let us turn to the business of the household." />
+    <string id="ch_reassign_desc" text="Move which herald from their current office?" />
+    <string id="ch_reassign_title" text="Re-assign a Herald" />
+    <string id="ch_relocate_seat_here" text="Make this your clan&#x27;s seat." />
+    <string id="ch_route_admin" text="Administrative matters" />
+    <string id="ch_route_appoint" text="Appointments" />
+    <string id="ch_route_household" text="Household matters" />
+    <string id="ch_route_intrigue" text="Intrigue" />
+    <string id="ch_route_military" text="Military matters" />
+    <string id="ch_route_off_arms" text="The Arms" />
+    <string id="ch_route_off_exchequer" text="The Exchequer" />
+    <string id="ch_route_off_muster" text="The Muster" />
+    <string id="ch_route_off_watch" text="The Watch" />
+    <string id="ch_route_settlement" text="Settlement support" />
+    <string id="ch_route_specialist" text="Specialist offices" />
+    <string id="ch_route_status" text="Status &amp; reports" />
+    <string id="ch_select" text="Select" />
+    <string id="ch_settlement_open_master" text="Consult your Master Herald." />
+    <string id="ch_suspend_desc" text="Active offices are suspended; suspended offices resume." />
+    <string id="ch_suspend_title" text="Suspend or Resume an Office" />
+    <string id="hh_broker_confirm" text="Recruit" />
+    <string id="hh_broker_desc" text="Coin turns captives to colours. Each chosen brigand joins your household bearing their old gear and harder ways — up to {MAX} this visit." />
+    <string id="hh_broker_done" text="{N} brigand(s) take your colours." />
+    <string id="hh_broker_one" text="{NAME}, once a {TROOP}, takes your colours{HINT}." />
+    <string id="hh_broker_pick" text="{TROOP} — {COUNT} held" />
+    <string id="hh_broker_title" text="Ransom Broker" />
+    <string id="hh_recruit_villager" text="A {TROOP} of {PLACE} takes your colours — {NAME} joins your household{HINT}." />
+      <!-- Interpolated action/notification strings now keyed (issue #118 step 2) -->
+    <string id="ch_no_candidate" text="No eligible companion or family member for {OFFICE} Herald. Heroes who govern a settlement, lead their own party, or run a caravan cannot take office until freed of that duty." />
+    <string id="ch_appoint_who_title" text="Appoint {OFFICE} Herald" />
+    <string id="ch_appoint_who" text="Who shall serve as {OFFICE} Herald?" />
+    <string id="ch_reassign_to_title" text="Re-assign {HERO}" />
+    <string id="ch_reassign_to" text="To which office shall {HERO} move?" />
+    <string id="ch_reassigned" text="{HERO} moves to the {OFFICE} office." />
+    <string id="ch_resumed" text="{HERO} resumes the {OFFICE} office." />
+    <string id="ch_suspended" text="The {OFFICE} office is suspended; {HERO} stands down for now." />
+    <string id="ch_dlg_not_impl" text="{LABEL} is not yet within my power, my lord — that will come in time." />
+    <string id="ch_dlg_home_only" text="That needs your hand in person, my lord — or a clan of Tier {TIER} to direct it from afar." />
+    <string id="ch_dlg_cooldown1" text="Not yet, my lord. Give it one more day." />
+    <string id="ch_dlg_cooldownn" text="Not yet, my lord. Give it {DAYS} more days." />
+    <string id="ch_settlement_master_not_home" text="Return to Clan Home ({HOME}) to consult the Master Herald in person." />
+    <!-- Greyed Master-menu label suffixes (1.8.0): rendered inline after the action name -->
+    <string id="ch_state_soon" text=" (coming soon)" />
+    <string id="ch_state_off" text=" (turned off in settings)" />
+    <string id="ch_state_seat" text=" (return to seat, or reach Tier {TIER})" />
+    <string id="ch_state_cd1" text=" (ready in 1 day)" />
+    <string id="ch_state_cdn" text=" (ready in {DAYS} days)" />
+    <string id="ch_state_reason" text=" ({REASON})" />
+    <string id="ch_intrigue_refused" text="It cannot be done, my lord: {REASON}." />
+    <!-- Action menu/dialogue labels (issue #118 step 2): keyed from hearthherald_actions.xml -->
+    <string id="hha_ch_admin_review_clan_status" text="Review Clan Status" />
+    <string id="hha_ch_admin_review_clan_status_dlg" text="How stands the clan?" />
+    <string id="hha_ch_admin_review_herald_offices" text="Review Herald Offices" />
+    <string id="hha_ch_admin_review_herald_offices_dlg" text="Show me the state of the offices." />
+    <string id="hha_ch_admin_review_settlement_reports" text="Review Settlement Reports" />
+    <string id="hha_ch_admin_review_settlement_reports_dlg" text="What word from our holdings?" />
+    <string id="hha_ch_admin_summon_herald_council" text="Summon Herald Council" />
+    <string id="hha_ch_admin_summon_herald_council_dlg" text="Summon the council." />
+    <string id="hha_ch_admin_recover_missing_heralds" text="Recover Missing Heralds" />
+    <string id="hha_ch_admin_recover_missing_heralds_dlg" text="Send word after our missing heralds." />
+    <string id="hha_ch_admin_change_clan_home" text="Change Clan Home" />
+    <string id="hha_ch_admin_change_clan_home_dlg" text="We will move the seat of the clan." />
+    <string id="hha_ch_admin_establish_clan_home" text="Establish/Re-establish Clan Home" />
+    <string id="hha_ch_admin_establish_clan_home_dlg" text="Establish our seat here." />
+    <string id="hha_ch_household_call_parties_home" text="Call Clan Parties Home" />
+    <string id="hha_ch_household_call_parties_home_dlg" text="Call our parties home." />
+    <string id="hha_ch_household_send_messenger" text="Send Messenger to Companion" />
+    <string id="hha_ch_household_send_messenger_dlg" text="Send a messenger to a companion." />
+    <string id="hha_ch_household_request_status" text="Request Family/Companion Status" />
+    <string id="hha_ch_household_request_status_dlg" text="How fare my family and companions?" />
+    <string id="hha_ch_household_coordinate_governors" text="Coordinate Governors" />
+    <string id="hha_ch_household_coordinate_governors_dlg" text="Coordinate our governors." />
+    <string id="hha_ch_household_arrange_household_support" text="Arrange Household Support" />
+    <string id="hha_ch_household_arrange_household_support_dlg" text="Arrange support for the household." />
+    <string id="hha_ch_household_review_promotions" text="Review Veterans for Elevation" />
+    <string id="hha_ch_household_review_promotions_dlg" text="Which veterans are ready to be ennobled?" />
+    <string id="hha_ch_household_recruit_villagers" text="Recruit Villagers" />
+    <string id="hha_ch_household_recruit_villagers_dlg" text="Take some local folk into our service." />
+    <string id="hha_ch_household_ransom_broker" text="Ransom Broker (Convert Prisoners)" />
+    <string id="hha_ch_household_ransom_broker_dlg" text="Turn captured brigands to our colours." />
+    <string id="hha_ch_household_court" text="Court a Companion" />
+    <string id="hha_ch_household_court_dlg" text="Help one of our house court another." />
+    <string id="hha_ch_household_marry" text="Arrange a Marriage" />
+    <string id="hha_ch_household_marry_dlg" text="Arrange a marriage for our house." />
+    <string id="hha_ch_household_assign_mentor" text="Assign a Mentor" />
+    <string id="hha_ch_household_assign_mentor_dlg" text="Pair a mentor and a student of our house." />
+    <string id="hha_ch_household_ask_conceive" text="Try for an Heir" />
+    <string id="hha_ch_household_ask_conceive_dlg" text="A couple of our house would try for an heir." />
+    <string id="hha_ch_household_spouse_gift" text="Gift a Spouse" />
+    <string id="hha_ch_household_spouse_gift_dlg" text="Send a gift to strengthen a marriage." />
+    <string id="hha_ch_household_take_consort" text="Welcome a Household Member" />
+    <string id="hha_ch_household_take_consort_dlg" text="Welcome a household member to our hearth." />
+    <string id="hha_ch_household_consort_gift" text="Gift a Household Member" />
+    <string id="hha_ch_household_consort_gift_dlg" text="Send a gift to a household member." />
+    <string id="hha_ch_household_consort_child" text="A Child of the Household" />
+    <string id="hha_ch_household_consort_child_dlg" text="A household member would bear a child." />
+    <string id="hha_ch_household_dismiss_consort" text="Part with a Household Member" />
+    <string id="hha_ch_household_dismiss_consort_dlg" text="Part with a household member." />
+    <string id="hha_ch_household_recruit_rebel_lord" text="Induct a Landless Lord" />
+    <string id="hha_ch_household_recruit_rebel_lord_dlg" text="There are lords without a banner — let us offer them ours." />
+    <string id="hha_ch_household_recruit_prisoner_lord" text="Offer a Captive Lord Our Banner" />
+    <string id="hha_ch_household_recruit_prisoner_lord_dlg" text="A captive lord sits in our cells — offer them a place." />
+    <string id="hha_ch_household_boost_clan_relations" text="Boost Clan Relations" />
+    <string id="hha_ch_household_boost_clan_relations_dlg" text="Let us warm relations with a worthy house." />
+    <string id="hha_ch_settle_improve_loyalty" text="Improve Settlement Loyalty" />
+    <string id="hha_ch_settle_improve_loyalty_dlg" text="See to a settlement&#x27;s loyalty." />
+    <string id="hha_ch_settle_support_militia" text="Support Militia" />
+    <string id="hha_ch_settle_support_militia_dlg" text="Bolster the militia." />
+    <string id="hha_ch_settle_support_food" text="Support Food Stocks" />
+    <string id="hha_ch_settle_support_food_dlg" text="See to the food stores." />
+    <string id="hha_ch_settle_stabilize_unrest" text="Stabilize Unrest" />
+    <string id="hha_ch_settle_stabilize_unrest_dlg" text="Quell unrest in a holding." />
+    <string id="hha_ch_settle_audit_revenue" text="Audit Revenue" />
+    <string id="hha_ch_settle_audit_revenue_dlg" text="Audit a settlement&#x27;s revenue." />
+    <string id="hha_ch_settle_inspect_garrison" text="Inspect Garrison" />
+    <string id="hha_ch_settle_inspect_garrison_dlg" text="Inspect a garrison." />
+    <string id="hha_ch_settle_defend_villages" text="Defend Our Villages" />
+    <string id="hha_ch_settle_defend_villages_dlg" text="See to the defence of our villages." />
+    <string id="hha_ch_military_call_muster_master_route" text="Call Muster (Master Route)" />
+    <string id="hha_ch_military_call_muster_master_route_dlg" text="Call the muster through the household." />
+    <string id="hha_ch_military_inspect_drills" text="Inspect Drills" />
+    <string id="hha_ch_military_inspect_drills_dlg" text="Inspect the drills." />
+    <string id="hha_ch_military_prepare_defenses" text="Prepare Defences" />
+    <string id="hha_ch_military_prepare_defenses_dlg" text="Prepare our defences." />
+    <string id="hha_ch_military_reinforce_settlement" text="Reinforce Threatened Settlement" />
+    <string id="hha_ch_military_reinforce_settlement_dlg" text="Reinforce a threatened holding." />
+    <string id="hha_ch_military_coordinate_patrol_warning" text="Coordinate Patrol Warning" />
+    <string id="hha_ch_military_coordinate_patrol_warning_dlg" text="Coordinate patrol warnings." />
+    <string id="hha_ch_intrigue_badmouth_enemy" text="Badmouth Enemy" />
+    <string id="hha_ch_intrigue_badmouth_enemy_dlg" text="Spread word against an enemy." />
+    <string id="hha_ch_intrigue_disrupt_influence" text="Disrupt Enemy Influence" />
+    <string id="hha_ch_intrigue_disrupt_influence_dlg" text="Undermine an enemy&#x27;s influence." />
+    <string id="hha_ch_intrigue_sabotage_logistics" text="Sabotage Enemy Logistics" />
+    <string id="hha_ch_intrigue_sabotage_logistics_dlg" text="Sabotage an enemy&#x27;s logistics." />
+    <string id="hha_ch_intrigue_steal_funds" text="Steal Enemy Funds" />
+    <string id="hha_ch_intrigue_steal_funds_dlg" text="Lift coin from an enemy&#x27;s coffers." />
+    <string id="hha_ch_intrigue_assassinate" text="Assassination Attempt" />
+    <string id="hha_ch_intrigue_assassinate_dlg" text="Arrange an assassination." />
+    <string id="hha_ch_appoint_assign_herald" text="Appoint a Herald to an Office" />
+    <string id="hha_ch_appoint_assign_herald_dlg" text="I would appoint a herald." />
+    <string id="hha_ch_appoint_dismiss_herald" text="Dismiss a Herald" />
+    <string id="hha_ch_appoint_dismiss_herald_dlg" text="I would dismiss a herald." />
+    <string id="hha_ch_appoint_reassign_herald" text="Re-assign a Herald to Another Office" />
+    <string id="hha_ch_appoint_reassign_herald_dlg" text="Re-assign a herald&#x27;s office." />
+    <string id="hha_ch_appoint_suspend_office" text="Suspend an Office Temporarily" />
+    <string id="hha_ch_appoint_suspend_office_dlg" text="Suspend an office for a time." />
+    <string id="hha_ch_spec_exchequer_audit" text="Exchequer: Audit the Ledgers" />
+    <string id="hha_ch_spec_exchequer_audit_dlg" text="Exchequer — audit the ledgers." />
+    <string id="hha_ch_spec_watch_threat_briefing" text="Watch: Threat Briefing" />
+    <string id="hha_ch_spec_watch_threat_briefing_dlg" text="Watch — give me a threat briefing." />
+    <string id="hha_ch_spec_muster_call_the_muster" text="Muster: Call the Muster" />
+    <string id="hha_ch_spec_muster_call_the_muster_dlg" text="Muster — call the levy." />
+    <string id="hha_ch_spec_arms_inspect_drills" text="Arms: Inspect the Drills" />
+    <string id="hha_ch_spec_arms_inspect_drills_dlg" text="Arms — inspect the drills." />
+    <string id="hha_ch_status_view_bonuses" text="View Current Bonuses" />
+    <string id="hha_ch_status_view_bonuses_dlg" text="What advantages do we hold?" />
+    <string id="hha_ch_status_view_warnings" text="View Active Warnings" />
+    <string id="hha_ch_status_view_warnings_dlg" text="What dangers are abroad?" />
+    <string id="hha_ch_status_read_seasonal_summary" text="Read Seasonal Summary" />
+    <string id="hha_ch_status_read_seasonal_summary_dlg" text="Read me the season&#x27;s summary." />
+    <string id="hha_ch_status_skill_preview" text="View Herald Skill Scaling Preview" />
+    <string id="hha_ch_status_skill_preview_dlg" text="How does a herald&#x27;s skill weigh in?" />
+    <!-- Category selector dialogue lines -->
+    <string id="ch_catsel_Administrative" text="Administrative." />
+    <string id="ch_catsel_Household" text="Household." />
+    <string id="ch_catsel_Settlement_Support" text="Settlement Support." />
+    <string id="ch_catsel_Military" text="Military." />
+    <string id="ch_catsel_Intrigue" text="Intrigue." />
+    <string id="ch_catsel_Appointments" text="Appointments." />
+    <string id="ch_catsel_Specialist_Actions" text="Specialist Actions." />
+    <string id="ch_catsel_Status" text="Status." />
+      <!-- Effect/report/family/recruitment + relocate-reason strings keyed (issue #122) -->
+    <string id="ch_cncl_all_well" text="All is well, my lord. The council has no warnings." />
+    <string id="ch_cncl_arms_drills" text="  {NAME} drills the host (Tactics {SKILL})." />
+    <string id="ch_cncl_arms_garrisons" text="  Garrisons hold {GARRISON} across {FIEFS} seat(s); militia number {MILITIA}." />
+    <string id="ch_cncl_arms_no_seats" text="  No seats to garrison — the host rides with you." />
+    <string id="ch_cncl_arms_none" text="  No Arms serves — the drills go unled." />
+    <string id="ch_cncl_arms_title" text="Arms — the readiness of the host:" />
+    <string id="ch_cncl_auto_house_line" text="House {NAME}: Tier {TIER} · {GOLD} denars · {ACTIVE} of 4 specialist offices serving." />
+    <string id="ch_cncl_convenes_title" text="— The Herald Council Convenes —" />
+    <string id="ch_cncl_exch_keeps_books" text="  {NAME} keeps the books (Steward {SKILL})." />
+    <string id="ch_cncl_exch_net" text="  The books turn {NET} denars a day." />
+    <string id="ch_cncl_exch_none" text="  No Exchequer serves — the ledgers go unaudited." />
+    <string id="ch_cncl_exch_prosperity" text="  {COUNT} seat(s) hold {PROSPERITY} prosperity." />
+    <string id="ch_cncl_exch_revenue" text="  Revenue is sharpened by +{PERCENT}%." />
+    <string id="ch_cncl_exch_title" text="Exchequer — the coin and the ledgers:" />
+    <string id="ch_cncl_exch_treasury" text="  Treasury: {GOLD} denars." />
+    <string id="ch_cncl_master_holdings" text="  Holdings: {TOWNS} town(s), {CASTLES} castle(s), {VILLAGES} village(s)." />
+    <string id="ch_cncl_master_house" text="  House {NAME}: Tier {TIER} · Renown {RENOWN} · Influence {INFLUENCE} · {GOLD} denars." />
+    <string id="ch_cncl_master_no_home" text="  No clan home is established." />
+    <string id="ch_cncl_master_offices" text="  {ACTIVE} of 4 specialist offices serving · {KIN} kin, {COMPANIONS} companion(s)." />
+    <string id="ch_cncl_master_seat" text="  The seat of the house is {PLACE}." />
+    <string id="ch_cncl_master_title" text="Master Herald — the state of the house:" />
+    <string id="ch_cncl_matters_pressing" text="— Matters Pressing —" />
+    <string id="ch_cncl_more_warnings" text="…and {COUNT} more. Summon the Herald Council for the full report." />
+    <string id="ch_cncl_muster_none" text="  No Muster serves — recruitment runs unaided." />
+    <string id="ch_cncl_muster_parties" text="  {PARTIES} party(ies) afield with {TROOPS} under arms · {COMPANIONS} companion(s) in service." />
+    <string id="ch_cncl_muster_raises" text="  {NAME} raises the levies (Leadership {SKILL})." />
+    <string id="ch_cncl_muster_title" text="Muster — the manpower of the house:" />
+    <string id="ch_cncl_no_clan" text="No clan to convene a council for, my lord." />
+    <string id="ch_cncl_no_warnings_abroad" text="No warnings abroad. Summon the Herald Council in person for the full report." />
+    <string id="ch_cncl_sends_word_title" text="— The Herald Council Sends Word —" />
+    <string id="ch_cncl_summon_full" text="Summon the Herald Council for the full report." />
+    <string id="ch_cncl_warn_food" text="{PLACE}: food shortage." />
+    <string id="ch_cncl_warn_loyalty" text="{PLACE}: low loyalty ({LOYALTY})." />
+    <string id="ch_cncl_warn_office" text="{OFFICE} office: {STATUS}." />
+    <string id="ch_cncl_warn_security" text="{PLACE}: unrest / low security ({SECURITY})." />
+    <string id="ch_cncl_watch_at_war" text="  At war with: {WARS}." />
+    <string id="ch_cncl_watch_keeps" text="  {NAME} keeps the watch (Scouting {SKILL})." />
+    <string id="ch_cncl_watch_no_wars" text="  No active wars — the roads are quiet." />
+    <string id="ch_cncl_watch_none" text="  No Watch serves — warnings will come late." />
+    <string id="ch_cncl_watch_thin" text="  {COUNT} holding(s) report thin security." />
+    <string id="ch_cncl_watch_title" text="Watch — eyes on the roads:" />
+    <string id="ch_eff_arms_drilled" text="{NAME} drills the garrison of {PLACE} without mercy (Tactics {TACTICS}) — {COUNT} body(ies) of troops sharpened, and the watch stands the readier for it (security {SECURITY})." />
+    <string id="ch_eff_audit_ledgers" text="The ledgers of {PLACE} are set straight — prosperity {PROSPERITY}." />
+    <string id="ch_eff_audit_report" text="Audit of {PLACE}: Prosperity {PROSPERITY}, Food {FOOD}, Loyalty {LOYALTY}.{HINT}" />
+    <string id="ch_eff_banquet_done" text="A banquet in {NAME}&#x27;s honour warms relations{HINT} — now {REL}." />
+    <string id="ch_eff_defenses_prepared" text="The larder of {PLACE} is laid in against a siege{HINT} — food {FOOD}, security {SECURITY}." />
+    <string id="ch_eff_elite_muster" text="The elite muster of {PLACE} answers your Muster Herald — {COUNT} {TROOP} take your colours." />
+    <string id="ch_eff_faction_unresolved" text="Faction state unresolved, my lord." />
+    <string id="ch_eff_food_improved" text="Grain is brought into {PLACE} — food stores {AMOUNT}." />
+    <string id="ch_eff_garrison_drilled" text="The garrison of {PLACE} is put through hard drills{HINT} — {COUNT} body(ies) of troops better trained for the field." />
+    <string id="ch_eff_garrison_inspected" text="The garrison of {PLACE} is inspected and reinforced{HINT} — {COUNT} fresh {TROOP} take the wall (security {SECURITY})." />
+    <string id="ch_eff_gift_cost" text="A fitting gift wants 1000 denars, my lord." />
+    <string id="ch_eff_governors_coordinated" text="Governors coordinated across {COUNT} holding(s) — loyalty improved." />
+    <string id="ch_eff_heralds_recovered" text="{COUNT} office(s) accounted for and cleared for fresh appointment." />
+    <string id="ch_eff_household_order" text="The household&#x27;s affairs are set in good order." />
+    <string id="ch_eff_household_support" text="The household rallies to {PLACE}&#x27;s support — loyalty {LOYALTY}." />
+    <string id="ch_eff_ledger_header" text="— Exchequer&#x27;s Ledger ({NAME}, Steward {STEWARD}) —" />
+    <string id="ch_eff_ledger_impeccable" text="Every denar is accounted for, my lord — the ledger is impeccable." />
+    <string id="ch_eff_ledger_net" text="The books turn {NET} denars a day." />
+    <string id="ch_eff_ledger_no_holdings" text="The house holds no towns or castles to reckon." />
+    <string id="ch_eff_ledger_reckoned" text="The ledger is reckoned, my lord; a sharper hand would find more still." />
+    <string id="ch_eff_ledger_seats" text="{COUNT} seat(s) hold {PROSPERITY} prosperity and {FOOD} in stores." />
+    <string id="ch_eff_ledger_treasury" text="Treasury {GOLD} denars · Influence {INFLUENCE}." />
+    <string id="ch_eff_ledger_weakest" text="Weakest of the books is {PLACE} (prosperity {PROSPERITY})." />
+    <string id="ch_eff_loyalty_improved" text="Heralds work the streets of {PLACE} — loyalty rises (now {LOYALTY})." />
+    <string id="ch_eff_militia_disabled" text="Militia support is disabled by your compatibility settings." />
+    <string id="ch_eff_militia_muster" text="The militia of {PLACE} musters{HINT} — militia {MILITIA}." />
+    <string id="ch_eff_muster_called" text="The muster is called through the household{HINT} — {COUNT} fresh recruit(s) take your colours across the realm." />
+    <string id="ch_eff_no_arms_herald" text="No Arms Herald serves to lead so hard a drill — appoint one first, my lord." />
+    <string id="ch_eff_no_clan" text="No clan." />
+    <string id="ch_eff_no_clan_books" text="No clan whose books to keep, my lord." />
+    <string id="ch_eff_no_clan_home" text="No clan home is set." />
+    <string id="ch_eff_no_companions" text="No companions to send word to." />
+    <string id="ch_eff_no_folk_call" text="No local folk answered the call to arms." />
+    <string id="ch_eff_no_garrison_drill" text="There is no garrison at {PLACE} to drill, my lord." />
+    <string id="ch_eff_no_garrison_host_levy" text="There is no garrison nor host to receive the levy." />
+    <string id="ch_eff_no_garrison_inspect" text="{PLACE} keeps no standing garrison to inspect just now." />
+    <string id="ch_eff_no_garrison_march" text="{PLACE} has no garrison to march reinforcements into." />
+    <string id="ch_eff_no_governed_holdings" text="No governed holdings to coordinate." />
+    <string id="ch_eff_no_host_garrison" text="There is no host nor garrison to muster into." />
+    <string id="ch_eff_no_levy_march" text="No levy of {PLACE}&#x27;s stock can be marched to its walls." />
+    <string id="ch_eff_no_levy_muster" text="No levy of {PLACE}&#x27;s stock answers the muster." />
+    <string id="ch_eff_no_lord_envoy" text="No lord of standing will receive our envoy just now." />
+    <string id="ch_eff_no_missing_heralds" text="No missing or fallen heralds to account for, my lord." />
+    <string id="ch_eff_no_muster_herald" text="There is no Muster Herald to raise the elite levy, my lord — appoint one first." />
+    <string id="ch_eff_no_parties_afield" text="No clan parties are afield to recall." />
+    <string id="ch_eff_no_roster" text="No herald roster." />
+    <string id="ch_eff_no_seat_levy" text="No clan seat at which to raise the levy." />
+    <string id="ch_eff_no_settlement_attend" text="No clan settlement to attend to." />
+    <string id="ch_eff_no_settlement_audit" text="No clan settlement to audit, my lord." />
+    <string id="ch_eff_no_settlement_drill" text="No clan settlement to drill." />
+    <string id="ch_eff_no_settlement_fortify" text="No clan settlement to fortify." />
+    <string id="ch_eff_no_settlement_garrison" text="No clan settlement with a garrison." />
+    <string id="ch_eff_no_settlement_reinforce" text="No clan settlement to reinforce." />
+    <string id="ch_eff_no_veteran_levy" text="No veteran levy could be raised here." />
+    <string id="ch_eff_no_village_defend" text="No clan village stands in need of defending." />
+    <string id="ch_eff_not_enough_influence" text="Not enough influence, my lord — this needs {AMOUNT}." />
+    <string id="ch_eff_office_empty" text="The {OFFICE} office stands empty, my lord — appoint a herald first." />
+    <string id="ch_eff_office_hint" text=" (your {OFFICE} Herald sees it done well)" />
+    <string id="ch_eff_only_heroes_drill" text="Only heroes hold {PLACE} — there are no rank troops to drill." />
+    <string id="ch_eff_open_field" text="the open field" />
+    <string id="ch_eff_parties_recalled" text="{COUNT} clan party(ies) are recalled to {PLACE}." />
+    <string id="ch_eff_patrols_quiet" text="Patrols ride the marches{HINT} — {COUNT} holding(s) on watch; no hostiles abroad." />
+    <string id="ch_eff_patrols_word" text="Patrols bring word{HINT} — {COUNT} hostile party(ies) sighted near our {ALERTED} holding(s)." />
+    <string id="ch_eff_reinforcements_marched" text="Reinforcements march to {PLACE}{HINT} — {COUNT} {TROOP} bolster the garrison (security {SECURITY})." />
+    <string id="ch_eff_report_done" text="The messenger returns with word of {NAME}." />
+    <string id="ch_eff_report_header" text="— Word from {NAME} —" />
+    <string id="ch_eff_report_location" text="They are at {PLACE}." />
+    <string id="ch_eff_report_no_threats" text="No enemy forces stir near them." />
+    <string id="ch_eff_report_party" text="Their party numbers {COUNT} under arms." />
+    <string id="ch_eff_report_strength" text="Fighting strength about {AMOUNT}." />
+    <string id="ch_eff_report_threats" text="Hostiles abroad near them — {COUNT} enemy force(s) within reach." />
+    <string id="ch_eff_reproach_chafes" text="{NAME} already chafes under your hand, my lord — a reproach now and they may forsake us. I will not send it." />
+    <string id="ch_eff_reproach_done" text="A messenger carries your correction to {NAME} and your favour to {NOTABLE} — {NAME} smarts (relation {NAME_REL}), {NOTABLE} is flattered (relation {NOTABLE_REL})." />
+    <string id="ch_eff_reproach_no_notable" text="There is no notable of standing near {NAME} to court with this — best left unsent." />
+    <string id="ch_eff_seat_cannot_move" text="The seat cannot move here: {REASON}" />
+    <string id="ch_eff_seat_moved" text="The seat of the clan is now {PLACE}." />
+    <string id="ch_eff_seat_not_moved" text="The seat could not be moved." />
+    <string id="ch_eff_stand_within_seat" text="Stand within the town or castle you would make your seat, my lord." />
+    <string id="ch_eff_steward_unavailable" text="The clan-home steward is unavailable." />
+    <string id="ch_eff_unrest_stabilized" text="Grievances are heard and the people of {PLACE} are calmed{HINT} — loyalty {LOYALTY}." />
+    <string id="ch_eff_village_defended" text="The village of {PLACE} is shored up{HINT} — hearth {HEARTH}, militia {MILITIA}." />
+    <string id="ch_eff_watch_sighted" text="Watch: {FACTION} party ({PARTY}) sighted near {PLACE}." />
+    <string id="ch_fam_conceive_desc" text="Which wedded woman of your house shall try for a child?" />
+    <string id="ch_fam_conceive_fail" text="{NAME} did not conceive this time — try again later." />
+    <string id="ch_fam_conceive_no_mothers" text="No wedded woman of your house can bear a child just now." />
+    <string id="ch_fam_conceive_success" text="{NAME} is with child!" />
+    <string id="ch_fam_conceive_title" text="Try for an Heir" />
+    <string id="ch_fam_consort_take_none" text="No one suitable could be welcomed to the household here." />
+    <string id="ch_fam_consort_take_success" text="{NAME} joins your household." />
+    <string id="ch_fam_consortchild_desc" text="Which household member shall bear a child?" />
+    <string id="ch_fam_consortchild_fail" text="{NAME} cannot bear a child now." />
+    <string id="ch_fam_consortchild_none" text="No household member can bear a child just now." />
+    <string id="ch_fam_consortchild_success" text="{NAME} bears you a child — {CHILD}." />
+    <string id="ch_fam_consortchild_title" text="A Child of the Household" />
+    <string id="ch_fam_consortgift_desc" text="Who shall receive a gift?" />
+    <string id="ch_fam_consortgift_none" text="You keep no household members to gift." />
+    <string id="ch_fam_consortgift_success" text="You send a gift to {NAME}." />
+    <string id="ch_fam_consortgift_title" text="Gift a Household Member" />
+    <string id="ch_fam_court_fail" text="{NAME} cannot court {TARGET} just now." />
+    <string id="ch_fam_court_initiator_desc" text="Which of your house shall begin a courtship?" />
+    <string id="ch_fam_court_no_candidates" text="None nearby are suitable for {NAME} to court." />
+    <string id="ch_fam_court_no_initiators" text="No adult clan members to begin a courtship, my lord." />
+    <string id="ch_fam_court_partner_desc" text="Choose a partner to court." />
+    <string id="ch_fam_court_partner_title" text="Whom shall {NAME} court?" />
+    <string id="ch_fam_court_success" text="{NAME} advances a courtship with {TARGET}." />
+    <string id="ch_fam_court_title" text="Court a Companion" />
+    <string id="ch_fam_dismiss_desc" text="Who shall leave the household?" />
+    <string id="ch_fam_dismiss_fail" text="Could not part with {NAME}." />
+    <string id="ch_fam_dismiss_none" text="You keep no household members to part with." />
+    <string id="ch_fam_dismiss_success" text="{NAME} departs the household with your leave." />
+    <string id="ch_fam_dismiss_title" text="Part with a Household Member" />
+    <string id="ch_fam_gift_not_sent" text="The gift could not be sent." />
+    <string id="ch_fam_marry_fail" text="{NAME} and {TARGET} are not ready to wed (court them first)." />
+    <string id="ch_fam_marry_initiator_desc" text="Which of your house shall be wed?" />
+    <string id="ch_fam_marry_no_candidates" text="No eligible match for {NAME} is ready to wed." />
+    <string id="ch_fam_marry_no_initiators" text="No unwed adult of your house to arrange a marriage for." />
+    <string id="ch_fam_marry_partner_desc" text="Choose a spouse." />
+    <string id="ch_fam_marry_partner_title" text="Whom shall {NAME} marry?" />
+    <string id="ch_fam_marry_success" text="{NAME} and {TARGET} are wed." />
+    <string id="ch_fam_marry_title" text="Arrange a Marriage" />
+    <string id="ch_fam_mentor_desc" text="Choose the mentor (their strongest craft is taught)." />
+    <string id="ch_fam_mentor_fail" text="Could not pair {MENTOR} and {STUDENT}." />
+    <string id="ch_fam_mentor_need_two" text="You need at least two adults of the house to pair a mentor and student." />
+    <string id="ch_fam_mentor_no_record" text="The household keeps no record yet." />
+    <string id="ch_fam_mentor_no_student" text="No suitable student." />
+    <string id="ch_fam_mentor_student_desc" text="Choose the student." />
+    <string id="ch_fam_mentor_student_title" text="Who learns from {MENTOR}?" />
+    <string id="ch_fam_mentor_success" text="{STUDENT} will study under {MENTOR} — skill will pass between them each day." />
+    <string id="ch_fam_mentor_title" text="Assign a Mentor" />
+    <string id="ch_fam_pick_none" text="No one suitable, my lord." />
+    <string id="ch_fam_spousegift_desc" text="Whose marriage shall a gift strengthen?" />
+    <string id="ch_fam_spousegift_none" text="No wedded member of your house to send a gift." />
+    <string id="ch_fam_spousegift_success" text="{NAME} sends a gift to {TARGET}." />
+    <string id="ch_fam_spousegift_title" text="Gift a Spouse" />
+    <string id="ch_msgr_in_party" text="{NAME} rides at your side, my lord — speak with them yourself." />
+    <string id="ch_msgr_no_party" text="{NAME} keeps no party afield, my lord — a messenger would have nowhere to ride." />
+    <string id="ch_msgr_no_target" text="There is no one of that name left to send word to, my lord." />
+    <string id="ch_msgr_prisoner" text="{NAME} sits in a cell, my lord — no messenger may reach them there." />
+    <string id="ch_promo_no_record" text="The household keeps no record of veterans yet." />
+    <string id="ch_read_all_well" text="All is well, my lord. No warnings abroad." />
+    <string id="ch_read_at_place" text="at {PLACE}" />
+    <string id="ch_read_at_war" text="At war: {NAME}" />
+    <string id="ch_read_bonus_arms" text="garrison drill &amp; defensive readiness improved" />
+    <string id="ch_read_bonus_exchequer" text="revenue audits &amp; coin handling sharpened" />
+    <string id="ch_read_bonus_line" text="{OFFICE} ({NAME}, skill {SKILL}): {BENEFIT}" />
+    <string id="ch_read_bonus_muster" text="levy size &amp; muster speed improved" />
+    <string id="ch_read_bonus_watch" text="intrigue success &amp; threat awareness sharpened" />
+    <string id="ch_read_bonuses_title" text="— Active Advantages —" />
+    <string id="ch_read_clan_stat_line" text="Tier {TIER} · Renown {RENOWN} · Influence {INFLUENCE} · Gold {GOLD}" />
+    <string id="ch_read_faction_unresolved" text="Faction state unresolved." />
+    <string id="ch_read_food_shortage" text="{PLACE}: food shortage." />
+    <string id="ch_read_governing" text="governing {PLACE}" />
+    <string id="ch_read_held_prisoner" text="held prisoner" />
+    <string id="ch_read_holdings" text="Holdings: {TOWNS} town(s), {CASTLES} castle(s), {VILLAGES} village(s)" />
+    <string id="ch_read_household_title" text="— Family &amp; Companions —" />
+    <string id="ch_read_leading_party" text="leading a party (near {PLACE})" />
+    <string id="ch_read_low_loyalty" text="{PLACE}: low loyalty ({LOYALTY})." />
+    <string id="ch_read_low_security" text="{PLACE}: unrest / low security ({SECURITY})." />
+    <string id="ch_read_no_clan_report" text="No clan to report on." />
+    <string id="ch_read_no_clan_summary" text="No clan to summarize." />
+    <string id="ch_read_no_fiefs" text="No towns or castles to report on." />
+    <string id="ch_read_no_roster" text="No herald roster yet." />
+    <string id="ch_read_no_specialist" text="No specialist offices are active — appoint heralds to gain advantages." />
+    <string id="ch_read_no_wars" text="No active wars — the roads are quiet, my lord." />
+    <string id="ch_read_no_watch_skill" text="No Watch Herald active — intrigue is unavailable until one is appointed." />
+    <string id="ch_read_office_vacant" text="{OFFICE}: vacant" />
+    <string id="ch_read_office_warning" text="{OFFICE} office: {STATUS}." />
+    <string id="ch_status_active" text="Active" />
+    <string id="ch_status_vacant" text="Vacant" />
+    <string id="ch_status_captured" text="Captured" />
+    <string id="ch_status_dead" text="Dead" />
+    <string id="ch_status_missing" text="Missing" />
+    <string id="ch_status_suspended_fmt" text="Suspended: {REASON}" />
+    <string id="ch_reason_governor" text="the holder governs a settlement" />
+    <string id="ch_reason_party" text="the holder leads their own party" />
+    <string id="ch_reason_caravan" text="the holder runs a caravan" />
+    <string id="ch_reason_by_order" text="suspended by your order" />
+    <string id="ch_reason_home_lost" text="the clan home was lost" />
+    <string id="ch_reason_other" text="the holder has another duty" />
+    <string id="ch_herald_suspended_msg" text="Your {OFFICE} Herald, {HERO}, stands down: {REASON}." />
+    <string id="ch_herald_restored_msg" text="Your {OFFICE} Herald, {HERO}, has resumed office." />
+    <string id="ch_herald_stationed" text="{HERO} takes up residence at {SETTLEMENT} as {OFFICE} Herald." />
+    <string id="ch_herald_enroute1" text="{HERO} sets out for {SETTLEMENT} to take up the {OFFICE} post, arriving in about a day." />
+    <string id="ch_herald_enrouten" text="{HERO} sets out for {SETTLEMENT} to take up the {OFFICE} post, arriving in about {DAYS} days." />
+    <string id="ch_herald_arrived" text="{HERO} has reached {SETTLEMENT} and taken up the {OFFICE} post." />
+    <string id="ch_herald_recalled" text="{HERO}'s journey to the {OFFICE} post is called off." />
+    <string id="ch_status_enroute" text="En route to the seat" />
+    <string id="ch_herald_returns" text="{HERO} is released from the {OFFICE} office and returns to your party." />
+    <string id="ch_herald_stays" text="{HERO} is released from the {OFFICE} office and remains at {SETTLEMENT}." />
+    <string id="ch_migrate_stationed" text="Your heralds have taken up residence at {SETTLEMENT}. Appointed heralds now serve from your Clan Home." />
+    <string id="ch_read_offices_title" text="— Herald Offices —" />
+    <string id="ch_read_parties_members" text="Parties afield: {PARTIES} · Members: {MEMBERS} · Companions: {COMPANIONS}" />
+    <string id="ch_read_season_bid" text="Bid me review the offices, settlements, or warnings for the detail." />
+    <string id="ch_read_season_offices" text="{ACTIVE} of 4 specialist offices are filled and serving." />
+    <string id="ch_read_season_seats" text="The house holds {FIEFS} seat(s) and fields {PARTIES} party(ies)." />
+    <string id="ch_read_season_title" text="— The Season in Brief —" />
+    <string id="ch_read_season_treasury" text="Treasury {GOLD} denars · Influence {INFLUENCE} · Renown {RENOWN}." />
+    <string id="ch_read_settlement_line" text="{PLACE}: Loyalty {LOYALTY} · Prosperity {PROSPERITY} · Food {FOOD} · Security {SECURITY} · Militia {MILITIA}" />
+    <string id="ch_read_settlement_title" text="— Settlement Reports —" />
+    <string id="ch_read_skill_intro" text="Each office is sharpened by a primary skill:" />
+    <string id="ch_read_skill_map" text="Exchequer→Steward · Watch→Scouting · Muster→Leadership · Arms→Tactics." />
+    <string id="ch_read_skill_scales" text="Higher skill scales the office&#x27;s effect toward its cap." />
+    <string id="ch_read_skill_title" text="— How a Herald&#x27;s Skill Weighs In —" />
+    <string id="ch_read_the_field" text="the field" />
+    <string id="ch_read_warnings_title" text="— Active Warnings —" />
+    <string id="ch_read_watch_limited" text="(No Watch Herald active — the briefing is limited.)" />
+    <string id="ch_read_watch_scouting" text="Watch Herald {NAME}: Scouting {SCORE} → +{PERCENT}% intrigue success." />
+    <string id="ch_read_watch_title" text="— Watch: Threat Briefing —" />
+    <string id="ch_read_whereabouts" text="whereabouts unclear" />
+    <string id="ch_read_with_party" text="with {PARTY}" />
+    <string id="ch_rebel_already_banner" text="They already bear your banner." />
+    <string id="ch_rebel_captive_inducted" text="{NAME} accepts your banner over the cell{HINT}." />
+    <string id="ch_rebel_captive_picker_desc" text="A captive lord may be freed to our service. Whom shall we offer?" />
+    <string id="ch_rebel_captive_picker_title" text="Offer a Captive Lord Our Banner" />
+    <string id="ch_rebel_captive_unavailable" text="That captive is no longer ours to offer a place." />
+    <string id="ch_rebel_element_label" text="{NAME} — {CLAN}" />
+    <string id="ch_rebel_lord_inducted" text="{NAME} forsakes the lost cause and takes your banner{HINT}." />
+    <string id="ch_rebel_lord_unreachable" text="That lord is beyond our reach now." />
+    <string id="ch_rebel_no_captive_offers" text="We make no such offers to captives today." />
+    <string id="ch_rebel_no_captive_pool" text="No captive lord sits in our cells worth the offer." />
+    <string id="ch_rebel_no_clan" text="You have no clan." />
+    <string id="ch_rebel_no_clan_label" text="no clan" />
+    <string id="ch_rebel_no_envoys" text="We send no envoys to rebel lords today." />
+    <string id="ch_rebel_no_pool" text="No landless rebel lord will hear our envoy, my lord." />
+    <string id="ch_rebel_office_hint" text=" (your {OFFICE} Herald saw to it)" />
+    <string id="ch_rebel_picker_desc" text="A lord without a banner may take ours. Whom shall we approach?" />
+    <string id="ch_rebel_picker_title" text="Induct a Landless Lord" />
+    <string id="ch_rebel_wants_gold" text="This wants {GOLD} denars." />
+    <string id="ch_rebel_wants_influence" text="This wants {INFLUENCE} influence." />
+    <string id="ch_rebel_wants_influence_lord" text="This wants {INFLUENCE} influence, my lord." />
+    <string id="ch_recruit_broker_closed" text="The Ransom Broker keeps no counter today." />
+    <string id="ch_recruit_broker_cost" text="Not enough coin — the broker wants {COST} denars." />
+    <string id="ch_recruit_captive_gone" text="That captive is no longer yours to ransom." />
+    <string id="ch_recruit_disabled" text="Low-barrier recruitment is disabled." />
+    <string id="ch_recruit_hand_cost" text="Not enough coin — a hand costs {COST} denars." />
+    <string id="ch_recruit_insufficient_coin" text="Not enough coin, my lord — this needs {AMOUNT} denars." />
+    <string id="ch_recruit_no_brigands" text="No brigands among your prisoners worth the broker&#x27;s coin." />
+    <string id="ch_recruit_no_clan" text="You have no clan." />
+    <string id="ch_recruit_no_clan_folk" text="You have no clan to take folk into." />
+    <string id="ch_recruit_no_local_folk" text="No local folk are willing to take service." />
+    <string id="ch_recruit_none_suitable" text="No one suitable could be found to take service." />
+    <string id="ch_recruit_none_turned" text="No brigand could be turned this time." />
+    <string id="ch_recruit_office_hint" text=" (your {OFFICE} Herald saw to it)" />
+    <string id="ch_reloc_already_home" text="Already the Clan Home." />
+    <string id="ch_reloc_available" text="Relocation available." />
+    <string id="ch_reloc_cooldown1" text="Relocation available in 1 day." />
+    <string id="ch_reloc_cooldownn" text="Relocation available in {DAYS} days." />
+    <string id="ch_reloc_emergency" text="Emergency relocation available." />
+    <string id="ch_reloc_establish" text="Establish Clan Home." />
+    <string id="ch_reloc_no_settlement" text="No settlement selected." />
+    <string id="ch_reloc_no_state" text="Mod state is not initialized." />
+    <string id="ch_reloc_not_owned" text="Your clan does not own this settlement." />
+    <string id="ch_reloc_only_town_castle" text="Only towns and castles can serve as a Clan Home." />
+      <string id="ch_read_office_held" text="{OFFICE}: {HERO} ({STATUS})" />
+    <string id="ch_read_member_where" text="{NAME}: {WHERE}" />
+  </strings>
+</base>

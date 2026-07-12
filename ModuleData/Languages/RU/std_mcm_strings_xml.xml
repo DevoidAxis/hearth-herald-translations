@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
+  <tags>
+    <tag language="Русский"/>
+  </tags>
+  <strings>
+    <string id="hh_mcm_allow_instant_marriage_hint" text="Пропустить этапы ухаживания — немедленно поженить подходящую пару."/>
+    <string id="hh_mcm_allow_instant_marriage_name" text="Разрешить мгновенный брак"/>
+    <string id="hh_mcm_auto_summon_council_hint" text="Выкл (по умолчанию): созывайте совет самостоятельно через главного герольда. Вкл: ваши герольды также будут присылать краткую периодическую сводку (предупреждения и ссылку на полный отчет) с указанным ниже интервалом."/>
+    <string id="hh_mcm_auto_summon_council_name" text="Автоматические отчеты совета"/>
+    <string id="hh_mcm_banner_kings_conservative_hint" text="Не изменять доход казначея при загруженном моде Banner Kings. По умолчанию включено."/>
+    <string id="hh_mcm_banner_kings_conservative_name" text="Banner Kings: Консервативный режим"/>
+    <string id="hh_mcm_banner_kings_disabled_hint" text="Отключить бонус к доходу казначея независимо от обнаружения модов. Перекрывает консервативный режим."/>
+    <string id="hh_mcm_banner_kings_disabled_name" text="Banner Kings: Полностью отключить казначея"/>
+    <string id="hh_mcm_bonus_strength_high_hint" text="Увеличивает все должностные бонусы на 50%. Взаимоисключающая опция с другими уровнями силы бонуса."/>
+    <string id="hh_mcm_bonus_strength_high_name" text="Сила бонуса: Высокая"/>
+    <string id="hh_mcm_bonus_strength_low_hint" text="Уменьшает все бонусы должностей вдвое. Взаимоисключающий параметр с другими строками силы бонусов."/>
+    <string id="hh_mcm_bonus_strength_low_name" text="Сила бонусов: Низкая"/>
+    <string id="hh_mcm_clan_home_relocation_cooldown_days_name" text="Перезарядка смены дома клана (дней)"/>
+    <string id="hh_mcm_companion_limit_base_hint" text="Дополнительные ячейки спутников на 0-м уровне клана. По умолчанию 4 (четыре должности Герольда). Без искусственных ограничений."/>
+    <string id="hh_mcm_companion_limit_base_name" text="Спутники: базовый бонус"/>
+    <string id="hh_mcm_companion_limit_per_tier_hint" text="Дополнительные ячейки спутников за каждый уровень клана (добавляются к базовому бонусу)."/>
+    <string id="hh_mcm_companion_limit_per_tier_name" text="Спутники: за уровень клана"/>
+    <string id="hh_mcm_compatibility_conservative_hint" text="Применять ограничения безопасности для совместимости с модами (Banner Kings, Improved Garrisons), даже если они не обнаружены. Отключено — автоматическое обнаружение."/>
+    <string id="hh_mcm_compatibility_conservative_name" text="Режим совместимости: Консервативный"/>
+    <string id="hh_mcm_conceive_chance_hint" text="Шанс успеха, когда супружеская пара пытается зачать наследника."/>
+    <string id="hh_mcm_conceive_chance_name" text="Шанс зачатия"/>
+    <string id="hh_mcm_council_cadence_days_hint" text="Как часто проводится автоматический совет, если он включен выше. По умолчанию 21 день (примерно один сезон)."/>
+    <string id="hh_mcm_council_cadence_days_name" text="Интервал отчетов совета (в днях)"/>
+    <string id="hh_mcm_defer_exchequer_finance_model_hint" text="По умолчанию выключено. Выкл (Принудительно): HH начисляет бонус к доходу казначейства через переопределение финансов клана, которое сохраняет работу других финансовых модов и добавляет бонус сверху. Вкл (Уступить): если другой мод переопределяет финансовую модель клана, HH уступает ему, и бонус казначейства не применяется. Вступает в силу при следующей загрузке кампании."/>
+    <string id="hh_mcm_defer_exchequer_finance_model_name" text="Передать доход казначейства другому финансовому моду"/>
+    <string id="hh_mcm_diplomacy_fixes_conservative_hint" text="Ежедневная перепроверка владения родовым поместьем. Отслеживает передачу поселений через Diplomacy Fixes."/>
+    <string id="hh_mcm_diplomacy_fixes_conservative_name" text="Diplomacy Fixes: Консервативно"/>
+    <string id="hh_mcm_disable_remote_tier_gating_hint" text="Выкл (по умолчанию): важные действия (интриги, назначение герольдов, смена резиденции клана) могут выполняться удаленно только после достижения кланом 5-го уровня — дома они доступны всегда. Вкл: удаленный доступ к этим функциям не требует уровня (используйте герольда из любого места)."/>
+    <string id="hh_mcm_disable_remote_tier_gating_name" text="Отключить ограничение по уровню для удаленного доступа"/>
+    <string id="hh_mcm_elite_recruit_multiplier_name" text="Множитель элитных рекрутов"/>
+    <string id="hh_mcm_enable_arms_name" text="Включить бонусы Оружейной"/>
+    <string id="hh_mcm_enable_concubines_hint" text="По умолчанию выключено. Позволяет принять домочадца (консорта) из таверны; дарить подарки, заводить романы и детей; расстаться в любое время. Ролевой элемент клана; не требует платных подписок."/>
+    <string id="hh_mcm_enable_concubines_name" text="Включить домочадцев (консортов)"/>
+    <string id="hh_mcm_enable_exchequer_name" text="Включить бонусы Казначейства"/>
+    <string id="hh_mcm_enable_family_systems_hint" text="Главный переключатель для романов, браков, наставничества, наследников и домочадцев. Выключено — стандартное поведение семьи."/>
+    <string id="hh_mcm_enable_family_systems_name" text="Включить семейные системы"/>
+    <string id="hh_mcm_enable_low_barrier_recruitment_hint" text="Нанимайте местных простолюдинов на службу (Сбор) и переманивайте пленных разбойников на свою сторону через посредника (Надзор). Проходит через канцелярии; рекруты становятся обычными спутниками клана."/>
+    <string id="hh_mcm_enable_low_barrier_recruitment_name" text="Включить упрощенный найм"/>
+    <string id="hh_mcm_enable_master_advanced_hint" text="Отключение скрывает действия меню интриг и военного магистра. Административные функции и статусы остаются доступными."/>
+    <string id="hh_mcm_enable_master_advanced_name" text="Включить расширенные действия Великого герольда"/>
+    <string id="hh_mcm_enable_meyc_soft_detection_name" text="Мягкое обнаружение MEYC (скрывать дубликаты текстов)"/>
+    <string id="hh_mcm_enable_migration_debug_dialog_hint" text="При первой загрузке после обновления показать разовое окно с описанием перенесенных данных. Только для будущих версий."/>
+    <string id="hh_mcm_enable_migration_debug_dialog_name" text="Показывать отладочное окно миграции"/>
+    <string id="hh_mcm_enable_mod_hint" text="Главный выключатель. Отключение останавливает все бонусы и предупреждения; текущий состав отряда и статус дома клана сохраняются."/>
+    <string id="hh_mcm_enable_mod_name" text="Включить «Очаг и Герольд»"/>
+    <string id="hh_mcm_enable_muster_name" text="Включить бонусы сбора войск"/>
+    <string id="hh_mcm_enable_pregnancy_control_hint" text="Позволяет попросить супружескую пару зачать наследника (есть шанс неудачи) и отправить супругу подарок для улучшения отношений."/>
+    <string id="hh_mcm_enable_pregnancy_control_name" text="Включить беременность и наследников"/>
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_hint" text="Освободить пленного вражеского лорда из вашего отряда и принять его в свой клан как полноправного лорда. Проходит через «Дозор»."/>
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Включить вербовку пленных лордов"/>
+    <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Принять на службу мятежного лорда вашей культуры, который потерял свои владения, но всё ещё возглавляет отряд (безземельные мятежники без отряда удаляются игрой до того, как вы успеете до них добраться). Осуществляется через Сбор."/>
+    <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Разрешить вербовку мятежных лордов"/>
+    <string id="hh_mcm_enable_romance_hint" text="Ухаживайте и вступайте в брак с подходящими по возрасту персонажами через Главного герольда; назначайте наставника для ежедневного обмена опытом навыков. Однополые отношения поддерживаются симметрично."/>
+    <string id="hh_mcm_enable_romance_name" text="Включить романтику и брак"/>
+    <string id="hh_mcm_enable_troop_promotion_hint" text="Ветераны, накопившие достаточно боевых заслуг, могут быть возведены в ранг спутников клана через Главного герольда (меню Домочадцев)."/>
+    <string id="hh_mcm_enable_troop_promotion_name" text="Включить повышение воинов в спутники"/>
+    <string id="hh_mcm_enable_verbose_logging_name" text="Подробное ведение журналов"/>
+    <string id="hh_mcm_enable_watch_name" text="Включить предупреждения Дозора"/>
+    <string id="hh_mcm_garrison_xp_multiplier_name" text="Множитель опыта гарнизона"/>
+    <string id="hh_mcm_group_balance_cooldowns" text="Баланс: Время перезарядки"/>
+    <string id="hh_mcm_group_balance_multipliers" text="Баланс: Множители"/>
+    <string id="hh_mcm_group_clan_council" text="Совет клана"/>
+    <string id="hh_mcm_group_compatibility" text="Совместимость"/>
+    <string id="hh_mcm_group_debug" text="Отладка"/>
+    <string id="hh_mcm_group_family_clan_continuity" text="Преемственность семьи и клана"/>
+    <string id="hh_mcm_group_general" text="Общее"/>
+    <string id="hh_mcm_group_households" text="Домохозяйства"/>
+    <string id="hh_mcm_group_limits" text="Лимиты"/>
+    <string id="hh_mcm_group_office_systems" text="Система должностей"/>
+    <string id="hh_mcm_group_tear_down" text="Сброс"/>
+    <string id="hh_mcm_improved_garrisons_conservative_hint" text="Пропускать изменения гарнизона от навыков «Сбор» и «Вооружение», если загружен мод Improved Garrisons. Включено по умолчанию."/>
+    <string id="hh_mcm_improved_garrisons_conservative_name" text="Improved Garrisons: Консервативный режим"/>
+    <string id="hh_mcm_improved_garrisons_disabled_hint" text="Полностью отключить эффекты навыков «Сбор» и «Вооружение» для гарнизонов. Эффекты для отрядов сохранятся."/>
+    <string id="hh_mcm_improved_garrisons_disabled_name" text="Improved Garrisons: Отключить эффекты гарнизона"/>
+    <string id="hh_mcm_income_multiplier_name" text="Множитель дохода"/>
+    <string id="hh_mcm_intrigue_cooldown_multiplier_name" text="Множитель времени восстановления интриг"/>
+    <string id="hh_mcm_limit_companions_hint" text="Добавить дополнительные ячейки для наемных спутников в ваш клан (суммируется с базовым лимитом уровня клана). Офицеры-герольды в поселениях по-прежнему не занимают ячейки (D2)."/>
+    <string id="hh_mcm_limit_companions_name" text="Спутники: включить"/>
+    <string id="hh_mcm_limit_party_count_hint" text="Увеличить количество отрядов, которые может выставить ваш клан (отряды под предводительством спутников на карте)."/>
+    <string id="hh_mcm_limit_party_count_name" text="Количество отрядов: включить"/>
+    <string id="hh_mcm_limit_party_size_hint" text="Добавляет к лимиту войск вашего ОСНОВНОГО отряда. Только для игрока — отряды ИИ и лордов сохраняют стандартные размеры для игрового баланса."/>
+    <string id="hh_mcm_limit_party_size_name" text="Размер отряда: включить (только ваш отряд)"/>
+    <string id="hh_mcm_limit_prisoners_hint" text="Добавляет к лимиту пленных вашего ОСНОВНОГО отряда. Только для игрока."/>
+    <string id="hh_mcm_limit_prisoners_name" text="Лимит пленных: включить (только ваш отряд)"/>
+    <string id="hh_mcm_limits_enabled_hint" text="Выкл: не изменять лимиты. Вкл: применять настройки ниже. Если «Принудительно поверх других модов» ВЫКЛ, это авторежим — мод уступает обнаруженным модам на лимиты (напр. TrueLimits) и включается, только если их нет."/>
+    <string id="hh_mcm_limits_enabled_name" text="Включить набор лимитов"/>
+    <string id="hh_mcm_limits_forced_hint" text="Выкл (по умолчанию) = Авто: уступать обнаруженному моду на лимиты (TrueLimits) и применять наш только при его отсутствии. Вкл = Принудительно: всегда применять наш, СУММИРУЯ его с любым другим модом на лимиты."/>
+    <string id="hh_mcm_limits_forced_name" text="Принудительно поверх других модов"/>
+    <string id="hh_mcm_master_action_cooldown_multiplier_name" text="Множитель времени перезарядки действий мастера"/>
+    <string id="hh_mcm_max_gift_relation_per_day_hint" text="Ежедневный лимит улучшения отношений через подарки супругам или консортам."/>
+    <string id="hh_mcm_max_gift_relation_per_day_name" text="Макс. улучшение отношений подарками в день"/>
+    <string id="hh_mcm_mentor_daily_xp_cap_hint" text="Ежедневный опыт навыка, получаемый подопечным от наставника (в лучшем навыке наставника). 0 отключает обучение."/>
+    <string id="hh_mcm_mentor_daily_xp_cap_name" text="Лимит дневного опыта наставника"/>
+    <string id="hh_mcm_mentor_reciprocal_fraction_hint" text="Доля от опыта подопечного, которую также получает наставник (с учетом лимита). 0 — одностороннее обучение."/>
+    <string id="hh_mcm_mentor_reciprocal_fraction_name" text="Взаимная доля наставника"/>
+    <string id="hh_mcm_mentor_xp_multiplier_name" text="Множитель опыта наставника"/>
+    <string id="hh_mcm_party_count_base_hint" text="Дополнительные отряды клана на 0-м уровне. Несколько отрядов под началом спутников для могущественного клана."/>
+    <string id="hh_mcm_party_count_base_name" text="Лимит отрядов: базовый бонус"/>
+    <string id="hh_mcm_party_count_per_tier_hint" text="Дополнительные отряды клана за каждый уровень клана."/>
+    <string id="hh_mcm_party_count_per_tier_name" text="Лимит отрядов: за уровень клана"/>
+    <string id="hh_mcm_party_size_base_hint" text="Дополнительные ячейки войск основного отряда на 0-м уровне клана. Для армии из ~100 спутников установите здесь высокое значение И увеличьте лимит спутников."/>
+    <string id="hh_mcm_party_size_base_name" text="Размер отряда: базовый бонус"/>
+    <string id="hh_mcm_party_size_per_tier_hint" text="Дополнительные ячейки войск основного отряда за каждый уровень клана."/>
+    <string id="hh_mcm_party_size_per_tier_name" text="Размер отряда: за уровень клана"/>
+    <string id="hh_mcm_party_xp_multiplier_name" text="Множитель опыта отряда"/>
+    <string id="hh_mcm_prisoner_limit_base_hint" text="Дополнительные ячейки пленных основного отряда на 0-м уровне клана."/>
+    <string id="hh_mcm_prisoner_limit_base_name" text="Пленные: базовый бонус"/>
+    <string id="hh_mcm_prisoner_limit_per_tier_hint" text="Дополнительные ячейки пленных основного отряда за каждый уровень клана."/>
+    <string id="hh_mcm_prisoner_limit_per_tier_name" text="Пленные: за уровень клана"/>
+    <string id="hh_mcm_prisoner_lord_gold_cost_hint" text="Золото для вербовки пленного лорда. Активный Глашатай Дозора снижает стоимость на четверть."/>
+    <string id="hh_mcm_prisoner_lord_gold_cost_name" text="Стоимость пленного лорда в золоте"/>
+    <string id="hh_mcm_prisoner_lord_influence_cost_hint" text="Влияние для принятия пленного лорда. Активный Глашатай дозора снижает стоимость на четверть."/>
+    <string id="hh_mcm_prisoner_lord_influence_cost_name" text="Стоимость пленного лорда во влиянии"/>
+    <string id="hh_mcm_promotion_kill_threshold_hint" text="Количество убийств, которое должен совершить ТИП войск в вашем отряде, прежде чем одного из них можно будет возвысить."/>
+    <string id="hh_mcm_promotion_kill_threshold_name" text="Порог убийств для повышения"/>
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_hint" text="Если включено, войскам более высоких уровней потребуется пропорционально больше заслуг для повышения (балансирует их начальную силу)."/>
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_name" text="Масштабировать порог по уровню войск"/>
+    <string id="hh_mcm_promotion_skill_inheritance_percent_hint" text="Какую часть навыков воина унаследует новый спутник. 100 = полная мощь ветерана."/>
+    <string id="hh_mcm_promotion_skill_inheritance_percent_name" text="% наследования навыков при повышении"/>
+    <string id="hh_mcm_ransom_broker_gold_cost_hint" text="Золото для превращения каждого пленного разбойника в спутника. Активный Глашатай дозора снижает цену на четверть."/>
+    <string id="hh_mcm_ransom_broker_gold_cost_name" text="Стоимость услуг посредника (золото)"/>
+    <string id="hh_mcm_ransom_broker_max_per_visit_hint" text="Максимальное количество разбойников, которых можно нанять за один визит к посреднику."/>
+    <string id="hh_mcm_ransom_broker_max_per_visit_name" text="Лимит найма у посредника за визит"/>
+    <string id="hh_mcm_ransom_broker_skill_percent_hint" text="Какую часть навыков сохранит разбойник при найме. Они бойцы, поэтому сохраняют больше (по умолчанию 60)."/>
+    <string id="hh_mcm_ransom_broker_skill_percent_name" text="% сохранения навыков у посредника"/>
+    <string id="hh_mcm_rebel_lord_include_minor_factions_hint" text="Также предлагать безземельных лордов малых фракций и наёмников (а не только мятежников). По умолчанию выключено."/>
+    <string id="hh_mcm_rebel_lord_include_minor_factions_name" text="Найм лордов: включать малые фракции"/>
+    <string id="hh_mcm_rebel_lord_influence_cost_hint" text="Влияние за вербовку мятежного или безземельного лорда. Активный Глашатай сбора снижает стоимость на четверть."/>
+    <string id="hh_mcm_rebel_lord_influence_cost_name" text="Влияние за найм мятежного лорда"/>
+    <string id="hh_mcm_rebel_lord_same_culture_only_hint" text="Предлагать лордов только культуры вашего клана. Выключено — любая культура."/>
+    <string id="hh_mcm_rebel_lord_same_culture_only_name" text="Найм лордов: только своей культуры"/>
+    <string id="hh_mcm_recruit_multiplier_name" text="Множитель найма"/>
+    <string id="hh_mcm_remote_access_cooldown_multiplier_name" text="Множитель перезарядки удаленного доступа"/>
+    <string id="hh_mcm_show_recovery_menu_option_name" text="Показывать пункт меню «Вернуть пропавших герольдов»"/>
+    <string id="hh_mcm_tear_down_action_hint" text="Безопасно очищает состояние герольдов в сохранении для удаления мода. Ссылки на героев возвращаются к обычному состоянию; никто не будет убит или удален."/>
+    <string id="hh_mcm_tear_down_action_name" text="Подготовить сохранение к удалению (необратимо)"/>
+    <string id="hh_mcm_villager_recruit_gold_cost_hint" text="Стоимость найма местного простолюдина в качестве спутника. Активный вестник сбора снижает цену на четверть."/>
+    <string id="hh_mcm_villager_recruit_gold_cost_name" text="Стоимость найма жителя (золото)"/>
+    <string id="hh_mcm_villager_recruit_min_age_hint" text="Начальный возраст для нанятых простолюдинов."/>
+    <string id="hh_mcm_villager_recruit_min_age_name" text="Минимальный возраст нанимаемого жителя"/>
+    <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Какая часть навыков местных воинов будет доступна простолюдину в начале. Низкий порог = слабый (25 по умолчанию)."/>
+    <string id="hh_mcm_villager_recruit_skill_percent_name" text="% навыков новобранца-сельчанина"/>
+    <string id="hh_mcm_watch_warning_hours_base_name" text="Время предупреждения дозора (базовое)"/>
+  </strings>
+</base>

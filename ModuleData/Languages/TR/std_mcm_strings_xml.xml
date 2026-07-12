@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="hh_mcm_allow_instant_marriage_hint" text="Kur yapma sürecini atla — uygun bir çifti anında evlendir." />
+    <string id="hh_mcm_allow_instant_marriage_name" text="Anında evliliğe izin ver" />
+    <string id="hh_mcm_auto_summon_council_hint" text="Kapalı (varsayılan): konseyi Master Herald aracılığıyla kendin topla. Açık: Herald'ların ayrıca aşağıdaki aralıkta kısa periyodik bir özet (uyarılar + tam rapora yönlendirme) gönderir." />
+    <string id="hh_mcm_auto_summon_council_name" text="Otomatik konsey raporları" />
+    <string id="hh_mcm_banner_kings_conservative_hint" text="Banner Kings yüklüyken Exchequer gelir değişimini atla. Varsayılan açık." />
+    <string id="hh_mcm_banner_kings_conservative_name" text="Banner Kings: Korumacı" />
+    <string id="hh_mcm_banner_kings_disabled_hint" text="Algılamadan bağımsız olarak Exchequer gelir bonusunu devre dışı bırak. Korumacı ayarını geçersiz kılar." />
+    <string id="hh_mcm_banner_kings_disabled_name" text="Banner Kings: Exchequer'ı tamamen devre dışı bırak" />
+    <string id="hh_mcm_bonus_strength_high_hint" text="Tüm ofis bonuslarını %50 artırır. Diğer Bonus Gücü satırlarıyla birlikte kullanılamaz." />
+    <string id="hh_mcm_bonus_strength_high_name" text="Bonus Gücü: Yüksek" />
+    <string id="hh_mcm_bonus_strength_low_hint" text="Tüm ofis bonuslarını yarıya indirir. Diğer Bonus Gücü satırlarıyla birlikte kullanılamaz." />
+    <string id="hh_mcm_bonus_strength_low_name" text="Bonus Gücü: Düşük" />
+    <string id="hh_mcm_clan_home_relocation_cooldown_days_name" text="Klan Yurdu taşıma bekleme süresi (gün)" />
+    <string id="hh_mcm_companion_limit_base_hint" text="Klan kademesi 0'da ek yoldaş yuvası. Varsayılan 4 (dört Herald ofisi). Yapay tavan yok." />
+    <string id="hh_mcm_companion_limit_base_name" text="Yoldaşlar: temel bonus" />
+    <string id="hh_mcm_companion_limit_per_tier_hint" text="Klan kademesi başına ek yoldaş yuvası (temel bonusun üzerine eklenir)." />
+    <string id="hh_mcm_companion_limit_per_tier_name" text="Yoldaşlar: klan kademesi başına" />
+    <string id="hh_mcm_compatibility_conservative_hint" text="Algılanmasa bile örtüşen modlara (Banner Kings, Improved Garrisons) güvenlik sınırları uygula. Kapalı = Otomatik algılama." />
+    <string id="hh_mcm_compatibility_conservative_name" text="Uyumluluk Modu: Korumacı" />
+    <string id="hh_mcm_conceive_chance_hint" text="Evli bir çift varis denediğinde başarı şansı." />
+    <string id="hh_mcm_conceive_chance_name" text="Gebe kalma şansı" />
+    <string id="hh_mcm_council_cadence_days_hint" text="Yukarıda etkinleştirildiğinde otomatik konsey özetinin ne sıklıkta toplanacağı. Varsayılan 21 gün (yaklaşık bir mevsim)." />
+    <string id="hh_mcm_council_cadence_days_name" text="Konsey rapor aralığı (gün)" />
+    <string id="hh_mcm_defer_exchequer_finance_model_hint" text="Varsayılan kapalı. Kapalı (Zorla): HH, Exchequer gelir bonusunu, diğer finans modlarını sarıp koruyan ve bonusu üzerine ekleyen bir klan finans geçersiz kılması ile sunar; PC ve Steam Deck'te birebir aynıdır. Açık (Ertele): başka bir mod klan finans modelini geçersiz kılarsa HH ona yol verir ve Exchequer gelir bonusu uygulanmaz. Bir sonraki sefer yüklemesinde etkili olur." />
+    <string id="hh_mcm_defer_exchequer_finance_model_name" text="Exchequer gelirini başka bir finans moduna ertele" />
+    <string id="hh_mcm_diplomacy_fixes_conservative_hint" text="Klan Yurdu sahipliğini günlük olarak yeniden doğrula. Diplomacy Fixes aracılığıyla yapılan yerleşim transferlerini yakalar." />
+    <string id="hh_mcm_diplomacy_fixes_conservative_name" text="Diplomacy Fixes: Korumacı" />
+    <string id="hh_mcm_disable_remote_tier_gating_hint" text="Kapalı (varsayılan): büyük eylemler (entrika, herald atamaları, klan merkezini değiştirme) yalnızca klanın 5. Kademeye ulaştığında uzaktan yapılabilir — yurtta her zaman kullanılabilir. Açık: bunlara uzaktan erişim için kademe gerekmez (herald'ı her yerden kullan)." />
+    <string id="hh_mcm_disable_remote_tier_gating_name" text="Uzaktan kademe kısıtlamasını devre dışı bırak" />
+    <string id="hh_mcm_elite_recruit_multiplier_name" text="Seçkin asker çarpanı" />
+    <string id="hh_mcm_enable_arms_name" text="Arms bonuslarını etkinleştir" />
+    <string id="hh_mcm_enable_concubines_hint" text="Varsayılan kapalı. Bir meyhaneden bir hane üyesi (eş) al; hediye/aşk/çocuk; istediğin zaman ayrıl. Klan rol yapımı; hiçbir destekçi özelliğine bağlı değildir." />
+    <string id="hh_mcm_enable_concubines_name" text="Hane üyelerini (eşleri) etkinleştir" />
+    <string id="hh_mcm_enable_exchequer_name" text="Exchequer bonuslarını etkinleştir" />
+    <string id="hh_mcm_enable_family_systems_hint" text="Aşk, evlilik, mentorluk, varisler ve hane üyeleri için ana anahtar. Kapalı = standart aile davranışı." />
+    <string id="hh_mcm_enable_family_systems_name" text="Aile sistemlerini etkinleştir" />
+    <string id="hh_mcm_enable_low_barrier_recruitment_hint" text="Yerel halkı hizmete al (Muster) ve esir alınan haydutları Ransom Broker aracılığıyla kendi safına çek (Watch). Ofisler üzerinden yönlendirilir; alınanlar sıradan klan yoldaşlarıdır." />
+    <string id="hh_mcm_enable_low_barrier_recruitment_name" text="Düşük engelli asker alımını etkinleştir" />
+    <string id="hh_mcm_enable_master_advanced_hint" text="Devre dışı bırakmak entrika + askeri Master menü eylemlerini gizler. Yönetimsel + durum okumaları kalır." />
+    <string id="hh_mcm_enable_master_advanced_name" text="Master Herald gelişmiş eylemlerini etkinleştir" />
+    <string id="hh_mcm_enable_meyc_soft_detection_name" text="MEYC yumuşak algılama (örtüşme metnini bastır)" />
+    <string id="hh_mcm_enable_migration_debug_dialog_hint" text="Yükseltmeden sonraki ilk seferde, neyin taşındığını açıklayan tek seferlik bir diyalog göster. Yalnızca gelecek sürümler." />
+    <string id="hh_mcm_enable_migration_debug_dialog_name" text="Taşıma hata ayıklama diyaloğunu göster" />
+    <string id="hh_mcm_enable_mod_hint" text="Ana kapatma anahtarı. Devre dışı bırakmak tüm bonusları ve uyarıları durdurur; mevcut kadro + Klan Yurdu durumu korunur." />
+    <string id="hh_mcm_enable_mod_name" text="Hearth &amp; Herald'ı etkinleştir" />
+    <string id="hh_mcm_enable_muster_name" text="Muster bonuslarını etkinleştir" />
+    <string id="hh_mcm_enable_pregnancy_control_hint" text="Evli bir çiftten varis denemesini iste (başarısız olma şansı var) ve ilişki için bir eşe hediye gönder." />
+    <string id="hh_mcm_enable_pregnancy_control_name" text="Hamilelik &amp; varisleri etkinleştir" />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_hint" text="Grubunda tutulan esir bir düşman lordu serbest bırak ve onu tam bir lord olarak klanına kat. Watch üzerinden yönlendirilir." />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Esir-lord alımını etkinleştir" />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Koltuğunu kaybetmiş AMA hâlâ bir grup yöneten aynı kültürden bir asi lordu kabul et (gruptan yoksun topraksız asiler, sen onlara ulaşamadan oyun tarafından kaldırılır). Muster üzerinden yönlendirilir." />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Asi-lord alımını etkinleştir" />
+    <string id="hh_mcm_enable_romance_hint" text="Master Herald aracılığıyla uygun yetişkinlere kur yap ve evlen; günlük beceri-XP takası için bir mentor ata. Eşcinsel ilişkiler simetrik olarak desteklenir." />
+    <string id="hh_mcm_enable_romance_name" text="Aşk &amp; evliliği etkinleştir" />
+    <string id="hh_mcm_enable_troop_promotion_hint" text="Yeterli savaş başarısı biriktiren gaziler, Master Herald (Hane menüsü) aracılığıyla klan yoldaşlarına yükseltilebilir." />
+    <string id="hh_mcm_enable_troop_promotion_name" text="Asker -&gt; yoldaş yükseltmesini etkinleştir" />
+    <string id="hh_mcm_enable_verbose_logging_name" text="Ayrıntılı günlük kaydı" />
+    <string id="hh_mcm_enable_watch_name" text="Watch uyarılarını etkinleştir" />
+    <string id="hh_mcm_garrison_xp_multiplier_name" text="Garnizon XP çarpanı" />
+    <string id="hh_mcm_group_balance_cooldowns" text="Denge: Bekleme Süreleri" />
+    <string id="hh_mcm_group_balance_multipliers" text="Denge: Çarpanlar" />
+    <string id="hh_mcm_group_clan_council" text="Klan Konseyi" />
+    <string id="hh_mcm_group_compatibility" text="Uyumluluk" />
+    <string id="hh_mcm_group_debug" text="Hata Ayıklama" />
+    <string id="hh_mcm_group_family_clan_continuity" text="Aile &amp; Klan Sürekliliği" />
+    <string id="hh_mcm_group_general" text="Genel" />
+    <string id="hh_mcm_group_households" text="Haneler" />
+    <string id="hh_mcm_group_limits" text="Sınırlar" />
+    <string id="hh_mcm_group_office_systems" text="Ofis Sistemleri" />
+    <string id="hh_mcm_group_tear_down" text="Kaldırma" />
+    <string id="hh_mcm_improved_garrisons_conservative_hint" text="Improved Garrisons yüklüyken Muster/Arms garnizon değişimlerini atla. Varsayılan açık." />
+    <string id="hh_mcm_improved_garrisons_conservative_name" text="Improved Garrisons: Korumacı" />
+    <string id="hh_mcm_improved_garrisons_disabled_hint" text="Muster + Arms garnizon etkilerini tamamen devre dışı bırak. Grup etkileri kalır." />
+    <string id="hh_mcm_improved_garrisons_disabled_name" text="Improved Garrisons: Garnizon etkilerini devre dışı bırak" />
+    <string id="hh_mcm_income_multiplier_name" text="Gelir çarpanı" />
+    <string id="hh_mcm_intrigue_cooldown_multiplier_name" text="Entrika bekleme süresi çarpanı" />
+    <string id="hh_mcm_limit_companions_hint" text="Klanına ek alınabilir-yoldaş yuvaları ekle (standart kademe sınırının üzerine eklenir). Görevlendirilmiş Herald subayları yine de yuvaya sayılmaz (D2)." />
+    <string id="hh_mcm_limit_companions_name" text="Yoldaşlar: etkinleştir" />
+    <string id="hh_mcm_limit_party_count_hint" text="Klanının sahaya sürebileceği grup sayısını artır (haritada yoldaş liderliğindeki gruplar)." />
+    <string id="hh_mcm_limit_party_count_name" text="Grup sayısı: etkinleştir" />
+    <string id="hh_mcm_limit_party_size_hint" text="ANA grubunun asker sınırına ekle. Tasarım gereği yalnızca oyuncuya — AI/lord grupları oyun dengesi için standart boyutta kalır." />
+    <string id="hh_mcm_limit_party_size_name" text="Grup boyutu: etkinleştir (yalnızca senin grubun)" />
+    <string id="hh_mcm_limit_prisoners_hint" text="ANA grubunun esir sınırına ekle. Tasarım gereği yalnızca oyuncuya." />
+    <string id="hh_mcm_limit_prisoners_name" text="Esirler: etkinleştir (yalnızca senin grubun)" />
+    <string id="hh_mcm_limits_enabled_hint" text="Kapalı: hiçbir sınırı asla değiştirme. Açık: aşağıdaki sınırları uygula. 'Diğer sınır modlarına karşı zorla' KAPALI iken bu Otomatik moddur — algılanan bir sınır moduna (örn. TrueLimits) yol veririz ve yalnızca hiçbiri yoksa uygularız." />
+    <string id="hh_mcm_limits_enabled_name" text="Sınırlar paketini etkinleştir" />
+    <string id="hh_mcm_limits_forced_hint" text="Kapalı (varsayılan) = Otomatik: algılanan bir sınır moduna (TrueLimits) yol ver ve bizimkini yalnızca hiçbiri yoksa uygula. Açık = Zorla: bizimkini her zaman uygula, diğer herhangi bir sınır modunun üzerine YIĞARAK." />
+    <string id="hh_mcm_limits_forced_name" text="Diğer sınır modlarına karşı zorla" />
+    <string id="hh_mcm_master_action_cooldown_multiplier_name" text="Master eylem bekleme süresi çarpanı" />
+    <string id="hh_mcm_max_gift_relation_per_day_hint" text="Eş/eş hediyelerinden kazanılan ilişkide günlük sınır." />
+    <string id="hh_mcm_max_gift_relation_per_day_name" text="Günlük maks. hediye ilişkisi" />
+    <string id="hh_mcm_mentor_daily_xp_cap_hint" text="Öğrenciye verilen çift başına günlük beceri-XP (mentorun en güçlü becerisinde). 0 mentor işleyişini devre dışı bırakır." />
+    <string id="hh_mcm_mentor_daily_xp_cap_name" text="Mentor günlük XP sınırı" />
+    <string id="hh_mcm_mentor_reciprocal_fraction_hint" text="Öğrencinin kazanımının mentorun da kazandığı oranı (o da sınırlı). 0 = tek yönlü öğretim." />
+    <string id="hh_mcm_mentor_reciprocal_fraction_name" text="Mentor karşılıklı pay" />
+    <string id="hh_mcm_mentor_xp_multiplier_name" text="Mentor XP çarpanı" />
+    <string id="hh_mcm_party_count_base_hint" text="0. kademede ek klan grupları. Güç-fantezisi klanı için birden çok yoldaş liderliğindeki grup." />
+    <string id="hh_mcm_party_count_base_name" text="Grup sayısı: temel bonus" />
+    <string id="hh_mcm_party_count_per_tier_hint" text="Klan kademesi başına ek klan grubu." />
+    <string id="hh_mcm_party_count_per_tier_name" text="Grup sayısı: klan kademesi başına" />
+    <string id="hh_mcm_party_size_base_hint" text="Klan kademesi 0'da ek ana-grup asker yuvası. ~100 yoldaşlı bir ordu için bunu yüksek ayarla VE yoldaş sınırını artır." />
+    <string id="hh_mcm_party_size_base_name" text="Grup boyutu: temel bonus" />
+    <string id="hh_mcm_party_size_per_tier_hint" text="Klan kademesi başına ek ana-grup asker yuvası." />
+    <string id="hh_mcm_party_size_per_tier_name" text="Grup boyutu: klan kademesi başına" />
+    <string id="hh_mcm_party_xp_multiplier_name" text="Grup XP çarpanı" />
+    <string id="hh_mcm_prisoner_limit_base_hint" text="Klan kademesi 0'da ek ana-grup esir yuvası." />
+    <string id="hh_mcm_prisoner_limit_base_name" text="Esirler: temel bonus" />
+    <string id="hh_mcm_prisoner_limit_per_tier_hint" text="Klan kademesi başına ek ana-grup esir yuvası." />
+    <string id="hh_mcm_prisoner_limit_per_tier_name" text="Esirler: klan kademesi başına" />
+    <string id="hh_mcm_prisoner_lord_gold_cost_hint" text="Esir bir lordu kabul etmek için altın. Aktif bir Watch Herald bunu çeyrek oranında düşürür." />
+    <string id="hh_mcm_prisoner_lord_gold_cost_name" text="Esir-lord altın maliyeti" />
+    <string id="hh_mcm_prisoner_lord_influence_cost_hint" text="Esir bir lordu kabul etmek için nüfuz. Aktif bir Watch Herald bunu çeyrek oranında düşürür." />
+    <string id="hh_mcm_prisoner_lord_influence_cost_name" text="Esir-lord nüfuz maliyeti" />
+    <string id="hh_mcm_promotion_kill_threshold_hint" text="Bir asker yükseltilebilmeden önce bir asker TÜRÜNÜN grubunda biriktirmesi gereken öldürme sayısı." />
+    <string id="hh_mcm_promotion_kill_threshold_name" text="Yükseltme öldürme eşiği" />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_hint" text="Açık olduğunda, daha yüksek kademeli askerler yükseltmek için orantılı olarak daha fazla başarıya ihtiyaç duyar (daha yüksek başlangıç güçlerini dengeler)." />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_name" text="Eşiği asker kademesine göre ölçekle" />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_hint" text="Yeni yoldaşın askerin beceri değerlerinin ne kadarıyla başladığı. 100 = tam gazi gücü." />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_name" text="Yükseltme beceri devralma %" />
+    <string id="hh_mcm_ransom_broker_gold_cost_hint" text="Esir alınan her haydutu yoldaşa dönüştürmek için para. Aktif bir Watch Herald bedeli çeyrek oranında düşürür." />
+    <string id="hh_mcm_ransom_broker_gold_cost_name" text="Ransom Broker maliyeti (altın)" />
+    <string id="hh_mcm_ransom_broker_max_per_visit_hint" text="Aracıya tek bir ziyarette dönüştürebileceğin maksimum haydut sayısı." />
+    <string id="hh_mcm_ransom_broker_max_per_visit_name" text="Ziyaret başına Ransom Broker dönüşümü" />
+    <string id="hh_mcm_ransom_broker_skill_percent_hint" text="Dönüştürülenin haydutun becerilerinin ne kadarını koruduğu. Onlar savaşçıdır, bu yüzden daha fazlasını korurlar (varsayılan 60)." />
+    <string id="hh_mcm_ransom_broker_skill_percent_name" text="Ransom Broker beceri %" />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_hint" text="Topraksız küçük-fraksiyon / paralı asker soylularını da sun (yalnızca asiler değil). Varsayılan kapalı." />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_name" text="Lord alımı: küçük-fraksiyon soylularını dahil et" />
+    <string id="hh_mcm_rebel_lord_influence_cost_hint" text="Bir asi/topraksız lordu kabul etmek için nüfuz. Aktif bir Muster Herald bunu çeyrek oranında düşürür." />
+    <string id="hh_mcm_rebel_lord_influence_cost_name" text="Asi-lord nüfuz maliyeti" />
+    <string id="hh_mcm_rebel_lord_same_culture_only_hint" text="Yalnızca klanının kültüründen lordlar sun. Kapalı = herhangi bir kültür." />
+    <string id="hh_mcm_rebel_lord_same_culture_only_name" text="Lord alımı: yalnızca aynı kültür" />
+    <string id="hh_mcm_recruit_multiplier_name" text="Asker alım çarpanı" />
+    <string id="hh_mcm_remote_access_cooldown_multiplier_name" text="Uzaktan-erişim bekleme süresi çarpanı" />
+    <string id="hh_mcm_show_recovery_menu_option_name" text="Kayıp Heraldları Kurtar menü seçeneğini göster" />
+    <string id="hh_mcm_tear_down_action_hint" text="Herald durumunu kayıt-güvenli bir şekilde temizler, böylece mod kaldırılabilir. Hero referansları normal kullanılabilirliğe döner; hiçbir şey öldürülmez veya kaldırılmaz." />
+    <string id="hh_mcm_tear_down_action_name" text="Kaydı kaldırma için hazırla (geri alınamaz)" />
+    <string id="hh_mcm_villager_recruit_gold_cost_hint" text="Bir yerel halkı yoldaş olarak hizmete almak için para. Aktif bir Muster Herald bedeli çeyrek oranında düşürür." />
+    <string id="hh_mcm_villager_recruit_gold_cost_name" text="Köylü asker maliyeti (altın)" />
+    <string id="hh_mcm_villager_recruit_min_age_hint" text="Alınan halk için başlangıç yaşı." />
+    <string id="hh_mcm_villager_recruit_min_age_name" text="Köylü asker minimum yaşı" />
+    <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Köylünün yerel askerin becerilerinin ne kadarıyla başladığı. Düşük engelli = zayıf (varsayılan 25)." />
+    <string id="hh_mcm_villager_recruit_skill_percent_name" text="Köylü asker beceri %" />
+    <string id="hh_mcm_watch_warning_hours_base_name" text="Watch uyarı saatleri (temel)" />
+  </strings>
+</base>

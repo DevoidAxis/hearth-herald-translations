@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
+  <tags>
+    <tag language="Русский"/>
+  </tags>
+  <strings>
+    <string id="ch_master_menu_text" text="Вы стоите перед вашим главным герольдом. Дом ждет вашего слова — какие вопросы вас беспокоят?"/>
+    <string id="ch_leave" text="Отойти от главного герольда."/>
+    <string id="ch_blocked_remote" text="Вернитесь в поместье клана, чтобы совершить это действие."/>    <string id="ch_action_stub" text="{LABEL}: (заглушка) перезарядка {DAYS} дн."/>
+    <string id="ch_speak_master_town" text="Поговорить с вашим главным герольдом."/>
+    <string id="ch_speak_master_castle" text="Поговорить с вашим главным герольдом."/>
+    <string id="ch_master_establish_open" text="Работа кипит, мой лорд. Ваши герольды ожидают в центре зала."/>
+    <string id="ch_master_establish_ack" text="Расскажи мне, что ты можешь сделать для клана."/>
+    <string id="ch_master_explain" text="Этому дому служат пять ведомств. Я — ваш главный герольд, ваш глас и посредник между вами и слугами. Четверо других ждут вашего назначения: казначей присматривает за монетой, страж — за дорогами, маршал — за ополчением, а мастер по оружию — за обучением бойцов. Вы вольны назначить их или оставить должности вакантными по своему усмотрению."/>
+    <string id="ch_master_ongoing_open" text="К вашим услугам, мой лорд. Домашние службы ждут ваших указаний."/>
+    <string id="ch_master_open_menu" text="Покажи мне полный список дел."/>
+    <string id="ch_master_appoint_intro" text="Я хочу назначить герольда."/>
+    <string id="ch_master_dismiss_intro" text="Срок службы герольда подошел к концу. Я хочу освободить одного от должности."/>
+    <string id="ch_master_leave" text="Прощай, герольд."/>
+    <string id="ch_appoint_pick_Exchequer" text="Герольд казначейства — хранитель монет."/>
+    <string id="ch_appoint_pick_Watch" text="Дозорный герольд — следящий за дорогами."/>
+    <string id="ch_appoint_pick_Muster" text="Герольд сбора — созывающий ополчение."/>
+    <string id="ch_appoint_pick_Arms" text="Оружейный герольд — мастер муштры."/>
+    <string id="ch_appoint_cancel" text="Я передумал, еще не время."/>
+    <string id="ch_appoint_candidates" text="Кого мне назначить на эту должность?"/>
+    <string id="ch_appoint_no_one" text="Сегодня никто не подходит на эту должность."/>
+    <string id="ch_appoint_done" text="Все готово. Они займут свой пост в течение дня."/>
+    <string id="ch_appointed" text="{HERO} вступает в должность: {OFFICE} герольд."/>
+    <string id="ch_dismiss_pick_Exchequer" text="Отправить в отставку казначейского герольда."/>
+    <string id="ch_dismiss_pick_Watch" text="Отправить в отставку герольда стражи."/>
+    <string id="ch_dismiss_pick_Muster" text="Отправить в отставку герольда сбора."/>
+    <string id="ch_dismiss_pick_Arms" text="Отправить в отставку герольда по оружию."/>
+    <string id="ch_dismiss_cancel" text="Не важно."/>
+    <string id="ch_dismiss_done" text="Как скажете. Теперь эта должность вакантна."/>
+    <string id="ch_dismissed" text="{HERO} освобожден от должности: {OFFICE} герольд."/>
+    <string id="ch_home_established" text="Родовое гнездо клана: {SETTLEMENT}"/>
+    <string id="ch_home_auto_established" text="Ваш дом обосновался в поселении {SETTLEMENT}. Посетите его, чтобы встретиться с верховным герольдом."/>
+    <string id="ch_home_lost" text="Сердце вырвано, но дом еще жив. Назначьте нам новую обитель, и мы возродимся вновь."/>
+    <string id="ch_home_lost_count1" text="1 герольд освобожден от должности. Основывайте новое родовое гнездо в любом подвластном городе или замке."/>
+    <string id="ch_home_lost_countn" text="Герольдов освобождено от должности: {COUNT}. Основывайте новое родовое гнездо в любом подвластном городе или замке."/>
+    <string id="ch_herald_captured" text="Ваш герольд ({OFFICE}) по имени {HERO} был захвачен в плен фракцией {CAPTOR}."/>
+    <string id="ch_herald_released" text="Ваш герольд ({OFFICE}) по имени {HERO} вернулся к исполнению обязанностей."/>
+    <string id="ch_herald_died" text="Ваш герольд ({OFFICE}) по имени {HERO} скончался ({DETAIL}). Должность вакантна."/>
+    <string id="ch_watch_warning" text="Донесение герольда: отряд фракции {FACTION} ({PARTY}) замечен неподалеку от {SETTLEMENT}."/>
+    <string id="ch_exchequer_factor" text="Герольд казначейства"/>
+    <string id="ch_intrigue_no_target" text="Нет достойной цели. Сначала объявите войну или дождитесь появления вражеского клана."/>
+    <string id="ch_intrigue_ok" text="{ACTION} против {TARGET} — успех."/>
+    <string id="ch_intrigue_fail" text="{ACTION} против {TARGET} — неудача."/>
+    <string id="ch_assassin_failed" text="Слухи о вашем поступке разошлись повсюду. Вся фракция теперь затаила на вас обиду."/>
+    <string id="ch_teardown_no_campaign" text="[Hearth &amp; Herald] Невозможно выполнить очистку: нет активной кампании."/>
+    <string id="ch_teardown_done" text="[Hearth &amp; Herald] Очистка данных завершена. Сохраните игру, после чего вы сможете безопасно удалить мод."/>
+    <string id="ch_promo_eligible" text="Ветеран ({TROOP}) проявил себя и может быть возведен в дворянство как спутник — поговорите с вашим герольдом."/>
+    <string id="ch_promo_none" text="Мой лорд, пока ни один из ветеранов не проявил себя достаточно, чтобы удостоиться дворянства."/>
+    <string id="ch_promo_title" text="Ветераны, готовые к возвышению"/>
+    <string id="ch_promo_desc" text="Выберите ветеранов для возведения в дворянство. Каждый из них присоединится к вашему клану, сохранив культуру, навыки и снаряжение своего отряда. Один воин будет выбран из рядов ваших войск."/>
+    <string id="ch_promo_pick" text="{TROOP} — 1 готов к возвышению · {COUNT} на службе"/>
+    <string id="ch_promo_confirm" text="Возвести в дворянство"/>
+    <string id="ch_cancel" text="Отмена"/>
+    <string id="ch_promo_done" text="Ветеран ({TROOP}) возведен в дворянство — {NAME} присоединяется к вашим спутникам."/>
+    <string id="ch_promo_gone" text="Этого солдата больше нет в вашем отряде."/>
+    <string id="ch_act_back" text="Давайте поищем в другом месте."/>
+    <string id="ch_act_done" text="Как прикажете. Что-нибудь еще?"/>
+    <string id="ch_act_root" text="Дом готов к службе. Какие вопросы беспокоят вас, мой господин?"/>
+    <string id="ch_act_to_main" text="Давайте перейдем к другим делам."/>
+    <string id="ch_act_to_main_ack" text="Как пожелаете, мой господин."/>
+    <string id="ch_all_filled" text="Все должности герольдов уже заняты."/>
+    <string id="ch_appoint_desc" text="Какая должность должна быть занята?"/>
+    <string id="ch_appoint_title" text="Назначить глашатая"/>
+    <string id="ch_back" text="Назад."/>
+    <string id="ch_cat_admin" text="Управление — записи клана, совет и резиденция власти."/>
+    <string id="ch_cat_appoint" text="Назначения — назначить, уволить или перевести глашатаев."/>
+    <string id="ch_cat_household" text="Дом — спутники, наместники и семья."/>
+    <string id="ch_cat_intrigue" text="Интриги — тайные операции против ваших врагов."/>
+    <string id="ch_cat_military" text="Военное дело — сбор войск, учения, оборона и патрули."/>
+    <string id="ch_cat_prompt" text="Какой вопрос обсудим, мой господин?"/>
+    <string id="ch_cat_settlement" text="Поддержка поселений — лояльность, ополчение, продовольствие, беспорядки и доходы."/>
+    <string id="ch_cat_specialist" text="Специальные поручения — воспользоваться особым мастерством герольда."/>
+    <string id="ch_cat_status" text="Статус и отчеты — бонусы, предупреждения и сводки."/>
+    <string id="ch_consult_herald" text="Консультация с главным герольдом"/>
+    <string id="ch_council_auto_ok" text="Ваши герольды собрались на совет — в доме всё благополучно."/>
+    <string id="ch_council_auto_warn" text="Ваши герольды собрались на совет — {COUNT} дел(о) ожидают вашего внимания."/>
+    <string id="ch_dismiss_desc" text="Герольд какого ведомства должен быть освобожден от должности?"/>
+    <string id="ch_dismiss_title" text="Отправить герольда в отставку"/>
+    <string id="ch_gate_consort" text="Включите членов дома в настройках мода (Преемственность семьи / клана)."/>
+    <string id="ch_gate_pregnancy" text="Включите беременность и наследников в настройках мода (Преемственность семьи / клана)."/>
+    <string id="ch_gate_romance" text="Включите романтику и брак в настройках мода (Преемственность семьи / клана)."/>
+    <string id="ch_letter_report" text="Полевой отчет — где они находятся и как идут их дела"/>
+    <string id="ch_letter_reproach" text="Письмо с упреком — резкое наставление и услуга влиятельному лицу"/>
+    <string id="ch_limits_party_size" text="Клан и двор (Очаг и Герольды)"/>
+    <string id="ch_limits_prisoners" text="Клан и двор (Очаг и Герольды)"/>
+    <string id="ch_master_npc_name" text="Магистр геральдики"/>
+    <string id="ch_master_offices_intro" text="Давайте займемся делами герольдии."/>
+    <string id="ch_messenger_what" text="Какое послание"/>
+    <string id="ch_messenger_what_desc" text="Что ваш герольд должен передать {NAME}?"/>
+    <string id="ch_messenger_who" text="Отправить весть"/>
+    <string id="ch_messenger_who_desc" text="Какому спутнику ваш герольд должен отправить весть?"/>
+    <string id="ch_no_candidate2" text="Нет подходящих кандидатов, мой лорд."/>
+    <string id="ch_no_office" text="Для этого нет подходящих должностей."/>
+    <string id="ch_no_roster" text="Клановое поместье еще не основано."/>
+    <string id="ch_no_vacant" text="Нет свободной должности для их перевода."/>
+    <string id="ch_none_to_dismiss" text="Ни один герольд не занимает должность для увольнения."/>
+    <string id="ch_none_to_reassign" text="Ни один герольд не занимает должность для переназначения."/>
+    <string id="ch_none_to_suspend" text="Ни один герольд не занимает должность для отстранения."/>    <string id="ch_off_arms" text="Ополчение — обучение и боеготовность."/>
+    <string id="ch_off_exchequer" text="Казначейство — доходы и счета."/>
+    <string id="ch_off_muster" text="Призыв — найм и сборы."/>
+    <string id="ch_off_watch" text="Дозор — разведка и раннее предупреждение."/>
+    <string id="ch_office_another" text="Другая должность."/>
+    <string id="ch_office_appoint" text="Назначить кого-то на эту должность."/>
+    <string id="ch_office_appointed" text="Исполнено. Назначенное лицо заступит на службу в течение дня."/>
+    <string id="ch_office_candidates" text="Кого мне назначить на эту должность?"/>
+    <string id="ch_office_detail" text="Должность {CH_OFFICE_NAME} {CH_OFFICE_STATE}. Какова ваша воля?"/>
+    <string id="ch_office_dismiss" text="Освободить {CH_OFFICE_HOLDER} от этой должности."/>
+    <string id="ch_office_dismissed" text="Исполнено. Должность теперь вакантна."/>
+    <string id="ch_office_done" text="На этом пока всё."/>
+    <string id="ch_office_lbl_arms" text="Ратное дело"/>
+    <string id="ch_office_lbl_exch" text="Казначейство"/>
+    <string id="ch_office_lbl_master" text="Магистр"/>
+    <string id="ch_office_lbl_muster" text="Сбор"/>
+    <string id="ch_office_lbl_watch" text="Дозор"/>
+    <string id="ch_office_no_one" text="Сегодня никто не подходит на эту должность."/>
+    <string id="ch_office_state_held" text="занимает {NAME}"/>
+    <string id="ch_office_state_vacant" text="пустует"/>
+    <string id="ch_offices_back" text="Давайте перейдем к другим делам."/>
+    <string id="ch_offices_prompt" text="Какая должность заботит вас, мой лорд?"/>
+    <string id="ch_offices_to_main" text="Как пожелаете, мой господин."/>
+    <string id="ch_open_actions" text="Давайте перейдем к делам дома."/>
+    <string id="ch_reassign_desc" text="Кого из герольдов снять с их нынешней должности?"/>
+    <string id="ch_reassign_title" text="Переназначить герольда"/>
+    <string id="ch_relocate_seat_here" text="Сделать это место резиденцией вашего клана."/>
+    <string id="ch_route_admin" text="Административные дела"/>
+    <string id="ch_route_appoint" text="Назначения"/>
+    <string id="ch_route_household" text="Домашние дела"/>
+    <string id="ch_route_intrigue" text="Интриги"/>
+    <string id="ch_route_military" text="Военные дела"/>
+    <string id="ch_route_off_arms" text="Оружейная"/>
+    <string id="ch_route_off_exchequer" text="Казначейство"/>
+    <string id="ch_route_off_muster" text="Сбор войск"/>
+    <string id="ch_route_off_watch" text="Стража"/>
+    <string id="ch_route_settlement" text="Поддержка поселения"/>
+    <string id="ch_route_specialist" text="Специальные ведомства"/>
+    <string id="ch_route_status" text="Статус и отчеты"/>
+    <string id="ch_select" text="Выбрать"/>
+    <string id="ch_settlement_open_master" text="Посоветоваться с главным герольдом."/>
+    <string id="ch_suspend_desc" text="Действующие ведомства будут приостановлены, а приостановленные — возобновлены."/>
+    <string id="ch_suspend_title" text="Приостановить или возобновить работу ведомства"/>
+    <string id="hh_broker_confirm" text="Вербовать"/>
+    <string id="hh_broker_desc" text="Звон монет превращает пленников в верных слуг. Каждый выбранный разбойник встает под ваши знамена, сохранив старое снаряжение и суровый нрав — не более {MAX} за этот визит."/>
+    <string id="hh_broker_done" text="{N} разбойник(ов) встают под ваши знамена."/>
+    <string id="hh_broker_one" text="{NAME}, в прошлом {TROOP}, встает под ваши знамена{HINT}."/>
+    <string id="hh_broker_pick" text="{TROOP} — удерживает {COUNT}"/>
+    <string id="hh_broker_title" text="Посредник по выкупу"/>
+    <string id="hh_recruit_villager" text="{TROOP} из фракции {PLACE} принимает ваши цвета — {NAME} присоединяется к вашему дому{HINT}."/>
+    <string id="ch_no_candidate" text="Нет подходящего спутника или члена семьи на должность глашатая ({OFFICE})."/>
+    <string id="ch_appoint_who_title" text="Назначить глашатая ({OFFICE})"/>
+    <string id="ch_appoint_who" text="Кто будет служить как глашатай ({OFFICE})?"/>
+    <string id="ch_reassign_to_title" text="Переназначить {HERO}"/>
+    <string id="ch_reassign_to" text="На какую должность должен перейти {HERO}?"/>
+    <string id="ch_reassigned" text="{HERO} переходит на должность: {OFFICE}."/>
+    <string id="ch_resumed" text="{HERO} возобновляет службу в должности: {OFFICE}."/>
+    <string id="ch_suspended" text="Должность — {OFFICE} временно упразднена; {HERO} пока слагает свои полномочия."/>
+    <string id="ch_dlg_not_impl" text="{LABEL} пока не в моей власти, мой лорд — всё придет со временем."/>
+    <string id="ch_dlg_home_only" text="Для этого требуется ваше личное присутствие, мой лорд, либо же клан {TIER} уровня, чтобы управлять этим издалека."/>
+    <string id="ch_dlg_cooldown1" text="Ещё нет, мой лорд. Подождите ещё день."/>
+    <string id="ch_dlg_cooldownn" text="Ещё нет, мой лорд. Подождите ещё {DAYS} дн."/>
+    <string id="ch_settlement_master_not_home" text="Вернитесь в поместье клана ({HOME}), чтобы лично проконсультироваться с главным герольдом."/>    <string id="hha_ch_admin_review_clan_status" text="Проверить статус клана"/>
+    <string id="hha_ch_admin_review_clan_status_dlg" text="Как поживает наш клан?"/>
+    <string id="hha_ch_admin_review_herald_offices" text="Обзор должностей герольда"/>
+    <string id="hha_ch_admin_review_herald_offices_dlg" text="Покажи мне состояние должностей."/>
+    <string id="hha_ch_admin_review_settlement_reports" text="Просмотреть отчеты о поселениях"/>
+    <string id="hha_ch_admin_review_settlement_reports_dlg" text="Какие вести из наших владений?"/>
+    <string id="hha_ch_admin_summon_herald_council" text="Созвать совет герольдов"/>
+    <string id="hha_ch_admin_summon_herald_council_dlg" text="Созвать совет."/>
+    <string id="hha_ch_admin_recover_missing_heralds" text="Вернуть пропавших герольдов"/>
+    <string id="hha_ch_admin_recover_missing_heralds_dlg" text="Разослать вести на поиски наших пропавших герольдов."/>
+    <string id="hha_ch_admin_change_clan_home" text="Сменить родовое гнездо клана"/>
+    <string id="hha_ch_admin_change_clan_home_dlg" text="Мы перенесем резиденцию клана."/>
+    <string id="hha_ch_admin_establish_clan_home" text="Основать/Перенести родовое гнездо клана"/>
+    <string id="hha_ch_admin_establish_clan_home_dlg" text="Основать нашу резиденцию здесь."/>
+    <string id="hha_ch_household_call_parties_home" text="Отозвать отряды клана домой"/>
+    <string id="hha_ch_household_call_parties_home_dlg" text="Прикажите нашим отрядам вернуться домой."/>
+    <string id="hha_ch_household_send_messenger" text="Отправить гонца к спутнику"/>
+    <string id="hha_ch_household_send_messenger_dlg" text="Отправить посыльного к спутнику."/>
+    <string id="hha_ch_household_request_status" text="Узнать о состоянии семьи и спутников"/>
+    <string id="hha_ch_household_request_status_dlg" text="Как поживают члены моей семьи и спутники?"/>
+    <string id="hha_ch_household_coordinate_governors" text="Координировать действия наместников"/>
+    <string id="hha_ch_household_coordinate_governors_dlg" text="Распорядиться действиями наших наместников."/>
+    <string id="hha_ch_household_arrange_household_support" text="Организовать хозяйственную поддержку"/>
+    <string id="hha_ch_household_arrange_household_support_dlg" text="Организуйте поддержку для нужд дома."/>
+    <string id="hha_ch_household_review_promotions" text="Осмотреть ветеранов для возвышения"/>
+    <string id="hha_ch_household_review_promotions_dlg" text="Кто из ветеранов готов к посвящению в дворянство?"/>
+    <string id="hha_ch_household_recruit_villagers" text="Нанять селян"/>
+    <string id="hha_ch_household_recruit_villagers_dlg" text="Принять на службу местных жителей."/>
+    <string id="hha_ch_household_ransom_broker" text="Посредник (Вербовка пленников)"/>
+    <string id="hha_ch_household_ransom_broker_dlg" text="Принять захваченных разбойников под наши знамена."/>
+    <string id="hha_ch_household_court" text="Подобрать пару спутнику"/>
+    <string id="hha_ch_household_court_dlg" text="Помочь члену нашего дома в ухаживании."/>
+    <string id="hha_ch_household_marry" text="Устроить брак"/>
+    <string id="hha_ch_household_marry_dlg" text="Организовать свадьбу для нашего дома."/>
+    <string id="hha_ch_household_assign_mentor" text="Назначить наставника"/>
+    <string id="hha_ch_household_assign_mentor_dlg" text="Назначить наставника и ученика из нашего дома."/>
+    <string id="hha_ch_household_ask_conceive" text="Попробовать зачать наследника"/>
+    <string id="hha_ch_household_ask_conceive_dlg" text="Пара из нашего дома попытается зачать наследника."/>
+    <string id="hha_ch_household_spouse_gift" text="Сделать подарок супругу"/>
+    <string id="hha_ch_household_spouse_gift_dlg" text="Отправить подарок, чтобы укрепить брак."/>
+    <string id="hha_ch_household_take_consort" text="Поприветствовать домочадца"/>
+    <string id="hha_ch_household_take_consort_dlg" text="Поприветствовать члена дома у нашего очага."/>
+    <string id="hha_ch_household_consort_gift" text="Сделать подарок домочадцу"/>
+    <string id="hha_ch_household_consort_gift_dlg" text="Отправить подарок члену семьи."/>
+    <string id="hha_ch_household_consort_child" text="Дитя дома"/>
+    <string id="hha_ch_household_consort_child_dlg" text="У одного из членов дома родится ребенок."/>
+    <string id="hha_ch_household_dismiss_consort" text="Расстаться с домочадцем"/>
+    <string id="hha_ch_household_dismiss_consort_dlg" text="Позволить члену дома покинуть его."/>
+    <string id="hha_ch_household_recruit_rebel_lord" text="Принять безземельного лорда"/>
+    <string id="hha_ch_household_recruit_rebel_lord_dlg" text="Есть лорды без знамени — предложим им наше."/>
+    <string id="hha_ch_household_recruit_prisoner_lord" text="Предложить наше знамя пленному лорду"/>
+    <string id="hha_ch_household_recruit_prisoner_lord_dlg" text="В наших застенках томится пленный лорд — предложим ему место в клане."/>
+    <string id="hha_ch_household_boost_clan_relations" text="Улучшить отношения между кланами"/>
+    <string id="hha_ch_household_boost_clan_relations_dlg" text="Давайте укрепим отношения с достойным домом."/>
+    <string id="hha_ch_settle_improve_loyalty" text="Повысить лояльность поселения"/>
+    <string id="hha_ch_settle_improve_loyalty_dlg" text="Проследить за верностью жителей в поселении."/>
+    <string id="hha_ch_settle_support_militia" text="Поддержать ополчение"/>
+    <string id="hha_ch_settle_support_militia_dlg" text="Укрепить ряды местного ополчения."/>
+    <string id="hha_ch_settle_support_food" text="Пополнить запасы продовольствия"/>
+    <string id="hha_ch_settle_support_food_dlg" text="Проверить и пополнить продовольственные склады."/>
+    <string id="hha_ch_settle_stabilize_unrest" text="Подавить беспорядки"/>
+    <string id="hha_ch_settle_stabilize_unrest_dlg" text="Усмирить волнения во владении."/>
+    <string id="hha_ch_settle_audit_revenue" text="Провести аудит доходов"/>
+    <string id="hha_ch_settle_audit_revenue_dlg" text="Проверить финансовую отчетность и доходы поселения."/>
+    <string id="hha_ch_settle_inspect_garrison" text="Проверить гарнизон"/>
+    <string id="hha_ch_settle_inspect_garrison_dlg" text="Проинспектировать гарнизон."/>
+    <string id="hha_ch_settle_defend_villages" text="Защитить наши деревни"/>
+    <string id="hha_ch_settle_defend_villages_dlg" text="Обеспечить защиту наших деревень."/>
+    <string id="hha_ch_military_call_muster_master_route" text="Объявить сбор (Основной маршрут)"/>
+    <string id="hha_ch_military_call_muster_master_route_dlg" text="Объявить сбор через домочадцев."/>
+    <string id="hha_ch_military_inspect_drills" text="Проверить учения"/>
+    <string id="hha_ch_military_inspect_drills_dlg" text="Проверить ход боевой подготовки."/>
+    <string id="hha_ch_military_prepare_defenses" text="Подготовить оборону"/>
+    <string id="hha_ch_military_prepare_defenses_dlg" text="Подготовить наши оборонительные сооружения."/>
+    <string id="hha_ch_military_reinforce_settlement" text="Укрепить поселение под угрозой"/>
+    <string id="hha_ch_military_reinforce_settlement_dlg" text="Отправить подкрепление во владение, находящееся под угрозой."/>
+    <string id="hha_ch_military_coordinate_patrol_warning" text="Координировать патрульное оповещение"/>
+    <string id="hha_ch_military_coordinate_patrol_warning_dlg" text="Координировать предупреждения от патрулей."/>
+    <string id="hha_ch_intrigue_badmouth_enemy" text="Очернить врага"/>
+    <string id="hha_ch_intrigue_badmouth_enemy_dlg" text="Распространять порочащие слухи о противнике."/>
+    <string id="hha_ch_intrigue_disrupt_influence" text="Подорвать влияние врага"/>
+    <string id="hha_ch_intrigue_disrupt_influence_dlg" text="Ослабить политическое или общественное влияние противника."/>
+    <string id="hha_ch_intrigue_sabotage_logistics" text="Саботировать логистику врага"/>
+    <string id="hha_ch_intrigue_sabotage_logistics_dlg" text="Нарушить линии снабжения противника."/>
+    <string id="hha_ch_intrigue_steal_funds" text="Кража вражеской казны"/>
+    <string id="hha_ch_intrigue_steal_funds_dlg" text="Выкрасть монеты из сундуков противника."/>
+    <string id="hha_ch_intrigue_assassinate" text="Покушение на убийство"/>
+    <string id="hha_ch_intrigue_assassinate_dlg" text="Организовать убийство."/>
+    <string id="hha_ch_appoint_assign_herald" text="Назначить герольда на должность"/>
+    <string id="hha_ch_appoint_assign_herald_dlg" text="Я хочу назначить герольда."/>
+    <string id="hha_ch_appoint_dismiss_herald" text="Отправить герольда в отставку"/>
+    <string id="hha_ch_appoint_dismiss_herald_dlg" text="Я хочу отправить герольда в отставку."/>
+    <string id="hha_ch_appoint_reassign_herald" text="Переназначить герольда на другую должность"/>
+    <string id="hha_ch_appoint_reassign_herald_dlg" text="Изменить должность герольда."/>
+    <string id="hha_ch_appoint_suspend_office" text="Временно приостановить полномочия должностного лица"/>
+    <string id="hha_ch_appoint_suspend_office_dlg" text="Временно приостановить полномочия ведомства."/>
+    <string id="hha_ch_spec_exchequer_audit" text="Казначейство: Проверка счетов"/>
+    <string id="hha_ch_spec_exchequer_audit_dlg" text="Казначейство — провести аудит бухгалтерских книг."/>
+    <string id="hha_ch_spec_watch_threat_briefing" text="Стража: Доклад об угрозах"/>
+    <string id="hha_ch_spec_watch_threat_briefing_dlg" text="Стража — доложите об угрозах."/>
+    <string id="hha_ch_spec_muster_call_the_muster" text="Сбор: Созвать ополчение"/>
+    <string id="hha_ch_spec_muster_call_the_muster_dlg" text="Сбор — созвать призванных на службу."/>
+    <string id="hha_ch_spec_arms_inspect_drills" text="Оружейная: Инспекция подготовки"/>
+    <string id="hha_ch_spec_arms_inspect_drills_dlg" text="Оружейная — проверить проведение учений."/>
+    <string id="hha_ch_status_view_bonuses" text="Просмотр текущих бонусов"/>
+    <string id="hha_ch_status_view_bonuses_dlg" text="Какими преимуществами мы обладаем?"/>
+    <string id="hha_ch_status_view_warnings" text="Посмотреть активные предупреждения"/>
+    <string id="hha_ch_status_view_warnings_dlg" text="Какие опасности подстерегают снаружи?"/>
+    <string id="hha_ch_status_read_seasonal_summary" text="Прочитать сезонную сводку"/>
+    <string id="hha_ch_status_read_seasonal_summary_dlg" text="Зачитай мне сводку за этот сезон."/>
+    <string id="hha_ch_status_skill_preview" text="Просмотр влияния навыка герольда"/>
+    <string id="hha_ch_status_skill_preview_dlg" text="Какое значение имеет навык герольда?"/>
+    <string id="ch_catsel_Administrative" text="Управление."/>
+    <string id="ch_catsel_Household" text="Домашнее хозяйство."/>
+    <string id="ch_catsel_Settlement_Support" text="Поддержка поселения."/>
+    <string id="ch_catsel_Military" text="Военное дело."/>
+    <string id="ch_catsel_Intrigue" text="Интриги."/>
+    <string id="ch_catsel_Appointments" text="Назначения."/>
+    <string id="ch_catsel_Specialist_Actions" text="Действия специалистов."/>
+    <string id="ch_catsel_Status" text="Статус."/>
+    <string id="ch_cncl_all_well" text="Всё в порядке, мой лорд. У совета нет предостережений."/>
+    <string id="ch_cncl_arms_drills" text="{NAME} муштрует войско (Тактика: {SKILL})."/>
+    <string id="ch_cncl_arms_garrisons" text="Гарнизоны удерживают {GARRISON} в {FIEFS} владении(ях); численность ополчения — {MILITIA}."/>
+    <string id="ch_cncl_arms_no_seats" text="Нет владений для гарнизона — войско следует за вами."/>
+    <string id="ch_cncl_arms_none" text="Военачальник отсутствует — некому руководить муштрой."/>
+    <string id="ch_cncl_arms_title" text="Вооружение — готовность войска:"/>
+    <string id="ch_cncl_auto_house_line" text="Дом {NAME}: Уровень {TIER} · {GOLD} динаров · {ACTIVE} из 4 должностей занято."/>
+    <string id="ch_cncl_convenes_title" text="— Созыв Геральдического совета —"/>
+    <string id="ch_cncl_exch_keeps_books" text="{NAME} ведет учет (Управляющий {SKILL})."/>
+    <string id="ch_cncl_exch_net" text="Учет приносит {NET} динаров в день."/>
+    <string id="ch_cncl_exch_none" text="Казначей отсутствует — счета не проверены."/>
+    <string id="ch_cncl_exch_prosperity" text="Наделы: {COUNT} дают {PROSPERITY} процветания."/>
+    <string id="ch_cncl_exch_revenue" text="Доход увеличен на +{PERCENT}%."/>
+    <string id="ch_cncl_exch_title" text="Казначейство — монеты и книги учета:"/>
+    <string id="ch_cncl_exch_treasury" text="Казна: {GOLD} динаров."/>
+    <string id="ch_cncl_master_holdings" text="Владения: городов — {TOWNS}, замков — {CASTLES}, деревень — {VILLAGES}."/>
+    <string id="ch_cncl_master_house" text="Дом {NAME}: уровень {TIER} · известность {RENOWN} · влияние {INFLUENCE} · {GOLD} динариев."/>
+    <string id="ch_cncl_master_no_home" text="Родовое гнездо не основано."/>
+    <string id="ch_cncl_master_offices" text="Действуют вакансии: {ACTIVE} из 4 · родичей — {KIN}, спутников — {COMPANIONS}."/>
+    <string id="ch_cncl_master_seat" text="Резиденция дома — {PLACE}."/>
+    <string id="ch_cncl_master_title" text="Герольдмейстер — положение дома:"/>
+    <string id="ch_cncl_matters_pressing" text="— Неотложные дела —"/>
+    <string id="ch_cncl_more_warnings" text="…и еще {COUNT}. Созовите совет герольдов для полного отчета."/>
+    <string id="ch_cncl_muster_none" text="Сбор войск не ведется — рекрутирование идет без поддержки."/>
+    <string id="ch_cncl_muster_parties" text="В поле {PARTIES} отряд(ов), под ружьем {TROOPS} · на службе {COMPANIONS} спутник(ов)."/>
+    <string id="ch_cncl_muster_raises" text="{NAME} созывает ополчение (Лидерство {SKILL})."/>
+    <string id="ch_cncl_muster_title" text="Сбор — людские ресурсы дома:"/>
+    <string id="ch_cncl_no_clan" text="Милорд, нет клана, для которого можно созвать совет."/>
+    <string id="ch_cncl_no_warnings_abroad" text="Предупреждений извне нет. Созовите Собор Герольдов лично для получения полного отчета."/>
+    <string id="ch_cncl_sends_word_title" text="— Собор Герольдов передает вести —"/>
+    <string id="ch_cncl_summon_full" text="Созовите Собор Герольдов для полного отчета."/>
+    <string id="ch_cncl_warn_food" text="{PLACE}: нехватка продовольствия."/>
+    <string id="ch_cncl_warn_loyalty" text="{PLACE}: низкая лояльность ({LOYALTY})."/>
+    <string id="ch_cncl_warn_office" text="{OFFICE}: {STATUS}."/>
+    <string id="ch_cncl_warn_security" text="{PLACE}: беспорядки / низкая безопасность ({SECURITY})."/>
+    <string id="ch_cncl_watch_at_war" text="Война с: {WARS}."/>
+    <string id="ch_cncl_watch_keeps" text="{NAME} несёт дозор (Разведка {SKILL})."/>
+    <string id="ch_cncl_watch_no_wars" text="Активных войн нет — на дорогах спокойно."/>
+    <string id="ch_cncl_watch_none" text="Стража не несёт службу — предупреждения придут с опозданием."/>
+    <string id="ch_cncl_watch_thin" text="Во владениях ({COUNT}) сообщают о слабой охране."/>
+    <string id="ch_cncl_watch_title" text="Дозор — взоры на дороги:"/>
+    <string id="ch_eff_arms_drilled" text="{NAME} беспощадно муштрует гарнизон {PLACE} (Тактика {TACTICS}) — {COUNT} отряд(ов) обучено, и стража теперь более бдительна (безопасность {SECURITY})."/>
+    <string id="ch_eff_audit_ledgers" text="Бухгалтерские книги {PLACE} приведены в порядок — процветание {PROSPERITY}."/>
+    <string id="ch_eff_audit_report" text="Аудит {PLACE}: Процветание {PROSPERITY}, Еда {FOOD}, Лояльность {LOYALTY}.{HINT}"/>
+    <string id="ch_eff_banquet_done" text="Пир в честь {NAME} улучшает отношения{HINT} — теперь {REL}."/>
+    <string id="ch_eff_defenses_prepared" text="Кладовая поселения {PLACE} заполнена на случай осады{HINT} — пища {FOOD}, безопасность {SECURITY}."/>
+    <string id="ch_eff_elite_muster" text="Элитный сбор {PLACE} ответил на призыв вашего герольда — {COUNT} {TROOP} встали под ваши знамена."/>
+    <string id="ch_eff_faction_unresolved" text="Статус фракции не определен, мой лорд."/>
+    <string id="ch_eff_food_improved" text="Зерно доставлено в {PLACE} — запасы продовольствия {AMOUNT}."/>
+    <string id="ch_eff_garrison_drilled" text="Гарнизон поселения {PLACE} прошел через суровую муштру{HINT} — {COUNT} отряд(ов) теперь лучше обучены для боя."/>
+    <string id="ch_eff_garrison_inspected" text="Гарнизон поселения {PLACE} инспектирован и усилен{HINT} — {COUNT} новых {TROOP} встали на стены (безопасность {SECURITY})."/>
+    <string id="ch_eff_gift_cost" text="Достойный дар требует 1000 денариев, мой лорд."/>
+    <string id="ch_eff_governors_coordinated" text="Управление скоординировано во всех владениях ({COUNT}) — лояльность повышена."/>
+    <string id="ch_eff_heralds_recovered" text="Должности в количестве {COUNT} учтены и подготовлены для новых назначений."/>
+    <string id="ch_eff_household_order" text="Дела дома приведены в надлежащий порядок."/>
+    <string id="ch_eff_household_support" text="Домочадцы сплачиваются для поддержки {PLACE} — лояльность {LOYALTY}."/>
+    <string id="ch_eff_ledger_header" text="— Книга казначея ({NAME}, управляющий {STEWARD}) —"/>
+    <string id="ch_eff_ledger_impeccable" text="Каждый денарий на счету, мой господин — книга безупречна."/>
+    <string id="ch_eff_ledger_net" text="Счета приносят {NET} денариев в день."/>
+    <string id="ch_eff_ledger_no_holdings" text="У дома нет городов или замков для ведения расчётов."/>
+    <string id="ch_eff_ledger_reckoned" text="Книга подсчитана, мой господин; более умелая рука нашла бы и больше."/>
+    <string id="ch_eff_ledger_seats" text="Владения ({COUNT}) имеют благосостояние {PROSPERITY} и {FOOD} в запасах."/>
+    <string id="ch_eff_ledger_treasury" text="Казна {GOLD} денариев · Влияние {INFLUENCE}."/>
+    <string id="ch_eff_ledger_weakest" text="Худшие показатели у {PLACE} (благосостояние {PROSPERITY})."/>
+    <string id="ch_eff_loyalty_improved" text="Герольды работают на улицах {PLACE} — лояльность растёт (теперь {LOYALTY})."/>
+    <string id="ch_eff_militia_disabled" text="Поддержка ополчения отключена в настройках совместимости."/>
+    <string id="ch_eff_militia_muster" text="Ополчение {PLACE} собирается{HINT} — ополчение {MILITIA}."/>
+    <string id="ch_eff_muster_called" text="Сбор объявлен через поместье{HINT} — {COUNT} новобранцев встают под ваши знамена по всему королевству."/>
+    <string id="ch_eff_no_arms_herald" text="Нет распорядителя, способного провести столь суровую муштру — сперва назначьте его, мой лорд."/>
+    <string id="ch_eff_no_clan" text="Нет клана."/>
+    <string id="ch_eff_no_clan_books" text="Нет клана, чьи книги нужно вести, мой лорд."/>
+    <string id="ch_eff_no_clan_home" text="Дом клана не назначен."/>
+    <string id="ch_eff_no_companions" text="Нет спутников, которым можно было бы послать весть."/>
+    <string id="ch_eff_no_folk_call" text="Местные жители не ответили на призыв к оружию."/>
+    <string id="ch_eff_no_garrison_drill" text="В {PLACE} нет гарнизона для обучения, мой лорд."/>
+    <string id="ch_eff_no_garrison_host_levy" text="Здесь нет ни гарнизона, ни ополчения, чтобы принять сбор."/>
+    <string id="ch_eff_no_garrison_inspect" text="В {PLACE} сейчас нет постоянного гарнизона для досмотра."/>
+    <string id="ch_eff_no_garrison_march" text="В {PLACE} нет гарнизона, в который можно было бы направить подкрепление."/>
+    <string id="ch_eff_no_governed_holdings" text="Нет подвластных владений для координации."/>
+    <string id="ch_eff_no_host_garrison" text="Нет ни войска, ни гарнизона для сбора."/>
+    <string id="ch_eff_no_levy_march" text="Ни одно ополчение из рода {PLACE} не может быть подведено к этим стенам."/>
+    <string id="ch_eff_no_levy_muster" text="Ни одно ополчение из рода {PLACE} не явилось на сбор."/>
+    <string id="ch_eff_no_lord_envoy" text="Ни один знатный лорд не примет нашего посланника прямо сейчас."/>
+    <string id="ch_eff_no_missing_heralds" text="Нет пропавших или павших герольдов, о которых стоило бы отчитываться, мой лорд."/>
+    <string id="ch_eff_no_muster_herald" text="Нет герольда сбора, чтобы призвать элитное ополчение, мой лорд — сначала назначьте его."/>
+    <string id="ch_eff_no_parties_afield" text="Нет активных отрядов клана, которые можно было бы отозвать."/>
+    <string id="ch_eff_no_roster" text="Список глашатаев пуст."/>
+    <string id="ch_eff_no_seat_levy" text="У клана нет резиденции, чтобы собрать ополчение."/>
+    <string id="ch_eff_no_settlement_attend" text="Нет поселений клана, требующих внимания."/>
+    <string id="ch_eff_no_settlement_audit" text="Мой лорд, у клана нет поселений для проведения проверки."/>
+    <string id="ch_eff_no_settlement_drill" text="Нет поселений клана для проведения учений."/>
+    <string id="ch_eff_no_settlement_fortify" text="Нет поселений клана для укрепления."/>
+    <string id="ch_eff_no_settlement_garrison" text="Ни в одном поселении клана нет гарнизона."/>
+    <string id="ch_eff_no_settlement_reinforce" text="Нет поселений клана для подкрепления."/>
+    <string id="ch_eff_no_veteran_levy" text="Здесь нельзя собрать ветеранское ополчение."/>
+    <string id="ch_eff_no_village_defend" text="Ни одна деревня клана не нуждается в защите."/>
+    <string id="ch_eff_not_enough_influence" text="Недостаточно влияния, мой лорд — требуется {AMOUNT}."/>
+    <string id="ch_eff_office_empty" text="Должность — {OFFICE} — вакантна, мой лорд. Сперва назначьте глашатая."/>
+    <string id="ch_eff_office_hint" text="(ваш глашатай {OFFICE} успешно справился с этим)"/>
+    <string id="ch_eff_only_heroes_drill" text="В {PLACE} состоят только герои — здесь нет рядовых войск для обучения."/>
+    <string id="ch_eff_open_field" text="открытое поле"/>
+    <string id="ch_eff_parties_recalled" text="Отряды клана ({COUNT}) отозваны в {PLACE}."/>
+    <string id="ch_eff_patrols_quiet" text="Патрули объезжают границы{HINT} — под надзором поселений: {COUNT}; врагов не обнаружено."/>
+    <string id="ch_eff_patrols_word" text="Патрули докладывают{HINT} — замечено вражеских отрядов: {COUNT}, поблизости от наших владений ({ALERTED} )."/>
+    <string id="ch_eff_reinforcements_marched" text="Подкрепления идут в {PLACE}{HINT} — гарнизон пополнят {COUNT} {TROOP} (безопасность {SECURITY})."/>
+    <string id="ch_eff_report_done" text="Гонец возвращается с вестями о {NAME}."/>
+    <string id="ch_eff_report_header" text="— Вести от {NAME} —"/>
+    <string id="ch_eff_report_location" text="Они находятся в {PLACE}."/>
+    <string id="ch_eff_report_no_threats" text="Вражеских сил поблизости не замечено."/>
+    <string id="ch_eff_report_party" text="Их отряд насчитывает {COUNT} воинов."/>
+    <string id="ch_eff_report_strength" text="Боевая мощь около {AMOUNT}."/>
+    <string id="ch_eff_report_threats" text="Рядом замечены враги — в пределах досягаемости {COUNT} отряд(ов) неприятеля."/>
+    <string id="ch_eff_reproach_chafes" text="{NAME} и так тяготится вашей властью, мой господин — еще один упрек, и они могут покинуть нас. Я не стану отправлять это."/>
+    <string id="ch_eff_reproach_done" text="Гонец доставляет ваше наставление {NAME} и ваше благоволение {NOTABLE} — {NAME} обижен (отношения {NAME_REL}), {NOTABLE} польщен (отношения {NOTABLE_REL})."/>
+    <string id="ch_eff_reproach_no_notable" text="Рядом с {NAME} нет знатных лиц, которых можно было бы этим расположить — лучше оставить письмо неотправленным."/>
+    <string id="ch_eff_seat_cannot_move" text="Резиденция не может быть перенесена сюда: {REASON}"/>
+    <string id="ch_eff_seat_moved" text="Резиденция клана теперь находится в {PLACE}."/>
+    <string id="ch_eff_seat_not_moved" text="Не удалось перенести резиденцию."/>
+    <string id="ch_eff_stand_within_seat" text="Мой лорд, вы должны находиться внутри города или замка, который желаете сделать своей резиденцией."/>
+    <string id="ch_eff_steward_unavailable" text="Управляющий клановым поместьем недоступен."/>
+    <string id="ch_eff_unrest_stabilized" text="Жалобы выслушаны, и жители {PLACE} успокоены{HINT} — лояльность {LOYALTY}."/>
+    <string id="ch_eff_village_defended" text="Деревня {PLACE} укреплена{HINT} — численность хозяйств {HEARTH}, ополчение {MILITIA}."/>
+    <string id="ch_eff_watch_sighted" text="Дозор: отряд {FACTION} ({PARTY}) замечен рядом с {PLACE}."/>
+    <string id="ch_fam_conceive_desc" text="Кто из замужних женщин вашего дома должна попытаться зачать ребенка?"/>
+    <string id="ch_fam_conceive_fail" text="{NAME} не забеременела в этот раз — попробуйте позже."/>
+    <string id="ch_fam_conceive_no_mothers" text="Ни одна замужняя женщина в вашем доме не может сейчас выносить ребенка."/>
+    <string id="ch_fam_conceive_success" text="{NAME} ждет ребенка!"/>
+    <string id="ch_fam_conceive_title" text="Попробовать зачать наследника"/>
+    <string id="ch_fam_consort_take_none" text="Никого подходящего нельзя принять в этот дом."/>
+    <string id="ch_fam_consort_take_success" text="{NAME} присоединяется к вашему дому."/>
+    <string id="ch_fam_consortchild_desc" text="Кто из домочадцев должен выносить ребенка?"/>
+    <string id="ch_fam_consortchild_fail" text="{NAME} не может сейчас выносить ребенка."/>
+    <string id="ch_fam_consortchild_none" text="Никто из домочадцев не может сейчас выносить ребенка."/>
+    <string id="ch_fam_consortchild_success" text="{NAME} рожает вам ребенка — {CHILD}."/>
+    <string id="ch_fam_consortchild_title" text="Дитя дома"/>
+    <string id="ch_fam_consortgift_desc" text="Кто должен получить подарок?"/>
+    <string id="ch_fam_consortgift_none" text="В вашем доме нет никого, кому можно было бы вручить подарок."/>
+    <string id="ch_fam_consortgift_success" text="Вы отправляете подарок {NAME}."/>
+    <string id="ch_fam_consortgift_title" text="Сделать подарок домочадцу"/>
+    <string id="ch_fam_court_fail" text="{NAME} не может ухаживать за {TARGET} прямо сейчас."/>
+    <string id="ch_fam_court_initiator_desc" text="Кто из вашего дома должен начать ухаживание?"/>
+    <string id="ch_fam_court_no_candidates" text="Поблизости нет никого, за кем {NAME} мог бы ухаживать."/>
+    <string id="ch_fam_court_no_initiators" text="Мой лорд, в клане нет совершеннолетних, чтобы начать ухаживание."/>
+    <string id="ch_fam_court_partner_desc" text="Выберите партнера для ухаживания."/>
+    <string id="ch_fam_court_partner_title" text="За кем будет ухаживать {NAME}?"/>
+    <string id="ch_fam_court_success" text="{NAME} делает успехи в ухаживании за {TARGET}."/>
+    <string id="ch_fam_court_title" text="Подобрать пару спутнику"/>
+    <string id="ch_fam_dismiss_desc" text="Кто должен покинуть дом?"/>
+    <string id="ch_fam_dismiss_fail" text="Не удалось расстаться с {NAME}."/>
+    <string id="ch_fam_dismiss_none" text="В вашем доме нет домочадцев, с которыми можно было бы расстаться."/>
+    <string id="ch_fam_dismiss_success" text="{NAME} покидает дом с вашего позволения."/>
+    <string id="ch_fam_dismiss_title" text="Расстаться с домочадцем"/>
+    <string id="ch_fam_gift_not_sent" text="Подарок не удалось отправить."/>
+    <string id="ch_fam_marry_fail" text="{NAME} и {TARGET} не готовы к свадьбе (сначала нужно завершить ухаживания)."/>
+    <string id="ch_fam_marry_initiator_desc" text="Кто из вашего дома должен вступить в брак?"/>
+    <string id="ch_fam_marry_no_candidates" text="Для {NAME} нет подходящей пары, готовой к свадьбе."/>
+    <string id="ch_fam_marry_no_initiators" text="В вашем доме нет неженатых взрослых для устройства брака."/>
+    <string id="ch_fam_marry_partner_desc" text="Выберите супруга."/>
+    <string id="ch_fam_marry_partner_title" text="За кого должен(а) выйти замуж {NAME}?"/>
+    <string id="ch_fam_marry_success" text="{NAME} и {TARGET} поженились."/>
+    <string id="ch_fam_marry_title" text="Устроить брак"/>
+    <string id="ch_fam_mentor_desc" text="Выберите наставника (он будет обучать своему лучшему навыку)."/>
+    <string id="ch_fam_mentor_fail" text="Не удалось назначить {MENTOR} наставником для {STUDENT}."/>
+    <string id="ch_fam_mentor_need_two" text="Для назначения наставника и ученика необходимо как минимум двое взрослых членов дома."/>
+    <string id="ch_fam_mentor_no_record" text="В доме пока не велось никаких записей."/>
+    <string id="ch_fam_mentor_no_student" text="Нет подходящих учеников."/>
+    <string id="ch_fam_mentor_student_desc" text="Выберите ученика."/>
+    <string id="ch_fam_mentor_student_title" text="Кто будет учиться у {MENTOR}?"/>
+    <string id="ch_fam_mentor_success" text="{STUDENT} станет учеником {MENTOR} — опыт будет передаваться между ними ежедневно."/>
+    <string id="ch_fam_mentor_title" text="Назначить наставника"/>
+    <string id="ch_fam_pick_none" text="Нет подходящих кандидатур, мой господин."/>
+    <string id="ch_fam_spousegift_desc" text="Чей брак должен укрепить этот дар?"/>
+    <string id="ch_fam_spousegift_none" text="В вашем доме нет состоящих в браке членов семьи, чтобы отправить подарок."/>
+    <string id="ch_fam_spousegift_success" text="{NAME} отправляет подарок {TARGET}."/>
+    <string id="ch_fam_spousegift_title" text="Сделать подарок супругу"/>
+    <string id="ch_msgr_in_party" text="{NAME} едет рядом с вами, мой господин — поговорите с ними лично."/>
+    <string id="ch_msgr_no_party" text="{NAME} не во главе отряда, мой господин — посыльному некуда ехать."/>
+    <string id="ch_msgr_no_target" text="Человека с таким именем больше нет в живых, мой господин."/>
+    <string id="ch_msgr_prisoner" text="{NAME} томится в темнице, мой господин — посыльный не сможет туда попасть."/>
+    <string id="ch_promo_no_record" text="В доме пока не ведут учет ветеранов."/>
+    <string id="ch_read_all_well" text="Все спокойно, мой господин. Никаких тревожных вестей."/>
+    <string id="ch_read_at_place" text="в {PLACE}"/>
+    <string id="ch_read_at_war" text="Война с: {NAME}"/>
+    <string id="ch_read_bonus_arms" text="муштровка гарнизона и оборонительная готовность улучшены"/>
+    <string id="ch_read_bonus_exchequer" text="проверка доходов и обращение с монетой отточены"/>
+    <string id="ch_read_bonus_line" text="{OFFICE} ({NAME}, навык {SKILL}): {BENEFIT}"/>
+    <string id="ch_read_bonus_muster" text="размер ополчения и скорость сбора улучшены"/>
+    <string id="ch_read_bonus_watch" text="успех интриг и осведомленность об угрозах отточены"/>
+    <string id="ch_read_bonuses_title" text="— Активные преимущества —"/>
+    <string id="ch_read_clan_stat_line" text="Уровень {TIER} · Известность {RENOWN} · Влияние {INFLUENCE} · Динары {GOLD}"/>
+    <string id="ch_read_faction_unresolved" text="Статус фракции не определен."/>
+    <string id="ch_read_food_shortage" text="{PLACE}: нехватка продовольствия."/>
+    <string id="ch_read_governing" text="управляет поселением {PLACE}"/>
+    <string id="ch_read_held_prisoner" text="в плену"/>
+    <string id="ch_read_holdings" text="Владения: {TOWNS} гор., {CASTLES} замк., {VILLAGES} дер."/>
+    <string id="ch_read_household_title" text="— Семья и спутники —"/>
+    <string id="ch_read_leading_party" text="возглавляет отряд (близ {PLACE})"/>
+    <string id="ch_read_low_loyalty" text="{PLACE}: низкая лояльность ({LOYALTY})."/>
+    <string id="ch_read_low_security" text="{PLACE}: беспорядки / низкая безопасность ({SECURITY})."/>
+    <string id="ch_read_no_clan_report" text="Нет клана для отчета."/>
+    <string id="ch_read_no_clan_summary" text="Нет клана для сводки."/>
+    <string id="ch_read_no_fiefs" text="Нет городов или замков для отчета."/>
+    <string id="ch_read_no_roster" text="Список вестников пуст."/>
+    <string id="ch_read_no_specialist" text="Нет активных должностей — назначьте вестников, чтобы получить преимущества."/>
+    <string id="ch_read_no_wars" text="Нет активных войн — на дорогах спокойно, мой лорд."/>
+    <string id="ch_read_no_watch_skill" text="Нет активного Дозорного вестника — интриги недоступны, пока он не назначен."/>
+    <string id="ch_read_office_vacant" text="{OFFICE}: вакантно"/>
+    <string id="ch_read_office_warning" text="{OFFICE}: {STATUS}."/>
+    <string id="ch_read_offices_title" text="— Герльдории —"/>
+    <string id="ch_read_parties_members" text="Отряды в походе: {PARTIES} · Члены семьи: {MEMBERS} · Спутники: {COMPANIONS}"/>
+    <string id="ch_read_season_bid" text="Прошу Вас просмотреть должности, поселения или предупреждения для подробностей."/>
+    <string id="ch_read_season_offices" text="Занято и действует должностей специалистов: {ACTIVE} из 4."/>
+    <string id="ch_read_season_seats" text="Дом владеет {FIEFS} местом(ами) и выставляет {PARTIES} отряд(ов)."/>
+    <string id="ch_read_season_title" text="— Итоги сезона —"/>
+    <string id="ch_read_season_treasury" text="Казна: {GOLD} денариев · Влияние: {INFLUENCE} · Известность: {RENOWN}"/>
+    <string id="ch_read_settlement_line" text="{PLACE}: Лояльность {LOYALTY} · Процветание {PROSPERITY} · Пища {FOOD} · Безопасность {SECURITY} · Ополчение {MILITIA}"/>
+    <string id="ch_read_settlement_title" text="— Отчеты по поселениям —"/>
+    <string id="ch_read_skill_intro" text="Эффективность каждой должности зависит от основного навыка:"/>
+    <string id="ch_read_skill_map" text="Казначейство → Управление · Дозор → Разведка · Сбор → Лидерство · Оружие → Тактика."/>
+    <string id="ch_read_skill_scales" text="Более высокий навык приближает бонус должности к его максимуму."/>
+    <string id="ch_read_skill_title" text="— Влияние навыка вестника —"/>
+    <string id="ch_read_the_field" text="в поле"/>
+    <string id="ch_read_warnings_title" text="— Текущие предупреждения —"/>
+    <string id="ch_read_watch_limited" text="(Вестник дозора не назначен — сводка ограничена.)"/>
+    <string id="ch_read_watch_scouting" text="Вестник дозора {NAME}: Разведка {SCORE} → +{PERCENT}% к успеху интриг."/>
+    <string id="ch_read_watch_title" text="— Дозор: Сводка об угрозах —"/>
+    <string id="ch_read_whereabouts" text="местоположение неизвестно"/>
+    <string id="ch_read_with_party" text="с {PARTY}"/>
+    <string id="ch_rebel_already_banner" text="Они уже несут ваше знамя."/>
+    <string id="ch_rebel_captive_inducted" text="{NAME} принимает ваше знамя, покидая камеру{HINT}."/>
+    <string id="ch_rebel_captive_picker_desc" text="Пленный лорд может быть освобожден для службы нам. Кого мы предложим?"/>
+    <string id="ch_rebel_captive_picker_title" text="Предложить наше знамя пленному лорду"/>
+    <string id="ch_rebel_captive_unavailable" text="Мы больше не можем предложить место этому пленнику."/>
+    <string id="ch_rebel_element_label" text="{NAME} — {CLAN}"/>
+    <string id="ch_rebel_lord_inducted" text="{NAME} оставляет безнадежное дело и принимает ваше знамя{HINT}."/>
+    <string id="ch_rebel_lord_unreachable" text="Этот лорд теперь вне нашей досягаемости."/>
+    <string id="ch_rebel_no_captive_offers" text="Сегодня мы не делаем таких предложений пленникам."/>
+    <string id="ch_rebel_no_captive_pool" text="В наших камерах нет пленных лордов, достойных этого предложения."/>
+    <string id="ch_rebel_no_clan" text="У вас нет клана."/>
+    <string id="ch_rebel_no_clan_label" text="нет клана"/>
+    <string id="ch_rebel_no_envoys" text="Сегодня мы не посылаем гонцов к лордам-мятежникам."/>
+    <string id="ch_rebel_no_pool" text="Ни один безземельный мятежник не примет нашего гонца, мой лорд."/>
+    <string id="ch_rebel_office_hint" text="(ваш гонец ({OFFICE}) позаботился об этом)"/>
+    <string id="ch_rebel_picker_desc" text="Лорд без знамени может принять наше. К кому нам обратиться?"/>
+    <string id="ch_rebel_picker_title" text="Принять безземельного лорда"/>
+    <string id="ch_rebel_wants_gold" text="Для этого требуется {GOLD} денариев."/>
+    <string id="ch_rebel_wants_influence" text="Для этого требуется {INFLUENCE} влияния."/>
+    <string id="ch_rebel_wants_influence_lord" text="Для этого требуется {INFLUENCE} влияния, мой лорд."/>
+    <string id="ch_recruit_broker_closed" text="Посредник по выкупу сегодня не ведет дел."/>
+    <string id="ch_recruit_broker_cost" text="Недостаточно монет — посредник требует {COST} денариев."/>
+    <string id="ch_recruit_captive_gone" text="Этот пленник больше не принадлежит вам, вы не можете его выкупить."/>
+    <string id="ch_recruit_disabled" text="Упрощенный наем отключен."/>
+    <string id="ch_recruit_hand_cost" text="Недостаточно монет — наемник стоит {COST} денариев."/>
+    <string id="ch_recruit_insufficient_coin" text="Недостаточно монет, мой лорд — для этого требуется {AMOUNT} денариев."/>
+    <string id="ch_recruit_no_brigands" text="Среди ваших узников нет разбойников, которые заинтересовали бы посредника."/>
+    <string id="ch_recruit_no_clan" text="У вас нет клана."/>
+    <string id="ch_recruit_no_clan_folk" text="У вас нет клана, в который вы могли бы принять людей."/>
+    <string id="ch_recruit_no_local_folk" text="Местные жители не желают поступать на службу."/>
+    <string id="ch_recruit_none_suitable" text="Не удалось найти никого подходящего для несения службы."/>
+    <string id="ch_recruit_none_turned" text="В этот раз не удалось переманить ни одного разбойника."/>
+    <string id="ch_recruit_office_hint" text="(ваш гонец ({OFFICE}) позаботился об этом)"/>
+    <string id="ch_reloc_already_home" text="Уже является домом клана."/>
+    <string id="ch_reloc_available" text="Перенос доступен."/>
+    <string id="ch_reloc_cooldown1" text="Перенос будет доступен через 1 день."/>
+    <string id="ch_reloc_cooldownn" text="Перенос будет доступен через {DAYS} дн."/>
+    <string id="ch_reloc_emergency" text="Доступен экстренный перенос."/>
+    <string id="ch_reloc_establish" text="Основать дом клана."/>
+    <string id="ch_reloc_no_settlement" text="Поселение не выбрано."/>
+    <string id="ch_reloc_no_state" text="Состояние мода не инициализировано."/>
+    <string id="ch_reloc_not_owned" text="Ваш клан не владеет этим поселением."/>
+    <string id="ch_reloc_only_town_castle" text="Только города и замки могут служить домом клана."/>
+    <string id="ch_read_office_held" text="{OFFICE}: {HERO} ({STATUS})"/>
+    <string id="ch_read_member_where" text="{NAME}: {WHERE}"/>
+  </strings>
+</base>

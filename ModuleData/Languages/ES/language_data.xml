@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/ModuleLanguageData.xsd" id="Español (LA)" name="Español (LA)" subtitle_extension="es" supported_iso="es,spa,es-es,es-mx,es-la" under_development="false">
+  <LanguageFile xml_path="ES/std_mcm_strings_xml.xml" />
+</LanguageData>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="hh_mcm_allow_instant_marriage_hint" text="Pomiń etap zalotów - od razu połącz węzłem małżeńskim odpowiednią parę." />
+    <string id="hh_mcm_allow_instant_marriage_name" text="Pozwól na natychmiastowe małżeństwo" />
+    <string id="hh_mcm_auto_summon_council_hint" text="Wyłączone (domyślnie): radę zwołujesz sam przez Master Herald. Włączone: twoi Heraldowie wysyłają też okresowy skrót (ostrzeżenia + odnośnik do pełnego raportu) w odstępie podanym poniżej." />
+    <string id="hh_mcm_auto_summon_council_name" text="Automatyczne raporty rady" />
+    <string id="hh_mcm_banner_kings_conservative_hint" text="Pomiń zmianę dochodu Exchequer, gdy wczytany jest Banner Kings. Domyślnie włączone." />
+    <string id="hh_mcm_banner_kings_conservative_name" text="Banner Kings: tryb zachowawczy" />
+    <string id="hh_mcm_banner_kings_disabled_hint" text="Wyłącz premię do dochodu Exchequer niezależnie od wykrywania. Nadrzędne wobec trybu zachowawczego." />
+    <string id="hh_mcm_banner_kings_disabled_name" text="Banner Kings: całkowicie wyłącz Exchequer" />
+    <string id="hh_mcm_bonus_strength_high_hint" text="Zwiększa wszystkie premie urzędów o 50%. Wyklucza się z pozostałymi opcjami Siły premii." />
+    <string id="hh_mcm_bonus_strength_high_name" text="Siła premii: wysoka" />
+    <string id="hh_mcm_bonus_strength_low_hint" text="Zmniejsza o połowę wszystkie premie urzędów. Wyklucza się z pozostałymi opcjami Siły premii." />
+    <string id="hh_mcm_bonus_strength_low_name" text="Siła premii: niska" />
+    <string id="hh_mcm_clan_home_relocation_cooldown_days_name" text="Czas odnowienia przeniesienia siedziby klanu (dni)" />
+    <string id="hh_mcm_companion_limit_base_hint" text="Dodatkowe miejsca na towarzyszy na 0. poziomie klanu. Domyślnie 4 (cztery urzędy Heraldów). Bez sztucznego limitu." />
+    <string id="hh_mcm_companion_limit_base_name" text="Towarzysze: premia podstawowa" />
+    <string id="hh_mcm_companion_limit_per_tier_hint" text="Dodatkowe miejsca na towarzyszy za każdy poziom klanu (doliczane do premii podstawowej)." />
+    <string id="hh_mcm_companion_limit_per_tier_name" text="Towarzysze: za poziom klanu" />
+    <string id="hh_mcm_compatibility_conservative_hint" text="Stosuj zabezpieczające limity dla nakładających się modów (Banner Kings, Improved Garrisons) nawet gdy nie zostaną wykryte. Wyłączone = automatyczne wykrywanie." />
+    <string id="hh_mcm_compatibility_conservative_name" text="Tryb zgodności: zachowawczy" />
+    <string id="hh_mcm_conceive_chance_hint" text="Szansa powodzenia, gdy małżeństwo stara się o dziedzica." />
+    <string id="hh_mcm_conceive_chance_name" text="Szansa na poczęcie" />
+    <string id="hh_mcm_council_cadence_days_hint" text="Jak często zwoływany jest automatyczny skrót rady, gdy włączony powyżej. Domyślnie 21 dni (około jednej pory roku)." />
+    <string id="hh_mcm_council_cadence_days_name" text="Odstęp raportów rady (dni)" />
+    <string id="hh_mcm_defer_exchequer_finance_model_hint" text="Domyślnie wyłączone. Wyłączone (Wymuś): HH dostarcza premię do dochodu Exchequer przez nadpisanie finansów klanu, które obejmuje i zachowuje każdy inny mod finansowy oraz dodaje premię na wierzch, identycznie na PC i Steam Deck. Włączone (Ustąp): jeśli inny mod nadpisuje model finansów klanu, HH ustępuje mu, a premia do dochodu Exchequer nie obowiązuje. Działa po następnym wczytaniu kampanii." />
+    <string id="hh_mcm_defer_exchequer_finance_model_name" text="Ustąp dochodu Exchequer innemu modowi finansowemu" />
+    <string id="hh_mcm_diplomacy_fixes_conservative_hint" text="Codzienne ponowne sprawdzanie własności siedziby klanu. Wychwytuje przekazania osad zlecone przez Diplomacy Fixes." />
+    <string id="hh_mcm_diplomacy_fixes_conservative_name" text="Diplomacy Fixes: tryb zachowawczy" />
+    <string id="hh_mcm_disable_remote_tier_gating_hint" text="Wyłączone (domyślnie): kluczowe działania (intrygi, mianowanie heraldów, zmiana siedziby klanu) można wykonywać zdalnie dopiero gdy klan osiągnie poziom 5 - w siedzibie są zawsze dostępne. Włączone: zdalny dostęp do nich nie wymaga poziomu (korzystaj z herolda z dowolnego miejsca)." />
+    <string id="hh_mcm_disable_remote_tier_gating_name" text="Wyłącz blokadę zdalnego dostępu wg poziomu" />
+    <string id="hh_mcm_elite_recruit_multiplier_name" text="Mnożnik elitarnej rekrutacji" />
+    <string id="hh_mcm_enable_arms_name" text="Włącz premie Arms" />
+    <string id="hh_mcm_enable_concubines_hint" text="Domyślnie wyłączone. Przyjmij do gospodarstwa członka (konkubinę/konkubenta) z karczmy; obdarowuj/romansuj/miej dzieci; rozstań się z nim w dowolnej chwili. Odgrywanie roli klanu; nigdy nie blokowane za żadną funkcją dla wspierających." />
+    <string id="hh_mcm_enable_concubines_name" text="Włącz członków gospodarstwa (konkubiny)" />
+    <string id="hh_mcm_enable_exchequer_name" text="Włącz premie Exchequer" />
+    <string id="hh_mcm_enable_family_systems_hint" text="Główny przełącznik romansów, małżeństw, mentorstwa, dziedziców i członków gospodarstwa. Wyłączone = standardowe zachowanie rodziny." />
+    <string id="hh_mcm_enable_family_systems_name" text="Włącz systemy rodzinne" />
+    <string id="hh_mcm_enable_low_barrier_recruitment_hint" text="Werbuj miejscowych prostaczków do służby (Muster) i przeciągaj schwytanych zbójów na swoją stronę przez Ransom Broker (Watch). Działa przez urzędy; rekruci to zwykli towarzysze klanu." />
+    <string id="hh_mcm_enable_low_barrier_recruitment_name" text="Włącz rekrutację o niskim progu" />
+    <string id="hh_mcm_enable_master_advanced_hint" text="Wyłączenie ukrywa intrygi i wojskowe działania menu Master. Działania administracyjne i odczyt statusu pozostają." />
+    <string id="hh_mcm_enable_master_advanced_name" text="Włącz zaawansowane działania Master Herald" />
+    <string id="hh_mcm_enable_meyc_soft_detection_name" text="Miękkie wykrywanie MEYC (wycisz nakładający się klimat)" />
+    <string id="hh_mcm_enable_migration_debug_dialog_hint" text="Przy pierwszym wczytaniu po aktualizacji pokaż jednorazowe okno wyjaśniające, co zostało przeniesione. Dotyczy tylko przyszłych wersji." />
+    <string id="hh_mcm_enable_migration_debug_dialog_name" text="Pokaż okno diagnostyki migracji" />
+    <string id="hh_mcm_enable_mod_hint" text="Główny wyłącznik awaryjny. Wyłączenie zatrzymuje wszystkie premie i ostrzeżenia; istniejący skład i stan siedziby klanu są zachowane." />
+    <string id="hh_mcm_enable_mod_name" text="Włącz Hearth &amp; Herald" />
+    <string id="hh_mcm_enable_muster_name" text="Włącz premie Muster" />
+    <string id="hh_mcm_enable_pregnancy_control_hint" text="Poproś małżeństwo, by starało się o dziedzica (z szansą niepowodzenia) i wyślij małżonkowi prezent dla relacji." />
+    <string id="hh_mcm_enable_pregnancy_control_name" text="Włącz ciążę i dziedziców" />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_hint" text="Uwolnij wrogiego lorda przetrzymywanego w twojej drużynie i przyjmij go do klanu jako pełnoprawnego lorda. Działa przez Watch." />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Włącz werbunek uwięzionych lordów" />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Przyjmij zbuntowanego lorda tej samej kultury, który stracił siedzibę, ALE wciąż dowodzi drużyną (bezziemnych rebeliantów bez drużyny gra usuwa, zanim zdołasz do nich dotrzeć). Działa przez Muster." />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Włącz werbunek zbuntowanych lordów" />
+    <string id="hh_mcm_enable_romance_hint" text="Zaloty i małżeństwa z odpowiednimi dorosłymi przez Master Herald; przydziel mentora dla codziennej wymiany PD umiejętności. Związki jednopłciowe są obsługiwane symetrycznie." />
+    <string id="hh_mcm_enable_romance_name" text="Włącz romanse i małżeństwa" />
+    <string id="hh_mcm_enable_troop_promotion_hint" text="Weterani, którzy zgromadzą dość zasług bojowych, mogą zostać nobilitowani na towarzyszy klanu przez Master Herald (menu Gospodarstwo)." />
+    <string id="hh_mcm_enable_troop_promotion_name" text="Włącz awans żołnierz -&gt; towarzysz" />
+    <string id="hh_mcm_enable_verbose_logging_name" text="Szczegółowe logowanie" />
+    <string id="hh_mcm_enable_watch_name" text="Włącz ostrzeżenia Watch" />
+    <string id="hh_mcm_garrison_xp_multiplier_name" text="Mnożnik PD garnizonu" />
+    <string id="hh_mcm_group_balance_cooldowns" text="Balans: czasy odnowienia" />
+    <string id="hh_mcm_group_balance_multipliers" text="Balans: mnożniki" />
+    <string id="hh_mcm_group_clan_council" text="Rada klanu" />
+    <string id="hh_mcm_group_compatibility" text="Zgodność" />
+    <string id="hh_mcm_group_debug" text="Diagnostyka" />
+    <string id="hh_mcm_group_family_clan_continuity" text="Rodzina i ciągłość klanu" />
+    <string id="hh_mcm_group_general" text="Ogólne" />
+    <string id="hh_mcm_group_households" text="Gospodarstwa" />
+    <string id="hh_mcm_group_limits" text="Limity" />
+    <string id="hh_mcm_group_office_systems" text="Systemy urzędów" />
+    <string id="hh_mcm_group_tear_down" text="Demontaż" />
+    <string id="hh_mcm_improved_garrisons_conservative_hint" text="Pomiń zmiany garnizonu Muster/Arms, gdy wczytany jest Improved Garrisons. Domyślnie włączone." />
+    <string id="hh_mcm_improved_garrisons_conservative_name" text="Improved Garrisons: tryb zachowawczy" />
+    <string id="hh_mcm_improved_garrisons_disabled_hint" text="Całkowicie wyłącz efekty garnizonu Muster i Arms. Efekty drużyny pozostają." />
+    <string id="hh_mcm_improved_garrisons_disabled_name" text="Improved Garrisons: wyłącz efekty garnizonu" />
+    <string id="hh_mcm_income_multiplier_name" text="Mnożnik dochodu" />
+    <string id="hh_mcm_intrigue_cooldown_multiplier_name" text="Mnożnik czasu odnowienia intryg" />
+    <string id="hh_mcm_limit_companions_hint" text="Dodaj dodatkowe miejsca na werbowanych towarzyszy do klanu (doliczane ponad standardowy limit poziomu). Oddelegowani oficerowie Heraldów nadal nie zajmują miejsca (D2)." />
+    <string id="hh_mcm_limit_companions_name" text="Towarzysze: włącz" />
+    <string id="hh_mcm_limit_party_count_hint" text="Dodaj do liczby drużyn, które twój klan może wystawić (drużyny dowodzone przez towarzyszy na mapie)." />
+    <string id="hh_mcm_limit_party_count_name" text="Liczba drużyn: włącz" />
+    <string id="hh_mcm_limit_party_size_hint" text="Dodaj do limitu żołnierzy GŁÓWNEJ drużyny. Z założenia tylko dla gracza - drużyny AI/lordów zachowują standardowe rozmiary dla balansu gry." />
+    <string id="hh_mcm_limit_party_size_name" text="Rozmiar drużyny: włącz (tylko twoja drużyna)" />
+    <string id="hh_mcm_limit_prisoners_hint" text="Dodaj do limitu jeńców GŁÓWNEJ drużyny. Z założenia tylko dla gracza." />
+    <string id="hh_mcm_limit_prisoners_name" text="Jeńcy: włącz (tylko twoja drużyna)" />
+    <string id="hh_mcm_limits_enabled_hint" text="Wyłączone: nigdy nie zmieniaj żadnego limitu. Włączone: stosuj limity poniżej. Z 'Wymuś nad innymi modami limitów' WYŁĄCZONYM to tryb Auto - ustępujemy wykrytemu modowi limitów (np. TrueLimits) i stosujemy je tylko, gdy żaden nie jest obecny." />
+    <string id="hh_mcm_limits_enabled_name" text="Włącz pakiet limitów" />
+    <string id="hh_mcm_limits_forced_hint" text="Wyłączone (domyślnie) = Auto: ustąp wykrytemu modowi limitów (TrueLimits) i stosuj nasze tylko, gdy żaden nie jest obecny. Włączone = Wymuszone: zawsze stosuj nasze, NAKŁADAJĄC je na każdy inny mod limitów." />
+    <string id="hh_mcm_limits_forced_name" text="Wymuś nad innymi modami limitów" />
+    <string id="hh_mcm_master_action_cooldown_multiplier_name" text="Mnożnik czasu odnowienia działań Master" />
+    <string id="hh_mcm_max_gift_relation_per_day_hint" text="Dzienny limit relacji uzyskiwanej z prezentów dla małżonka/konkubiny." />
+    <string id="hh_mcm_max_gift_relation_per_day_name" text="Maks. relacja z prezentów dziennie" />
+    <string id="hh_mcm_mentor_daily_xp_cap_hint" text="Dzienne PD umiejętności przyznawane podopiecznemu na parę (w najsilniejszej umiejętności mentora). 0 wyłącza tik mentora." />
+    <string id="hh_mcm_mentor_daily_xp_cap_name" text="Dzienny limit PD mentora" />
+    <string id="hh_mcm_mentor_reciprocal_fraction_hint" text="Ułamek przydziału podopiecznego, który zyskuje też mentor (również limitowany). 0 = nauczanie jednostronne." />
+    <string id="hh_mcm_mentor_reciprocal_fraction_name" text="Wzajemny udział mentora" />
+    <string id="hh_mcm_mentor_xp_multiplier_name" text="Mnożnik PD mentora" />
+    <string id="hh_mcm_party_count_base_hint" text="Dodatkowe drużyny klanu na 0. poziomie. Wiele drużyn dowodzonych przez towarzyszy dla klanu spełniającego marzenia o potędze." />
+    <string id="hh_mcm_party_count_base_name" text="Liczba drużyn: premia podstawowa" />
+    <string id="hh_mcm_party_count_per_tier_hint" text="Dodatkowe drużyny klanu za każdy poziom klanu." />
+    <string id="hh_mcm_party_count_per_tier_name" text="Liczba drużyn: za poziom klanu" />
+    <string id="hh_mcm_party_size_base_hint" text="Dodatkowe miejsca na żołnierzy głównej drużyny na 0. poziomie klanu. Dla armii ~100 towarzyszy ustaw wysoko ORAZ podnieś limit towarzyszy." />
+    <string id="hh_mcm_party_size_base_name" text="Rozmiar drużyny: premia podstawowa" />
+    <string id="hh_mcm_party_size_per_tier_hint" text="Dodatkowe miejsca na żołnierzy głównej drużyny za każdy poziom klanu." />
+    <string id="hh_mcm_party_size_per_tier_name" text="Rozmiar drużyny: za poziom klanu" />
+    <string id="hh_mcm_party_xp_multiplier_name" text="Mnożnik PD drużyny" />
+    <string id="hh_mcm_prisoner_limit_base_hint" text="Dodatkowe miejsca na jeńców głównej drużyny na 0. poziomie klanu." />
+    <string id="hh_mcm_prisoner_limit_base_name" text="Jeńcy: premia podstawowa" />
+    <string id="hh_mcm_prisoner_limit_per_tier_hint" text="Dodatkowe miejsca na jeńców głównej drużyny za każdy poziom klanu." />
+    <string id="hh_mcm_prisoner_limit_per_tier_name" text="Jeńcy: za poziom klanu" />
+    <string id="hh_mcm_prisoner_lord_gold_cost_hint" text="Złoto za przyjęcie uwięzionego lorda. Aktywny Watch Herald obniża koszt o jedną czwartą." />
+    <string id="hh_mcm_prisoner_lord_gold_cost_name" text="Koszt uwięzionego lorda w złocie" />
+    <string id="hh_mcm_prisoner_lord_influence_cost_hint" text="Wpływy za przyjęcie uwięzionego lorda. Aktywny Watch Herald obniża koszt o jedną czwartą." />
+    <string id="hh_mcm_prisoner_lord_influence_cost_name" text="Koszt uwięzionego lorda we wpływach" />
+    <string id="hh_mcm_promotion_kill_threshold_hint" text="Liczba zabójstw, jaką dany TYP żołnierza musi zgromadzić w twojej drużynie, zanim jeden z nich będzie mógł zostać nobilitowany." />
+    <string id="hh_mcm_promotion_kill_threshold_name" text="Próg zabójstw do awansu" />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_hint" text="Gdy włączone, żołnierze wyższych szczebli potrzebują proporcjonalnie więcej zasług do awansu (równoważy ich większą siłę startową)." />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_name" text="Skaluj próg wg szczebla żołnierza" />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_hint" text="Jaką część wartości umiejętności żołnierza ma na start nowy towarzysz. 100 = pełna siła weterana." />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_name" text="Dziedziczenie umiejętności przy awansie %" />
+    <string id="hh_mcm_ransom_broker_gold_cost_hint" text="Moneta za przemianę każdego schwytanego zbója w towarzysza. Aktywny Watch Herald obniża cenę o jedną czwartą." />
+    <string id="hh_mcm_ransom_broker_gold_cost_name" text="Koszt Ransom Broker (złoto)" />
+    <string id="hh_mcm_ransom_broker_max_per_visit_hint" text="Maksymalna liczba zbójów, których możesz przemienić podczas jednej wizyty u brokera." />
+    <string id="hh_mcm_ransom_broker_max_per_visit_name" text="Przemiany Ransom Broker na wizytę" />
+    <string id="hh_mcm_ransom_broker_skill_percent_hint" text="Jaką część umiejętności zbója zachowuje konwertowany. To wojownicy, więc zachowują więcej (domyślnie 60)." />
+    <string id="hh_mcm_ransom_broker_skill_percent_name" text="Umiejętności Ransom Broker %" />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_hint" text="Oferuj też bezziemnych szlachciców z pomniejszych frakcji / najemników (nie tylko rebeliantów). Domyślnie wyłączone." />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_name" text="Werbunek lordów: uwzględnij szlachtę pomniejszych frakcji" />
+    <string id="hh_mcm_rebel_lord_influence_cost_hint" text="Wpływy za przyjęcie zbuntowanego/bezziemnego lorda. Aktywny Muster Herald obniża koszt o jedną czwartą." />
+    <string id="hh_mcm_rebel_lord_influence_cost_name" text="Koszt zbuntowanego lorda we wpływach" />
+    <string id="hh_mcm_rebel_lord_same_culture_only_hint" text="Oferuj tylko lordów kultury twojego klanu. Wyłączone = dowolna kultura." />
+    <string id="hh_mcm_rebel_lord_same_culture_only_name" text="Werbunek lordów: tylko ta sama kultura" />
+    <string id="hh_mcm_recruit_multiplier_name" text="Mnożnik rekrutacji" />
+    <string id="hh_mcm_remote_access_cooldown_multiplier_name" text="Mnożnik czasu odnowienia zdalnego dostępu" />
+    <string id="hh_mcm_show_recovery_menu_option_name" text="Pokaż opcję menu Odzyskaj brakujących Heraldów" />
+    <string id="hh_mcm_tear_down_action_hint" text="Czyści stan heraldów w sposób bezpieczny dla zapisu, by mod można było odinstalować. Odniesienia do bohaterów wracają do normalnej dostępności; nic nie jest zabijane ani usuwane." />
+    <string id="hh_mcm_tear_down_action_name" text="Przygotuj zapis do odinstalowania (nieodwracalne)" />
+    <string id="hh_mcm_villager_recruit_gold_cost_hint" text="Moneta za przyjęcie miejscowego prostaczka do służby jako towarzysz. Aktywny Muster Herald obniża cenę o jedną czwartą." />
+    <string id="hh_mcm_villager_recruit_gold_cost_name" text="Koszt werbunku wieśniaka (złoto)" />
+    <string id="hh_mcm_villager_recruit_min_age_hint" text="Wiek początkowy werbowanych prostaczków." />
+    <string id="hh_mcm_villager_recruit_min_age_name" text="Minimalny wiek werbunku wieśniaka" />
+    <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Jaką część umiejętności miejscowego żołnierza ma na start prostaczek. Niski próg = słaby (domyślnie 25)." />
+    <string id="hh_mcm_villager_recruit_skill_percent_name" text="Umiejętności werbunku wieśniaka %" />
+    <string id="hh_mcm_watch_warning_hours_base_name" text="Godziny ostrzeżenia Watch (podstawowe)" />
+  </strings>
+</base>

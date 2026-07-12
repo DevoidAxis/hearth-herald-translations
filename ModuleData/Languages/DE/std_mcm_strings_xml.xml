@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="hh_mcm_allow_instant_marriage_hint" text="Überspringt die Werbungsphase – ein passendes Paar heiratet sofort." />
+    <string id="hh_mcm_allow_instant_marriage_name" text="Sofortige Heirat erlauben" />
+    <string id="hh_mcm_auto_summon_council_hint" text="Aus (Standard): Den Rat selbst über den Master Herald einberufen. An: Deine Heralds senden zusätzlich eine kurze regelmäßige Zusammenfassung (Warnungen + Verweis auf den vollständigen Bericht) im unten festgelegten Intervall." />
+    <string id="hh_mcm_auto_summon_council_name" text="Automatische Ratsberichte" />
+    <string id="hh_mcm_banner_kings_conservative_hint" text="Überspringt die Exchequer-Einkommensänderung, wenn Banner Kings geladen ist. Standardmäßig an." />
+    <string id="hh_mcm_banner_kings_conservative_name" text="Banner Kings: Konservativ" />
+    <string id="hh_mcm_banner_kings_disabled_hint" text="Deaktiviert den Exchequer-Einkommensbonus unabhängig von der Erkennung. Überschreibt Konservativ." />
+    <string id="hh_mcm_banner_kings_disabled_name" text="Banner Kings: Exchequer vollständig deaktivieren" />
+    <string id="hh_mcm_bonus_strength_high_hint" text="Erhöht alle Amtsboni um 50%. Schließt die anderen Bonusstärke-Optionen aus." />
+    <string id="hh_mcm_bonus_strength_high_name" text="Bonusstärke: Hoch" />
+    <string id="hh_mcm_bonus_strength_low_hint" text="Halbiert alle Amtsboni. Schließt die anderen Bonusstärke-Optionen aus." />
+    <string id="hh_mcm_bonus_strength_low_name" text="Bonusstärke: Niedrig" />
+    <string id="hh_mcm_clan_home_relocation_cooldown_days_name" text="Abklingzeit für Clansitzverlegung (Tage)" />
+    <string id="hh_mcm_companion_limit_base_hint" text="Zusätzliche Gefährtenplätze bei Clan-Stufe 0. Standard 4 (die vier Herald-Ämter). Keine künstliche Obergrenze." />
+    <string id="hh_mcm_companion_limit_base_name" text="Gefährten: Grundbonus" />
+    <string id="hh_mcm_companion_limit_per_tier_hint" text="Zusätzliche Gefährtenplätze pro Clan-Stufe (zum Grundbonus hinzugerechnet)." />
+    <string id="hh_mcm_companion_limit_per_tier_name" text="Gefährten: pro Clan-Stufe" />
+    <string id="hh_mcm_compatibility_conservative_hint" text="Wendet Sicherheitsbegrenzungen für überlappende Mods (Banner Kings, Improved Garrisons) auch ohne Erkennung an. Aus = Automatische Erkennung." />
+    <string id="hh_mcm_compatibility_conservative_name" text="Kompatibilitätsmodus: Konservativ" />
+    <string id="hh_mcm_conceive_chance_hint" text="Erfolgschance, wenn ein verheiratetes Paar einen Erben zu zeugen versucht." />
+    <string id="hh_mcm_conceive_chance_name" text="Empfängnischance" />
+    <string id="hh_mcm_council_cadence_days_hint" text="Wie oft die automatische Ratszusammenfassung einberufen wird, wenn oben aktiviert. Standard 21 Tage (etwa eine Jahreszeit)." />
+    <string id="hh_mcm_council_cadence_days_name" text="Ratsberichtsintervall (Tage)" />
+    <string id="hh_mcm_defer_exchequer_finance_model_hint" text="Standardmäßig aus. Aus (Erzwingen): HH liefert den Exchequer-Einkommensbonus über eine Clan-Finanzüberschreibung, die jede andere Finanz-Mod umschließt und erhält und den Bonus obendrauf hinzufügt, identisch auf PC und Steam Deck. An (Zurückstellen): Wenn eine andere Mod das Clan-Finanzmodell überschreibt, weicht HH zurück und der Exchequer-Einkommensbonus wird nicht angewendet. Wird beim nächsten Kampagnenladen wirksam." />
+    <string id="hh_mcm_defer_exchequer_finance_model_name" text="Exchequer-Einkommen einer anderen Finanz-Mod überlassen" />
+    <string id="hh_mcm_diplomacy_fixes_conservative_hint" text="Überprüft täglich den Besitz des Clansitzes erneut. Erfasst von Diplomacy Fixes vermittelte Siedlungsübertragungen." />
+    <string id="hh_mcm_diplomacy_fixes_conservative_name" text="Diplomacy Fixes: Konservativ" />
+    <string id="hh_mcm_disable_remote_tier_gating_hint" text="Aus (Standard): Wichtige Aktionen (Intrigen, Herald-Ernennungen, Wechsel des Clansitzes) können erst dann aus der Ferne ausgeführt werden, wenn dein Clan Stufe 5 erreicht – zu Hause sind sie immer verfügbar. An: Der Fernzugriff darauf erfordert keine Stufe (nutze den Herald von überall)." />
+    <string id="hh_mcm_disable_remote_tier_gating_name" text="Stufenbeschränkung für Fernzugriff deaktivieren" />
+    <string id="hh_mcm_elite_recruit_multiplier_name" text="Multiplikator für Eliterekrutierung" />
+    <string id="hh_mcm_enable_arms_name" text="Arms-Boni aktivieren" />
+    <string id="hh_mcm_enable_concubines_hint" text="Standardmäßig aus. Nimm ein Haushaltsmitglied (Gefährtin/Gefährte) aus einer Taverne auf; beschenken/umwerben/Kinder; trenne dich jederzeit von ihnen. Clan-Rollenspiel; niemals hinter einer Unterstützer-Funktion gesperrt." />
+    <string id="hh_mcm_enable_concubines_name" text="Haushaltsmitglieder (Gemahlinnen/Gemahle) aktivieren" />
+    <string id="hh_mcm_enable_exchequer_name" text="Exchequer-Boni aktivieren" />
+    <string id="hh_mcm_enable_family_systems_hint" text="Hauptschalter für Romanze, Heirat, Mentoring, Erben und Haushaltsmitglieder. Aus = normales Familienverhalten." />
+    <string id="hh_mcm_enable_family_systems_name" text="Familiensysteme aktivieren" />
+    <string id="hh_mcm_enable_low_barrier_recruitment_hint" text="Rekrutiere einheimische Bürger in den Dienst (Muster) und wende gefangene Räuber über den Ransom Broker (Watch) auf deine Seite. Läuft über die Ämter; Rekruten sind gewöhnliche Clan-Gefährten." />
+    <string id="hh_mcm_enable_low_barrier_recruitment_name" text="Niedrigschwellige Rekrutierung aktivieren" />
+    <string id="hh_mcm_enable_master_advanced_hint" text="Deaktivieren blendet Intrigen- und Militäraktionen im Master-Menü aus. Verwaltungs- und Statusabfragen bleiben erhalten." />
+    <string id="hh_mcm_enable_master_advanced_name" text="Erweiterte Aktionen des Master Herald aktivieren" />
+    <string id="hh_mcm_enable_meyc_soft_detection_name" text="MEYC-Sanfterkennung (Überlappungsflavor unterdrücken)" />
+    <string id="hh_mcm_enable_migration_debug_dialog_hint" text="Zeigt beim ersten Laden nach einem Upgrade einmalig einen Dialog, der erklärt, was migriert wurde. Nur künftige Versionen." />
+    <string id="hh_mcm_enable_migration_debug_dialog_name" text="Migrations-Debugdialog anzeigen" />
+    <string id="hh_mcm_enable_mod_hint" text="Haupt-Notausschalter. Deaktivieren stoppt alle Boni und Warnungen; vorhandene Aufstellung und Clansitz-Status bleiben erhalten." />
+    <string id="hh_mcm_enable_mod_name" text="Hearth &amp; Herald aktivieren" />
+    <string id="hh_mcm_enable_muster_name" text="Muster-Boni aktivieren" />
+    <string id="hh_mcm_enable_pregnancy_control_hint" text="Bitte ein verheiratetes Paar, einen Erben zu zeugen (mit Fehlschlagchance), und schicke einem Ehepartner ein Geschenk für die Beziehung." />
+    <string id="hh_mcm_enable_pregnancy_control_name" text="Schwangerschaft &amp; Erben aktivieren" />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_hint" text="Befreie einen gefangenen feindlichen Lord in deiner Gruppe und nimm ihn als vollwertigen Lord in deinen Clan auf. Läuft über den Watch." />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Rekrutierung gefangener Lords aktivieren" />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Nimm einen kulturgleichen Rebellenlord auf, der seinen Sitz verloren hat UND noch eine Gruppe anführt (gruppenlose, landlose Rebellen werden vom Spiel entfernt, bevor du sie erreichen könntest). Läuft über den Muster." />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Rekrutierung von Rebellenlords aktivieren" />
+    <string id="hh_mcm_enable_romance_hint" text="Umwirb und heirate geeignete Erwachsene über den Master Herald; weise einen Mentor für einen täglichen Skill-XP-Austausch zu. Gleichgeschlechtliche Beziehungen werden symmetrisch unterstützt." />
+    <string id="hh_mcm_enable_romance_name" text="Romanze &amp; Heirat aktivieren" />
+    <string id="hh_mcm_enable_troop_promotion_hint" text="Veteranen, die genug Kampfverdienst sammeln, können über den Master Herald (Haushaltsmenü) zu Clan-Gefährten geadelt werden." />
+    <string id="hh_mcm_enable_troop_promotion_name" text="Beförderung Truppe -&gt; Gefährte aktivieren" />
+    <string id="hh_mcm_enable_verbose_logging_name" text="Ausführliche Protokollierung" />
+    <string id="hh_mcm_enable_watch_name" text="Watch-Warnungen aktivieren" />
+    <string id="hh_mcm_garrison_xp_multiplier_name" text="Garnisons-XP-Multiplikator" />
+    <string id="hh_mcm_group_balance_cooldowns" text="Balance: Abklingzeiten" />
+    <string id="hh_mcm_group_balance_multipliers" text="Balance: Multiplikatoren" />
+    <string id="hh_mcm_group_clan_council" text="Clanrat" />
+    <string id="hh_mcm_group_compatibility" text="Kompatibilität" />
+    <string id="hh_mcm_group_debug" text="Debug" />
+    <string id="hh_mcm_group_family_clan_continuity" text="Familie &amp; Clankontinuität" />
+    <string id="hh_mcm_group_general" text="Allgemein" />
+    <string id="hh_mcm_group_households" text="Haushalte" />
+    <string id="hh_mcm_group_limits" text="Grenzen" />
+    <string id="hh_mcm_group_office_systems" text="Amtssysteme" />
+    <string id="hh_mcm_group_tear_down" text="Abbau" />
+    <string id="hh_mcm_improved_garrisons_conservative_hint" text="Überspringt Muster-/Arms-Garnisonsänderungen, wenn Improved Garrisons geladen ist. Standardmäßig an." />
+    <string id="hh_mcm_improved_garrisons_conservative_name" text="Improved Garrisons: Konservativ" />
+    <string id="hh_mcm_improved_garrisons_disabled_hint" text="Deaktiviert Muster- und Arms-Garnisonseffekte vollständig. Gruppeneffekte bleiben erhalten." />
+    <string id="hh_mcm_improved_garrisons_disabled_name" text="Improved Garrisons: Garnisonseffekte deaktivieren" />
+    <string id="hh_mcm_income_multiplier_name" text="Einkommensmultiplikator" />
+    <string id="hh_mcm_intrigue_cooldown_multiplier_name" text="Multiplikator für Intrigen-Abklingzeit" />
+    <string id="hh_mcm_limit_companions_hint" text="Fügt deinem Clan zusätzliche rekrutierbare Gefährtenplätze hinzu (additiv, zusätzlich zur regulären Stufengrenze). Stationierte Herald-Offiziere zählen weiterhin nicht gegen den Platz (D2)." />
+    <string id="hh_mcm_limit_companions_name" text="Gefährten: aktivieren" />
+    <string id="hh_mcm_limit_party_count_hint" text="Erhöht die Anzahl der Gruppen, die dein Clan aufstellen kann (von Gefährten geführte Gruppen auf der Karte)." />
+    <string id="hh_mcm_limit_party_count_name" text="Gruppenanzahl: aktivieren" />
+    <string id="hh_mcm_limit_party_size_hint" text="Erhöht die Truppenobergrenze deiner HAUPTGRUPPE. Bewusst nur für Spieler – KI-/Lordgruppen behalten ihre regulären Größen aus Gründen der Spielbalance." />
+    <string id="hh_mcm_limit_party_size_name" text="Gruppengröße: aktivieren (nur deine Gruppe)" />
+    <string id="hh_mcm_limit_prisoners_hint" text="Erhöht die Gefangenenobergrenze deiner HAUPTGRUPPE. Bewusst nur für Spieler." />
+    <string id="hh_mcm_limit_prisoners_name" text="Gefangene: aktivieren (nur deine Gruppe)" />
+    <string id="hh_mcm_limits_enabled_hint" text="Aus: Niemals eine Grenze ändern. An: Die unten stehenden Grenzen anwenden. Mit ausgeschaltetem 'Über andere Grenzen-Mods erzwingen' ist dies der Auto-Modus – wir weichen einer erkannten Grenzen-Mod (z. B. TrueLimits) und wenden nur an, wenn keine vorhanden ist." />
+    <string id="hh_mcm_limits_enabled_name" text="Grenzen-Suite aktivieren" />
+    <string id="hh_mcm_limits_forced_hint" text="Aus (Standard) = Auto: Einer erkannten Grenzen-Mod (TrueLimits) weichen und unsere nur anwenden, wenn keine vorhanden ist. An = Erzwungen: Immer unsere anwenden, STAPELND zusätzlich zu jeder anderen Grenzen-Mod." />
+    <string id="hh_mcm_limits_forced_name" text="Über andere Grenzen-Mods erzwingen" />
+    <string id="hh_mcm_master_action_cooldown_multiplier_name" text="Multiplikator für Abklingzeit von Master-Aktionen" />
+    <string id="hh_mcm_max_gift_relation_per_day_hint" text="Tägliche Obergrenze für Beziehungsgewinn aus Geschenken an Ehepartner/Gemahlin." />
+    <string id="hh_mcm_max_gift_relation_per_day_name" text="Max. Beziehung pro Tag durch Geschenke" />
+    <string id="hh_mcm_mentor_daily_xp_cap_hint" text="Tägliche Skill-XP pro Paar für den Schützling (im stärksten Skill des Mentors). 0 deaktiviert den Mentor-Tick." />
+    <string id="hh_mcm_mentor_daily_xp_cap_name" text="Tägliche XP-Obergrenze des Mentors" />
+    <string id="hh_mcm_mentor_reciprocal_fraction_hint" text="Anteil der dem Schützling gewährten XP, den auch der Mentor erhält (ebenfalls begrenzt). 0 = einseitiges Lehren." />
+    <string id="hh_mcm_mentor_reciprocal_fraction_name" text="Gegenseitiger Anteil des Mentors" />
+    <string id="hh_mcm_mentor_xp_multiplier_name" text="Mentor-XP-Multiplikator" />
+    <string id="hh_mcm_party_count_base_hint" text="Zusätzliche Clangruppen bei Stufe 0. Mehrere von Gefährten geführte Gruppen für den machtvollen Clan." />
+    <string id="hh_mcm_party_count_base_name" text="Gruppenanzahl: Grundbonus" />
+    <string id="hh_mcm_party_count_per_tier_hint" text="Zusätzliche Clangruppen pro Clan-Stufe." />
+    <string id="hh_mcm_party_count_per_tier_name" text="Gruppenanzahl: pro Clan-Stufe" />
+    <string id="hh_mcm_party_size_base_hint" text="Zusätzliche Truppenplätze der Hauptgruppe bei Clan-Stufe 0. Für eine Armee von ~100 Gefährten setze diesen Wert hoch UND erhöhe die Gefährtengrenze." />
+    <string id="hh_mcm_party_size_base_name" text="Gruppengröße: Grundbonus" />
+    <string id="hh_mcm_party_size_per_tier_hint" text="Zusätzliche Truppenplätze der Hauptgruppe pro Clan-Stufe." />
+    <string id="hh_mcm_party_size_per_tier_name" text="Gruppengröße: pro Clan-Stufe" />
+    <string id="hh_mcm_party_xp_multiplier_name" text="Gruppen-XP-Multiplikator" />
+    <string id="hh_mcm_prisoner_limit_base_hint" text="Zusätzliche Gefangenenplätze der Hauptgruppe bei Clan-Stufe 0." />
+    <string id="hh_mcm_prisoner_limit_base_name" text="Gefangene: Grundbonus" />
+    <string id="hh_mcm_prisoner_limit_per_tier_hint" text="Zusätzliche Gefangenenplätze der Hauptgruppe pro Clan-Stufe." />
+    <string id="hh_mcm_prisoner_limit_per_tier_name" text="Gefangene: pro Clan-Stufe" />
+    <string id="hh_mcm_prisoner_lord_gold_cost_hint" text="Gold, um einen gefangenen Lord aufzunehmen. Ein aktiver Watch Herald senkt es um ein Viertel." />
+    <string id="hh_mcm_prisoner_lord_gold_cost_name" text="Goldkosten für gefangenen Lord" />
+    <string id="hh_mcm_prisoner_lord_influence_cost_hint" text="Einfluss, um einen gefangenen Lord aufzunehmen. Ein aktiver Watch Herald senkt ihn um ein Viertel." />
+    <string id="hh_mcm_prisoner_lord_influence_cost_name" text="Einflusskosten für gefangenen Lord" />
+    <string id="hh_mcm_promotion_kill_threshold_hint" text="Tötungen, die ein Truppen-TYP in deiner Gruppe sammeln muss, bevor einer geadelt werden kann." />
+    <string id="hh_mcm_promotion_kill_threshold_name" text="Tötungsschwelle für Beförderung" />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_hint" text="Wenn aktiviert, benötigen höherstufige Truppen proportional mehr Verdienst zum Befördern (gleicht ihre größere Anfangsstärke aus)." />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_name" text="Schwelle nach Truppenstufe skalieren" />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_hint" text="Wie viel der Skill-Werte der Truppe der neue Gefährte zu Beginn besitzt. 100 = volle Veteranenstärke." />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_name" text="Skill-Vererbung bei Beförderung %" />
+    <string id="hh_mcm_ransom_broker_gold_cost_hint" text="Münzen, um jeden gefangenen Räuber in einen Gefährten umzuwandeln. Ein aktiver Watch Herald senkt den Preis um ein Viertel." />
+    <string id="hh_mcm_ransom_broker_gold_cost_name" text="Ransom Broker-Kosten (Gold)" />
+    <string id="hh_mcm_ransom_broker_max_per_visit_hint" text="Maximale Anzahl Räuber, die du bei einem einzelnen Besuch beim Broker umwandeln kannst." />
+    <string id="hh_mcm_ransom_broker_max_per_visit_name" text="Ransom Broker-Umwandlungen pro Besuch" />
+    <string id="hh_mcm_ransom_broker_skill_percent_hint" text="Wie viel der Skills des Räubers der Umgewandelte behält. Sie sind Kämpfer, also behalten sie mehr (standardmäßig 60)." />
+    <string id="hh_mcm_ransom_broker_skill_percent_name" text="Ransom Broker-Skill %" />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_hint" text="Biete auch landlose Adlige von Kleinfraktionen / Söldner an (nicht nur Rebellen). Standardmäßig aus." />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_name" text="Lord-Rekrutierung: Adlige von Kleinfraktionen einbeziehen" />
+    <string id="hh_mcm_rebel_lord_influence_cost_hint" text="Einfluss, um einen Rebellen-/landlosen Lord aufzunehmen. Ein aktiver Muster Herald senkt ihn um ein Viertel." />
+    <string id="hh_mcm_rebel_lord_influence_cost_name" text="Einflusskosten für Rebellenlord" />
+    <string id="hh_mcm_rebel_lord_same_culture_only_hint" text="Biete nur Lords der Kultur deines Clans an. Aus = jede Kultur." />
+    <string id="hh_mcm_rebel_lord_same_culture_only_name" text="Lord-Rekrutierung: nur gleiche Kultur" />
+    <string id="hh_mcm_recruit_multiplier_name" text="Rekrutierungsmultiplikator" />
+    <string id="hh_mcm_remote_access_cooldown_multiplier_name" text="Multiplikator für Fernzugriffs-Abklingzeit" />
+    <string id="hh_mcm_show_recovery_menu_option_name" text="Menüoption 'Fehlende Heralds zurückholen' anzeigen" />
+    <string id="hh_mcm_tear_down_action_hint" text="Löscht den Herald-Status auf save-sichere Weise, damit die Mod deinstalliert werden kann. Die Hero-Referenzen kehren zur normalen Verfügbarkeit zurück; nichts wird getötet oder entfernt." />
+    <string id="hh_mcm_tear_down_action_name" text="Spielstand für Deinstallation vorbereiten (unwiderruflich)" />
+    <string id="hh_mcm_villager_recruit_gold_cost_hint" text="Münzen, um einen einheimischen Bürger als Gefährten in den Dienst zu nehmen. Ein aktiver Muster Herald senkt den Preis um ein Viertel." />
+    <string id="hh_mcm_villager_recruit_gold_cost_name" text="Kosten für Dorfrekrut (Gold)" />
+    <string id="hh_mcm_villager_recruit_min_age_hint" text="Anfangsalter für rekrutierte Bürger." />
+    <string id="hh_mcm_villager_recruit_min_age_name" text="Mindestalter für Dorfrekrut" />
+    <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Wie viel der Skills der einheimischen Truppe der Bürger zu Beginn besitzt. Niedrigschwellig = schwach (standardmäßig 25)." />
+    <string id="hh_mcm_villager_recruit_skill_percent_name" text="Dorfrekrut-Skill %" />
+    <string id="hh_mcm_watch_warning_hours_base_name" text="Watch-Warnstunden (Basis)" />
+  </strings>
+</base>

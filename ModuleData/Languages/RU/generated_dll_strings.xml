@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
+  <tags>
+    <tag language="Русский"/>
+  </tags>
+  <strings>
+    <string id="FE6ya1gzZR" text="Модуль {REQUIRED_MODULE} не найден!"/>
+    <string id="EvI6KPAqTT" text="Обнаружен несовместимый модуль {DENIED_MODULE}!"/>
+    <string id="FcR4BXnhx8" text="Для {MODULE} указаны взаимоисключающие директивы порядка загрузки модов для {REQUIRED_MODULE}!"/>
+    <string id="5G9zffrgMh" text="{MODULE} загружен перед {REQUIRED_MODULE}!{NL}Убедитесь, что {MODULE} загружается после него!"/>
+    <string id="UZ8zfvudMs" text="{MODULE} загружен после {REQUIRED_MODULE}!{NL}Убедитесь, что {MODULE} загружен перед ним!"/>
+  </strings>
+</base>

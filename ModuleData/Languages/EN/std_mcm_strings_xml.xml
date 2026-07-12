@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="hh_mcm_allow_instant_marriage_hint" text="Skip the courtship ladder — marry an eligible couple immediately." />
+    <string id="hh_mcm_allow_instant_marriage_name" text="Allow instant marriage" />
+    <string id="hh_mcm_auto_summon_council_hint" text="Off (default): convene the council yourself via the Master Herald. On: your Heralds also send a brief periodic digest (warnings + a pointer to the full report) on the interval below." />
+    <string id="hh_mcm_auto_summon_council_name" text="Automatic council reports" />
+    <string id="hh_mcm_banner_kings_conservative_hint" text="Skip Exchequer income mutation when Banner Kings is loaded. Default on." />
+    <string id="hh_mcm_banner_kings_conservative_name" text="Banner Kings: Conservative" />
+    <string id="hh_mcm_banner_kings_disabled_hint" text="Disable Exchequer income bonus regardless of detection. Overrides Conservative." />
+    <string id="hh_mcm_banner_kings_disabled_name" text="Banner Kings: Disable Exchequer entirely" />
+    <string id="hh_mcm_bonus_strength_high_hint" text="Increases all office bonuses by 50%. Exclusive with the other Bonus Strength rows." />
+    <string id="hh_mcm_bonus_strength_high_name" text="Bonus Strength: High" />
+    <string id="hh_mcm_bonus_strength_low_hint" text="Halves all office bonuses. Exclusive with the other Bonus Strength rows." />
+    <string id="hh_mcm_bonus_strength_low_name" text="Bonus Strength: Low" />
+    <string id="hh_mcm_clan_home_relocation_cooldown_days_name" text="Clan Home relocation cooldown (days)" />
+    <string id="hh_mcm_companion_limit_base_hint" text="Extra companion slots at clan tier 0. Default 4 (the four Herald offices). No artificial ceiling." />
+    <string id="hh_mcm_companion_limit_base_name" text="Companions: base bonus" />
+    <string id="hh_mcm_companion_limit_per_tier_hint" text="Additional companion slots per clan tier (added to the base bonus)." />
+    <string id="hh_mcm_companion_limit_per_tier_name" text="Companions: per clan tier" />
+    <string id="hh_mcm_compatibility_conservative_hint" text="Apply safety caps on overlapping mods (Banner Kings, Improved Garrisons) even when not detected. Off = Automatic detection." />
+    <string id="hh_mcm_compatibility_conservative_name" text="Compatibility Mode: Conservative" />
+    <string id="hh_mcm_conceive_chance_hint" text="Success chance when a married couple tries for an heir." />
+    <string id="hh_mcm_conceive_chance_name" text="Conceive chance" />
+    <string id="hh_mcm_council_cadence_days_hint" text="How often the automatic council digest convenes when enabled above. Default 21 days (about a season)." />
+    <string id="hh_mcm_council_cadence_days_name" text="Council report interval (days)" />
+    <string id="hh_mcm_defer_exchequer_finance_model_hint" text="Default off. Off (Force): HH delivers the Exchequer income bonus through a clan-finance override that wraps and preserves any other finance mod and adds the bonus on top, identically on PC and Steam Deck. On (Defer): if another mod overrides the clan finance model, HH yields to it and the Exchequer income bonus does not apply. Takes effect on the next campaign load." />
+    <string id="hh_mcm_defer_exchequer_finance_model_name" text="Defer Exchequer income to another finance mod" />
+    <string id="hh_mcm_diplomacy_fixes_conservative_hint" text="Daily-tick re-validate Clan Home ownership. Catches DF-brokered settlement transfers." />
+    <string id="hh_mcm_diplomacy_fixes_conservative_name" text="Diplomacy Fixes: Conservative" />
+    <string id="hh_mcm_disable_remote_tier_gating_hint" text="Off (default): big-deal actions (intrigue, herald appointments, changing the clan seat) can only be done remotely once your clan reaches Tier 5 — at home they're always available. On: remote access to those needs no tier (use the herald from anywhere)." />
+    <string id="hh_mcm_disable_remote_tier_gating_name" text="Disable remote tier gating" />
+    <string id="hh_mcm_elite_recruit_multiplier_name" text="Elite recruit multiplier" />
+    <string id="hh_mcm_enable_arms_name" text="Enable Arms bonuses" />
+    <string id="hh_mcm_enable_concubines_hint" text="Off by default. Welcome a household member (consort) from a tavern; gift/romance/children; part with them at any time. Clan role-play; never gated behind any supporter feature." />
+    <string id="hh_mcm_enable_concubines_name" text="Enable household members (consorts)" />
+    <string id="hh_mcm_enable_exchequer_name" text="Enable Exchequer bonuses" />
+    <string id="hh_mcm_enable_family_systems_hint" text="Master switch for romance, marriage, mentoring, heirs, and household members. Off = vanilla family behaviour." />
+    <string id="hh_mcm_enable_family_systems_name" text="Enable family systems" />
+    <string id="hh_mcm_enable_low_barrier_recruitment_hint" text="Recruit local commoners into service (Muster) and turn captured brigands to your colours via the Ransom Broker (Watch). Routes through the offices; recruits are ordinary clan companions." />
+    <string id="hh_mcm_enable_low_barrier_recruitment_name" text="Enable low-barrier recruitment" />
+    <string id="hh_mcm_enable_master_advanced_hint" text="Disabling hides intrigue + military Master menu actions. Administrative + status reads remain." />
+    <string id="hh_mcm_enable_master_advanced_name" text="Enable Master Herald advanced actions" />
+    <string id="hh_mcm_enable_meyc_soft_detection_name" text="MEYC soft-detection (suppress overlap flavor)" />
+    <string id="hh_mcm_enable_migration_debug_dialog_hint" text="On first load after upgrade, show a one-time dialog explaining what migrated. Future versions only." />
+    <string id="hh_mcm_enable_migration_debug_dialog_name" text="Show migration debug dialog" />
+    <string id="hh_mcm_enable_mod_hint" text="Master kill-switch. Disabling stops all bonuses and warnings; existing roster + Clan Home state are preserved." />
+    <string id="hh_mcm_enable_mod_name" text="Enable Hearth &amp; Herald" />
+    <string id="hh_mcm_enable_muster_name" text="Enable Muster bonuses" />
+    <string id="hh_mcm_enable_pregnancy_control_hint" text="Ask a married couple to try for an heir (a chance to fail) and send a spouse a gift for relation." />
+    <string id="hh_mcm_enable_pregnancy_control_name" text="Enable pregnancy &amp; heirs" />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_hint" text="Free a captive enemy lord held in your party and bring them into your clan as a full lord. Routed through the Watch." />
+    <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Enable prisoner-lord recruitment" />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Induct a same-culture rebel lord who lost their seat AND is still leading a party (party-less landless rebels are removed by the game before you could reach them). Routed through the Muster." />
+    <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Enable rebel-lord recruitment" />
+    <string id="hh_mcm_enable_romance_hint" text="Court and marry eligible adults through the Master Herald; assign a mentor for a daily skill-XP exchange. Same-sex relations are supported symmetrically." />
+    <string id="hh_mcm_enable_romance_name" text="Enable romance &amp; marriage" />
+    <string id="hh_mcm_enable_troop_promotion_hint" text="Veterans that accumulate enough battle merit can be ennobled into clan companions via the Master Herald (Household menu)." />
+    <string id="hh_mcm_enable_troop_promotion_name" text="Enable troop -&gt; companion promotion" />
+    <string id="hh_mcm_enable_verbose_logging_name" text="Verbose logging" />
+    <string id="hh_mcm_enable_watch_name" text="Enable Watch warnings" />
+    <string id="hh_mcm_garrison_xp_multiplier_name" text="Garrison XP multiplier" />
+    <string id="hh_mcm_group_balance_cooldowns" text="Balance: Cooldowns" />
+    <string id="hh_mcm_group_balance_multipliers" text="Balance: Multipliers" />
+    <string id="hh_mcm_group_clan_council" text="Clan Council" />
+    <string id="hh_mcm_group_compatibility" text="Compatibility" />
+    <string id="hh_mcm_group_debug" text="Debug" />
+    <string id="hh_mcm_group_family_clan_continuity" text="Family &amp; Clan Continuity" />
+    <string id="hh_mcm_group_general" text="General" />
+    <string id="hh_mcm_group_households" text="Households" />
+    <string id="hh_mcm_group_limits" text="Limits" />
+    <string id="hh_mcm_group_office_systems" text="Office Systems" />
+    <string id="hh_mcm_group_tear_down" text="Tear-down" />
+    <string id="hh_mcm_improved_garrisons_conservative_hint" text="Skip Muster/Arms garrison mutations when Improved Garrisons is loaded. Default on." />
+    <string id="hh_mcm_improved_garrisons_conservative_name" text="Improved Garrisons: Conservative" />
+    <string id="hh_mcm_improved_garrisons_disabled_hint" text="Disable Muster + Arms garrison effects entirely. Party effects remain." />
+    <string id="hh_mcm_improved_garrisons_disabled_name" text="Improved Garrisons: Disable garrison effects" />
+    <string id="hh_mcm_income_multiplier_name" text="Income multiplier" />
+    <string id="hh_mcm_intrigue_cooldown_multiplier_name" text="Intrigue cooldown multiplier" />
+    <string id="hh_mcm_limit_companions_hint3" text="Add extra recruitable-companion slots to your clan (a flat bonus on top of the vanilla tier limit), and free the slot of each companion you station as a herald so they do not count against your recruit limit. If TrueLimits is installed and Limits mode is Auto, this steps aside entirely." />
+    <string id="hh_mcm_limit_companions_name" text="Companions: enable" />
+    <string id="hh_mcm_limit_party_count_hint" text="Add to the number of parties your clan can field (companion-led parties on the map)." />
+    <string id="hh_mcm_limit_party_count_name" text="Party count: enable" />
+    <string id="hh_mcm_limit_party_size_hint" text="Add to your MAIN party's troop cap. Player-only by design — AI/lord parties keep vanilla sizes for game balance." />
+    <string id="hh_mcm_limit_party_size_name" text="Party size: enable (your party only)" />
+    <string id="hh_mcm_limit_prisoners_hint" text="Add to your MAIN party's prisoner cap. Player-only by design." />
+    <string id="hh_mcm_limit_prisoners_name" text="Prisoners: enable (your party only)" />
+    <string id="hh_mcm_limits_enabled_hint" text="Off: never change any limit. On: apply the limits below. With 'Force over other limit mods' OFF this is Auto mode — we defer to a detected limit mod (e.g. TrueLimits) and only apply when none is present." />
+    <string id="hh_mcm_limits_enabled_name" text="Enable limits suite" />
+    <string id="hh_mcm_limits_forced_hint" text="Off (default) = Auto: defer to a detected limit mod (TrueLimits) and apply ours only when none is present. On = Forced: always apply ours, STACKING on top of any other limit mod." />
+    <string id="hh_mcm_limits_forced_name" text="Force over other limit mods" />
+    <string id="hh_mcm_master_action_cooldown_multiplier_name" text="Master action cooldown multiplier" />
+    <string id="hh_mcm_max_gift_relation_per_day_hint" text="Daily cap on relation gained from spouse/consort gifts." />
+    <string id="hh_mcm_max_gift_relation_per_day_name" text="Max gift relation per day" />
+    <string id="hh_mcm_mentor_daily_xp_cap_hint" text="Per-pair daily skill-XP granted to the mentee (in the mentor's strongest skill). 0 disables the mentor tick." />
+    <string id="hh_mcm_mentor_daily_xp_cap_name" text="Mentor daily XP cap" />
+    <string id="hh_mcm_mentor_reciprocal_fraction_hint" text="Fraction of the mentee's grant the mentor also gains (also capped). 0 = one-way teaching." />
+    <string id="hh_mcm_mentor_reciprocal_fraction_name" text="Mentor reciprocal share" />
+    <string id="hh_mcm_mentor_xp_multiplier_name" text="Mentor XP multiplier" />
+    <string id="hh_mcm_party_count_base_hint" text="Extra clan parties at tier 0. Multiple companion-led parties for the power-fantasy clan." />
+    <string id="hh_mcm_party_count_base_name" text="Party count: base bonus" />
+    <string id="hh_mcm_party_count_per_tier_hint" text="Additional clan parties per clan tier." />
+    <string id="hh_mcm_party_count_per_tier_name" text="Party count: per clan tier" />
+    <string id="hh_mcm_party_size_base_hint" text="Extra main-party troop slots at clan tier 0. For a ~100-companion army set this high AND raise the companion limit." />
+    <string id="hh_mcm_party_size_base_name" text="Party size: base bonus" />
+    <string id="hh_mcm_party_size_per_tier_hint" text="Additional main-party troop slots per clan tier." />
+    <string id="hh_mcm_party_size_per_tier_name" text="Party size: per clan tier" />
+    <string id="hh_mcm_party_xp_multiplier_name" text="Party XP multiplier" />
+    <string id="hh_mcm_prisoner_limit_base_hint" text="Extra main-party prisoner slots at clan tier 0." />
+    <string id="hh_mcm_prisoner_limit_base_name" text="Prisoners: base bonus" />
+    <string id="hh_mcm_prisoner_limit_per_tier_hint" text="Additional main-party prisoner slots per clan tier." />
+    <string id="hh_mcm_prisoner_limit_per_tier_name" text="Prisoners: per clan tier" />
+    <string id="hh_mcm_prisoner_lord_gold_cost_hint" text="Gold to induct a captive lord. An active Watch Herald cuts it by a quarter." />
+    <string id="hh_mcm_prisoner_lord_gold_cost_name" text="Prisoner-lord gold cost" />
+    <string id="hh_mcm_prisoner_lord_influence_cost_hint" text="Influence to induct a captive lord. An active Watch Herald cuts it by a quarter." />
+    <string id="hh_mcm_prisoner_lord_influence_cost_name" text="Prisoner-lord influence cost" />
+    <string id="hh_mcm_promotion_kill_threshold_hint" text="Kills a troop TYPE must accumulate in your party before one can be ennobled." />
+    <string id="hh_mcm_promotion_kill_threshold_name" text="Promotion kill threshold" />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_hint" text="When on, higher-tier troops need proportionally more merit to promote (balances their greater starting power)." />
+    <string id="hh_mcm_promotion_scale_threshold_by_tier_name" text="Scale threshold by troop tier" />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_hint" text="How much of the troop's skill values the new companion starts with. 100 = full veteran power." />
+    <string id="hh_mcm_promotion_skill_inheritance_percent_name" text="Promotion skill inheritance %" />
+    <string id="hh_mcm_ransom_broker_gold_cost_hint" text="Coin to convert each captured brigand into a companion. An active Watch Herald cuts the price by a quarter." />
+    <string id="hh_mcm_ransom_broker_gold_cost_name" text="Ransom Broker cost (gold)" />
+    <string id="hh_mcm_ransom_broker_max_per_visit_hint" text="Maximum brigands you can convert in a single visit to the broker." />
+    <string id="hh_mcm_ransom_broker_max_per_visit_name" text="Ransom Broker conversions per visit" />
+    <string id="hh_mcm_ransom_broker_skill_percent_hint" text="How much of the brigand's skills the convert keeps. They are fighters, so they keep more (60 by default)." />
+    <string id="hh_mcm_ransom_broker_skill_percent_name" text="Ransom Broker skill %" />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_hint" text="Also offer landless minor-faction / mercenary nobles (not just rebels). Off by default." />
+    <string id="hh_mcm_rebel_lord_include_minor_factions_name" text="Lord recruitment: include minor-faction nobles" />
+    <string id="hh_mcm_rebel_lord_influence_cost_hint" text="Influence to induct a rebel/landless lord. An active Muster Herald cuts it by a quarter." />
+    <string id="hh_mcm_rebel_lord_influence_cost_name" text="Rebel-lord influence cost" />
+    <string id="hh_mcm_rebel_lord_same_culture_only_hint" text="Only offer lords of your clan's culture. Off = any culture." />
+    <string id="hh_mcm_rebel_lord_same_culture_only_name" text="Lord recruitment: same culture only" />
+    <string id="hh_mcm_recruit_multiplier_name" text="Recruitment multiplier" />
+    <string id="hh_mcm_remote_access_cooldown_multiplier_name" text="Remote-access cooldown multiplier" />
+    <string id="hh_mcm_show_recovery_menu_option_name" text="Show Recover Missing Heralds menu option" />
+    <string id="hh_mcm_tear_down_action_hint" text="Wipes herald state in a save-safe way so the mod can be uninstalled. The Hero references go back to normal availability; nothing is killed or removed." />
+    <string id="hh_mcm_tear_down_action_name" text="Prepare save for uninstall (irreversible)" />
+    <string id="hh_mcm_villager_recruit_gold_cost_hint" text="Coin to take a local commoner into service as a companion. An active Muster Herald cuts the price by a quarter." />
+    <string id="hh_mcm_villager_recruit_gold_cost_name" text="Villager recruit cost (gold)" />
+    <string id="hh_mcm_villager_recruit_min_age_hint" text="Starting age for recruited commoners." />
+    <string id="hh_mcm_villager_recruit_min_age_name" text="Villager recruit minimum age" />
+    <string id="hh_mcm_villager_recruit_skill_percent_hint" text="How much of the local troop's skills the commoner starts with. Low-barrier = weak (25 by default)." />
+    <string id="hh_mcm_villager_recruit_skill_percent_name" text="Villager recruit skill %" />
+    <string id="hh_mcm_watch_warning_hours_base_name" text="Watch warning hours (base)" />
+  </strings>
+</base>
