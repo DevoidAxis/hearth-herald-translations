@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Skill build: rounds" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Auto-pick the skill build instead of prompting - useful when promoting several at once." />
     <string id="hh_mcm_promotion_skills_random_name" text="Skill build: pick skills randomly" />
+    <string id="hh_mcm_group_ennoblement" text="Ennoblement" />
   </strings>
 </base>

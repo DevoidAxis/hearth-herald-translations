@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Skill-Aufbau: Runden" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Wählt den Skill-Aufbau automatisch statt nachzufragen - nützlich, wenn du mehrere auf einmal beförderst." />
     <string id="hh_mcm_promotion_skills_random_name" text="Skill-Aufbau: Skills zufällig wählen" />
+    <string id="hh_mcm_group_ennoblement" text="Veteranenbeförderung" />
   </strings>
 </base>

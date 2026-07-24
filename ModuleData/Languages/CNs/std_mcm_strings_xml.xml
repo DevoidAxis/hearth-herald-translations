@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="技能培养：轮数" />
     <string id="hh_mcm_promotion_skills_random_hint" text="自动挑选技能培养方案，而非逐一提示——适合一次晋升多人时使用。" />
     <string id="hh_mcm_promotion_skills_random_name" text="技能培养：随机挑选技能" />
+    <string id="hh_mcm_group_ennoblement" text="老兵晋升" />
   </strings>
 </base>

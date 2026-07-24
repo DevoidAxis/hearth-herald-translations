@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Costruzione abilità: round" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Scegli automaticamente la costruzione delle abilità invece di chiedere conferma: utile quando promuovi più compagni in una volta." />
     <string id="hh_mcm_promotion_skills_random_name" text="Costruzione abilità: scegli le abilità casualmente" />
+    <string id="hh_mcm_group_ennoblement" text="Promozione dei Veterani" />
   </strings>
 </base>

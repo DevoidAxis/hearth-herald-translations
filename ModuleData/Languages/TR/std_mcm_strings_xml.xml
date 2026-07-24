@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Beceri kurulumu: turlar" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Sormak yerine beceri kurulumunu otomatik seç - birden fazlasını aynı anda yükseltirken kullanışlıdır." />
     <string id="hh_mcm_promotion_skills_random_name" text="Beceri kurulumu: becerileri rastgele seç" />
+    <string id="hh_mcm_group_ennoblement" text="Asker Yükseltmesi" />
   </strings>
 </base>

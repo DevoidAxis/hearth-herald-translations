@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Budowa umiejętności: rundy" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Wybieraj budowę umiejętności automatycznie zamiast pytać - przydatne przy awansowaniu kilku naraz." />
     <string id="hh_mcm_promotion_skills_random_name" text="Budowa umiejętności: losowy wybór umiejętności" />
+    <string id="hh_mcm_group_ennoblement" text="Awans Weteranów" />
   </strings>
 </base>

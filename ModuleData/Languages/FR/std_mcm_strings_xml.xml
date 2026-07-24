@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Répartition de compétences : tours" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Choisit automatiquement la répartition de compétences au lieu de vous demander : utile pour promouvoir plusieurs vétérans à la fois." />
     <string id="hh_mcm_promotion_skills_random_name" text="Répartition de compétences : choix aléatoire des compétences" />
+    <string id="hh_mcm_group_ennoblement" text="Promotion des Vétérans" />
   </strings>
 </base>

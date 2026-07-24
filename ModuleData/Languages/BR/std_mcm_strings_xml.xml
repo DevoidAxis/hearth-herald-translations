@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Construção de habilidades: rodadas" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Escolhe automaticamente a construção de habilidades em vez de perguntar - útil ao promover várias de uma vez." />
     <string id="hh_mcm_promotion_skills_random_name" text="Construção de habilidades: escolher habilidades aleatoriamente" />
+    <string id="hh_mcm_group_ennoblement" text="Promoção de Veteranos" />
   </strings>
 </base>

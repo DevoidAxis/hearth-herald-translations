@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Reparto de habilidades: rondas" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Elige el reparto de habilidades automáticamente en lugar de preguntar: útil cuando promocionas a varios a la vez." />
     <string id="hh_mcm_promotion_skills_random_name" text="Reparto de habilidades: elegir habilidades al azar" />
+    <string id="hh_mcm_group_ennoblement" text="Promoción de Veteranos" />
   </strings>
 </base>

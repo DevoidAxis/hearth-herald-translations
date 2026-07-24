@@ -183,5 +183,6 @@
     <string id="hh_mcm_promotion_skill_rounds_name" text="Развитие навыков: раундов" />
     <string id="hh_mcm_promotion_skills_random_hint" text="Выбирать развитие навыков автоматически вместо запроса — удобно при повышении нескольких сразу." />
     <string id="hh_mcm_promotion_skills_random_name" text="Развитие навыков: выбирать случайно" />
+    <string id="hh_mcm_group_ennoblement" text="Повышение ветеранов" />
   </strings>
 </base>
