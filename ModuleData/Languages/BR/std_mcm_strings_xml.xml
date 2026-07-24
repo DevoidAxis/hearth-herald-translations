@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Ativar recrutamento de lorde prisioneiro" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Recrute um lorde rebelde da mesma cultura que perdeu seu assento E ainda lidera um grupo (rebeldes sem terra e sem grupo são removidos pelo jogo antes que você possa alcançá-los). Passa pelo Muster." />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Ativar recrutamento de lorde rebelde" />
-    <string id="hh_mcm_enable_romance_hint" text="Corteje e case adultos elegíveis pelo Master Herald; designe um mentor para uma troca diária de XP de habilidade. Relações entre pessoas do mesmo sexo são suportadas de forma simétrica." />
+    <string id="hh_mcm_enable_romance_hint" text="Corteje e case adultos elegíveis pelo Master Herald; designe um mentor para uma troca diária de XP de habilidade." />
     <string id="hh_mcm_enable_romance_name" text="Ativar romance &amp; casamento" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="Veteranos que acumulam mérito de batalha suficiente podem ser enobrecidos como companheiros do clã pelo Master Herald (menu Households)." />
     <string id="hh_mcm_enable_troop_promotion_name" text="Ativar promoção de tropa -&gt; companheiro" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Quanto das habilidades da tropa local o plebeu herda. Baixa barreira = fraco (25 por padrão)." />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="Habilidade de recrutamento de aldeão %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Horas de aviso do Watch (base)" />
+    <string id="hh_mcm_commission_active_days_hint" text="Quantos dias de serviço ATIVO (liderando um grupo, governando ou administrando uma caravana) rendem um ponto de habilidade de crescimento." />
+    <string id="hh_mcm_commission_active_days_name" text="Serviço ativo: dias por ponto de habilidade" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Teto do Mestre de Caravana como porcentagem do seu limite efetivo de companheiros (mínimo 1 enquanto ativado)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Parcela do Mestre de Caravana %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Teto do Castelão como porcentagem do seu limite efetivo de companheiros (mínimo 1 enquanto ativado)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Parcela do Castelão %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="O crescimento da comissão para neste nível de habilidade. O treinamento manual além dele não é afetado." />
+    <string id="hh_mcm_commission_ceiling_name" text="Teto de crescimento por serviço" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Bônus fixo concedido a cada habilidade da trilha no momento da nomeação. Recuperado quando a comissão é revogada." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Pacote de habilidades da comissão" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="Um titular que não estiver exercendo a função ativamente ainda cresce, porém esse número de vezes mais devagar." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Lentidão de crescimento ocioso" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Adição fixa ao seu limite de companheiros para que os tetos padrão das comissões caibam a partir do nível 1 do clã. Cede ao TrueLimits quando o conjunto de Limites está em Automático." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Bônus de limite de companheiros" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Teto do Marechal como porcentagem do seu limite efetivo de companheiros (mínimo 1 enquanto ativado)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Parcela do Marechal %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Comissione companheiros como Marechal, Castelão ou Mestre de Caravana: um pacote fixo de habilidades na nomeação, crescimento enquanto servem, e um título. Revogar recupera o pacote, mas mantém tudo o que foi conquistado em serviço." />
+    <string id="hh_mcm_enable_commissions_name" text="Ativar comissões do clã" />
+    <string id="hh_mcm_field_clan_building_hint" text="Enobreça veteranos e conceda/revogue comissões em qualquer cidade ou castelo que visitar, sem um Master Herald. Seu principal efeito é desbloquear isso antes de você possuir um feudo; depois disso, permanece como acesso de campo portátil. Desligado: essas ações passam apenas pelo Master Herald sediado (feudo primeiro)." />
+    <string id="hh_mcm_field_clan_building_name" text="Gestão do clã em campo" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Nível de clã mais baixo em que o menu de campo aparece. 0 = desde o início da campanha." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Gestão do clã em campo: nível mínimo do clã" />
+    <string id="hh_mcm_group_commissions" text="Comissões do Clã" />
+    <string id="hh_mcm_group_field_clan" text="Acesso ao Herald" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="Níveis de habilidade que cada habilidade escolhida ganha na rodada 1. Rodadas posteriores dão menos (a rodada 2 é metade, a rodada 3 um terço), como no Distinguished Service. Pontos de abates excedentes se somam por cima, com limite de +20." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Construção de habilidades: pontos base" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Orçamento extra de construção para cada abate que o tipo acumulou além do limiar - recompensa para os verdadeiramente distintos." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Construção de habilidades: pontos por abate excedente" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="Quantos veteranos você pode enobrecer em uma revisão. Abater um tipo de tropa além do necessário acumula várias elevações, permitindo promover mais de uma do mesmo tipo de uma só vez (como no Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="Promoções por revisão" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="Quantas habilidades você escolhe em cada rodada da construção de habilidades." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Construção de habilidades: habilidades por rodada" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="Quando ativado, você escolhe manualmente as habilidades a impulsionar ao enobrecer um veterano (uma construção de habilidades no estilo Distinguished Service), além das habilidades herdadas. Desligado: o companheiro apenas mantém as habilidades herdadas da tropa." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Construção de habilidades na promoção" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="Quantas rodadas de escolha de habilidades você recebe por veterano enobrecido." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Construção de habilidades: rodadas" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Escolhe automaticamente a construção de habilidades em vez de perguntar - útil ao promover várias de uma vez." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Construção de habilidades: escolher habilidades aleatoriamente" />
   </strings>
 </base>

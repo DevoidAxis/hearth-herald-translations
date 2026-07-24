@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="启用囚徒领主招募" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="招纳一名失去领地但仍率领队伍的同文化叛军领主（无队伍且无领地的叛军会在你接触前被游戏移除）。经由 Muster 处理。" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="启用叛军领主招募" />
-    <string id="hh_mcm_enable_romance_hint" text="通过 Master Herald 追求并迎娶符合条件的成年人；指派导师进行每日技能经验交流。同性关系亦对称支持。" />
+    <string id="hh_mcm_enable_romance_hint" text="通过 Master Herald 追求并迎娶符合条件的成年人；指派导师进行每日技能经验交流。" />
     <string id="hh_mcm_enable_romance_name" text="启用恋爱与婚姻" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="积累足够战功的老兵可通过 Master Herald（家庭菜单）晋升为家族随从。" />
     <string id="hh_mcm_enable_troop_promotion_name" text="启用 兵卒 -&gt; 随从 晋升" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="平民起始时继承当地兵卒技能的比例。低门槛 = 较弱（默认 25）。" />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="村民招募技能 %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Watch 警告小时数（基础）" />
+    <string id="hh_mcm_commission_active_days_hint" text="在职服务（统领队伍、治理定居点、经营商队）期间，每获得一点技能成长所需的天数。" />
+    <string id="hh_mcm_commission_active_days_name" text="在职服务：每技能点天数" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="商队队长名额占你有效随从上限的百分比（启用时最少为 1）。" />
+    <string id="hh_mcm_commission_caravan_share_name" text="商队队长占比 %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="城主名额占你有效随从上限的百分比（启用时最少为 1）。" />
+    <string id="hh_mcm_commission_castellan_share_name" text="城主占比 %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="在职成长在达到此技能等级后即停止；超过此等级后的手动训练不受影响。" />
+    <string id="hh_mcm_commission_ceiling_name" text="在职成长上限" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="任命时为该职系各项技能提供的固定加成，撤销委任时收回。" />
+    <string id="hh_mcm_commission_flat_boost_name" text="委任技能加成包" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="闲置（未积极履行职责）的持有者仍会成长，但速度会放慢至此倍数。" />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="闲置成长减速" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="为你的随从上限提供固定加成，使默认的委任名额从家族 1 级起即可容纳。当上限套件处于自动模式时，将让步于 TrueLimits。" />
+    <string id="hh_mcm_commission_limit_bonus_name" text="随从上限加成" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="元帅名额占你有效随从上限的百分比（启用时最少为 1）。" />
+    <string id="hh_mcm_commission_marshal_share_name" text="元帅占比 %" />
+    <string id="hh_mcm_enable_commissions_hint" text="将随从委任为元帅、城主或商队队长：任命时授予固定技能加成包，在职期间持续成长，并获得头衔。撤销委任会收回加成包，但保留在职期间所获得的一切。" />
+    <string id="hh_mcm_enable_commissions_name" text="启用家族委任" />
+    <string id="hh_mcm_field_clan_building_hint" text="无需 Master Herald，即可在你到访的任何城镇或城堡晋升老兵、授予或撤销委任。其主要作用是让你在拥有领地之前就能解锁这些功能；此后它也会作为可随身携带的野外访问方式继续保留。关闭时：这些操作仅能通过在任的 Master Herald 进行（须先拥有领地）。" />
+    <string id="hh_mcm_field_clan_building_name" text="野外家族治理" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="野外菜单开始出现的最低家族等级。0 = 从战役开始即可使用。" />
+    <string id="hh_mcm_field_clan_min_tier_name" text="野外家族治理：最低家族等级" />
+    <string id="hh_mcm_group_commissions" text="家族委任" />
+    <string id="hh_mcm_group_field_clan" text="Herald 访问" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="第一轮中，每个所选技能获得的技能等级数。后续轮次递减（第二轮为一半，第三轮为三分之一），与 Distinguished Service 类似。超额击杀点数会叠加在此基础上，上限为 +20。" />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="技能培养：基础点数" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="该兵种每超出阈值一次击杀，所获得的额外培养点数——用以奖励真正战功卓著者。" />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="技能培养：每次超额击杀点数" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="单次审核中你最多可晋升的老兵数量。某兵种击杀数越是超出阈值，累积的晋升名额也越多，因此可一次性晋升多名同类型兵卒（与 Distinguished Service 类似）。" />
+    <string id="hh_mcm_promotion_max_per_review_name" text="每次审核晋升数" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="技能培养每一轮中可选择的技能数量。" />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="技能培养：每轮技能数" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="开启后，在晋升老兵时，你可在继承技能之上手动挑选要提升的技能（类似 Distinguished Service 的技能培养）。关闭：随从仅保留其继承的兵卒技能。" />
+    <string id="hh_mcm_promotion_skill_build_name" text="晋升时的技能培养" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="每晋升一名老兵可获得的技能挑选轮数。" />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="技能培养：轮数" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="自动挑选技能培养方案，而非逐一提示——适合一次晋升多人时使用。" />
+    <string id="hh_mcm_promotion_skills_random_name" text="技能培养：随机挑选技能" />
   </strings>
 </base>

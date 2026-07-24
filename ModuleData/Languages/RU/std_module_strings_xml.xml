@@ -555,5 +555,41 @@
     <string id="ch_reloc_only_town_castle" text="Только города и замки могут служить домом клана."/>
     <string id="ch_read_office_held" text="{OFFICE}: {HERO} ({STATUS})"/>
     <string id="ch_read_member_where" text="{NAME}: {WHERE}"/>
+    <string id="ch_comm_confirm" text="Пожаловать" />
+    <string id="ch_comm_done" text="{NAME} принимает чин." />
+    <string id="ch_comm_fail" text="Не удалось пожаловать чин." />
+    <string id="ch_comm_grant_desc" text="Какого спутника пожаловать чином?" />
+    <string id="ch_comm_grant_title" text="Пожаловать чин" />
+    <string id="ch_comm_none_eligible" text="В вашем доме нет свободного спутника, которому можно пожаловать чин (герольды и уже жалованные чином не в счёт)." />
+    <string id="ch_comm_none_held" text="Чин никому не пожалован." />
+    <string id="ch_comm_offer_desc" text="{NAME} может принять чин сейчас или остаться простым спутником (чин можно пожаловать позже через главного герольда)." />
+    <string id="ch_comm_pick_desc" text="Выберите чин для {NAME}. Клан сразу наделяет его фиксированным набором навыков; сам чин продолжает растить его по мере службы." />
+    <string id="ch_comm_pick_title" text="Пожаловать чин {NAME}" />
+    <string id="ch_comm_revoke_confirm" text="Отозвать" />
+    <string id="ch_comm_revoke_desc" text="Клан забирает обратно вложенное в него; все заслуги, добытые на службе, остаются при нём." />
+    <string id="ch_comm_revoke_done" text="{NAME} слагает чин." />
+    <string id="ch_comm_revoke_fail" text="Не удалось отозвать чин." />
+    <string id="ch_comm_revoke_row" text="{NAME} ({TRACK})" />
+    <string id="ch_comm_revoke_title" text="Отозвать чин" />
+    <string id="ch_comm_title_caravanmaster" text="Мастер каравана" />
+    <string id="ch_comm_title_castellan" text="Кастелян" />
+    <string id="ch_comm_title_marshal" text="Маршал" />
+    <string id="ch_comm_titled_name" text="{TITLE} {NAME}" />
+    <string id="ch_comm_track_full" text="Все чины этого рода уже заняты." />
+    <string id="ch_comm_track_row" text="{TRACK} ({HELD}/{CAP})" />
+    <string id="ch_field_commission_grant" text="Назначить сановника (пожаловать чин)." />
+    <string id="ch_field_commission_revoke" text="Отозвать сановника (лишить чина)." />
+    <string id="ch_field_intro" text="Отныне ваш клан может возводить достойных ветеранов из рядов в дворянство и жаловать чины, не покидая похода. Позаботьтесь о своей свите в любом городе или замке, который посетите." />
+    <string id="ch_field_menu_text" text="Вы занимаетесь людьми вашего клана — ветеранами, которых стоит возвысить из рядов, и чинами, которые стоит пожаловать." />
+    <string id="ch_field_open" text="Позаботиться о свите." />
+    <string id="ch_field_promote" text="Возвести ветерана из рядов в дворянство." />
+    <string id="ch_field_promote_off" text="Включите возвышение бойцов в настройках мода." />
+    <string id="ch_gate_commissions" text="Включите клановые чины в настройках мода (Клановые чины)." />
+    <string id="ch_promo_build_confirm" text="Обучить" />
+    <string id="ch_promo_build_desc" text="Выберите до {N} навыков, которые стоит развить у {NAME}. Каждый получит +{P} в этом раунде." />
+    <string id="ch_promo_build_gain" text="+{N} {SKILL}" />
+    <string id="ch_promo_build_title" text="Становление сановника — раунд {R} из {T}" />
+    <string id="ch_promo_desc2" text="Выберите до {CAP} ветеранов для возведения в дворянство. Каждый из них присоединится к вашему клану, сохранив культуру, навыки и снаряжение своего отряда — один будет выбран из рядов ваших войск." />
+    <string id="ch_promo_pick_n" text="{TROOP} — готовы к возвышению ({N}/{TOTAL}) · {COUNT} на службе" />
   </strings>
 </base>

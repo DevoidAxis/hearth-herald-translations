@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Rekrutierung gefangener Lords aktivieren" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Nimm einen kulturgleichen Rebellenlord auf, der seinen Sitz verloren hat UND noch eine Gruppe anführt (gruppenlose, landlose Rebellen werden vom Spiel entfernt, bevor du sie erreichen könntest). Läuft über den Muster." />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Rekrutierung von Rebellenlords aktivieren" />
-    <string id="hh_mcm_enable_romance_hint" text="Umwirb und heirate geeignete Erwachsene über den Master Herald; weise einen Mentor für einen täglichen Skill-XP-Austausch zu. Gleichgeschlechtliche Beziehungen werden symmetrisch unterstützt." />
+    <string id="hh_mcm_enable_romance_hint" text="Umwirb und heirate geeignete Erwachsene über den Master Herald; weise einen Mentor für einen täglichen Skill-XP-Austausch zu." />
     <string id="hh_mcm_enable_romance_name" text="Romanze &amp; Heirat aktivieren" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="Veteranen, die genug Kampfverdienst sammeln, können über den Master Herald (Haushaltsmenü) zu Clan-Gefährten geadelt werden." />
     <string id="hh_mcm_enable_troop_promotion_name" text="Beförderung Truppe -&gt; Gefährte aktivieren" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Wie viel der Skills der einheimischen Truppe der Bürger zu Beginn besitzt. Niedrigschwellig = schwach (standardmäßig 25)." />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="Dorfrekrut-Skill %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Watch-Warnstunden (Basis)" />
+    <string id="hh_mcm_commission_active_days_hint" text="Wie viele Tage AKTIVEN Dienstes (eine Gruppe anführen, verwalten, eine Karawane führen) ein Skill-Punkt Wachstum kostet." />
+    <string id="hh_mcm_commission_active_days_name" text="Aktiver Dienst: Tage pro Skill-Punkt" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Obergrenze für Karawanenmeister als Prozentsatz deiner effektiven Gefährtengrenze (mindestens 1, solange aktiviert)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Karawanenmeister-Anteil %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Obergrenze für Kastellane als Prozentsatz deiner effektiven Gefährtengrenze (mindestens 1, solange aktiviert)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Kastellan-Anteil %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="Das Bestallungswachstum endet bei dieser Skill-Stufe. Manuelles Training darüber hinaus bleibt unberührt." />
+    <string id="hh_mcm_commission_ceiling_name" text="Wachstumsobergrenze im Dienst" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Fester Bonus, der bei der Ernennung auf jeden Skill der Laufbahn gewährt wird. Wird bei Widerruf der Bestallung wieder eingezogen." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Bestallungs-Skillpaket" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="Ein Amtsinhaber, der die Aufgabe nicht aktiv ausübt, wächst weiterhin, aber um diesen Faktor langsamer." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Wachstumsverlangsamung bei Untätigkeit" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Fester Zuschlag zu deiner Gefährtengrenze, damit die Standard-Obergrenzen der Bestallungen ab Clan-Stufe 1 passen. Weicht TrueLimits, wenn die Grenzen-Suite auf Auto steht." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Gefährten: Bonus" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Obergrenze für Marschälle als Prozentsatz deiner effektiven Gefährtengrenze (mindestens 1, solange aktiviert)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Marschall-Anteil %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Bestalle Gefährten als Marschall, Kastellan oder Karawanenmeister: ein festes Skillpaket bei der Ernennung, Wachstum während des Dienstes und ein Titel. Der Widerruf zieht das Paket wieder ein, doch alles im Dienst Verdiente bleibt erhalten." />
+    <string id="hh_mcm_enable_commissions_name" text="Clan-Bestallungen aktivieren" />
+    <string id="hh_mcm_field_clan_building_hint" text="Adle Veteranen und gewähre/widerrufe Bestallungen in jeder Stadt oder Burg, die du besuchst, ohne Master Herald. Die Hauptwirkung ist die Freischaltung, bevor du ein Lehen besitzt; danach bleibt es zusätzlich als mobiler Feldzugriff erhalten. Aus: Dies läuft nur über den ansässigen Master Herald (Lehen zuerst)." />
+    <string id="hh_mcm_field_clan_building_name" text="Feld-Clanverwaltung" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Niedrigste Clan-Stufe, ab der das Feldmenü erscheint. 0 = ab Kampagnenbeginn." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Feld-Clanverwaltung: Mindest-Clan-Stufe" />
+    <string id="hh_mcm_group_commissions" text="Clan-Bestallungen" />
+    <string id="hh_mcm_group_field_clan" text="Herald-Zugriff" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="Skill-Stufen, die jeder gewählte Skill in Runde 1 erhält. Spätere Runden geben weniger (Runde 2 die Hälfte, Runde 3 ein Drittel), wie bei Distinguished Service. Punkte für Übertötungen kommen obendrauf, gedeckelt bei +20." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Skill-Aufbau: Basispunkte" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Zusätzliches Aufbaubudget für jede Tötung, die der Truppentyp über die Schwelle hinaus erzielt hat - eine Belohnung für die wahrhaft Verdienten." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Skill-Aufbau: Punkte pro Übertötung" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="Wie viele Veteranen du in einer Überprüfung adeln kannst. Wird ein Truppentyp übermäßig getötet, sammeln sich mehrere Beförderungen an, sodass du mehrere desselben Typs auf einmal befördern kannst (wie bei Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="Beförderungen pro Überprüfung" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="Wie viele Skills du in jeder Runde des Skill-Aufbaus wählst." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Skill-Aufbau: Skills pro Runde" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="Wenn aktiviert, wählst du beim Adeln eines Veteranen selbst Skills zur Stärkung aus (ein Skill-Aufbau im Stil von Distinguished Service), zusätzlich zu den vererbten Skills. Aus: Der Gefährte behält lediglich seine vererbten Truppen-Skills." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Skill-Aufbau bei Beförderung" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="Wie viele Runden der Skill-Wahl du pro geadeltem Veteranen erhältst." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Skill-Aufbau: Runden" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Wählt den Skill-Aufbau automatisch statt nachzufragen - nützlich, wenn du mehrere auf einmal beförderst." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Skill-Aufbau: Skills zufällig wählen" />
   </strings>
 </base>

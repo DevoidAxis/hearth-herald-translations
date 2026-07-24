@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Włącz werbunek uwięzionych lordów" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Przyjmij zbuntowanego lorda tej samej kultury, który stracił siedzibę, ALE wciąż dowodzi drużyną (bezziemnych rebeliantów bez drużyny gra usuwa, zanim zdołasz do nich dotrzeć). Działa przez Muster." />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Włącz werbunek zbuntowanych lordów" />
-    <string id="hh_mcm_enable_romance_hint" text="Zaloty i małżeństwa z odpowiednimi dorosłymi przez Master Herald; przydziel mentora dla codziennej wymiany PD umiejętności. Związki jednopłciowe są obsługiwane symetrycznie." />
+    <string id="hh_mcm_enable_romance_hint" text="Zaloty i małżeństwa z odpowiednimi dorosłymi przez Master Herald; przydziel mentora dla codziennej wymiany PD umiejętności." />
     <string id="hh_mcm_enable_romance_name" text="Włącz romanse i małżeństwa" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="Weterani, którzy zgromadzą dość zasług bojowych, mogą zostać nobilitowani na towarzyszy klanu przez Master Herald (menu Gospodarstwo)." />
     <string id="hh_mcm_enable_troop_promotion_name" text="Włącz awans żołnierz -&gt; towarzysz" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Jaką część umiejętności miejscowego żołnierza ma na start prostaczek. Niski próg = słaby (domyślnie 25)." />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="Umiejętności werbunku wieśniaka %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Godziny ostrzeżenia Watch (podstawowe)" />
+    <string id="hh_mcm_commission_active_days_hint" text="Ile dni AKTYWNEJ służby (dowodzenie drużyną, zarządzanie osadą, prowadzenie karawany) zajmuje zdobycie jednego punktu rozwoju umiejętności." />
+    <string id="hh_mcm_commission_active_days_name" text="Aktywna służba: dni na punkt umiejętności" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Pułap Mistrza Karawany jako procent twojego efektywnego limitu towarzyszy (minimum 1, gdy włączone)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Udział Mistrza Karawany %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Pułap Kasztelana jako procent twojego efektywnego limitu towarzyszy (minimum 1, gdy włączone)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Udział Kasztelana %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="Rozwój z godności zatrzymuje się na tym poziomie umiejętności. Ręczne trenowanie ponad ten poziom nie jest ograniczone." />
+    <string id="hh_mcm_commission_ceiling_name" text="Pułap rozwoju służby" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Stała premia przyznawana każdej umiejętności danej ścieżki przy mianowaniu. Odbierana przy odwołaniu z godności." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Pakiet umiejętności z godności" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="Posiadacz godności, który nie pełni czynnie obowiązków, wciąż się rozwija, lecz aż tyle razy wolniej." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Spowolnienie rozwoju w bezczynności" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Stała premia do twojego limitu towarzyszy, by domyślne pułapy godności mieściły się już od 1. poziomu klanu. Ustępuje TrueLimits, gdy pakiet Limitów jest w trybie Auto." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Premia do limitu towarzyszy" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Pułap Marszałka jako procent twojego efektywnego limitu towarzyszy (minimum 1, gdy włączone)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Udział Marszałka %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Nadawaj towarzyszom godność Marszałka, Kasztelana lub Mistrza Karawany: stały pakiet umiejętności przy mianowaniu, rozwój podczas pełnienia służby i tytuł. Odwołanie odbiera pakiet, lecz zachowuje wszystko, co zdobyto w służbie." />
+    <string id="hh_mcm_enable_commissions_name" text="Włącz godności klanowe" />
+    <string id="hh_mcm_field_clan_building_hint" text="Nobilituj weteranów oraz nadawaj/odwołuj godności z dowolnego odwiedzanego miasta lub zamku, bez udziału Master Herald. Główny efekt to odblokowanie tych działań, zanim posiadasz lenno; potem pozostaje jako przenośny dostęp polowy. Wyłączone: te działania prowadzi wyłącznie zasiadający Master Herald (najpierw ziemia)." />
+    <string id="hh_mcm_field_clan_building_name" text="Budowanie klanu w polu" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Najniższy poziom klanu, przy którym pojawia się menu polowe. 0 = od początku kampanii." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Budowanie klanu w polu: minimalny poziom klanu" />
+    <string id="hh_mcm_group_commissions" text="Godności klanowe" />
+    <string id="hh_mcm_group_field_clan" text="Dostęp do Heralda" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="Poziomy umiejętności, jakie zyskuje każda wybrana umiejętność w rundzie 1. Kolejne rundy dają mniej (runda 2 to połowa, runda 3 to jedna trzecia), podobnie jak Distinguished Service. Punkty za nadwyżkę zabójstw doliczają się na wierzch, z limitem +20." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Budowa umiejętności: punkty podstawowe" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Dodatkowa pula budowy za każde zabójstwo, jakie dany typ zdobył ponad próg - nagroda dla naprawdę wyróżniających się." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Budowa umiejętności: punkty za nadwyżkowe zabójstwo" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="Ilu weteranów możesz nobilitować podczas jednego przeglądu. Nadwyżka zabójstw danego typu żołnierza gromadzi kolejne awanse, dzięki czemu możesz awansować więcej niż jednego tego samego typu naraz (podobnie jak Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="Awanse na przegląd" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="Ile umiejętności wybierasz w każdej rundzie budowy umiejętności." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Budowa umiejętności: umiejętności na rundę" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="Gdy włączone, samodzielnie wybierasz umiejętności do wzmocnienia przy nobilitacji weterana (budowa umiejętności w stylu Distinguished Service), na wierzch odziedziczonych umiejętności. Wyłączone: towarzysz zachowuje jedynie odziedziczone umiejętności żołnierskie." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Budowa umiejętności przy awansie" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="Ile rund wyboru umiejętności otrzymujesz na każdego nobilitowanego weterana." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Budowa umiejętności: rundy" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Wybieraj budowę umiejętności automatycznie zamiast pytać - przydatne przy awansowaniu kilku naraz." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Budowa umiejętności: losowy wybór umiejętności" />
   </strings>
 </base>

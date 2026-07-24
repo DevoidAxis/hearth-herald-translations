@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Включить вербовку пленных лордов"/>
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Принять на службу мятежного лорда вашей культуры, который потерял свои владения, но всё ещё возглавляет отряд (безземельные мятежники без отряда удаляются игрой до того, как вы успеете до них добраться). Осуществляется через Сбор."/>
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Разрешить вербовку мятежных лордов"/>
-    <string id="hh_mcm_enable_romance_hint" text="Ухаживайте и вступайте в брак с подходящими по возрасту персонажами через Главного герольда; назначайте наставника для ежедневного обмена опытом навыков. Однополые отношения поддерживаются симметрично."/>
+    <string id="hh_mcm_enable_romance_hint" text="Ухаживайте и вступайте в брак с подходящими по возрасту персонажами через Главного герольда; назначайте наставника для ежедневного обмена опытом навыков."/>
     <string id="hh_mcm_enable_romance_name" text="Включить романтику и брак"/>
     <string id="hh_mcm_enable_troop_promotion_hint" text="Ветераны, накопившие достаточно боевых заслуг, могут быть возведены в ранг спутников клана через Главного герольда (меню Домочадцев)."/>
     <string id="hh_mcm_enable_troop_promotion_name" text="Включить повышение воинов в спутники"/>
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Какая часть навыков местных воинов будет доступна простолюдину в начале. Низкий порог = слабый (25 по умолчанию)."/>
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="% навыков новобранца-сельчанина"/>
     <string id="hh_mcm_watch_warning_hours_base_name" text="Время предупреждения дозора (базовое)"/>
+    <string id="hh_mcm_commission_active_days_hint" text="Сколько дней АКТИВНОЙ службы (командование отрядом, управление поселением, ведение каравана) требуется, чтобы навык вырос на одно очко." />
+    <string id="hh_mcm_commission_active_days_name" text="Активная служба: дней на очко навыка" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Ограничивает число Начальников каравана процентом от эффективного лимита спутников клана (минимум 1, пока функция включена)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Начальники каравана: доля, %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Ограничивает число Кастелянов процентом от эффективного лимита спутников клана (минимум 1, пока функция включена)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Кастеляны: доля, %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="Рост от должности прекращается по достижении этого уровня навыка. Ручное обучение сверх него не ограничивается." />
+    <string id="hh_mcm_commission_ceiling_name" text="Потолок роста от службы" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Фиксированная прибавка, которую получает каждый навык направления при назначении на должность. Забирается обратно при отзыве с должности." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Набор навыков должности" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="Занимающий должность, но не несущий службу активно, всё равно растёт — но в это число раз медленнее." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Замедление роста в бездействии" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Фиксированная прибавка к лимиту спутников, чтобы стандартные пределы должностей помещались уже с 1-го уровня клана. Уступает TrueLimits, если набор лимитов работает в режиме «Авто»." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Бонус к лимиту спутников" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Ограничивает число Маршалов процентом от эффективного лимита спутников клана (минимум 1, пока функция включена)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Маршалы: доля, %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Назначайте спутников на должности Маршала, Кастеляна или Начальника каравана: фиксированный набор навыков при назначении, рост в процессе службы и титул. Отзыв с должности забирает набор навыков, но сохраняет всё заработанное за время службы." />
+    <string id="hh_mcm_enable_commissions_name" text="Включить должности клана" />
+    <string id="hh_mcm_field_clan_building_hint" text="Возводите ветеранов в ранг спутников и назначайте/отзывайте должности в любом посещаемом городе или замке — без Главного герольда. Главный эффект — доступ к этим действиям ещё до владения феодом; впоследствии это также остаётся удобным доступом в разъездах. Выкл: эти действия возможны только через оседлого Главного герольда (сначала нужно владение землёй)." />
+    <string id="hh_mcm_field_clan_building_name" text="Полевое управление кланом" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Минимальный уровень клана, при котором появляется полевое меню. 0 = с самого начала кампании." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Полевое управление кланом: минимальный уровень клана" />
+    <string id="hh_mcm_group_commissions" text="Должности клана" />
+    <string id="hh_mcm_group_field_clan" text="Доступ герольдов" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="Сколько уровней навыка получает каждый выбранный навык в 1-м раунде. Следующие раунды дают меньше (2-й раунд — половину, 3-й — треть), как в Distinguished Service. Очки за сверхнормативные убийства добавляются сверху, максимум +20." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Развитие навыков: базовые очки" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Дополнительные очки развития за каждое убийство сверх порога, засчитанное этому типу войск, — награда для по-настоящему отличившихся." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Развитие навыков: очки за сверхнормативное убийство" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="Сколько ветеранов можно возвести в ранг спутников за один смотр. Если тип войск набирает убийств сверх нормы, накапливается несколько повышений, и можно возвысить сразу нескольких бойцов одного типа (как в Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="Повышений за смотр" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="Сколько навыков вы выбираете в каждом раунде развития навыков." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Развитие навыков: навыков за раунд" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="Если включено, при возведении ветерана в ранг спутника вы вручную выбираете навыки для усиления (развитие навыков в стиле Distinguished Service) сверх унаследованных. Выкл: спутник просто сохраняет унаследованные от войска навыки." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Развитие навыков при повышении" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="Сколько раундов выбора навыков даётся на каждого возведённого ветерана." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Развитие навыков: раундов" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Выбирать развитие навыков автоматически вместо запроса — удобно при повышении нескольких сразу." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Развитие навыков: выбирать случайно" />
   </strings>
 </base>

@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Enable prisoner-lord recruitment" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Induct a same-culture rebel lord who lost their seat AND is still leading a party (party-less landless rebels are removed by the game before you could reach them). Routed through the Muster." />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Enable rebel-lord recruitment" />
-    <string id="hh_mcm_enable_romance_hint" text="Court and marry eligible adults through the Master Herald; assign a mentor for a daily skill-XP exchange. Same-sex relations are supported symmetrically." />
+    <string id="hh_mcm_enable_romance_hint" text="Court and marry eligible adults through the Master Herald; assign a mentor for a daily skill-XP exchange." />
     <string id="hh_mcm_enable_romance_name" text="Enable romance &amp; marriage" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="Veterans that accumulate enough battle merit can be ennobled into clan companions via the Master Herald (Household menu)." />
     <string id="hh_mcm_enable_troop_promotion_name" text="Enable troop -&gt; companion promotion" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="How much of the local troop's skills the commoner starts with. Low-barrier = weak (25 by default)." />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="Villager recruit skill %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Watch warning hours (base)" />
+    <string id="hh_mcm_commission_active_days_hint" text="How many days of ACTIVE service (leading a party, governing, running a caravan) one skill point of growth takes." />
+    <string id="hh_mcm_commission_active_days_name" text="Active service: days per skill point" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Caravan Master cap as a percentage of your effective companion limit (minimum 1 while enabled)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Caravan Master share %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Castellan cap as a percentage of your effective companion limit (minimum 1 while enabled)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Castellan share %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="Commission growth stops at this skill level. Manual training past it is unaffected." />
+    <string id="hh_mcm_commission_ceiling_name" text="Service growth ceiling" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Flat boost granted to each of the track's skills at appointment. Reclaimed when the commission is revoked." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Commission skill package" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="A holder not actively doing the job still grows, but this many times slower." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Idle growth slowdown" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Flat addition to your companion limit so the default commission caps fit from clan tier 1. Defers to TrueLimits when the Limits suite is on Auto." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Companion limit bonus" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Marshal cap as a percentage of your effective companion limit (minimum 1 while enabled)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Marshal share %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Commission companions as Marshal, Castellan, or Caravan Master: a flat skill package at appointment, growth while they serve, and a title. Revoking reclaims the package but keeps everything earned in service." />
+    <string id="hh_mcm_enable_commissions_name" text="Enable clan commissions" />
+    <string id="hh_mcm_field_clan_building_hint" text="Ennoble veterans and grant/revoke commissions from any town or castle you visit, without a Master Herald. Its main effect is unlocking these before you own a fief; it also stays as portable field access afterward. Off: these route only through the seated Master Herald (land-first)." />
+    <string id="hh_mcm_field_clan_building_name" text="Field clan building" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Lowest clan tier at which the field menu appears. 0 = from campaign start." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Field clan building: minimum clan tier" />
+    <string id="hh_mcm_group_commissions" text="Clan Commissions" />
+    <string id="hh_mcm_group_field_clan" text="Herald Access" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="Skill levels each picked skill gains in round 1. Later rounds give less (round 2 is half, round 3 a third), like Distinguished Service. Excess-kill points add on top, capped at +20." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Skill build: base points" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Extra build budget for each kill the type earned beyond the threshold - reward the truly distinguished." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Skill build: points per excess kill" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="How many veterans you can ennoble in one review. Over-killing a troop type banks several elevations, so you can promote more than one of the same type at once (like Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="Promotions per review" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="How many skills you pick each round of the skill build." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Skill build: skills per round" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="When on, you hand-pick skills to boost when ennobling a veteran (a Distinguished Service style skill build), on top of the inherited skills. Off: the companion just keeps its inherited troop skills." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Skill build at promotion" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="How many rounds of picking skills you get per ennobled veteran." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Skill build: rounds" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Auto-pick the skill build instead of prompting - useful when promoting several at once." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Skill build: pick skills randomly" />
   </strings>
 </base>

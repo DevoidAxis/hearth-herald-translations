@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Esir-lord alımını etkinleştir" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Koltuğunu kaybetmiş AMA hâlâ bir grup yöneten aynı kültürden bir asi lordu kabul et (gruptan yoksun topraksız asiler, sen onlara ulaşamadan oyun tarafından kaldırılır). Muster üzerinden yönlendirilir." />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Asi-lord alımını etkinleştir" />
-    <string id="hh_mcm_enable_romance_hint" text="Master Herald aracılığıyla uygun yetişkinlere kur yap ve evlen; günlük beceri-XP takası için bir mentor ata. Eşcinsel ilişkiler simetrik olarak desteklenir." />
+    <string id="hh_mcm_enable_romance_hint" text="Master Herald aracılığıyla uygun yetişkinlere kur yap ve evlen; günlük beceri-XP takası için bir mentor ata." />
     <string id="hh_mcm_enable_romance_name" text="Aşk &amp; evliliği etkinleştir" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="Yeterli savaş başarısı biriktiren gaziler, Master Herald (Hane menüsü) aracılığıyla klan yoldaşlarına yükseltilebilir." />
     <string id="hh_mcm_enable_troop_promotion_name" text="Asker -&gt; yoldaş yükseltmesini etkinleştir" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Köylünün yerel askerin becerilerinin ne kadarıyla başladığı. Düşük engelli = zayıf (varsayılan 25)." />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="Köylü asker beceri %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Watch uyarı saatleri (temel)" />
+    <string id="hh_mcm_commission_active_days_hint" text="AKTİF hizmette (bir grubu yönetmek, bir yerleşimi yönetmek, bir kervan işletmek) bir beceri puanı büyümenin kaç gün sürdüğü." />
+    <string id="hh_mcm_commission_active_days_name" text="Aktif hizmet: beceri puanı başına gün" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Kervanbaşı tavanı, geçerli yoldaş sınırının bir yüzdesi olarak (etkinken en az 1)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Kervanbaşı payı %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Dizdar tavanı, geçerli yoldaş sınırının bir yüzdesi olarak (etkinken en az 1)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Dizdar payı %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="Görevlendirme büyümesi bu beceri seviyesinde durur. Bunun ötesindeki elle eğitim etkilenmez." />
+    <string id="hh_mcm_commission_ceiling_name" text="Hizmet büyüme tavanı" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Atama sırasında görev dalının her becerisine verilen sabit bonus. Görevlendirme iptal edildiğinde geri alınır." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Görevlendirme beceri paketi" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="Görevi fiilen yürütmeyen bir görevli yine de büyür, ama bu kadar kat daha yavaş." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Boşta büyüme yavaşlaması" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Varsayılan görevlendirme tavanlarının klan kademesi 1'den itibaren sığması için yoldaş sınırına eklenen sabit miktar. Sınırlar paketi Otomatik moddayken TrueLimits'e yol verir." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Yoldaş sınırı bonusu" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Mareşal tavanı, geçerli yoldaş sınırının bir yüzdesi olarak (etkinken en az 1)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Mareşal payı %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Yoldaşları Mareşal, Dizdar veya Kervanbaşı olarak görevlendir: atama sırasında sabit bir beceri paketi, görev süresince büyüme ve bir unvan. İptal, paketi geri alır ama hizmette kazanılan her şeyi korur." />
+    <string id="hh_mcm_enable_commissions_name" text="Klan görevlendirmelerini etkinleştir" />
+    <string id="hh_mcm_field_clan_building_hint" text="Ziyaret ettiğin herhangi bir kasaba veya kaleden, bir Master Herald olmadan gazileri yükselt ve görevlendirme ver/iptal et. Ana etkisi, henüz bir tımarın yokken bunların kilidini açmaktır; ayrıca sonrasında da taşınabilir saha erişimi olarak kalır. Kapalı: bunlar yalnızca yurttaki Master Herald üzerinden yönlendirilir (önce toprak)." />
+    <string id="hh_mcm_field_clan_building_name" text="Sahada klan yönetimi" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Saha menüsünün göründüğü en düşük klan kademesi. 0 = kampanya başından itibaren." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Sahada klan yönetimi: minimum klan kademesi" />
+    <string id="hh_mcm_group_commissions" text="Klan Görevlendirmeleri" />
+    <string id="hh_mcm_group_field_clan" text="Herald Erişimi" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="1. turda seçilen her becerinin kazandığı beceri seviyesi. Sonraki turlar daha azını verir (2. tur yarısı, 3. tur üçte biri), Distinguished Service'teki gibi. Fazladan-öldürme puanları bunun üzerine eklenir, +20 ile sınırlıdır." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Beceri kurulumu: temel puanlar" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Türün eşiğin ötesinde kazandığı her öldürme için ekstra kurulum bütçesi - gerçekten seçkinleri ödüllendir." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Beceri kurulumu: fazla öldürme başına puan" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="Bir incelemede kaç gaziyi yükseltebileceğin. Bir asker türünü aşırı öldürmek birden fazla yükseltmeyi biriktirir, böylece aynı türden birden fazlasını tek seferde yükseltebilirsin (Distinguished Service'teki gibi)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="İnceleme başına yükseltme" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="Beceri kurulumunun her turunda kaç beceri seçtiğin." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Beceri kurulumu: tur başına beceri" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="Açıkken, bir gaziyi yükseltirken devralınan becerilerin üzerine, güçlendirilecek becerileri elle seçersin (Distinguished Service tarzı bir beceri kurulumu). Kapalı: yoldaş yalnızca devraldığı asker becerilerini korur." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Yükseltmede beceri kurulumu" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="Yükseltilen her gazi için kaç tur beceri seçimi yapabileceğin." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Beceri kurulumu: turlar" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Sormak yerine beceri kurulumunu otomatik seç - birden fazlasını aynı anda yükseltirken kullanışlıdır." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Beceri kurulumu: becerileri rastgele seç" />
   </strings>
 </base>

@@ -616,5 +616,41 @@
     <string id="ch_reloc_only_town_castle" text="Only towns and castles can serve as a Clan Home." />
       <string id="ch_read_office_held" text="{OFFICE}: {HERO} ({STATUS})" />
     <string id="ch_read_member_where" text="{NAME}: {WHERE}" />
+    <string id="ch_comm_confirm" text="Commission" />
+    <string id="ch_comm_done" text="{NAME} takes up the commission." />
+    <string id="ch_comm_fail" text="The commission could not be granted." />
+    <string id="ch_comm_grant_desc" text="Choose the companion to commission." />
+    <string id="ch_comm_grant_title" text="Grant a Commission" />
+    <string id="ch_comm_none_eligible" text="No companion of your house is free to take a commission (heralds and current holders cannot)." />
+    <string id="ch_comm_none_held" text="No one holds a commission." />
+    <string id="ch_comm_offer_desc" text="{NAME} may take a commission now, or remain an ordinary companion (grant one later through your Master Herald)." />
+    <string id="ch_comm_pick_desc" text="Choose the commission for {NAME}. The clan invests a flat skill package; the office grows them while they serve." />
+    <string id="ch_comm_pick_title" text="Commission {NAME}" />
+    <string id="ch_comm_revoke_confirm" text="Revoke" />
+    <string id="ch_comm_revoke_desc" text="The clan reclaims its investment; everything earned in service is kept." />
+    <string id="ch_comm_revoke_done" text="{NAME} lays down the commission." />
+    <string id="ch_comm_revoke_fail" text="The commission could not be revoked." />
+    <string id="ch_comm_revoke_row" text="{NAME} ({TRACK})" />
+    <string id="ch_comm_revoke_title" text="Revoke a Commission" />
+    <string id="ch_comm_title_caravanmaster" text="Caravan Master" />
+    <string id="ch_comm_title_castellan" text="Castellan" />
+    <string id="ch_comm_title_marshal" text="Marshal" />
+    <string id="ch_comm_titled_name" text="{TITLE} {NAME}" />
+    <string id="ch_comm_track_full" text="All such commissions are held." />
+    <string id="ch_comm_track_row" text="{TRACK} ({HELD}/{CAP})" />
+    <string id="ch_field_commission_grant" text="Name an officer (grant a commission)." />
+    <string id="ch_field_commission_revoke" text="Recall an officer (revoke a commission)." />
+    <string id="ch_field_intro" text="Your clan can now ennoble veterans from the ranks and name officers from the field. See to your retinue from any town or castle you visit." />
+    <string id="ch_field_menu_text" text="You see to your clan's own people - veterans to raise from the ranks, officers to name." />
+    <string id="ch_field_open" text="See to your retinue." />
+    <string id="ch_field_promote" text="Ennoble a veteran from the ranks." />
+    <string id="ch_field_promote_off" text="Enable troop promotion in the mod options." />
+    <string id="ch_gate_commissions" text="Enable clan commissions in the mod options (Clan Commissions)." />
+    <string id="ch_promo_build_confirm" text="Train" />
+    <string id="ch_promo_build_desc" text="Choose up to {N} skills for {NAME} to sharpen. Each gains +{P} this round." />
+    <string id="ch_promo_build_gain" text="+{N} {SKILL}" />
+    <string id="ch_promo_build_title" text="Shape the Officer - round {R} of {T}" />
+    <string id="ch_promo_desc2" text="Choose up to {CAP} veterans to ennoble as companions. Each joins your clan with the culture, skills, and arms of their service - one is taken from the ranks." />
+    <string id="ch_promo_pick_n" text="{TROOP} - ready to elevate ({N}/{TOTAL}) · {COUNT} serving" />
   </strings>
 </base>

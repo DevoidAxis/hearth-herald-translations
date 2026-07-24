@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Abilita il reclutamento di signori prigionieri" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Arruola un signore ribelle della stessa cultura che ha perso la sua sede MA guida ancora un gruppo (i ribelli senza terra e senza gruppo vengono rimossi dal gioco prima che tu possa raggiungerli). Passa per il Muster." />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Abilita il reclutamento di signori ribelli" />
-    <string id="hh_mcm_enable_romance_hint" text="Corteggia e sposa adulti idonei tramite il Master Herald; assegna un mentore per uno scambio giornaliero di esperienza nelle abilità. Le relazioni dello stesso sesso sono supportate in modo simmetrico." />
+    <string id="hh_mcm_enable_romance_hint" text="Corteggia e sposa adulti idonei tramite il Master Herald; assegna un mentore per uno scambio giornaliero di esperienza nelle abilità." />
     <string id="hh_mcm_enable_romance_name" text="Abilita romanticismo &amp; matrimonio" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="I veterani che accumulano abbastanza meriti in battaglia possono essere nobilitati a compagni del clan tramite il Master Herald (menu Casato)." />
     <string id="hh_mcm_enable_troop_promotion_name" text="Abilita promozione truppa -&gt; compagno" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Quanta parte delle abilità della truppa locale eredita il popolano all'inizio. Bassa barriera = debole (25 di default)." />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="Abilità recluta popolano %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Ore di preavviso del Watch (base)" />
+    <string id="hh_mcm_commission_active_days_hint" text="Quanti giorni di servizio ATTIVO (guidare un gruppo, governare, gestire una carovana) occorrono per un punto di crescita in un'abilità." />
+    <string id="hh_mcm_commission_active_days_name" text="Servizio attivo: giorni per punto di abilità" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Limite del Mastro Carovaniere come percentuale del tuo limite effettivo di compagni (minimo 1 se attivo)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Mastro Carovaniere: quota %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Limite del Castellano come percentuale del tuo limite effettivo di compagni (minimo 1 se attivo)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Castellano: quota %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="La crescita da incarico si ferma a questo livello di abilità. L'addestramento manuale oltre questo livello non ne risente." />
+    <string id="hh_mcm_commission_ceiling_name" text="Tetto di crescita del servizio" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Bonus fisso concesso a ciascuna abilità del percorso al momento della nomina. Viene ritirato quando l'incarico viene revocato." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Pacchetto di abilità dell'incarico" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="Il titolare dell'incarico che non svolge attivamente il compito continua comunque a crescere, ma più lentamente di questo fattore." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Rallentamento della crescita in inattività" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Aggiunta fissa al tuo limite di compagni, così i limiti predefiniti degli incarichi rientrano già dal livello 1 del clan. Cede il passo a TrueLimits quando la suite dei limiti è in modalità Auto." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Bonus al limite di compagni" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Limite del Maresciallo come percentuale del tuo limite effettivo di compagni (minimo 1 se attivo)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Maresciallo: quota %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Assegna incarichi ai compagni come Maresciallo, Castellano o Mastro Carovaniere: un pacchetto di abilità fisso alla nomina, crescita durante il servizio e un titolo. La revoca ritira il pacchetto ma conserva tutto ciò che è stato guadagnato in servizio." />
+    <string id="hh_mcm_enable_commissions_name" text="Abilita gli incarichi di clan" />
+    <string id="hh_mcm_field_clan_building_hint" text="Nobilita i veterani e concedi/revoca gli incarichi da qualsiasi città o castello tu visiti, senza un Master Herald. Il suo effetto principale è sbloccare queste azioni prima ancora di possedere un feudo; in seguito resta comunque un accesso sul campo portatile. Disattivato: queste azioni passano solo tramite il Master Herald insediato (prima la terra)." />
+    <string id="hh_mcm_field_clan_building_name" text="Costruzione del clan sul campo" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Livello minimo del clan al quale appare il menu sul campo. 0 = fin dall'inizio della campagna." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Costruzione del clan sul campo: livello minimo del clan" />
+    <string id="hh_mcm_group_commissions" text="Incarichi del Clan" />
+    <string id="hh_mcm_group_field_clan" text="Accesso degli Araldi" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="Livelli di abilità che ogni abilità scelta guadagna nel round 1. I round successivi ne danno meno (il round 2 dà metà, il round 3 un terzo), come in Distinguished Service. I punti da uccisioni in eccesso si sommano, con un tetto di +20." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Costruzione abilità: punti base" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Budget di costruzione extra per ogni uccisione che il tipo ha ottenuto oltre la soglia: premia chi si è davvero distinto." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Costruzione abilità: punti per uccisione in eccesso" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="Quanti veterani puoi nobilitare in un'unica revisione. Uccidere in eccesso un tipo di truppa accumula più promozioni, così puoi nobilitarne più di uno dello stesso tipo in una volta sola (come in Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="Promozioni per revisione" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="Quante abilità scegli in ogni round della costruzione delle abilità." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Costruzione abilità: abilità per round" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="Se attivo, scegli tu stesso quali abilità potenziare quando nobiliti un veterano (una costruzione delle abilità in stile Distinguished Service), in aggiunta alle abilità ereditate. Disattivato: il compagno mantiene semplicemente le abilità di truppa ereditate." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Costruzione abilità alla promozione" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="Quanti round di scelta delle abilità ottieni per ogni veterano nobilitato." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Costruzione abilità: round" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Scegli automaticamente la costruzione delle abilità invece di chiedere conferma: utile quando promuovi più compagni in una volta." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Costruzione abilità: scegli le abilità casualmente" />
   </strings>
 </base>

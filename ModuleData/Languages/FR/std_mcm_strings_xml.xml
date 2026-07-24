@@ -56,7 +56,7 @@
     <string id="hh_mcm_enable_prisoner_lord_recruitment_name" text="Activer le recrutement de seigneurs prisonniers" />
     <string id="hh_mcm_enable_rebel_lord_recruitment_hint" text="Intégrez un seigneur rebelle de même culture ayant perdu son siège ET menant encore un groupe (les rebelles sans terre ni groupe sont retirés par le jeu avant que vous puissiez les atteindre). Passe par le Muster." />
     <string id="hh_mcm_enable_rebel_lord_recruitment_name" text="Activer le recrutement de seigneurs rebelles" />
-    <string id="hh_mcm_enable_romance_hint" text="Courtisez et mariez des adultes éligibles via le Master Herald ; assignez un mentor pour un échange quotidien d'XP de compétence. Les relations de même sexe sont prises en charge de façon symétrique." />
+    <string id="hh_mcm_enable_romance_hint" text="Courtisez et mariez des adultes éligibles via le Master Herald ; assignez un mentor pour un échange quotidien d'XP de compétence." />
     <string id="hh_mcm_enable_romance_name" text="Activer romance &amp; mariage" />
     <string id="hh_mcm_enable_troop_promotion_hint" text="Les vétérans qui accumulent assez de mérite au combat peuvent être anoblis en compagnons de clan via le Master Herald (menu Maisonnée)." />
     <string id="hh_mcm_enable_troop_promotion_name" text="Activer la promotion troupe -&gt; compagnon" />
@@ -147,5 +147,43 @@
     <string id="hh_mcm_villager_recruit_skill_percent_hint" text="Quelle part des compétences de la troupe locale le roturier conserve au départ. Faible barrière = faible (25 par défaut)." />
     <string id="hh_mcm_villager_recruit_skill_percent_name" text="Compétences de recrutement de villageois %" />
     <string id="hh_mcm_watch_warning_hours_base_name" text="Heures d'avertissement Watch (base)" />
+    <string id="hh_mcm_commission_active_days_hint" text="Nombre de jours de service ACTIF (diriger un groupe, gouverner, mener une caravane) nécessaires pour progresser d'un point de compétence." />
+    <string id="hh_mcm_commission_active_days_name" text="Service actif : jours par point de compétence" />
+    <string id="hh_mcm_commission_caravan_share_hint" text="Plafond du Maître des caravanes en pourcentage de votre limite de compagnons effective (minimum 1 tant que l'option est activée)." />
+    <string id="hh_mcm_commission_caravan_share_name" text="Part du Maître des caravanes %" />
+    <string id="hh_mcm_commission_castellan_share_hint" text="Plafond du Châtelain en pourcentage de votre limite de compagnons effective (minimum 1 tant que l'option est activée)." />
+    <string id="hh_mcm_commission_castellan_share_name" text="Part du Châtelain %" />
+    <string id="hh_mcm_commission_ceiling_hint" text="La progression liée à la commission s'arrête à ce niveau de compétence. L'entraînement manuel au-delà de ce niveau n'est pas affecté." />
+    <string id="hh_mcm_commission_ceiling_name" text="Plafond de progression du service" />
+    <string id="hh_mcm_commission_flat_boost_hint" text="Bonus fixe accordé à chacune des compétences de la filière lors de la nomination. Repris lorsque la commission est révoquée." />
+    <string id="hh_mcm_commission_flat_boost_name" text="Ensemble de compétences de la commission" />
+    <string id="hh_mcm_commission_idle_slowdown_hint" text="Un titulaire qui n'exerce pas activement sa charge continue de progresser, mais ce nombre de fois plus lentement." />
+    <string id="hh_mcm_commission_idle_slowdown_name" text="Ralentissement de la progression inactive" />
+    <string id="hh_mcm_commission_limit_bonus_hint" text="Ajout fixe à votre limite de compagnons afin que les plafonds de commission par défaut tiennent dès le rang de clan 1. Cède la place à TrueLimits quand la suite de limites est en mode Auto." />
+    <string id="hh_mcm_commission_limit_bonus_name" text="Bonus de limite de compagnons" />
+    <string id="hh_mcm_commission_marshal_share_hint" text="Plafond du Maréchal en pourcentage de votre limite de compagnons effective (minimum 1 tant que l'option est activée)." />
+    <string id="hh_mcm_commission_marshal_share_name" text="Part du Maréchal %" />
+    <string id="hh_mcm_enable_commissions_hint" text="Nommez des compagnons Maréchal, Châtelain ou Maître des caravanes : un ensemble de compétences fixe à la nomination, une progression tant qu'ils exercent leur charge, et un titre. La révocation reprend cet ensemble mais conserve tout ce qui a été acquis en service." />
+    <string id="hh_mcm_enable_commissions_name" text="Activer les commissions de clan" />
+    <string id="hh_mcm_field_clan_building_hint" text="Anoblissez des vétérans et accordez ou révoquez des commissions depuis n'importe quelle ville ou château que vous visitez, sans Master Herald. Son effet principal est de débloquer ces actions avant que vous ne possédiez un fief ; il reste ensuite disponible comme accès de terrain portable. Désactivé : ces actions ne passent alors que par le Master Herald en poste (priorité au fief)." />
+    <string id="hh_mcm_field_clan_building_name" text="Gestion de clan sur le terrain" />
+    <string id="hh_mcm_field_clan_min_tier_hint" text="Rang de clan minimum auquel le menu de terrain apparaît. 0 = dès le début de la campagne." />
+    <string id="hh_mcm_field_clan_min_tier_name" text="Gestion de clan sur le terrain : rang de clan minimum" />
+    <string id="hh_mcm_group_commissions" text="Commissions de clan" />
+    <string id="hh_mcm_group_field_clan" text="Accès aux Hérauts" />
+    <string id="hh_mcm_promotion_base_skill_points_hint" text="Niveaux de compétence gagnés par chaque compétence choisie au tour 1. Les tours suivants en donnent moins (le tour 2 donne la moitié, le tour 3 un tiers), comme pour Distinguished Service. Les points de victimes excédentaires s'ajoutent par-dessus, plafonnés à +20." />
+    <string id="hh_mcm_promotion_base_skill_points_name" text="Répartition de compétences : points de base" />
+    <string id="hh_mcm_promotion_excess_kill_points_hint" text="Budget de répartition supplémentaire pour chaque victime que le type a accumulée au-delà du seuil : une récompense pour les plus méritants." />
+    <string id="hh_mcm_promotion_excess_kill_points_name" text="Répartition de compétences : points par victime excédentaire" />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="Combien de vétérans vous pouvez anoblir en une seule revue. Un type de troupe ayant largement dépassé le seuil de victimes accumule plusieurs élévations, ce qui vous permet d'en promouvoir plusieurs du même type à la fois (comme pour Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_name" text="Promotions par revue" />
+    <string id="hh_mcm_promotion_skill_bonuses_hint" text="Combien de compétences vous choisissez à chaque tour de la répartition de compétences." />
+    <string id="hh_mcm_promotion_skill_bonuses_name" text="Répartition de compétences : compétences par tour" />
+    <string id="hh_mcm_promotion_skill_build_hint" text="Activé : vous choisissez vous-même les compétences à renforcer lors de l'anoblissement d'un vétéran (une répartition de compétences façon Distinguished Service), en plus des compétences héritées. Désactivé : le compagnon conserve simplement ses compétences de troupe héritées." />
+    <string id="hh_mcm_promotion_skill_build_name" text="Répartition de compétences à la promotion" />
+    <string id="hh_mcm_promotion_skill_rounds_hint" text="Combien de tours de choix de compétences vous obtenez par vétéran anobli." />
+    <string id="hh_mcm_promotion_skill_rounds_name" text="Répartition de compétences : tours" />
+    <string id="hh_mcm_promotion_skills_random_hint" text="Choisit automatiquement la répartition de compétences au lieu de vous demander : utile pour promouvoir plusieurs vétérans à la fois." />
+    <string id="hh_mcm_promotion_skills_random_name" text="Répartition de compétences : choix aléatoire des compétences" />
   </strings>
 </base>
