@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Набор навыков должности" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Занимающий должность, но не несущий службу активно, всё равно растёт — но в это число раз медленнее." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Замедление роста в бездействии" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Фиксированная прибавка к лимиту спутников, чтобы стандартные пределы должностей помещались уже с 1-го уровня клана. Уступает TrueLimits, если набор лимитов работает в режиме «Авто»." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Бонус к лимиту спутников" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Ограничивает число Маршалов процентом от эффективного лимита спутников клана (минимум 1, пока функция включена)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Маршалы: доля, %" />
     <string id="hh_mcm_enable_commissions_hint" text="Назначайте спутников на должности Маршала, Кастеляна или Начальника каравана: фиксированный набор навыков при назначении, рост в процессе службы и титул. Отзыв с должности забирает набор навыков, но сохраняет всё заработанное за время службы." />

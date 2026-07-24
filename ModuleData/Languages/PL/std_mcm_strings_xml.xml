@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Pakiet umiejętności z godności" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Posiadacz godności, który nie pełni czynnie obowiązków, wciąż się rozwija, lecz aż tyle razy wolniej." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Spowolnienie rozwoju w bezczynności" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Stała premia do twojego limitu towarzyszy, by domyślne pułapy godności mieściły się już od 1. poziomu klanu. Ustępuje TrueLimits, gdy pakiet Limitów jest w trybie Auto." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Premia do limitu towarzyszy" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Pułap Marszałka jako procent twojego efektywnego limitu towarzyszy (minimum 1, gdy włączone)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Udział Marszałka %" />
     <string id="hh_mcm_enable_commissions_hint" text="Nadawaj towarzyszom godność Marszałka, Kasztelana lub Mistrza Karawany: stały pakiet umiejętności przy mianowaniu, rozwój podczas pełnienia służby i tytuł. Odwołanie odbiera pakiet, lecz zachowuje wszystko, co zdobyto w służbie." />

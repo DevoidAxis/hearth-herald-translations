@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="委任技能加成包" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="闲置（未积极履行职责）的持有者仍会成长，但速度会放慢至此倍数。" />
     <string id="hh_mcm_commission_idle_slowdown_name" text="闲置成长减速" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="为你的随从上限提供固定加成，使默认的委任名额从家族 1 级起即可容纳。当上限套件处于自动模式时，将让步于 TrueLimits。" />
-    <string id="hh_mcm_commission_limit_bonus_name" text="随从上限加成" />
     <string id="hh_mcm_commission_marshal_share_hint" text="元帅名额占你有效随从上限的百分比（启用时最少为 1）。" />
     <string id="hh_mcm_commission_marshal_share_name" text="元帅占比 %" />
     <string id="hh_mcm_enable_commissions_hint" text="将随从委任为元帅、城主或商队队长：任命时授予固定技能加成包，在职期间持续成长，并获得头衔。撤销委任会收回加成包，但保留在职期间所获得的一切。" />

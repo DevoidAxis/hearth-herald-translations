@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Görevlendirme beceri paketi" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Görevi fiilen yürütmeyen bir görevli yine de büyür, ama bu kadar kat daha yavaş." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Boşta büyüme yavaşlaması" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Varsayılan görevlendirme tavanlarının klan kademesi 1'den itibaren sığması için yoldaş sınırına eklenen sabit miktar. Sınırlar paketi Otomatik moddayken TrueLimits'e yol verir." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Yoldaş sınırı bonusu" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Mareşal tavanı, geçerli yoldaş sınırının bir yüzdesi olarak (etkinken en az 1)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Mareşal payı %" />
     <string id="hh_mcm_enable_commissions_hint" text="Yoldaşları Mareşal, Dizdar veya Kervanbaşı olarak görevlendir: atama sırasında sabit bir beceri paketi, görev süresince büyüme ve bir unvan. İptal, paketi geri alır ama hizmette kazanılan her şeyi korur." />

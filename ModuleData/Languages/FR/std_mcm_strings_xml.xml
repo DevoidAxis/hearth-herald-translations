@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Ensemble de compétences de la commission" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Un titulaire qui n'exerce pas activement sa charge continue de progresser, mais ce nombre de fois plus lentement." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Ralentissement de la progression inactive" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Ajout fixe à votre limite de compagnons afin que les plafonds de commission par défaut tiennent dès le rang de clan 1. Cède la place à TrueLimits quand la suite de limites est en mode Auto." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Bonus de limite de compagnons" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Plafond du Maréchal en pourcentage de votre limite de compagnons effective (minimum 1 tant que l'option est activée)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Part du Maréchal %" />
     <string id="hh_mcm_enable_commissions_hint" text="Nommez des compagnons Maréchal, Châtelain ou Maître des caravanes : un ensemble de compétences fixe à la nomination, une progression tant qu'ils exercent leur charge, et un titre. La révocation reprend cet ensemble mais conserve tout ce qui a été acquis en service." />

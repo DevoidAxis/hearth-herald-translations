@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Pacchetto di abilità dell'incarico" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Il titolare dell'incarico che non svolge attivamente il compito continua comunque a crescere, ma più lentamente di questo fattore." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Rallentamento della crescita in inattività" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Aggiunta fissa al tuo limite di compagni, così i limiti predefiniti degli incarichi rientrano già dal livello 1 del clan. Cede il passo a TrueLimits quando la suite dei limiti è in modalità Auto." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Bonus al limite di compagni" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Limite del Maresciallo come percentuale del tuo limite effettivo di compagni (minimo 1 se attivo)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Maresciallo: quota %" />
     <string id="hh_mcm_enable_commissions_hint" text="Assegna incarichi ai compagni come Maresciallo, Castellano o Mastro Carovaniere: un pacchetto di abilità fisso alla nomina, crescita durante il servizio e un titolo. La revoca ritira il pacchetto ma conserva tutto ciò che è stato guadagnato in servizio." />

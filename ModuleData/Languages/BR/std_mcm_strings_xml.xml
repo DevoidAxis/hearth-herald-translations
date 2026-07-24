@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Pacote de habilidades da comissão" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Um titular que não estiver exercendo a função ativamente ainda cresce, porém esse número de vezes mais devagar." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Lentidão de crescimento ocioso" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Adição fixa ao seu limite de companheiros para que os tetos padrão das comissões caibam a partir do nível 1 do clã. Cede ao TrueLimits quando o conjunto de Limites está em Automático." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Bônus de limite de companheiros" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Teto do Marechal como porcentagem do seu limite efetivo de companheiros (mínimo 1 enquanto ativado)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Parcela do Marechal %" />
     <string id="hh_mcm_enable_commissions_hint" text="Comissione companheiros como Marechal, Castelão ou Mestre de Caravana: um pacote fixo de habilidades na nomeação, crescimento enquanto servem, e um título. Revogar recupera o pacote, mas mantém tudo o que foi conquistado em serviço." />

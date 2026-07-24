@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Paquete de habilidades de la comisión" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Un titular que no desempeña el cargo de forma activa sigue creciendo, pero este número de veces más despacio." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Ralentización del crecimiento por inactividad" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Suma fija a tu límite de compañeros para que los límites de comisión predeterminados encajen desde el nivel de clan 1. Cede el paso a TrueLimits cuando el conjunto de Límites está en Automático." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Bonificación de límite por comisiones" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Límite de Mariscal como porcentaje de tu límite efectivo de compañeros (mínimo 1 mientras esté habilitado)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Cuota del Mariscal %" />
     <string id="hh_mcm_enable_commissions_hint" text="Otorga comisiones a tus compañeros como Mariscal, Castellano o Maestro de Caravanas: un paquete fijo de habilidades al nombramiento, crecimiento mientras sirven y un título. Al revocar se retira el paquete, pero se conserva todo lo ganado en servicio." />

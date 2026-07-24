@@ -159,8 +159,6 @@
     <string id="hh_mcm_commission_flat_boost_name" text="Bestallungs-Skillpaket" />
     <string id="hh_mcm_commission_idle_slowdown_hint" text="Ein Amtsinhaber, der die Aufgabe nicht aktiv ausübt, wächst weiterhin, aber um diesen Faktor langsamer." />
     <string id="hh_mcm_commission_idle_slowdown_name" text="Wachstumsverlangsamung bei Untätigkeit" />
-    <string id="hh_mcm_commission_limit_bonus_hint" text="Fester Zuschlag zu deiner Gefährtengrenze, damit die Standard-Obergrenzen der Bestallungen ab Clan-Stufe 1 passen. Weicht TrueLimits, wenn die Grenzen-Suite auf Auto steht." />
-    <string id="hh_mcm_commission_limit_bonus_name" text="Gefährten: Bonus" />
     <string id="hh_mcm_commission_marshal_share_hint" text="Obergrenze für Marschälle als Prozentsatz deiner effektiven Gefährtengrenze (mindestens 1, solange aktiviert)." />
     <string id="hh_mcm_commission_marshal_share_name" text="Marschall-Anteil %" />
     <string id="hh_mcm_enable_commissions_hint" text="Bestalle Gefährten als Marschall, Kastellan oder Karawanenmeister: ein festes Skillpaket bei der Ernennung, Wachstum während des Dienstes und ein Titel. Der Widerruf zieht das Paket wieder ein, doch alles im Dienst Verdiente bleibt erhalten." />
