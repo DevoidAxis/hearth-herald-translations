@@ -652,5 +652,7 @@
     <string id="ch_promo_build_title" text="Shape the Officer - round {R} of {T}" />
     <string id="ch_promo_desc2" text="Choose up to {CAP} veterans to ennoble as companions. Each joins your clan with the culture, skills, and arms of their service - one is taken from the ranks." />
     <string id="ch_promo_pick_n" text="{TROOP} - ready to elevate ({N}/{TOTAL}) · {COUNT} serving" />
+    <string id="ch_dlg_recruit_offer" text="My clan has need of able hands. Enter my service - {RECRUIT_COST} denars to start you out." />
+    <string id="ch_dlg_recruit_accept" text="It would be an honour, my lord. My hands are yours." />
   </strings>
 </base>

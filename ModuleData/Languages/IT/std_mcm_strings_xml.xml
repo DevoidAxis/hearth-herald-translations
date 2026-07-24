@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Scegli automaticamente la costruzione delle abilità invece di chiedere conferma: utile quando promuovi più compagni in una volta." />
     <string id="hh_mcm_promotion_skills_random_name" text="Costruzione abilità: scegli le abilità casualmente" />
     <string id="hh_mcm_group_ennoblement" text="Promozione dei Veterani" />
+    <string id="hh_mcm_enable_office_growth_name" text="I titolari di carica fanno crescere la propria abilità" />
+    <string id="hh_mcm_enable_office_growth_hint" text="Un Araldo di stanza fa crescere l'abilità principale della propria carica ogni giorno di servizio (Exchequer: Amministrazione, Watch: Esplorazione, Muster: Comando, Arms: Tattica), allo stesso ritmo e con lo stesso tetto della crescita di servizio degli Incarichi del Clan. Le cariche sospese non insegnano nulla." />
   </strings>
 </base>

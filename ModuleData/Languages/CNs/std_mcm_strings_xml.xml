@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="自动挑选技能培养方案，而非逐一提示——适合一次晋升多人时使用。" />
     <string id="hh_mcm_promotion_skills_random_name" text="技能培养：随机挑选技能" />
     <string id="hh_mcm_group_ennoblement" text="老兵晋升" />
+    <string id="hh_mcm_enable_office_growth_name" text="官职持有者的技能会成长" />
+    <string id="hh_mcm_enable_office_growth_hint" text="驻守的 Herald 每服役一天，就会提升所属官职的主技能（Exchequer：内务，Watch：侦察，Muster：统率，Arms：战术），速度与上限和家族委任的在职成长相同。已暂停的官职不会传授任何技能。" />
   </strings>
 </base>

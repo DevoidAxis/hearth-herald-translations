@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Wybieraj budowę umiejętności automatycznie zamiast pytać - przydatne przy awansowaniu kilku naraz." />
     <string id="hh_mcm_promotion_skills_random_name" text="Budowa umiejętności: losowy wybór umiejętności" />
     <string id="hh_mcm_group_ennoblement" text="Awans Weteranów" />
+    <string id="hh_mcm_enable_office_growth_name" text="Piastujący urząd rozwijają swoją umiejętność" />
+    <string id="hh_mcm_enable_office_growth_hint" text="Oddelegowany Herald rozwija główną umiejętność swojego urzędu każdego dnia służby (Exchequer: Zarządzanie, Watch: Zwiad, Muster: Dowodzenie, Arms: Taktyka), w takim samym tempie i z takim samym pułapem jak rozwój służby w ramach Godności klanowych. Zawieszone urzędy niczego nie uczą." />
   </strings>
 </base>

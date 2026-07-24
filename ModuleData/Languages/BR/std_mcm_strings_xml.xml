@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Escolhe automaticamente a construção de habilidades em vez de perguntar - útil ao promover várias de uma vez." />
     <string id="hh_mcm_promotion_skills_random_name" text="Construção de habilidades: escolher habilidades aleatoriamente" />
     <string id="hh_mcm_group_ennoblement" text="Promoção de Veteranos" />
+    <string id="hh_mcm_enable_office_growth_name" text="Titulares de cargo crescem em habilidade" />
+    <string id="hh_mcm_enable_office_growth_hint" text="Um herald estacionado desenvolve a habilidade principal do seu cargo a cada dia em que serve (Exchequer: Mordomia, Watch: Reconhecimento, Muster: Liderança, Arms: Tática), no mesmo ritmo e teto do crescimento por serviço das Comissões do Clã. Cargos suspensos não ensinam nada." />
   </strings>
 </base>

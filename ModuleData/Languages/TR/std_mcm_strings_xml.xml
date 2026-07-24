@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Sormak yerine beceri kurulumunu otomatik seç - birden fazlasını aynı anda yükseltirken kullanışlıdır." />
     <string id="hh_mcm_promotion_skills_random_name" text="Beceri kurulumu: becerileri rastgele seç" />
     <string id="hh_mcm_group_ennoblement" text="Asker Yükseltmesi" />
+    <string id="hh_mcm_enable_office_growth_name" text="Ofis sahiplerinin becerisi büyür" />
+    <string id="hh_mcm_enable_office_growth_hint" text="Görevlendirilmiş bir Herald, görev yaptığı her gün ofisinin ana becerisini büyütür (Exchequer: Kahyalık, Watch: İzcilik, Muster: Liderlik, Arms: Taktik); bu, Klan Görevlendirmelerindeki hizmet büyümesiyle aynı hız ve tavana sahiptir. Askıya alınmış ofisler hiçbir şey öğretmez." />
   </strings>
 </base>

@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Elige el reparto de habilidades automáticamente en lugar de preguntar: útil cuando promocionas a varios a la vez." />
     <string id="hh_mcm_promotion_skills_random_name" text="Reparto de habilidades: elegir habilidades al azar" />
     <string id="hh_mcm_group_ennoblement" text="Promoción de Veteranos" />
+    <string id="hh_mcm_enable_office_growth_name" text="Los titulares de oficina hacen crecer su habilidad" />
+    <string id="hh_mcm_enable_office_growth_hint" text="Un Heraldo destinado hace crecer la habilidad principal de su oficina cada día que sirve (Exchequer: Administración, Watch: Exploración, Muster: Liderazgo, Arms: Táctica), al mismo ritmo y techo que el crecimiento por servicio de las Comisiones del Clan. Las oficinas suspendidas no enseñan nada." />
   </strings>
 </base>

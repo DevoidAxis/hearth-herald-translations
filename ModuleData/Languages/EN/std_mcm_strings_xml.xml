@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Auto-pick the skill build instead of prompting - useful when promoting several at once." />
     <string id="hh_mcm_promotion_skills_random_name" text="Skill build: pick skills randomly" />
     <string id="hh_mcm_group_ennoblement" text="Ennoblement" />
+    <string id="hh_mcm_enable_office_growth_name" text="Office holders grow their skill" />
+    <string id="hh_mcm_enable_office_growth_hint" text="A stationed herald grows their office's primary skill every day they serve (Exchequer: Steward, Watch: Scouting, Muster: Leadership, Arms: Tactics), at the same pace and ceiling as the Clan Commissions career growth. Suspended offices teach nothing." />
   </strings>
 </base>

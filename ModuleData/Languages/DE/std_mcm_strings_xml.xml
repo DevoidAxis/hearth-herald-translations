@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Wählt den Skill-Aufbau automatisch statt nachzufragen - nützlich, wenn du mehrere auf einmal beförderst." />
     <string id="hh_mcm_promotion_skills_random_name" text="Skill-Aufbau: Skills zufällig wählen" />
     <string id="hh_mcm_group_ennoblement" text="Veteranenbeförderung" />
+    <string id="hh_mcm_enable_office_growth_name" text="Amtsinhaber lassen ihren Skill wachsen" />
+    <string id="hh_mcm_enable_office_growth_hint" text="Ein stationierter Herald lässt an jedem Diensttag den wichtigsten Skill seines Amtes wachsen (Exchequer: Verwaltung, Watch: Kundschaften, Muster: Führung, Arms: Taktik), im gleichen Tempo und bis zur gleichen Obergrenze wie das Wachstum der Clan-Bestallungen im Dienst. Ausgesetzte Ämter vermitteln nichts." />
   </strings>
 </base>

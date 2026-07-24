@@ -184,5 +184,7 @@
     <string id="hh_mcm_promotion_skills_random_hint" text="Choisit automatiquement la répartition de compétences au lieu de vous demander : utile pour promouvoir plusieurs vétérans à la fois." />
     <string id="hh_mcm_promotion_skills_random_name" text="Répartition de compétences : choix aléatoire des compétences" />
     <string id="hh_mcm_group_ennoblement" text="Promotion des Vétérans" />
+    <string id="hh_mcm_enable_office_growth_name" text="Les titulaires d'office font progresser leur compétence" />
+    <string id="hh_mcm_enable_office_growth_hint" text="Un Héraut en poste fait progresser la compétence principale de son office chaque jour de service (Exchequer : Intendance, Watch : Éclaireur, Muster : Commandement, Arms : Tactique), au même rythme et avec le même plafond que la progression de service des Commissions de clan. Les offices suspendus n'enseignent rien." />
   </strings>
 </base>
