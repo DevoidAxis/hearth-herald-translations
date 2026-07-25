@@ -73,7 +73,7 @@
     <string id="ch_teardown_done" text="[Hearth &amp; Herald] Tear-down complete. Save the game, then you may uninstall the mod safely." />
 
     <!-- Households: troop -> companion promotion -->
-    <string id="ch_promo_eligible" text="A veteran {TROOP} has proven themselves and could be ennobled as a companion — speak with your Herald." />
+    <string id="ch_promo_eligible" text="A veteran {TROOP} has proven themselves and could be ennobled as a companion. See to your retinue in any friendly town, or speak with your Herald." />
     <string id="ch_promo_none" text="No veterans have yet proven themselves enough to be ennobled, my lord." />
     <string id="ch_promo_title" text="Veterans Ready for Elevation" />
     <string id="ch_promo_desc" text="Choose veterans to ennoble as companions. Each joins your clan with the culture, skills, and arms of their service — one is taken from the ranks." />
@@ -654,5 +654,26 @@
     <string id="ch_promo_pick_n" text="{TROOP} - ready to elevate ({N}/{TOTAL}) · {COUNT} serving" />
     <string id="ch_dlg_recruit_offer" text="My clan has need of able hands. Enter my service - {RECRUIT_COST} denars to start you out." />
     <string id="ch_dlg_recruit_accept" text="It would be an honour, my lord. My hands are yours." />
+    <string id="ch_promo_build_title2" text="Shape the Officer" />
+    <string id="ch_promo_preset_intro" text="Throughout their battles, {NAME} was known as..." />
+    <string id="ch_promo_preset_marshal" text="Marshal: a captain who read the field." />
+    <string id="ch_promo_preset_castellan" text="Castellan: a steward who kept order." />
+    <string id="ch_promo_preset_caravan" text="Caravan Master: a trader of the roads." />
+    <string id="ch_promo_preset_custom" text="...something else (pick the skills)." />
+    <string id="ch_promo_preset_marshal_hint" text="A proven captain who rallied troops and read the field. Trains Tactics, Leadership, and Scouting first." />
+    <string id="ch_promo_preset_castellan_hint" text="A steadfast steward who maintained stores, discipline, and order. Trains Steward, Engineering, and Leadership first." />
+    <string id="ch_promo_preset_caravan_hint" text="A shrewd trader who knew every road and market. Trains Trade, Riding, and Scouting first." />
+    <string id="ch_promo_preset_custom_hint" text="Open the round-by-round pickers and choose every skill yourself." />
+    <string id="ch_ledger_title" text="The Clan Ledger ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_desc" text="The chronicle of your clan and the realm, newest first. Hover an entry for its date and full text; select the page rows to turn the page." />
+    <string id="ch_ledger_older" text="- Older entries -" />
+    <string id="ch_ledger_newer" text="- Newer entries -" />
+    <string id="ch_ledger_turn" text="Turn / Close" />
+    <string id="ch_ledger_empty" text="The ledger holds no entries yet." />
+    <string id="ch_ledger_ennobled" text="A veteran {TROOP} was ennobled - {NAME} joined the clan&#39;s companions." />
+    <string id="ch_ledger_comm_taken" text="{NAME} took up the commission of {TRACK}." />
+    <string id="ch_ledger_comm_laid" text="{NAME} laid down the commission of {TRACK}." />
+    <string id="ch_ledger_known_as" text="{NAME} was remembered by the ranks as a {TRACK}." />
+    <string id="ch_comm_their_calling" text="{ROW} - their calling" />
   </strings>
 </base>

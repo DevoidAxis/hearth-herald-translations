@@ -49,7 +49,7 @@
     <string id="ch_assassin_failed" text="Слухи о вашем поступке разошлись повсюду. Вся фракция теперь затаила на вас обиду."/>
     <string id="ch_teardown_no_campaign" text="[Hearth &amp; Herald] Невозможно выполнить очистку: нет активной кампании."/>
     <string id="ch_teardown_done" text="[Hearth &amp; Herald] Очистка данных завершена. Сохраните игру, после чего вы сможете безопасно удалить мод."/>
-    <string id="ch_promo_eligible" text="Ветеран ({TROOP}) проявил себя и может быть возведен в дворянство как спутник — поговорите с вашим герольдом."/>
+    <string id="ch_promo_eligible" text="Ветеран ({TROOP}) проявил себя и может быть возведен в дворянство как спутник. Займитесь своей свитой в любом дружественном городе или поговорите с вашим герольдом."/>
     <string id="ch_promo_none" text="Мой лорд, пока ни один из ветеранов не проявил себя достаточно, чтобы удостоиться дворянства."/>
     <string id="ch_promo_title" text="Ветераны, готовые к возвышению"/>
     <string id="ch_promo_desc" text="Выберите ветеранов для возведения в дворянство. Каждый из них присоединится к вашему клану, сохранив культуру, навыки и снаряжение своего отряда. Один воин будет выбран из рядов ваших войск."/>
@@ -591,5 +591,26 @@
     <string id="ch_promo_build_title" text="Становление сановника — раунд {R} из {T}" />
     <string id="ch_promo_desc2" text="Выберите до {CAP} ветеранов для возведения в дворянство. Каждый из них присоединится к вашему клану, сохранив культуру, навыки и снаряжение своего отряда — один будет выбран из рядов ваших войск." />
     <string id="ch_promo_pick_n" text="{TROOP} — готовы к возвышению ({N}/{TOTAL}) · {COUNT} на службе" />
+    <string id="ch_promo_build_title2" text="Воспитать офицера" />
+    <string id="ch_promo_preset_intro" text="В своих битвах {NAME} прослыл..." />
+    <string id="ch_promo_preset_marshal" text="Маршал: командир, читавший поле боя." />
+    <string id="ch_promo_preset_castellan" text="Кастелян: управитель, державший порядок." />
+    <string id="ch_promo_preset_caravan" text="Караван-мастер: торговец всех дорог." />
+    <string id="ch_promo_preset_custom" text="...кем-то иным (выберите навыки сами)." />
+    <string id="ch_promo_preset_marshal_hint" text="Испытанный командир, что вел людей и читал поле боя. Сначала развивает тактику, лидерство и разведку." />
+    <string id="ch_promo_preset_castellan_hint" text="Надежный управитель, державший припасы, дисциплину и порядок. Сначала развивает управление, инженерное дело и лидерство." />
+    <string id="ch_promo_preset_caravan_hint" text="Ловкий торговец, знавший каждую дорогу и каждый рынок. Сначала развивает торговлю, верховую езду и разведку." />
+    <string id="ch_promo_preset_custom_hint" text="Открыть поэтапный выбор и назначить каждый навык самостоятельно." />
+    <string id="ch_ledger_title" text="Клановая летопись ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_desc" text="Хроника вашего клана и державы, сначала новое. Наведите курсор на запись, чтобы увидеть дату и полный текст; выберите строки страниц, чтобы листать." />
+    <string id="ch_ledger_older" text="- Более старые записи -" />
+    <string id="ch_ledger_newer" text="- Более новые записи -" />
+    <string id="ch_ledger_turn" text="Листать / Закрыть" />
+    <string id="ch_ledger_empty" text="В летописи пока нет записей." />
+    <string id="ch_ledger_ennobled" text="Ветеран ({TROOP}) возведен в знать - {NAME} вошел в число соратников клана." />
+    <string id="ch_ledger_comm_taken" text="{NAME} принял поручение: {TRACK}." />
+    <string id="ch_ledger_comm_laid" text="{NAME} сложил поручение: {TRACK}." />
+    <string id="ch_ledger_known_as" text="{NAME} остался в памяти рядов как {TRACK}." />
+    <string id="ch_comm_their_calling" text="{ROW} - их призвание" />
   </strings>
 </base>
