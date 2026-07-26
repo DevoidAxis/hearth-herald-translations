@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Italiano" />
+  </tags>
+  <strings>
+    <string id="ch_promo_build_title2" text="Plasmare l'ufficiale" />
+    <string id="ch_promo_preset_intro" text="Nel corso delle sue battaglie, {NAME} era noto come..." />
+    <string id="ch_promo_preset_marshal" text="Maresciallo: un capitano che leggeva il campo." />
+    <string id="ch_promo_preset_marshal_hint" text="Un capitano provato che radunava le truppe e leggeva il campo. Addestra prima Tattica, Comando ed Esplorazione." />
+    <string id="ch_promo_preset_castellan" text="Castellano: un amministratore che manteneva l'ordine." />
+    <string id="ch_promo_preset_castellan_hint" text="Un amministratore saldo che curava scorte, disciplina e ordine. Addestra prima Amministrazione, Ingegneria e Comando." />
+    <string id="ch_promo_preset_caravan" text="Maestro di carovane: un mercante delle strade." />
+    <string id="ch_promo_preset_caravan_hint" text="Un mercante scaltro che conosceva ogni strada e ogni mercato. Addestra prima Commercio, Equitazione ed Esplorazione." />
+    <string id="ch_promo_preset_custom" text="...qualcos&#39;altro (scegli tu le abilità)." />
+    <string id="ch_promo_preset_custom_hint" text="Apre la scelta round per round; ogni abilità la decidi tu." />
+    <string id="ch_comm_their_calling" text="{ROW} - la sua vocazione" />
+    <string id="ch_ledger_title" text="La cronaca del clan ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_desc" text="La cronaca del tuo clan e del regno, dal più recente. Passa il cursore su una voce per data e testo completo; seleziona le righe di pagina per voltare pagina." />
+    <string id="ch_ledger_older" text="- Voci più vecchie -" />
+    <string id="ch_ledger_newer" text="- Voci più recenti -" />
+    <string id="ch_ledger_turn" text="Volta / Chiudi" />
+    <string id="ch_ledger_empty" text="La cronaca non ha ancora voci." />
+    <string id="ch_ledger_ennobled" text="Un veterano ({TROOP}) è stato nobilitato: {NAME} si è unito ai compagni del clan." />
+    <string id="ch_ledger_comm_taken" text="{NAME} ha assunto la commissione di {TRACK}." />
+    <string id="ch_ledger_comm_laid" text="{NAME} ha deposto la commissione di {TRACK}." />
+    <string id="ch_ledger_known_as" text="{NAME} è rimasto nella memoria dei ranghi come {TRACK}." />
+  </strings>
+</base>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Deutsch" />
+  </tags>
+  <strings>
+    <string id="ch_promo_build_title2" text="Den Offizier formen" />
+    <string id="ch_promo_preset_intro" text="In all ihren Schlachten war {NAME} bekannt als..." />
+    <string id="ch_promo_preset_marshal" text="Marschall: ein Hauptmann mit Blick fürs Feld." />
+    <string id="ch_promo_preset_marshal_hint" text="Ein bewährter Hauptmann, der Truppen sammelte und das Feld las. Schult zuerst Taktik, Anführen und Spähen." />
+    <string id="ch_promo_preset_castellan" text="Kastellan: ein Verwalter, der Ordnung hielt." />
+    <string id="ch_promo_preset_castellan_hint" text="Ein beständiger Verwalter, der Vorräte, Disziplin und Ordnung wahrte. Schult zuerst Verwaltung, Ingenieurskunst und Anführen." />
+    <string id="ch_promo_preset_caravan" text="Karawanenmeister: ein Händler aller Straßen." />
+    <string id="ch_promo_preset_caravan_hint" text="Ein gewiefter Händler, der jede Straße und jeden Markt kannte. Schult zuerst Handel, Reiten und Spähen." />
+    <string id="ch_promo_preset_custom" text="...etwas anderes (Fertigkeiten selbst wählen)." />
+    <string id="ch_promo_preset_custom_hint" text="Öffnet die Auswahl Runde für Runde; jede Fertigkeit selbst bestimmen." />
+    <string id="ch_comm_their_calling" text="{ROW} - ihre Berufung" />
+    <string id="ch_ledger_title" text="Die Klanchronik ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_desc" text="Die Chronik eures Klans und des Reiches, Neuestes zuerst. Zeigt auf einen Eintrag für Datum und vollen Text; wählt die Blätterzeilen zum Umblättern." />
+    <string id="ch_ledger_older" text="- Ältere Einträge -" />
+    <string id="ch_ledger_newer" text="- Neuere Einträge -" />
+    <string id="ch_ledger_turn" text="Blättern / Schließen" />
+    <string id="ch_ledger_empty" text="Die Chronik enthält noch keine Einträge." />
+    <string id="ch_ledger_ennobled" text="Ein Veteran ({TROOP}) wurde in den Adel erhoben - {NAME} trat den Gefährten des Klans bei." />
+    <string id="ch_ledger_comm_taken" text="{NAME} übernahm das Amt: {TRACK}." />
+    <string id="ch_ledger_comm_laid" text="{NAME} legte das Amt nieder: {TRACK}." />
+    <string id="ch_ledger_known_as" text="{NAME} blieb den Reihen als {TRACK} in Erinnerung." />
+  </strings>
+</base>

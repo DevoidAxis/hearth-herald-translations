@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Polski" />
+  </tags>
+  <strings>
+    <string id="ch_promo_build_title2" text="Ukształtuj oficera" />
+    <string id="ch_promo_preset_intro" text="W swoich bitwach {NAME} dał się poznać jako..." />
+    <string id="ch_promo_preset_marshal" text="Marszałek: kapitan, który czytał pole bitwy." />
+    <string id="ch_promo_preset_marshal_hint" text="Sprawdzony kapitan, który zbierał wojska i czytał pole. Szkoli najpierw Taktykę, Dowodzenie i Zwiad." />
+    <string id="ch_promo_preset_castellan" text="Kasztelan: zarządca, który trzymał porządek." />
+    <string id="ch_promo_preset_castellan_hint" text="Niezawodny zarządca dbający o zapasy, dyscyplinę i ład. Szkoli najpierw Zarządzanie, Inżynierię i Dowodzenie." />
+    <string id="ch_promo_preset_caravan" text="Mistrz karawan: kupiec wszystkich dróg." />
+    <string id="ch_promo_preset_caravan_hint" text="Przebiegły kupiec znający każdą drogę i każdy targ. Szkoli najpierw Handel, Jeździectwo i Zwiad." />
+    <string id="ch_promo_preset_custom" text="...kimś innym (sam wybierz umiejętności)." />
+    <string id="ch_promo_preset_custom_hint" text="Otwiera wybór runda po rundzie; każdą umiejętność wskazujesz sam." />
+    <string id="ch_comm_their_calling" text="{ROW} - ich powołanie" />
+    <string id="ch_ledger_title" text="Kronika klanu ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_desc" text="Kronika twojego klanu i królestwa, od najnowszych. Najedź na wpis, by zobaczyć datę i pełny tekst; wybierz wiersze stron, by przewracać strony." />
+    <string id="ch_ledger_older" text="- Starsze wpisy -" />
+    <string id="ch_ledger_newer" text="- Nowsze wpisy -" />
+    <string id="ch_ledger_turn" text="Przewróć / Zamknij" />
+    <string id="ch_ledger_empty" text="Kronika nie ma jeszcze wpisów." />
+    <string id="ch_ledger_ennobled" text="Weteran ({TROOP}) został nobilitowany - {NAME} dołączył do towarzyszy klanu." />
+    <string id="ch_ledger_comm_taken" text="{NAME} przyjął komisję: {TRACK}." />
+    <string id="ch_ledger_comm_laid" text="{NAME} złożył komisję: {TRACK}." />
+    <string id="ch_ledger_known_as" text="{NAME} zapisał się w pamięci szeregów jako {TRACK}." />
+  </strings>
+</base>

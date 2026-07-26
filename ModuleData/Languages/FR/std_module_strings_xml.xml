@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Français" />
+  </tags>
+  <strings>
+    <string id="ch_promo_build_title2" text="Façonner l'officier" />
+    <string id="ch_promo_preset_intro" text="Au fil de ses batailles, {NAME} était connu comme..." />
+    <string id="ch_promo_preset_marshal" text="Maréchal : un capitaine qui lisait le champ de bataille." />
+    <string id="ch_promo_preset_marshal_hint" text="Un capitaine éprouvé qui ralliait les troupes et lisait le terrain. Forme d'abord Tactique, Commandement et Éclairage." />
+    <string id="ch_promo_preset_castellan" text="Châtelain : un intendant qui maintenait l'ordre." />
+    <string id="ch_promo_preset_castellan_hint" text="Un intendant constant qui veillait aux réserves, à la discipline et à l'ordre. Forme d'abord Intendance, Ingénierie et Commandement." />
+    <string id="ch_promo_preset_caravan" text="Maître caravanier : un marchand des routes." />
+    <string id="ch_promo_preset_caravan_hint" text="Un marchand avisé qui connaissait chaque route et chaque marché. Forme d'abord Commerce, Équitation et Éclairage." />
+    <string id="ch_promo_preset_custom" text="...autre chose (choisissez les compétences vous-même)." />
+    <string id="ch_promo_preset_custom_hint" text="Ouvre les choix manche par manche ; chaque compétence est à vous." />
+    <string id="ch_comm_their_calling" text="{ROW} - sa vocation" />
+    <string id="ch_ledger_title" text="La chronique du clan ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_desc" text="La chronique de votre clan et du royaume, du plus récent au plus ancien. Survolez une entrée pour la date et le texte complet ; sélectionnez les lignes de page pour tourner la page." />
+    <string id="ch_ledger_older" text="- Entrées plus anciennes -" />
+    <string id="ch_ledger_newer" text="- Entrées plus récentes -" />
+    <string id="ch_ledger_turn" text="Tourner / Fermer" />
+    <string id="ch_ledger_empty" text="La chronique ne contient encore aucune entrée." />
+    <string id="ch_ledger_ennobled" text="Un vétéran ({TROOP}) a été anobli : {NAME} a rejoint les compagnons du clan." />
+    <string id="ch_ledger_comm_taken" text="{NAME} a pris la commission de {TRACK}." />
+    <string id="ch_ledger_comm_laid" text="{NAME} a déposé la commission de {TRACK}." />
+    <string id="ch_ledger_known_as" text="{NAME} est resté dans la mémoire des rangs comme {TRACK}." />
+  </strings>
+</base>

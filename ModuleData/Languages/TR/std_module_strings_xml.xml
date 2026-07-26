@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="Türkçe" />
+  </tags>
+  <strings>
+    <string id="ch_promo_build_title2" text="Subayı Şekillendir" />
+    <string id="ch_promo_preset_intro" text="Savaşları boyunca {NAME} şöyle tanınırdı..." />
+    <string id="ch_promo_preset_marshal" text="Mareşal: savaş alanını okuyan bir komutan." />
+    <string id="ch_promo_preset_marshal_hint" text="Birlikleri toplayan ve sahayı okuyan denenmiş bir komutan. Önce Taktik, Liderlik ve Keşif geliştirir." />
+    <string id="ch_promo_preset_castellan" text="Kale Kahyası: düzeni koruyan bir kahya." />
+    <string id="ch_promo_preset_castellan_hint" text="Erzakı, disiplini ve düzeni koruyan güvenilir bir kahya. Önce Kahyalık, Mühendislik ve Liderlik geliştirir." />
+    <string id="ch_promo_preset_caravan" text="Kervan Ustası: yolların tüccarı." />
+    <string id="ch_promo_preset_caravan_hint" text="Her yolu ve her pazarı bilen kurnaz bir tüccar. Önce Ticaret, Binicilik ve Keşif geliştirir." />
+    <string id="ch_promo_preset_custom" text="...başka biri (becerileri kendin seç)." />
+    <string id="ch_promo_preset_custom_hint" text="Tur tur seçim ekranını açar; her beceriyi kendin belirlersin." />
+    <string id="ch_comm_their_calling" text="{ROW} - onların yolu" />
+    <string id="ch_ledger_title" text="Klan Kroniği ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_desc" text="Klanının ve diyarın kroniği, en yeniden başlayarak. Tarih ve tam metin için bir kaydın üzerine gel; sayfa satırlarını seçerek sayfa çevir." />
+    <string id="ch_ledger_older" text="- Daha eski kayıtlar -" />
+    <string id="ch_ledger_newer" text="- Daha yeni kayıtlar -" />
+    <string id="ch_ledger_turn" text="Çevir / Kapat" />
+    <string id="ch_ledger_empty" text="Kronikte henüz kayıt yok." />
+    <string id="ch_ledger_ennobled" text="Bir kıdemli ({TROOP}) asalete yükseltildi - {NAME} klanın yoldaşlarına katıldı." />
+    <string id="ch_ledger_comm_taken" text="{NAME}, {TRACK} vazifesini üstlendi." />
+    <string id="ch_ledger_comm_laid" text="{NAME}, {TRACK} vazifesini bıraktı." />
+    <string id="ch_ledger_known_as" text="{NAME}, saflarda bir {TRACK} olarak hatırlandı." />
+  </strings>
+</base>

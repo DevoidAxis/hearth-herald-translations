@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
+  <tags>
+    <tag language="简体中文" />
+  </tags>
+  <strings>
+    <string id="ch_promo_build_title2" text="塑造军官" />
+    <string id="ch_promo_preset_intro" text="历经百战，{NAME}以此闻名……" />
+    <string id="ch_promo_preset_marshal" text="统帅：善读战场的队长。" />
+    <string id="ch_promo_preset_marshal_hint" text="久经考验的队长，能召集部队、洞察战场。优先训练战术、统御与侦察。" />
+    <string id="ch_promo_preset_castellan" text="城主：恪守秩序的管事。" />
+    <string id="ch_promo_preset_castellan_hint" text="可靠的管事，守护补给、纪律与秩序。优先训练管理、工程与统御。" />
+    <string id="ch_promo_preset_caravan" text="商队长：走遍四方的商人。" />
+    <string id="ch_promo_preset_caravan_hint" text="精明的商人，熟知每条道路与每处市场。优先训练交易、骑术与侦察。" />
+    <string id="ch_promo_preset_custom" text="……另有其人（自行挑选技能）。" />
+    <string id="ch_promo_preset_custom_hint" text="打开逐轮选择界面，由你亲自指定每项技能。" />
+    <string id="ch_comm_their_calling" text="{ROW} - 天职所在" />
+    <string id="ch_ledger_title" text="氏族纪事 （{PAGE}/{PAGES}）" />
+    <string id="ch_ledger_desc" text="你的氏族与王国的纪事，最新在前。悬停可见日期与全文；选择翻页行以翻页。" />
+    <string id="ch_ledger_older" text="- 更早的记录 -" />
+    <string id="ch_ledger_newer" text="- 更新的记录 -" />
+    <string id="ch_ledger_turn" text="翻页 / 关闭" />
+    <string id="ch_ledger_empty" text="纪事中尚无记录。" />
+    <string id="ch_ledger_ennobled" text="一名老兵（{TROOP}）获封贵族——{NAME}加入了氏族的伙伴。" />
+    <string id="ch_ledger_comm_taken" text="{NAME}接受了{TRACK}的委任。" />
+    <string id="ch_ledger_comm_laid" text="{NAME}卸下了{TRACK}的委任。" />
+    <string id="ch_ledger_known_as" text="{NAME}作为{TRACK}留在了行伍的记忆中。" />
+  </strings>
+</base>
