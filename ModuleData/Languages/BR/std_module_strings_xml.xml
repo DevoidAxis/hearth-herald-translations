@@ -16,6 +16,9 @@
     <string id="ch_promo_preset_custom_hint" text="Abre a escolha rodada a rodada; cada habilidade é decisão sua." />
     <string id="ch_comm_their_calling" text="{ROW} - sua vocação" />
     <string id="ch_ledger_title" text="A crônica do clã ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_title2" text="A crônica do clã ({COUNT} entradas)" />
+    <string id="ch_ledger_desc2" text="A crônica do seu clã e do reino, do mais recente ao mais antigo. Role a lista; passe o cursor sobre uma entrada para ver data e texto completo." />
+    <string id="ch_ledger_close" text="Fechar" />
     <string id="ch_ledger_desc" text="A crônica do seu clã e do reino, do mais recente ao mais antigo. Passe o cursor sobre uma entrada para ver data e texto completo; selecione as linhas de página para virar a página." />
     <string id="ch_ledger_older" text="- Entradas mais antigas -" />
     <string id="ch_ledger_newer" text="- Entradas mais recentes -" />

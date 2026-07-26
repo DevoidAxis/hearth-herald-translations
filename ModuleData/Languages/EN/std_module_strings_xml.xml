@@ -665,6 +665,9 @@
     <string id="ch_promo_preset_caravan_hint" text="A shrewd trader who knew every road and market. Trains Trade, Riding, and Scouting first." />
     <string id="ch_promo_preset_custom_hint" text="Open the round-by-round pickers and choose every skill yourself." />
     <string id="ch_ledger_title" text="The Clan Ledger ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_title2" text="The Clan Ledger ({COUNT} entries)" />
+    <string id="ch_ledger_desc2" text="The chronicle of your clan and the realm, newest first. Scroll the list; hover an entry for its date and full text." />
+    <string id="ch_ledger_close" text="Close" />
     <string id="ch_ledger_desc" text="The chronicle of your clan and the realm, newest first. Hover an entry for its date and full text; select the page rows to turn the page." />
     <string id="ch_ledger_older" text="- Older entries -" />
     <string id="ch_ledger_newer" text="- Newer entries -" />

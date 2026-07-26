@@ -16,6 +16,9 @@
     <string id="ch_promo_preset_custom_hint" text="打开逐轮选择界面，由你亲自指定每项技能。" />
     <string id="ch_comm_their_calling" text="{ROW} - 天职所在" />
     <string id="ch_ledger_title" text="氏族纪事 （{PAGE}/{PAGES}）" />
+    <string id="ch_ledger_title2" text="氏族纪事（共{COUNT}条）" />
+    <string id="ch_ledger_desc2" text="你的氏族与王国的纪事，最新在前。滚动列表；悬停可见日期与全文。" />
+    <string id="ch_ledger_close" text="关闭" />
     <string id="ch_ledger_desc" text="你的氏族与王国的纪事，最新在前。悬停可见日期与全文；选择翻页行以翻页。" />
     <string id="ch_ledger_older" text="- 更早的记录 -" />
     <string id="ch_ledger_newer" text="- 更新的记录 -" />

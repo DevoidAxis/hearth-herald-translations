@@ -16,6 +16,9 @@
     <string id="ch_promo_preset_custom_hint" text="Öffnet die Auswahl Runde für Runde; jede Fertigkeit selbst bestimmen." />
     <string id="ch_comm_their_calling" text="{ROW} - ihre Berufung" />
     <string id="ch_ledger_title" text="Die Klanchronik ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_title2" text="Die Klanchronik ({COUNT} Einträge)" />
+    <string id="ch_ledger_desc2" text="Die Chronik eures Klans und des Reiches, Neuestes zuerst. Scrollt die Liste; zeigt auf einen Eintrag für Datum und vollen Text." />
+    <string id="ch_ledger_close" text="Schließen" />
     <string id="ch_ledger_desc" text="Die Chronik eures Klans und des Reiches, Neuestes zuerst. Zeigt auf einen Eintrag für Datum und vollen Text; wählt die Blätterzeilen zum Umblättern." />
     <string id="ch_ledger_older" text="- Ältere Einträge -" />
     <string id="ch_ledger_newer" text="- Neuere Einträge -" />

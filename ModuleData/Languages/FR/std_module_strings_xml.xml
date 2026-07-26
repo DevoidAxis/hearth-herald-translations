@@ -16,6 +16,9 @@
     <string id="ch_promo_preset_custom_hint" text="Ouvre les choix manche par manche ; chaque compétence est à vous." />
     <string id="ch_comm_their_calling" text="{ROW} - sa vocation" />
     <string id="ch_ledger_title" text="La chronique du clan ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_title2" text="La chronique du clan ({COUNT} entrées)" />
+    <string id="ch_ledger_desc2" text="La chronique de votre clan et du royaume, du plus récent au plus ancien. Faites défiler la liste ; survolez une entrée pour la date et le texte complet." />
+    <string id="ch_ledger_close" text="Fermer" />
     <string id="ch_ledger_desc" text="La chronique de votre clan et du royaume, du plus récent au plus ancien. Survolez une entrée pour la date et le texte complet ; sélectionnez les lignes de page pour tourner la page." />
     <string id="ch_ledger_older" text="- Entrées plus anciennes -" />
     <string id="ch_ledger_newer" text="- Entrées plus récentes -" />

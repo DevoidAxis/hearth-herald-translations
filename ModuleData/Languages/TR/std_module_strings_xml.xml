@@ -16,6 +16,9 @@
     <string id="ch_promo_preset_custom_hint" text="Tur tur seçim ekranını açar; her beceriyi kendin belirlersin." />
     <string id="ch_comm_their_calling" text="{ROW} - onların yolu" />
     <string id="ch_ledger_title" text="Klan Kroniği ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_title2" text="Klan Kroniği ({COUNT} kayıt)" />
+    <string id="ch_ledger_desc2" text="Klanının ve diyarın kroniği, en yeniden başlayarak. Listeyi kaydır; tarih ve tam metin için bir kaydın üzerine gel." />
+    <string id="ch_ledger_close" text="Kapat" />
     <string id="ch_ledger_desc" text="Klanının ve diyarın kroniği, en yeniden başlayarak. Tarih ve tam metin için bir kaydın üzerine gel; sayfa satırlarını seçerek sayfa çevir." />
     <string id="ch_ledger_older" text="- Daha eski kayıtlar -" />
     <string id="ch_ledger_newer" text="- Daha yeni kayıtlar -" />

@@ -16,6 +16,9 @@
     <string id="ch_promo_preset_custom_hint" text="Apre la scelta round per round; ogni abilità la decidi tu." />
     <string id="ch_comm_their_calling" text="{ROW} - la sua vocazione" />
     <string id="ch_ledger_title" text="La cronaca del clan ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_title2" text="La cronaca del clan ({COUNT} voci)" />
+    <string id="ch_ledger_desc2" text="La cronaca del tuo clan e del regno, dal più recente. Scorri la lista; passa il cursore su una voce per data e testo completo." />
+    <string id="ch_ledger_close" text="Chiudi" />
     <string id="ch_ledger_desc" text="La cronaca del tuo clan e del regno, dal più recente. Passa il cursore su una voce per data e testo completo; seleziona le righe di pagina per voltare pagina." />
     <string id="ch_ledger_older" text="- Voci più vecchie -" />
     <string id="ch_ledger_newer" text="- Voci più recenti -" />

@@ -16,6 +16,9 @@
     <string id="ch_promo_preset_custom_hint" text="Otwiera wybór runda po rundzie; każdą umiejętność wskazujesz sam." />
     <string id="ch_comm_their_calling" text="{ROW} - ich powołanie" />
     <string id="ch_ledger_title" text="Kronika klanu ({PAGE}/{PAGES})" />
+    <string id="ch_ledger_title2" text="Kronika klanu ({COUNT} wpisów)" />
+    <string id="ch_ledger_desc2" text="Kronika twojego klanu i królestwa, od najnowszych. Przewijaj listę; najedź na wpis, by zobaczyć datę i pełny tekst." />
+    <string id="ch_ledger_close" text="Zamknij" />
     <string id="ch_ledger_desc" text="Kronika twojego klanu i królestwa, od najnowszych. Najedź na wpis, by zobaczyć datę i pełny tekst; wybierz wiersze stron, by przewracać strony." />
     <string id="ch_ledger_older" text="- Starsze wpisy -" />
     <string id="ch_ledger_newer" text="- Nowsze wpisy -" />
