@@ -668,6 +668,39 @@
     <string id="ch_ledger_title2" text="The Clan Ledger ({COUNT} entries)" />
     <string id="ch_ledger_desc2" text="The chronicle of your clan and the realm, newest first. Scroll the list; hover an entry for its date and full text." />
     <string id="ch_ledger_close" text="Close" />
+    <string id="ch_done" text="Done" />
+    <string id="ch_instr_sum_build" text="builds" />
+    <string id="ch_instr_sum_nobuild" text="no auto-build" />
+    <string id="ch_instr_fb_loyalty" text="loyalty" />
+    <string id="ch_instr_fb_militia" text="militia" />
+    <string id="ch_instr_fb_food" text="food" />
+    <string id="ch_instr_fb_inherit" text="clan default" />
+    <string id="ch_instr_rf_elite" text="elite priority" />
+    <string id="ch_instr_rf_off" text="no elite bias" />
+    <string id="ch_instr_sum_stable" text="stable {N}" />
+    <string id="ch_instr_none" text="Your clan holds no towns or castles to instruct." />
+    <string id="ch_instr_pick_title" text="Instructions for which settlement?" />
+    <string id="ch_instr_pick_desc" text="Your clan's towns and castles, with their current instructions." />
+    <string id="ch_instr_fief_row" text="{NAME} - {SUMMARY}" />
+    <string id="ch_instr_knob_auto_on" text="Auto-build: ON (the Office of Works fills an empty queue)" />
+    <string id="ch_instr_knob_auto_off" text="Auto-build: OFF" />
+    <string id="ch_instr_knob_fallback" text="When fully built: {VAL}" />
+    <string id="ch_instr_knob_recruit" text="Recruiting: {VAL}" />
+    <string id="ch_instr_knob_stable" text="Stables: {VAL}" />
+    <string id="ch_instr_stable_n" text="keep {N} war mounts stocked" />
+    <string id="ch_instr_stable_off" text="not stocked" />
+    <string id="ch_instr_title" text="Instructions: {NAME}" />
+    <string id="ch_instr_desc" text="Standing instructions the offices carry out here. Select a line to change it." />
+    <string id="ch_instr_change" text="Change" />
+    <string id="ch_instr_need_two" text="Extending instructions needs at least two owned fiefs." />
+    <string id="ch_instr_src_title" text="Extend WHICH settlement's instructions?" />
+    <string id="ch_instr_target_row" text="{NAME} ({CURRENT})" />
+    <string id="ch_instr_tgt_title" text="Apply {NAME}'s instructions to..." />
+    <string id="ch_instr_tgt_desc" text="Pick any number of fiefs. Their standing instructions become a copy of {NAME}'s ({SUMMARY})." />
+    <string id="ch_instr_apply" text="Apply" />
+    <string id="ch_instr_applied" text="{NAME}'s instructions now stand in {N} more fief(s)." />
+    <string id="ch_ledger_instr" text="The clan's standing instructions were extended from {NAME} to {N} fief(s)." />
+    <string id="ch_ledger_works_queue" text="The Office of Works set {TOWN} to raising {BUILDING}." />
     <string id="ch_ledger_desc" text="The chronicle of your clan and the realm, newest first. Hover an entry for its date and full text; select the page rows to turn the page." />
     <string id="ch_ledger_older" text="- Older entries -" />
     <string id="ch_ledger_newer" text="- Newer entries -" />

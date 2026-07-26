@@ -4,6 +4,16 @@
     <tag language="English" />
   </tags>
   <strings>
+    <string id="hh_mcm_works_enable_name" text="Office of Works (Exchequer)" />
+    <string id="hh_mcm_works_enable_hint" text="While the Exchequer serves, your settlements build: faster construction clan-wide, empty build queues auto-filled, villages' hearths tended. All scaled by the officer's skill." />
+    <string id="hh_mcm_works_pct_name" text="Construction bonus at full mastery (%)" />
+    <string id="hh_mcm_works_pct_hint" text="Bonus construction power as a percentage of each settlement's own daily power, scaled by the Exchequer's skill (0.70x to 1.30x). 0 disables the speed bonus; 500 with a master Exchequer builds over six times faster." />
+    <string id="hh_mcm_works_autofill_name" text="Auto-fill empty build queues" />
+    <string id="hh_mcm_works_autofill_hint" text="A fief with an EMPTY queue gets its next building chosen the way a competent governor would. A queue you set by hand is never touched. Per-fief opt-out via the settlement's standing instructions." />
+    <string id="hh_mcm_works_hearth_name" text="Village hearth stewardship per day" />
+    <string id="hh_mcm_works_hearth_hint" text="Villages have no construction, so the office tends their hearths instead: daily hearth growth added to every owned village, scaled by the Exchequer's skill." />
+    <string id="hh_mcm_works_fallback_name" text="When a fief is fully built" />
+    <string id="hh_mcm_works_fallback_hint" text="The daily project a completed fief falls back to: 0 leave as is (defers to what you or Improved Garrisons chose), 1 loyalty, 2 militia, 3 food. Per-fief override via standing instructions." />
     <string id="hh_mcm_allow_instant_marriage_hint" text="Skip the courtship ladder — marry an eligible couple immediately." />
     <string id="hh_mcm_allow_instant_marriage_name" text="Allow instant marriage" />
     <string id="hh_mcm_auto_summon_council_hint" text="Off (default): convene the council yourself via the Master Herald. On: your Heralds also send a brief periodic digest (warnings + a pointer to the full report) on the interval below." />

@@ -605,6 +605,39 @@
     <string id="ch_ledger_title2" text="Клановая летопись ({COUNT} записей)" />
     <string id="ch_ledger_desc2" text="Хроника вашего клана и державы, сначала новое. Листайте список; наведите курсор на запись, чтобы увидеть дату и полный текст." />
     <string id="ch_ledger_close" text="Закрыть" />
+    <string id="ch_done" text="Готово" />
+    <string id="ch_instr_sum_build" text="строит" />
+    <string id="ch_instr_sum_nobuild" text="без автостройки" />
+    <string id="ch_instr_fb_loyalty" text="лояльность" />
+    <string id="ch_instr_fb_militia" text="ополчение" />
+    <string id="ch_instr_fb_food" text="еда" />
+    <string id="ch_instr_fb_inherit" text="по умолчанию клана" />
+    <string id="ch_instr_rf_elite" text="приоритет элиты" />
+    <string id="ch_instr_rf_off" text="без элитного уклона" />
+    <string id="ch_instr_sum_stable" text="конюшня {N}" />
+    <string id="ch_instr_none" text="У клана нет городов или замков для распоряжений." />
+    <string id="ch_instr_pick_title" text="Распоряжения для какого поселения?" />
+    <string id="ch_instr_pick_desc" text="Города и замки клана с их текущими распоряжениями." />
+    <string id="ch_instr_fief_row" text="{NAME} - {SUMMARY}" />
+    <string id="ch_instr_knob_auto_on" text="Автостройка: ВКЛ (Ведомство работ заполняет пустую очередь)" />
+    <string id="ch_instr_knob_auto_off" text="Автостройка: ВЫКЛ" />
+    <string id="ch_instr_knob_fallback" text="Когда все построено: {VAL}" />
+    <string id="ch_instr_knob_recruit" text="Набор рекрутов: {VAL}" />
+    <string id="ch_instr_knob_stable" text="Конюшни: {VAL}" />
+    <string id="ch_instr_stable_n" text="держать {N} боевых коней в запасе" />
+    <string id="ch_instr_stable_off" text="не пополняются" />
+    <string id="ch_instr_title" text="Распоряжения: {NAME}" />
+    <string id="ch_instr_desc" text="Постоянные распоряжения, которые ведомства исполняют здесь. Выберите строку, чтобы изменить." />
+    <string id="ch_instr_change" text="Изменить" />
+    <string id="ch_instr_need_two" text="Для распространения распоряжений нужно хотя бы два владения." />
+    <string id="ch_instr_src_title" text="ЧЬИ распоряжения распространить?" />
+    <string id="ch_instr_target_row" text="{NAME} ({CURRENT})" />
+    <string id="ch_instr_tgt_title" text="Применить распоряжения {NAME} к..." />
+    <string id="ch_instr_tgt_desc" text="Выберите любое число владений. Их распоряжения станут копией распоряжений {NAME} ({SUMMARY})." />
+    <string id="ch_instr_apply" text="Применить" />
+    <string id="ch_instr_applied" text="Распоряжения {NAME} теперь действуют еще в {N} владении(ях)." />
+    <string id="ch_ledger_instr" text="Распоряжения клана распространены из {NAME} на {N} владение(ий)." />
+    <string id="ch_ledger_works_queue" text="Ведомство работ поручило {TOWN} возводить {BUILDING}." />
     <string id="ch_ledger_desc" text="Хроника вашего клана и державы, сначала новое. Наведите курсор на запись, чтобы увидеть дату и полный текст; выберите строки страниц, чтобы листать." />
     <string id="ch_ledger_older" text="- Более старые записи -" />
     <string id="ch_ledger_newer" text="- Более новые записи -" />
