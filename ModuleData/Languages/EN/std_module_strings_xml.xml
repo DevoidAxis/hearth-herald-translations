@@ -760,5 +760,7 @@
     <string id="ch_chy_knob_stable" text="Stables" />
     <string id="ch_chy_auto_off" text="off" />
     <string id="ch_chy_auto_on" text="on" />
+    <string id="ch_party_guard" text="{HERO} serves as your {OFFICE} Herald - relieve them of the office before making them a party leader." />
+    <string id="ch_ledger_instr_edit" text="Standing instructions for {NAME} were revised: {SUMMARY}." />
   </strings>
 </base>

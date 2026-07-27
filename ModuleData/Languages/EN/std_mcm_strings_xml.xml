@@ -205,5 +205,7 @@
     <string id="hh_mcm_enable_office_growth_hint" text="A stationed herald grows their office's primary skill every day they serve (Exchequer: Steward, Watch: Scouting, Muster: Leadership, Arms: Tactics), at the same pace and ceiling as the Clan Commissions career growth. Suspended offices teach nothing." />
     <string id="hh_mcm_chancery_drawer_name" text="Chancery drawer on the map" />
     <string id="hh_mcm_chancery_drawer_hint" text="A slide-out Chancery board on the right edge of the campaign map: offices, per-fief standing instructions, and the Clan Ledger. Turn off to use only the dialogue console." />
+    <string id="hh_mcm_herald_party_guard_name" text="Protect heralds from party assignment" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Greys out a hero who holds a Herald office in the new-party and change-leader pickers, so you cannot accidentally make them a party leader (which would suspend their office). Relieve them of the office first to lead a party." />
   </strings>
 </base>

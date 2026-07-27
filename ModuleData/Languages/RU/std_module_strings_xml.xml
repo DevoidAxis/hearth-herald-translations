@@ -697,5 +697,7 @@
     <string id="ch_chy_knob_stable" text="Конюшни" />
     <string id="ch_chy_auto_off" text="выкл" />
     <string id="ch_chy_auto_on" text="вкл" />
+    <string id="ch_party_guard" text="{HERO} служит вашим герольдом ({OFFICE}) - сначала освободите его от должности, прежде чем делать командиром отряда." />
+    <string id="ch_ledger_instr_edit" text="Распоряжения для {NAME} изменены: {SUMMARY}." />
   </strings>
 </base>
