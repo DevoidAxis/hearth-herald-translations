@@ -650,6 +650,24 @@
     <string id="ch_remount_done" text="{N} боевых коней пополнили ваш обоз ({GOLD} золота)." />
     <string id="ch_ledger_remounts" text="Ведомство сбора закупило {N} боевых коней за {GOLD} золота." />
     <string id="ch_ledger_stables" text="Ведомство сбора пополнило конюшни {TOWN}: {N} боевых коней за {GOLD} золота." />
+    <string id="ch_ledger_stables2" text="Ведомство сбора свезло {N} боевых коней в {TOWN} с внешних рынков, {GOLD} золота." />
+    <string id="ch_chy_master_row" text="Главный герольд - сама институция" />
+    <string id="ch_chy_master_hint" text="Держит меню и диалоги в родовом гнезде. Не назначается - так задумано." />
+    <string id="ch_chy_office_row" text="{OFFICE}: {HERO} ({SKILL} {VAL}, x{COMP})" />
+    <string id="ch_chy_office_hint" text="Каждый бонус ведомства умножается на множитель мастерства. Ведомство также ежедневно растит {SKILL} служащего." />
+    <string id="ch_chy_office_vacant" text="{OFFICE}: вакантно ({STATUS})" />
+    <string id="ch_chy_office_vacant_hint" text="Пустое ведомство не дает бонусов. Назначайте через меню поселения или разговор в замке родового гнезда." />
+    <string id="ch_chy_fief_row" text="{NAME}: {SUMMARY}" />
+    <string id="ch_chy_fief_hint" text="Выберите, чтобы изменить распоряжения этого владения." />
+    <string id="ch_chy_no_fiefs" text="(городов и замков пока нет)" />
+    <string id="ch_chy_no_fiefs_hint" text="Распоряжения появятся здесь для каждого владения, когда у вас будет земля." />
+    <string id="ch_chy_ledger_row" text="Открыть клановую летопись" />
+    <string id="ch_chy_ledger_hint" text="Хроника: история державы вместе с записями клана." />
+    <string id="ch_chy_extend_row" text="Распространить распоряжения одного владения на другие" />
+    <string id="ch_chy_extend_hint" text="Настройте один раз - примените по всей державе." />
+    <string id="ch_chy_title" text="Канцелярия" />
+    <string id="ch_chy_desc" text="Институция с одного взгляда: ведомства сверху, ваши владения с распоряжениями ниже. Выберите строку, чтобы действовать." />
+    <string id="ch_chy_open" text="Открыть" />
     <string id="ch_ledger_desc" text="Хроника вашего клана и державы, сначала новое. Наведите курсор на запись, чтобы увидеть дату и полный текст; выберите строки страниц, чтобы листать." />
     <string id="ch_ledger_older" text="- Более старые записи -" />
     <string id="ch_ledger_newer" text="- Более новые записи -" />

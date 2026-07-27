@@ -713,6 +713,24 @@
     <string id="ch_remount_done" text="{N} war mounts join your baggage train ({GOLD} gold)." />
     <string id="ch_ledger_remounts" text="The Muster procured {N} war mounts for {GOLD} gold." />
     <string id="ch_ledger_stables" text="The Muster stocked {N} war mounts at {TOWN} for {GOLD} gold." />
+    <string id="ch_ledger_stables2" text="The Muster sourced {N} war mounts to {TOWN} from the wider markets, {GOLD} gold." />
+    <string id="ch_chy_master_row" text="Master Herald - the institution" />
+    <string id="ch_chy_master_hint" text="Anchors the menu and dialogue at your Clan Home. Not appointable, by design." />
+    <string id="ch_chy_office_row" text="{OFFICE}: {HERO} ({SKILL} {VAL}, x{COMP})" />
+    <string id="ch_chy_office_hint" text="Every bonus this office grants scales by the competency multiplier. The office also grows the holder's {SKILL} daily while they serve." />
+    <string id="ch_chy_office_vacant" text="{OFFICE}: vacant ({STATUS})" />
+    <string id="ch_chy_office_vacant_hint" text="No bonuses flow from an unstaffed office. Appoint through the settlement menu or the keep dialogue at your Clan Home." />
+    <string id="ch_chy_fief_row" text="{NAME}: {SUMMARY}" />
+    <string id="ch_chy_fief_hint" text="Select to change this fief's standing instructions." />
+    <string id="ch_chy_no_fiefs" text="(no towns or castles held yet)" />
+    <string id="ch_chy_no_fiefs_hint" text="Standing instructions appear here per fief once you hold land." />
+    <string id="ch_chy_ledger_row" text="Open the Clan Ledger" />
+    <string id="ch_chy_ledger_hint" text="The chronicle: the realm's history merged with the clan's own record." />
+    <string id="ch_chy_extend_row" text="Extend one fief's instructions to others" />
+    <string id="ch_chy_extend_hint" text="Configure once, apply across the realm." />
+    <string id="ch_chy_title" text="The Chancery" />
+    <string id="ch_chy_desc" text="The institution at a glance: offices above, your fiefs and their standing instructions below. Select a row to act on it." />
+    <string id="ch_chy_open" text="Open" />
     <string id="ch_ledger_desc" text="The chronicle of your clan and the realm, newest first. Hover an entry for its date and full text; select the page rows to turn the page." />
     <string id="ch_ledger_older" text="- Older entries -" />
     <string id="ch_ledger_newer" text="- Newer entries -" />
