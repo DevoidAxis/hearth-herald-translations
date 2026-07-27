@@ -638,6 +638,18 @@
     <string id="ch_instr_applied" text="Распоряжения {NAME} теперь действуют еще в {N} владении(ях)." />
     <string id="ch_ledger_instr" text="Распоряжения клана распространены из {NAME} на {N} владение(ий)." />
     <string id="ch_ledger_works_queue" text="Ведомство работ поручило {TOWN} возводить {BUILDING}." />
+    <string id="ch_remount_no_office" text="Чтобы закупать боевых коней, ведомство сбора должно быть укомплектовано и действовать." />
+    <string id="ch_remount_no_stock" text="Боевых коней достать негде." />
+    <string id="ch_remount_row" text="{N} боевых коней - {GOLD} золота" />
+    <string id="ch_remount_cap" text="Посредник не достанет столько при нынешнем навыке ведомства." />
+    <string id="ch_remount_poor" text="Не хватает золота." />
+    <string id="ch_remount_hint" text="{ITEM} с надбавкой {P}% к цене, доставка в ваш отряд." />
+    <string id="ch_remount_title" text="Закупить боевых коней" />
+    <string id="ch_remount_desc" text="Посредник ведомства сбора достает боевых коней за морем. Удобство имеет цену; товар прибудет с вашим обозом." />
+    <string id="ch_remount_buy" text="Закупить" />
+    <string id="ch_remount_done" text="{N} боевых коней пополнили ваш обоз ({GOLD} золота)." />
+    <string id="ch_ledger_remounts" text="Ведомство сбора закупило {N} боевых коней за {GOLD} золота." />
+    <string id="ch_ledger_stables" text="Ведомство сбора пополнило конюшни {TOWN}: {N} боевых коней за {GOLD} золота." />
     <string id="ch_ledger_desc" text="Хроника вашего клана и державы, сначала новое. Наведите курсор на запись, чтобы увидеть дату и полный текст; выберите строки страниц, чтобы листать." />
     <string id="ch_ledger_older" text="- Более старые записи -" />
     <string id="ch_ledger_newer" text="- Более новые записи -" />

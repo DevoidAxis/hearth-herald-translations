@@ -701,6 +701,18 @@
     <string id="ch_instr_applied" text="{NAME}'s instructions now stand in {N} more fief(s)." />
     <string id="ch_ledger_instr" text="The clan's standing instructions were extended from {NAME} to {N} fief(s)." />
     <string id="ch_ledger_works_queue" text="The Office of Works set {TOWN} to raising {BUILDING}." />
+    <string id="ch_remount_no_office" text="The Muster office must be staffed and active to procure remounts." />
+    <string id="ch_remount_no_stock" text="No war mounts can be sourced." />
+    <string id="ch_remount_row" text="{N} war mounts - {GOLD} gold" />
+    <string id="ch_remount_cap" text="The broker cannot source this many at the office's current skill." />
+    <string id="ch_remount_poor" text="Not enough gold." />
+    <string id="ch_remount_hint" text="{ITEM} at a {P}% premium over value, delivered to your party." />
+    <string id="ch_remount_title" text="Procure Remounts" />
+    <string id="ch_remount_desc" text="The Muster's broker sources war mounts abroad. Convenience has a price; the stock arrives with your baggage." />
+    <string id="ch_remount_buy" text="Procure" />
+    <string id="ch_remount_done" text="{N} war mounts join your baggage train ({GOLD} gold)." />
+    <string id="ch_ledger_remounts" text="The Muster procured {N} war mounts for {GOLD} gold." />
+    <string id="ch_ledger_stables" text="The Muster stocked {N} war mounts at {TOWN} for {GOLD} gold." />
     <string id="ch_ledger_desc" text="The chronicle of your clan and the realm, newest first. Hover an entry for its date and full text; select the page rows to turn the page." />
     <string id="ch_ledger_older" text="- Older entries -" />
     <string id="ch_ledger_newer" text="- Newer entries -" />

@@ -4,6 +4,13 @@
     <tag language="English" />
   </tags>
   <strings>
+    <string id="hh_mcm_elite_recruit_multiplier_name2" text="Muster priority: elite recruits" />
+    <string id="hh_mcm_muster_focus_name" text="Elite priority multiplier (focused fiefs)" />
+    <string id="hh_mcm_muster_focus_hint" text="Fiefs whose standing instructions say elite priority multiply the Muster's elite-recruit chance by this. Total chance is capped at 90% so basic troops never vanish entirely." />
+    <string id="hh_mcm_muster_horses_name" text="Horse village production bonus (%)" />
+    <string id="hh_mcm_muster_horses_hint" text="Extra units of whatever horses your owned villages already produce, added to their trade stock daily, scaled by the Muster's skill. War mounts are never produced anywhere in the game; for those, use Procure Remounts or stable stocking." />
+    <string id="hh_mcm_remount_premium_name" text="Remount procurement premium (%)" />
+    <string id="hh_mcm_remount_premium_hint" text="How far above item value the Muster's broker charges for war mounts (Procure Remounts and stable stocking). Floor of 15% is enforced in code so the broker can never be an arbitrage." />
     <string id="hh_mcm_works_enable_name" text="Office of Works (Exchequer)" />
     <string id="hh_mcm_works_enable_hint" text="While the Exchequer serves, your settlements build: faster construction clan-wide, empty build queues auto-filled, villages' hearths tended. All scaled by the officer's skill." />
     <string id="hh_mcm_works_pct_name" text="Construction bonus at full mastery (%)" />
