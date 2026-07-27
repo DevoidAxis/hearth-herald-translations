@@ -678,5 +678,24 @@
     <string id="ch_ledger_comm_laid" text="{NAME} сложил поручение: {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} остался в памяти рядов как {TRACK}." />
     <string id="ch_comm_their_calling" text="{ROW} - их призвание" />
+    <string id="ch_off_name_master" text="Глава герольдов" />
+    <string id="ch_off_name_exchequer" text="Казначей" />
+    <string id="ch_off_name_watch" text="Дозор" />
+    <string id="ch_off_name_muster" text="Сбор" />
+    <string id="ch_off_name_arms" text="Оружейная" />
+    <string id="ch_chy_master_row2" text="сама институция" />
+    <string id="ch_chy_office_row2" text="{HERO} ({SKILL} {VAL}, x{COMP})" />
+    <string id="ch_chy_office_vacant2" text="вакантно ({STATUS})" />
+    <string id="ch_chy_board_row" text="{OFFICE}: {DETAIL}" />
+    <string id="ch_chy_tab_offices" text="Ведомства" />
+    <string id="ch_chy_tab_fiefs" text="Владения" />
+    <string id="ch_chy_tab_ledger" text="Летопись" />
+    <string id="ch_chy_extend_btn" text="Распространить на другие владения..." />
+    <string id="ch_chy_knob_auto" text="Автостройка" />
+    <string id="ch_chy_knob_fallback" text="Когда все построено" />
+    <string id="ch_chy_knob_recruit" text="Вербовка" />
+    <string id="ch_chy_knob_stable" text="Конюшни" />
+    <string id="ch_chy_auto_off" text="выкл" />
+    <string id="ch_chy_auto_on" text="вкл" />
   </strings>
 </base>

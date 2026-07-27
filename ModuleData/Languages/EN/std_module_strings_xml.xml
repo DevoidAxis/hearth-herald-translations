@@ -741,5 +741,24 @@
     <string id="ch_ledger_comm_laid" text="{NAME} laid down the commission of {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} was remembered by the ranks as a {TRACK}." />
     <string id="ch_comm_their_calling" text="{ROW} - their calling" />
+    <string id="ch_off_name_master" text="Master Herald" />
+    <string id="ch_off_name_exchequer" text="Exchequer" />
+    <string id="ch_off_name_watch" text="Watch" />
+    <string id="ch_off_name_muster" text="Muster" />
+    <string id="ch_off_name_arms" text="Arms" />
+    <string id="ch_chy_master_row2" text="the institution itself" />
+    <string id="ch_chy_office_row2" text="{HERO} ({SKILL} {VAL}, x{COMP})" />
+    <string id="ch_chy_office_vacant2" text="vacant ({STATUS})" />
+    <string id="ch_chy_board_row" text="{OFFICE}: {DETAIL}" />
+    <string id="ch_chy_tab_offices" text="Offices" />
+    <string id="ch_chy_tab_fiefs" text="Fiefs" />
+    <string id="ch_chy_tab_ledger" text="Ledger" />
+    <string id="ch_chy_extend_btn" text="Extend to other fiefs..." />
+    <string id="ch_chy_knob_auto" text="Auto-build" />
+    <string id="ch_chy_knob_fallback" text="When fully built" />
+    <string id="ch_chy_knob_recruit" text="Recruiting" />
+    <string id="ch_chy_knob_stable" text="Stables" />
+    <string id="ch_chy_auto_off" text="off" />
+    <string id="ch_chy_auto_on" text="on" />
   </strings>
 </base>
