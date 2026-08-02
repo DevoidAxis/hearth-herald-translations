@@ -186,5 +186,46 @@
     <string id="hh_mcm_group_ennoblement" text="Veteranenbeförderung" />
     <string id="hh_mcm_enable_office_growth_name" text="Amtsinhaber lassen ihren Skill wachsen" />
     <string id="hh_mcm_enable_office_growth_hint" text="Ein stationierter Herald lässt an jedem Diensttag den wichtigsten Skill seines Amtes wachsen (Exchequer: Verwaltung, Watch: Kundschaften, Muster: Führung, Arms: Taktik), im gleichen Tempo und bis zur gleichen Obergrenze wie das Wachstum der Clan-Bestallungen im Dienst. Ausgesetzte Ämter vermitteln nichts." />
+    <string id="hh_mcm_chancery_drawer_hint" text="Ein ausklappbares Kanzlei-Board am rechten Rand der Kampagnenkarte: Ämter, lehensbezogene Standardanweisungen und das Clan-Ledger. Deaktivieren, um nur die Dialogkonsole zu nutzen." />
+    <string id="hh_mcm_chancery_drawer_name" text="Kanzlei-Schublade auf der Karte" />
+    <string id="hh_mcm_commission_thegn_boost_hint" text="Pauschaler Bonus auf jede Kampffertigkeit sowie Taktik und Führung, wenn ein Than ernannt wird, und wieder entzogen bei Abberufung. Diese tragen Hauptmann-Perks, daher ist ein Than im Kampf und als Formationshauptmann verheerend; ohne die Kartenfertigkeiten des Marschalls führt er eine Gruppe über die Karte nur durchschnittlich. Bei niedrigen Werten mild; bei hohen Werten kann ein einzelner Than eine Armee durchpflügen." />
+    <string id="hh_mcm_commission_thegn_boost_name" text="Than-Kampfbonus (Primarch-Regler)" />
+    <string id="hh_mcm_commission_thegn_share_hint" text="Than-Obergrenze als Prozentsatz Ihres effektiven Gefährtenlimits. Feldchampions tragen kein Amt, daher ist dies standardmäßig hoch angesetzt, damit viele Gefährten als Thane dienen können." />
+    <string id="hh_mcm_commission_thegn_share_name" text="Than-Anteil %" />
+    <string id="hh_mcm_elite_recruit_multiplier_name2" text="Musterungspriorität: Elite-Rekruten" />
+    <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Der Gouverneurs-Auswahldialog rendert pro Kandidat ein 3D-Porträt; bei riesigen Clans werden so viele Renderings gleichzeitig angestoßen, dass schwächere Hardware (Steam Deck) abstürzen kann. Oberhalb dieser Kandidatenzahl überspringen die Karten Porträts und öffnen sich sofort. 0 = Porträts immer rendern." />
+    <string id="hh_mcm_gov_picker_portrait_limit_name" text="Auswahl-Porträts über N Kandidaten überspringen" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Graut einen Helden aus, der ein Herold-Amt innehat, in den Auswahldialogen für neue Gruppen und Anführerwechsel, damit Sie ihn nicht versehentlich zum Gruppenanführer machen (was sein Amt aussetzen würde). Entheben Sie ihn zuerst des Amtes, um eine Gruppe zu führen." />
+    <string id="hh_mcm_herald_party_guard_name" text="Herolde vor Gruppenzuweisung schützen" />
+    <string id="hh_mcm_muster_focus_hint" text="Zwei Effekte, beide vom Musterungsmeister: Lehen mit Elite-Priorität multiplizieren die Elite-Rekruten-Chance mit diesem Wert (gedeckelt bei 90%, damit einfache Truppen nie verschwinden), und Kriegsrösser - die Zutat für das Kavallerie-Upgrade - erhalten denselben Multiplikator zusätzlich zum Pferdeproduktionsbonus. Adelspferde bleiben bei der Grundrate (sie können keine Truppen aufwerten, daher würde ein Boost hier nur Gold verschwenden)." />
+    <string id="hh_mcm_muster_focus_name" text="Elite-Prioritätsmultiplikator (fokussierte Lehen)" />
+    <string id="hh_mcm_muster_horses_hint" text="Zusätzliche Einheiten der Pferde, die Ihre eigenen Dörfer bereits produzieren, täglich zu ihrem Handelsbestand hinzugefügt, skaliert mit der Fertigkeit des Musterungsmeisters. Kriegsrösser (die Kavallerie-Upgrade-Stufe 2) erhalten zusätzlich den Elite-Fokus-Multiplikator, sodass ein einzelnes Pferdezucht-Lehen einen echten Kriegsross-Strom liefern kann. Hoch einstellen (bis zu 500%), wenn eine Stadt die gesamten Ersatzpferde des Clans tragen soll." />
+    <string id="hh_mcm_muster_horses_name" text="Produktionsbonus für Pferdedörfer (%)" />
+    <string id="hh_mcm_promotion_main_pool_share_hint" text="Wie viel des Pools an die Kernfertigkeiten (bis zu vier) geht, gleichmäßig unter ihnen aufgeteilt. Der Rest ist der Stützpool für die verbleibenden Fertigkeiten. 100 = nur die vier Kernfertigkeiten." />
+    <string id="hh_mcm_promotion_main_pool_share_name" text="Fertigkeitsaufbau: Hauptpool-Anteil %" />
+    <string id="hh_mcm_promotion_skill_pool_hint" text="Das Gesamtbudget an Fertigkeitspunkten, das ein Fertigkeitsaufbau ausgibt. Aufgeteilt in einen Hauptpool und einen Stützpool gemäß dem untenstehenden Anteil; Überschuss-Kill-Punkte kommen zusätzlich hinzu." />
+    <string id="hh_mcm_promotion_skill_pool_name" text="Fertigkeitsaufbau: Gesamtpool" />
+    <string id="hh_mcm_promotion_support_priority_hint" text="Wie sich der Stützpool über die unterstützenden Fertigkeiten verteilt. 0 = gleichmäßig; höher gewichtet die unterstützenden Fertigkeiten mit höherer Priorität stärker." />
+    <string id="hh_mcm_promotion_support_priority_name" text="Fertigkeitsaufbau: Stützpriorität" />
+    <string id="hh_mcm_remount_premium_hint" text="Wie weit über dem Gegenstandswert der Makler des Musterungsmeisters für Kriegsrösser berechnet (Ersatzpferde beschaffen und Stallbestand). Eine Untergrenze von 15% ist im Code erzwungen, damit der Makler niemals zur Arbitrage werden kann." />
+    <string id="hh_mcm_remount_premium_name" text="Beschaffungsaufschlag für Ersatzpferde (%)" />
+    <string id="hh_mcm_works_autofill_hint" text="Ein Lehen mit LEERER Warteschlange erhält sein nächstes Gebäude so ausgewählt, wie es ein kompetenter Gouverneur tun würde. Eine von Hand eingestellte Warteschlange wird nie angerührt. Abwahl pro Lehen über die Standardanweisungen der Siedlung." />
+    <string id="hh_mcm_works_autofill_name" text="Leere Bauwarteschlangen automatisch füllen" />
+    <string id="hh_mcm_works_enable_hint" text="Solange der Schatzmeister dient, bauen Ihre Siedlungen: clanweit schnellere Bauzeit, automatisch gefüllte leere Bauwarteschlangen, gepflegte Dorf-Herdstellen. Alles skaliert mit der Fertigkeit des Amtsträgers." />
+    <string id="hh_mcm_works_enable_name" text="Amt für Bauwesen (Schatzmeister)" />
+    <string id="hh_mcm_works_estate_hint" text="Mit installiertem Agriculture Estate betreibt der Schatzmeister eine eigene Schatzkammer für das Amt für Bauwesen: Er kauft verfügbare Parzellen (zuerst erschlossene, dann unerschlossene), rodet eigenes unerschlossenes Land und errichtet dann Patrouillen und Lagerhäuser - alles bezahlt aus der Amtskasse, nie direkt aus der Clan-Kasse. Abwahl pro Dorf über die Standardanweisungen des Dorfes. Ohne das Mod ohne Wirkung." />
+    <string id="hh_mcm_works_estate_name" text="Dorf-Anwesen automatisch entwickeln (Agriculture Estate)" />
+    <string id="hh_mcm_works_fallback_hint" text="Das tägliche Projekt, auf das ein fertig ausgebautes Lehen zurückfällt: 0 belässt es wie es ist (überlässt es Ihrer Wahl oder der von Improved Garrisons), 1 Loyalität, 2 Miliz, 3 Nahrung. Überschreibung pro Lehen über Standardanweisungen." />
+    <string id="hh_mcm_works_fallback_name" text="Wenn ein Lehen vollständig ausgebaut ist" />
+    <string id="hh_mcm_works_hearth_hint" text="Dörfer haben keinen Bau, daher kümmert sich das Amt stattdessen um ihre Herdstellen: tägliches Herdwachstum, das jedem eigenen Dorf hinzugefügt wird, skaliert mit der Fertigkeit des Schatzmeisters." />
+    <string id="hh_mcm_works_hearth_name" text="Dorf-Herdpflege pro Tag" />
+    <string id="hh_mcm_works_pct_hint" text="Bonus-Baukraft als Prozentsatz der eigenen täglichen Kraft jeder Siedlung, skaliert mit der Fertigkeit des Schatzmeisters (0,70x bis 1,30x). 0 deaktiviert den Geschwindigkeitsbonus; 500 mit einem Meister-Schatzmeister baut über sechsmal so schnell." />
+    <string id="hh_mcm_works_pct_name" text="Baubonus bei voller Meisterschaft (%)" />
+    <string id="hh_mcm_works_prod_hint" text="Zusätzliche Einheiten der Handelsgüter, die Ihre Dörfer bereits produzieren (Getreide, Stoff, Vieh, Erz...), täglich zu ihrem Bestand hinzugefügt, skaliert mit der Fertigkeit des Schatzmeisters. PFERDE sind ausgeschlossen - Pferde sind das Fachgebiet des Musterungsmeisters, sodass sich die beiden Ämter nie überschneiden. Dies ist das wirtschaftliche Gegenstück zum Baubonus." />
+    <string id="hh_mcm_works_prod_name" text="Dorfproduktionsbonus (Schatzmeister, %)" />
+    <string id="hh_mcm_works_purse_hint" text="Die wöchentliche Auffüllung der Schatzkammer zieht das Clan-Gold niemals unter diesen Wert. Erhöhen, um einen Kriegsschatz unangetastet zu lassen; senken, damit das Amt Anwesen aggressiver finanzieren kann." />
+    <string id="hh_mcm_works_purse_name" text="Untergrenze der Anwesens-Schatzkammerreserve" />
+    <string id="hh_mcm_works_treasury_hint" text="Der begrenzte Fonds, den der Schatzmeister für Anwesen ausgibt. Jede Woche wird er aus der Clan-Kasse auf diesen Betrag aufgefüllt (nie unter die Reservegrenze), und jede Parzelle/jedes Projekt wird daraus bezahlt - sodass ein Schwall billiger Projekte nur die Amtskasse belastet, nicht den Clan. Höheres Ziel = aggressiveres Anwesenswachstum." />
+    <string id="hh_mcm_works_treasury_name" text="Zielwert der Schatzkammer des Amts für Bauwesen" />
   </strings>
 </base>

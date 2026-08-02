@@ -186,5 +186,46 @@
     <string id="hh_mcm_group_ennoblement" text="Awans Weteranów" />
     <string id="hh_mcm_enable_office_growth_name" text="Piastujący urząd rozwijają swoją umiejętność" />
     <string id="hh_mcm_enable_office_growth_hint" text="Oddelegowany Herald rozwija główną umiejętność swojego urzędu każdego dnia służby (Exchequer: Zarządzanie, Watch: Zwiad, Muster: Dowodzenie, Arms: Taktyka), w takim samym tempie i z takim samym pułapem jak rozwój służby w ramach Godności klanowych. Zawieszone urzędy niczego nie uczą." />
+    <string id="hh_mcm_chancery_drawer_hint" text="Wysuwany panel Kancelarii na prawej krawędzi mapy kampanii: urzędy, stałe instrukcje dla poszczególnych lenn oraz Księga Klanu. Wyłącz, aby korzystać wyłącznie z konsoli dialogowej." />
+    <string id="hh_mcm_chancery_drawer_name" text="Panel Kancelarii na mapie" />
+    <string id="hh_mcm_commission_thegn_boost_hint" text="Stały wzrost wszystkich umiejętności bojowych oraz Taktyki i Przywództwa po mianowaniu Thegna, odbierany przy odwołaniu. Posiadają oni umiejętności Kapitana, więc Thegn jest niszczycielski w bitwie i jako dowódca formacji; bez umiejętności mapowych Marszałka prowadzi drużynę po mapie jedynie przeciętnie. Łagodny przy niskich wartościach; przy wysokich jeden Thegn potrafi przejść przez całą armię." />
+    <string id="hh_mcm_commission_thegn_boost_name" text="Wzmocnienie bojowe Thegna (pokrętło Prymarchy)" />
+    <string id="hh_mcm_commission_thegn_share_hint" text="Limit Thegnów jako procent efektywnego limitu towarzyszy. Mistrzowie polowi nie piastują żadnego urzędu, dlatego domyślnie wartość ta jest wysoka, by wielu towarzyszy mogło służyć jako Thegnowie." />
+    <string id="hh_mcm_commission_thegn_share_name" text="Udział Thegnów %" />
+    <string id="hh_mcm_elite_recruit_multiplier_name2" text="Priorytet poboru: rekruci elitarni" />
+    <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Selektor przypisywania gubernatora renderuje portret 3D dla każdego kandydata; wielkie klany kolejkują tak wiele renderów naraz, że słabszy sprzęt (Steam Deck) może się zawiesić. Powyżej tej liczby kandydatów karty pomijają portrety i otwierają się natychmiast. 0 = zawsze renderuj portrety." />
+    <string id="hh_mcm_gov_picker_portrait_limit_name" text="Pomiń portrety w selektorze powyżej N kandydatów" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Wyszarza bohatera piastującego urząd Herolda w selektorach nowej drużyny i zmiany lidera, dzięki czemu nie uczynisz go przypadkowo liderem drużyny (co zawiesiłoby jego urząd). Aby mógł prowadzić drużynę, najpierw zwolnij go z urzędu." />
+    <string id="hh_mcm_herald_party_guard_name" text="Chroń heroldów przed przydziałem do drużyny" />
+    <string id="hh_mcm_muster_focus_hint" text="Dwa efekty, oba Poborowego: lenna ustawione na priorytet elitarny mnożą przez to szansę na elitarnego rekruta (ograniczoną do 90%, by podstawowi żołnierze nigdy nie zniknęli), a Rumaki Wojenne - składnik ulepszenia kawalerii - otrzymują ten sam mnożnik ponad bonus do produkcji koni. Rumaki Szlacheckie pozostają na stawce bazowej (nie mogą ulepszać oddziałów, więc ich wzmacnianie byłoby jedynie wyciekiem złota)." />
+    <string id="hh_mcm_muster_focus_name" text="Mnożnik priorytetu elitarnego (lenna skupione)" />
+    <string id="hh_mcm_muster_horses_hint" text="Dodatkowe jednostki koni, które twoje wioski już produkują, dodawane codziennie do ich zapasów handlowych, skalowane umiejętnością Poborowego. Rumaki Wojenne (poziom 2 ulepszenia kawalerii) otrzymują dodatkowo mnożnik priorytetu elitarnego, więc pojedyncze lenno z hodowlą koni może zapewnić prawdziwy strumień rumaków wojennych. Ustaw wysoko (do 500%), jeśli chcesz, by jedno miasto zaopatrywało cały klan w remonty." />
+    <string id="hh_mcm_muster_horses_name" text="Bonus produkcji wioski koni (%)" />
+    <string id="hh_mcm_promotion_main_pool_share_hint" text="Jaka część puli trafia do podstawowych (do czterech) umiejętności, dzielona równo między nie. Reszta stanowi pulę wsparcia dla pozostałych umiejętności. 100 = tylko podstawowa czwórka." />
+    <string id="hh_mcm_promotion_main_pool_share_name" text="Budowa umiejętności: udział puli głównej %" />
+    <string id="hh_mcm_promotion_skill_pool_hint" text="Całkowity budżet punktów umiejętności wydawany przez konfigurację umiejętności. Dzielony na pulę główną i pulę wsparcia według poniższego udziału; punkty nadmiarowe doliczane są dodatkowo." />
+    <string id="hh_mcm_promotion_skill_pool_name" text="Budowa umiejętności: pula całkowita" />
+    <string id="hh_mcm_promotion_support_priority_hint" text="Jak pula wsparcia rozkłada się na umiejętnościach wspierających. 0 = równo; wyższa wartość faworyzuje umiejętności wspierające o wyższym priorytecie." />
+    <string id="hh_mcm_promotion_support_priority_name" text="Budowa umiejętności: priorytet wsparcia" />
+    <string id="hh_mcm_remount_premium_hint" text="O ile ponad wartość przedmiotu makler Poborowego pobiera opłatę za rumaki wojenne (Zdobądź Remonty i zaopatrywanie stajni). W kodzie wymuszony jest próg 15%, by makler nigdy nie stał się okazją do arbitrażu." />
+    <string id="hh_mcm_remount_premium_name" text="Premia za pozyskanie remontów (%)" />
+    <string id="hh_mcm_works_autofill_hint" text="Lenno z PUSTĄ kolejką otrzymuje kolejny budynek wybrany tak, jak zrobiłby to kompetentny gubernator. Kolejka ustawiona ręcznie nigdy nie jest naruszana. Możliwość wyłączenia dla poszczególnych lenn poprzez stałe instrukcje osady." />
+    <string id="hh_mcm_works_autofill_name" text="Automatyczne wypełnianie pustych kolejek budowy" />
+    <string id="hh_mcm_works_enable_hint" text="Dopóki służy Skarbnik, twoje osady się rozwijają: szybsza budowa w całym klanie, automatyczne wypełnianie pustych kolejek budowy, dbałość o paleniska wiosek. Wszystko skalowane umiejętnością urzędnika." />
+    <string id="hh_mcm_works_enable_name" text="Urząd Robót Publicznych (Skarbnik)" />
+    <string id="hh_mcm_works_estate_hint" text="Po zainstalowaniu Agriculture Estate, Skarbnik prowadzi własny skarbiec Urzędu Robót Publicznych: wykupuje dostępne działki (najpierw zabudowane, potem niezabudowane), oczyszcza posiadaną niezabudowaną ziemię, a następnie wznosi patrole i magazyny - wszystko opłacane ze skarbca urzędu, nigdy bezpośrednio z kasy klanu. Możliwość wyłączenia dla poszczególnych wiosek poprzez stałe instrukcje wioski. Bez moda nie ma efektu." />
+    <string id="hh_mcm_works_estate_name" text="Automatyczny rozwój majątków wiejskich (Agriculture Estate)" />
+    <string id="hh_mcm_works_fallback_hint" text="Codzienny projekt, do którego wraca ukończone lenno: 0 pozostaw bez zmian (decyduje twój wybór lub Improved Garrisons), 1 lojalność, 2 milicja, 3 żywność. Możliwość nadpisania dla poszczególnych lenn poprzez stałe instrukcje." />
+    <string id="hh_mcm_works_fallback_name" text="Gdy lenno jest w pełni rozbudowane" />
+    <string id="hh_mcm_works_hearth_hint" text="Wioski nie mają budowy, więc urząd dba zamiast tego o ich paleniska: codzienny wzrost paleniska dodawany do każdej posiadanej wioski, skalowany umiejętnością Skarbnika." />
+    <string id="hh_mcm_works_hearth_name" text="Codzienna dbałość o palenisko wioski" />
+    <string id="hh_mcm_works_pct_hint" text="Bonusowa moc budowy jako procent codziennej mocy własnej każdej osady, skalowana umiejętnością Skarbnika (0,70x do 1,30x). 0 wyłącza bonus prędkości; 500 z mistrzowskim Skarbnikiem buduje ponad sześć razy szybciej." />
+    <string id="hh_mcm_works_pct_name" text="Bonus do budowy przy pełnym mistrzostwie (%)" />
+    <string id="hh_mcm_works_prod_hint" text="Dodatkowe jednostki towarów handlowych, które twoje wioski już produkują (zboże, sukno, żywy inwentarz, ruda...), dodawane codziennie do ich zapasów, skalowane umiejętnością Skarbnika. KONIE są wykluczone - to domena Poborowego, więc oba urzędy nigdy się nie dublują. To ekonomiczny odpowiednik bonusu do budowy." />
+    <string id="hh_mcm_works_prod_name" text="Bonus produkcji wioski (Skarbnik, %)" />
+    <string id="hh_mcm_works_purse_hint" text="Cotygodniowe uzupełnienie skarbca nigdy nie obniża złota klanu poniżej tej wartości. Podwyższ, by chronić nienaruszony skarbiec wojenny; obniż, by pozwolić urzędowi finansować majątki bardziej agresywnie." />
+    <string id="hh_mcm_works_purse_name" text="Próg rezerwy skarbca majątków" />
+    <string id="hh_mcm_works_treasury_hint" text="Ograniczony fundusz, który Skarbnik wydaje na majątki. Co tydzień uzupełnia go do tej kwoty z kasy klanu (nigdy poniżej progu rezerwy), a każda działka/projekt jest z niego opłacana - dzięki czemu fala tanich projektów drenuje jedynie skarbiec urzędu, a nie klan. Wyższy cel = bardziej agresywny rozwój majątków." />
+    <string id="hh_mcm_works_treasury_name" text="Docelowy skarbiec Urzędu Robót Publicznych" />
   </strings>
 </base>

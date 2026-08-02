@@ -186,5 +186,46 @@
     <string id="hh_mcm_group_ennoblement" text="老兵晋升" />
     <string id="hh_mcm_enable_office_growth_name" text="官职持有者的技能会成长" />
     <string id="hh_mcm_enable_office_growth_hint" text="驻守的 Herald 每服役一天，就会提升所属官职的主技能（Exchequer：内务，Watch：侦察，Muster：统率，Arms：战术），速度与上限和家族委任的在职成长相同。已暂停的官职不会传授任何技能。" />
+    <string id="hh_mcm_chancery_drawer_hint" text="战略地图右侧边缘的可滑出内阁面板：官职、各封地的常设指令，以及氏族名册。关闭后将只能使用对话控制台。" />
+    <string id="hh_mcm_chancery_drawer_name" text="地图上的内阁抽屉面板" />
+    <string id="hh_mcm_commission_thegn_boost_hint" text="任命士官（Thegn）时对所有战斗技能以及战术和领导力给予固定加成，撤职时收回。这些加成会带入队长天赋，因此士官在战斗中和作为编队队长时极具威力；但由于缺少元帅的地图技能，他们率队跨图移动时只是平平无奇。数值低时效果温和；数值高时一名士官能横扫一支军队。" />
+    <string id="hh_mcm_commission_thegn_boost_name" text="士官战斗加成（主刻度盘）" />
+    <string id="hh_mcm_commission_thegn_share_hint" text="士官名额占你有效随从上限的百分比。战场冠军不占官职名额，因此该值默认较高，以便让更多随从担任士官。" />
+    <string id="hh_mcm_commission_thegn_share_name" text="士官名额占比%" />
+    <string id="hh_mcm_elite_recruit_multiplier_name2" text="征募优先级：精英兵种" />
+    <string id="hh_mcm_gov_picker_portrait_limit_hint" text="指派总督的选择界面会为每个候选人渲染3D肖像；氏族庞大时会同时排队渲染大量肖像，较弱的硬件（如Steam Deck）可能因此崩溃。候选人数量超过此值时，卡片将跳过肖像渲染并立即打开。0 = 始终渲染肖像。" />
+    <string id="hh_mcm_gov_picker_portrait_limit_name" text="超过N名候选人时跳过肖像渲染" />
+    <string id="hh_mcm_herald_party_guard_hint" text="在新建队伍和更换队长的选择界面中，将担任传令官职位的英雄显示为灰色不可选，以防止你不小心将其设为队长（这会导致其官职被暂停）。若要率队，请先解除其官职。" />
+    <string id="hh_mcm_herald_party_guard_name" text="保护传令官不被指派为队伍成员" />
+    <string id="hh_mcm_muster_focus_hint" text="两项效果均属于募兵官：设为精英优先的封地，其精英兵种征募概率将乘以此系数（上限90%，确保基础兵种不会绝迹）；而战马 - - 骑兵升级所需的原料 - - 除了马匹产量加成外，也会额外乘以此相同系数。贵族坐骑则维持基础产率不变（它们无法升级部队，因此提升其产量只会白白浪费金币）。" />
+    <string id="hh_mcm_muster_focus_name" text="精英优先系数（重点封地）" />
+    <string id="hh_mcm_muster_horses_hint" text="为你名下村庄已经生产的马匹增加额外单位，每日加入其贸易库存，数值随募兵官的技能等级缩放。战马（二级骑兵升级层级）在马匹产量加成之上还会额外获得精英重点系数加成，因此单单一个养马封地就能提供源源不断的战马供应。若想让一座城镇承担全氏族的换马需求，可将其调高（最高500%）。" />
+    <string id="hh_mcm_muster_horses_name" text="马匹村庄产量加成（%）" />
+    <string id="hh_mcm_promotion_main_pool_share_hint" text="分配给核心（最多四项）技能的资源池比例，均分至各项技能。剩余部分作为辅助资源池分配给其余技能。100 = 仅分配给核心四项。" />
+    <string id="hh_mcm_promotion_main_pool_share_name" text="技能培养：核心资源池占比%" />
+    <string id="hh_mcm_promotion_skill_pool_hint" text="技能培养方案所使用的技能点总预算，按下方比例分为核心资源池和辅助资源池；超额击杀点数将在此基础上额外增加。" />
+    <string id="hh_mcm_promotion_skill_pool_name" text="技能培养：总资源池" />
+    <string id="hh_mcm_promotion_support_priority_hint" text="辅助资源池在各辅助技能间的分配方式。0 = 平均分配；数值越高，优先级较高的辅助技能获得的分配越多。" />
+    <string id="hh_mcm_promotion_support_priority_name" text="技能培养：辅助优先级" />
+    <string id="hh_mcm_remount_premium_hint" text="募兵官的经纪人在采购战马（征募换乘马及马厩补货）时，价格高出物品价值的幅度。代码中强制设有15%的下限，以确保该经纪不会成为套利手段。" />
+    <string id="hh_mcm_remount_premium_name" text="换乘马采购溢价（%）" />
+    <string id="hh_mcm_works_autofill_hint" text="建造队列为空的封地，将由系统按照一位称职总督的方式自动选择下一项建筑。你手动设置的队列不会被改动。可通过该聚落的常设指令按封地单独关闭此功能。" />
+    <string id="hh_mcm_works_autofill_name" text="自动填充空建造队列" />
+    <string id="hh_mcm_works_enable_hint" text="财政官在任期间，你的聚落将获得：全氏族建造速度加快、空建造队列自动填充、村庄的炉灶得到照料。所有效果均随该官员的技能等级缩放。" />
+    <string id="hh_mcm_works_enable_name" text="工务署（财政官）" />
+    <string id="hh_mcm_works_estate_hint" text="安装了农业地产（Agriculture Estate）模组后，财政官将运营独立的工务署金库：优先购买可用地块（先开发地，后未开发地），清理已拥有的未开发土地，然后修建巡逻岗和仓库 - - 所有花费均由该署金库支付，绝不直接动用氏族金库。可通过村庄的常设指令按村庄单独关闭。若无该模组则无效果。" />
+    <string id="hh_mcm_works_estate_name" text="自动开发村庄地产（农业地产模组）" />
+    <string id="hh_mcm_works_fallback_hint" text="封地建造完毕后回落执行的日常项目：0保持现状（沿用你或改良驻军所选设置），1忠诚度，2民兵，3粮食。可通过常设指令按封地单独覆盖设置。" />
+    <string id="hh_mcm_works_fallback_name" text="封地建造完毕后" />
+    <string id="hh_mcm_works_hearth_hint" text="村庄没有建造项目，因此工务署转而照料其炉灶：为每座你拥有的村庄增加每日炉灶增长，数值随财政官的技能等级缩放。" />
+    <string id="hh_mcm_works_hearth_name" text="每日村庄炉灶照料量" />
+    <string id="hh_mcm_works_pct_hint" text="额外建造力，以每个聚落自身每日建造力的百分比计算，随财政官的技能等级缩放（0.70倍至1.30倍）。0则关闭速度加成；500在配以精通财政官时，建造速度可提升六倍以上。" />
+    <string id="hh_mcm_works_pct_name" text="完全精通时的建造加成（%）" />
+    <string id="hh_mcm_works_prod_hint" text="为你村庄已经生产的贸易商品（谷物、布料、牲畜、矿石等）增加额外单位，每日加入其库存，数值随财政官的技能等级缩放。坐骑不在此列 - - 马匹产量属于募兵官的职责范围，因此两个官职不会重复叠加。这是建造加成在经济方面的对应机制。" />
+    <string id="hh_mcm_works_prod_name" text="村庄产量加成（财政官，%）" />
+    <string id="hh_mcm_works_purse_hint" text="每周金库补充不会将氏族金币抽取到低于此数值。调高此值可保留一笔不被动用的战备资金；调低则可让工务署更积极地资助地产开发。" />
+    <string id="hh_mcm_works_purse_name" text="地产金库储备下限" />
+    <string id="hh_mcm_works_treasury_hint" text="财政官用于地产开发的有限资金。每周会从氏族金库补充至此目标金额（不会低于储备下限），且每一处地块／项目的花费均由此支付 - - 因此即使集中出现大量廉价项目，消耗的也只是该署金库,而非氏族本身。目标值越高，地产扩张越积极。" />
+    <string id="hh_mcm_works_treasury_name" text="工务署金库目标额" />
   </strings>
 </base>

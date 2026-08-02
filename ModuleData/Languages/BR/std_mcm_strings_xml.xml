@@ -186,5 +186,46 @@
     <string id="hh_mcm_group_ennoblement" text="Promoção de Veteranos" />
     <string id="hh_mcm_enable_office_growth_name" text="Titulares de cargo crescem em habilidade" />
     <string id="hh_mcm_enable_office_growth_hint" text="Um herald estacionado desenvolve a habilidade principal do seu cargo a cada dia em que serve (Exchequer: Mordomia, Watch: Reconhecimento, Muster: Liderança, Arms: Tática), no mesmo ritmo e teto do crescimento por serviço das Comissões do Clã. Cargos suspensos não ensinam nada." />
+    <string id="hh_mcm_chancery_drawer_hint" text="Um painel deslizante da Chancelaria na borda direita do mapa da campanha: escritórios, instruções permanentes por feudo e o Livro-Razão do Clã. Desative para usar apenas o console de diálogo." />
+    <string id="hh_mcm_chancery_drawer_name" text="Painel da Chancelaria no mapa" />
+    <string id="hh_mcm_commission_thegn_boost_hint" text="Aumento fixo em todas as habilidades de combate, além de Tática e Liderança, quando um Thegn é nomeado, recuperado ao revogar. Eles carregam talentos de Capitão, então um Thegn é devastador em batalha e como capitão de formação; sem as habilidades de mapa do Marechal, eles lideram um grupo pelo mapa apenas de forma mediana. Suave em valores baixos; em valores altos, um único Thegn pode atravessar um exército." />
+    <string id="hh_mcm_commission_thegn_boost_name" text="Bônus de combate do Thegn (dial do Primarca)" />
+    <string id="hh_mcm_commission_thegn_share_hint" text="Limite de Thegns como porcentagem do seu limite efetivo de companheiros. Campeões de campo não ocupam nenhum cargo, então isso é alto por padrão para permitir que muitos companheiros sirvam como Thegns." />
+    <string id="hh_mcm_commission_thegn_share_name" text="% de participação de Thegns" />
+    <string id="hh_mcm_elite_recruit_multiplier_name2" text="Prioridade de recrutamento: recrutas de elite" />
+    <string id="hh_mcm_gov_picker_portrait_limit_hint" text="O seletor de nomeação de governador renderiza um retrato 3D por candidato; clãs enormes enfileiram tantas renderizações de uma vez que hardwares mais fracos (Steam Deck) podem travar. Acima desse número de candidatos, os cartões pulam os retratos e abrem instantaneamente. 0 = sempre renderizar retratos." />
+    <string id="hh_mcm_gov_picker_portrait_limit_name" text="Pular retratos do seletor acima de N candidatos" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Deixa acinzentado um herói que ocupa um cargo de Arauto nos seletores de novo grupo e troca de líder, para que você não o torne acidentalmente líder de grupo (o que suspenderia seu cargo). Destitua-o do cargo primeiro para poder liderar um grupo." />
+    <string id="hh_mcm_herald_party_guard_name" text="Proteger arautos de designação de grupo" />
+    <string id="hh_mcm_muster_focus_hint" text="Dois efeitos, ambos do Mestre de Recrutamento: feudos definidos com prioridade de elite multiplicam a chance de recruta de elite por este valor (limitado a 90% para que tropas básicas nunca desapareçam), e Montarias de Guerra - o ingrediente de melhoria de cavalaria - recebem este mesmo multiplicador além do bônus de produção de cavalos. Montarias Nobres permanecem na taxa base (não podem melhorar tropas, então aumentá-las seria apenas um dreno de ouro)." />
+    <string id="hh_mcm_muster_focus_name" text="Multiplicador de prioridade de elite (feudos focados)" />
+    <string id="hh_mcm_muster_horses_hint" text="Unidades extras dos cavalos que suas aldeias já produzem, adicionadas ao estoque comercial diariamente, escaladas pela habilidade do Mestre de Recrutamento. Montarias de Guerra (o nível 2 de melhoria de cavalaria) recebem o multiplicador de foco em Elite além disso, então um único feudo de rancho de cavalos pode fornecer um verdadeiro fluxo de montarias de guerra. Defina alto (até 500%) se quiser que uma cidade sustente toda a remonta do clã." />
+    <string id="hh_mcm_muster_horses_name" text="Bônus de produção de aldeia de cavalos (%)" />
+    <string id="hh_mcm_promotion_main_pool_share_hint" text="Quanto do total vai para as habilidades principais (até quatro), dividido igualmente entre elas. O restante é o total de suporte para as demais habilidades. 100 = apenas as quatro principais." />
+    <string id="hh_mcm_promotion_main_pool_share_name" text="Construção de habilidade: % do total principal" />
+    <string id="hh_mcm_promotion_skill_pool_hint" text="O orçamento total de pontos de habilidade que uma construção de habilidade utiliza. Dividido em um total principal e um total de suporte pela proporção abaixo; pontos de mortes excedentes se somam além disso." />
+    <string id="hh_mcm_promotion_skill_pool_name" text="Construção de habilidade: total geral" />
+    <string id="hh_mcm_promotion_support_priority_hint" text="Como o total de suporte se distribui entre as habilidades de suporte. 0 = uniforme; valores maiores priorizam as habilidades de suporte de maior prioridade." />
+    <string id="hh_mcm_promotion_support_priority_name" text="Construção de habilidade: prioridade de suporte" />
+    <string id="hh_mcm_remount_premium_hint" text="Quanto acima do valor do item o corretor do Mestre de Recrutamento cobra por montarias de guerra (Providenciar Remontas e abastecimento de estábulo). Um piso de 15% é aplicado no código para que o corretor nunca seja uma arbitragem." />
+    <string id="hh_mcm_remount_premium_name" text="Prêmio de aquisição de remontas (%)" />
+    <string id="hh_mcm_works_autofill_hint" text="Um feudo com fila VAZIA tem sua próxima construção escolhida como um governador competente faria. Uma fila definida manualmente nunca é alterada. Exclusão por feudo através das instruções permanentes do assentamento." />
+    <string id="hh_mcm_works_autofill_name" text="Preencher automaticamente filas de construção vazias" />
+    <string id="hh_mcm_works_enable_hint" text="Enquanto o Exchequer estiver em serviço, seus assentamentos constroem: construção mais rápida em todo o clã, filas de construção vazias preenchidas automaticamente, lares das aldeias cuidados. Tudo escalado pela habilidade do oficial." />
+    <string id="hh_mcm_works_enable_name" text="Escritório de Obras (Exchequer)" />
+    <string id="hh_mcm_works_estate_hint" text="Com o Agriculture Estate instalado, o Exchequer administra seu próprio tesouro do Escritório de Obras: compra lotes disponíveis (desenvolvidos primeiro, depois não desenvolvidos), limpa terras não desenvolvidas próprias, depois ergue patrulhas e armazéns - tudo pago do tesouro do escritório, nunca diretamente do cofre do clã. Exclusão por aldeia através das instruções permanentes da aldeia. Sem efeito sem o mod." />
+    <string id="hh_mcm_works_estate_name" text="Desenvolver automaticamente propriedades das aldeias (Agriculture Estate)" />
+    <string id="hh_mcm_works_fallback_hint" text="O projeto diário ao qual um feudo totalmente construído recorre: 0 deixar como está (mantém o que você ou o Improved Garrisons escolheu), 1 lealdade, 2 milícia, 3 comida. Substituição por feudo através das instruções permanentes." />
+    <string id="hh_mcm_works_fallback_name" text="Quando um feudo está totalmente construído" />
+    <string id="hh_mcm_works_hearth_hint" text="Aldeias não têm construção, então o escritório cuida de seus lares em vez disso: crescimento diário de lar adicionado a cada aldeia própria, escalado pela habilidade do Exchequer." />
+    <string id="hh_mcm_works_hearth_name" text="Zelo pelos lares das aldeias por dia" />
+    <string id="hh_mcm_works_pct_hint" text="Poder de construção extra como porcentagem do poder diário próprio de cada assentamento, escalado pela habilidade do Exchequer (0,70x a 1,30x). 0 desativa o bônus de velocidade; 500 com um Exchequer mestre constrói mais de seis vezes mais rápido." />
+    <string id="hh_mcm_works_pct_name" text="Bônus de construção na maestria total (%)" />
+    <string id="hh_mcm_works_prod_hint" text="Unidades extras dos bens comerciais que suas aldeias já produzem (grãos, tecido, gado, minério...), adicionadas ao estoque diariamente, escaladas pela habilidade do Exchequer. MONTARIAS são excluídas - cavalos são a área do Mestre de Recrutamento, para que os dois escritórios nunca se sobreponham. Este é o irmão econômico do bônus de construção." />
+    <string id="hh_mcm_works_prod_name" text="Bônus de produção de aldeia (Exchequer, %)" />
+    <string id="hh_mcm_works_purse_hint" text="A reposição semanal do tesouro nunca reduz o ouro do clã abaixo deste valor. Aumente para manter um cofre de guerra intocado; diminua para permitir que o escritório financie propriedades de forma mais agressiva." />
+    <string id="hh_mcm_works_purse_name" text="Piso de reserva do tesouro da propriedade" />
+    <string id="hh_mcm_works_treasury_hint" text="O fundo limitado que o Exchequer gasta em propriedades. Toda semana ele repõe até este valor a partir do cofre do clã (nunca abaixo do piso de reserva), e cada lote/projeto é pago dele - assim, uma onda de projetos baratos drena apenas o tesouro do escritório, não o clã. Meta mais alta = crescimento de propriedades mais agressivo." />
+    <string id="hh_mcm_works_treasury_name" text="Meta do tesouro do Escritório de Obras" />
   </strings>
 </base>

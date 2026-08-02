@@ -699,5 +699,35 @@
     <string id="ch_chy_auto_on" text="вкл" />
     <string id="ch_party_guard" text="{HERO} служит вашим герольдом ({OFFICE}) - сначала освободите его от должности, прежде чем делать командиром отряда." />
     <string id="ch_ledger_instr_edit" text="Распоряжения для {NAME} изменены: {SUMMARY}." />
+    <string id="ch_chy_estate_absent" text="Поместье земледелия не построено -  приведённый выше фокус найма всё ещё действует." />
+    <string id="ch_chy_estate_label" text="Поместье" />
+    <string id="ch_chy_estate_line2" text="Проект: {PROJECT} ({PROGRESS}, {QUEUE} в очереди)  ·  участки: {DEV} освоенных (+{ADEV} на продажу), {UNDEV} неосвоенных (+{AUNDEV} на продажу)  ·  патрули {PATROL}" />
+    <string id="ch_chy_estate_none" text="В этой деревне нет поместья." />
+    <string id="ch_chy_no_villages" text="(пока нет владений в деревнях)" />
+    <string id="ch_chy_tab_villages" text="Деревни" />
+    <string id="ch_comm_title_thegn" text="Тан" />
+    <string id="ch_gov_pick_desc" text="Выберите наместника для {SETTLEMENT}. Список используется для очень крупных кланов." />
+    <string id="ch_gov_pick_none" text="Без наместника (снять текущего)" />
+    <string id="ch_gov_pick_row" text="{NAME} (Обаяние {CHARM})" />
+    <string id="ch_hh_clan" text="Дела клана: приёмы, поддержка и репутация." />
+    <string id="ch_hh_family" text="Семья и наследование: брак, наследники и члены семьи." />
+    <string id="ch_hh_recruit" text="Набор и свита: приведите людей под своё знамя." />
+    <string id="ch_hh_roles" text="Соратники и назначения: наместники, наставники, повышения, должности." />
+    <string id="ch_ledger_works_estate" text="Управление работ установило проект поместья в {VILLAGE} на {PROJECT}, потратив {GOLD} золота из казны." />
+    <string id="ch_ledger_works_plots" text="Управление работ приобрело {DEV} освоенных и {UNDEV} неосвоенных участков в {VILLAGE}." />
+    <string id="ch_ledger_works_purse_low" text="Казна Управления работ мала ({BAL} золота); поместья ждут средств. Повысьте целевой уровень казны или минимальный резерв." />
+    <string id="ch_ledger_works_treasury" text="Управление работ направило {GOLD} золота в свою казну (теперь {BAL})." />
+    <string id="ch_next" text="Далее" />
+    <string id="ch_promo_custom_main_desc" text="Выберите до {MAX} основных навыков для {NAME}. Основной пул ({POOL} очк.) делится между ними поровну; если не выбрать вспомогательные навыки, сюда попадёт весь {TOTAL}." />
+    <string id="ch_promo_custom_main_title" text="Основные навыки" />
+    <string id="ch_promo_custom_skill" text="{SKILL} (теперь {V})" />
+    <string id="ch_promo_custom_support_desc" text="Выберите любые вспомогательные навыки для {NAME}. Они делят пул поддержки ({POOL} очк.) по приоритету. Не выбирайте ни одного, чтобы весь бюджет ушёл в основные навыки." />
+    <string id="ch_promo_custom_support_title" text="Вспомогательные навыки" />
+    <string id="ch_promo_preset_thegn" text="Тан: сильнейший в своём деле." />
+    <string id="ch_promo_preset_thegn_hint" text="Воин, которому никто не мог противостоять. Развивает свои лучшие боевые навыки, каким бы оружием он уже ни владел." />
+    <string id="ch_route_hh_clan" text="Дела клана" />
+    <string id="ch_route_hh_family" text="Семья и наследование" />
+    <string id="ch_route_hh_recruit" text="Набор и свита" />
+    <string id="ch_route_hh_roles" text="Соратники и назначения" />
   </strings>
 </base>

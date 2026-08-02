@@ -186,5 +186,46 @@
     <string id="hh_mcm_group_ennoblement" text="Asker Yükseltmesi" />
     <string id="hh_mcm_enable_office_growth_name" text="Ofis sahiplerinin becerisi büyür" />
     <string id="hh_mcm_enable_office_growth_hint" text="Görevlendirilmiş bir Herald, görev yaptığı her gün ofisinin ana becerisini büyütür (Exchequer: Kahyalık, Watch: İzcilik, Muster: Liderlik, Arms: Taktik); bu, Klan Görevlendirmelerindeki hizmet büyümesiyle aynı hız ve tavana sahiptir. Askıya alınmış ofisler hiçbir şey öğretmez." />
+    <string id="hh_mcm_chancery_drawer_hint" text="Kampanya haritasının sağ kenarında açılır bir Şansölyelik panosu: ofisler, tımar başına geçerli talimatlar ve Klan Defteri. Yalnızca diyalog konsolunu kullanmak için kapatın." />
+    <string id="hh_mcm_chancery_drawer_name" text="Haritadaki Şansölyelik paneli" />
+    <string id="hh_mcm_commission_thegn_boost_hint" text="Bir Thegn atandığında her savaş yeteneğine artı Taktik ve Liderliğe düz bir artış sağlar, görevden alındığında geri alınır. Bunlar Kaptan yeteneklerini taşır, bu yüzden bir Thegn savaşta ve birlik kaptanı olarak yıkıcıdır; Mareşal'in harita yetenekleri olmadan bir birliği haritada ancak ortalama düzeyde yönetirler. Düşük değerlerde hafif; yüksek değerlerde tek bir Thegn bir orduyu biçebilir." />
+    <string id="hh_mcm_commission_thegn_boost_name" text="Thegn savaş artışı (Primarch kadranı)" />
+    <string id="hh_mcm_commission_thegn_share_hint" text="Etkili yoldaş limitinizin yüzdesi olarak Thegn üst sınırı. Saha şampiyonları herhangi bir ofis taşımaz, bu yüzden birçok yoldaşın Thegn olarak hizmet edebilmesi için bu varsayılan olarak yüksektir." />
+    <string id="hh_mcm_commission_thegn_share_name" text="Thegn payı %" />
+    <string id="hh_mcm_elite_recruit_multiplier_name2" text="Toplanma önceliği: elit askerler" />
+    <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Vali atama seçicisi her aday için 3D bir portre oluşturur; büyük klanlarda aynı anda o kadar çok render sıraya girer ki daha zayıf donanımlar (Steam Deck) çökebilir. Bu adaydan fazlası için kartlar portreleri atlar ve anında açılır. 0 = portreler her zaman oluşturulur." />
+    <string id="hh_mcm_gov_picker_portrait_limit_name" text="N adaydan fazlasında seçici portrelerini atla" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Yeni birlik ve lider değiştirme seçicilerinde Haberci ofisi tutan bir kahramanı grileştirir, böylece onları yanlışlıkla birlik lideri yapamazsınız (bu, ofisini askıya alır). Bir birliğe önderlik etmesi için önce onu ofisten alın." />
+    <string id="hh_mcm_herald_party_guard_name" text="Habercileri birlik atamasından koru" />
+    <string id="hh_mcm_muster_focus_hint" text="İkisi de Toplanma Görevlisi'ne ait iki etki: elit önceliğine ayarlanmış tımarlarda elit asker şansı bununla çarpılır (temel askerler asla kaybolmasın diye %90 ile sınırlıdır) ve süvari yükseltme malzemesi olan Savaş Atları, at üretim bonusunun üzerine bu aynı çarpanı alır. Asil Atlar temel oranda bırakılır (askerleri yükseltemezler, bu yüzden onları güçlendirmek yalnızca bir altın kaybı olurdu)." />
+    <string id="hh_mcm_muster_focus_name" text="Elit öncelik çarpanı (odaklı tımarlar)" />
+    <string id="hh_mcm_muster_horses_hint" text="Sahip olduğunuz köylerin zaten ürettiği atlara ek birimler, Toplanma Görevlisi'nin yeteneğine göre ölçeklenerek her gün ticaret stoklarına eklenir. Savaş Atları (2. seviye süvari yükseltme kademesi) ayrıca Elit odak çarpanını da alır, böylece tek bir at çiftliği tımarı gerçek bir savaş atı akışı sağlayabilir. Bütün klanın binek atlarını tek bir kasabanın taşımasını istiyorsanız yüksek ayarlayın (%500'e kadar)." />
+    <string id="hh_mcm_muster_horses_name" text="At köyü üretim bonusu (%)" />
+    <string id="hh_mcm_promotion_main_pool_share_hint" text="Havuzun ne kadarının temel (en fazla dört) yeteneklere gideceği, aralarında eşit bölünür. Kalanı geri kalan yetenekler için destek havuzudur. 100 = yalnızca temel dört." />
+    <string id="hh_mcm_promotion_main_pool_share_name" text="Yetenek dağılımı: ana havuz payı %" />
+    <string id="hh_mcm_promotion_skill_pool_hint" text="Bir yetenek dağılımının harcadığı toplam yetenek puanı bütçesi. Aşağıdaki paya göre bir ana havuz ve bir destek havuzuna bölünür; fazla-öldürme puanları üzerine eklenir." />
+    <string id="hh_mcm_promotion_skill_pool_name" text="Yetenek dağılımı: toplam havuz" />
+    <string id="hh_mcm_promotion_support_priority_hint" text="Destek havuzunun destekleyici yetenekler arasında nasıl dağıldığı. 0 = eşit; daha yüksek değerler daha yüksek öncelikli destekleyici yetenekleri öne yükler." />
+    <string id="hh_mcm_promotion_support_priority_name" text="Yetenek dağılımı: destek önceliği" />
+    <string id="hh_mcm_remount_premium_hint" text="Toplanma Görevlisi'nin komisyoncusunun savaş atları için (Binek Tedariki ve ahır stoklaması) eşya değerinin ne kadar üzerinde ücret aldığı. Komisyoncunun asla bir kâr fırsatı olamaması için kodda %15 taban zorunlu kılınmıştır." />
+    <string id="hh_mcm_remount_premium_name" text="Binek tedarik primi (%)" />
+    <string id="hh_mcm_works_autofill_hint" text="BOŞ kuyruğu olan bir tımar için bir sonraki bina, yetkin bir valinin seçeceği şekilde seçilir. Elle ayarladığınız bir kuyruğa asla dokunulmaz. Tımar başına devre dışı bırakma, yerleşimin geçerli talimatları üzerinden yapılır." />
+    <string id="hh_mcm_works_autofill_name" text="Boş inşa kuyruklarını otomatik doldur" />
+    <string id="hh_mcm_works_enable_hint" text="Hazine Nazırı görev yaptığı sürece yerleşimleriniz inşa eder: klan genelinde daha hızlı inşaat, boş inşa kuyrukları otomatik doldurulur, köylerin ocakları bakılır. Hepsi görevlinin yeteneğine göre ölçeklenir." />
+    <string id="hh_mcm_works_enable_name" text="İmar Ofisi (Hazine Nazırı)" />
+    <string id="hh_mcm_works_estate_hint" text="Agriculture Estate kurulduğunda, Hazine Nazırı kendi İmar Ofisi hazinesini yürütür: mevcut arsaları satın alır (önce geliştirilmişleri, sonra geliştirilmemişleri), sahip olunan geliştirilmemiş araziyi temizler, ardından karakol ve depolar kurar - hepsi doğrudan klan kasasından değil, ofis hazinesinden ödenir. Köy başına devre dışı bırakma, köyün geçerli talimatları üzerinden yapılır. Mod olmadan etkisi yoktur." />
+    <string id="hh_mcm_works_estate_name" text="Köy mülklerini otomatik geliştir (Agriculture Estate)" />
+    <string id="hh_mcm_works_fallback_hint" text="Tamamlanmış bir tımarın döneceği günlük proje: 0 olduğu gibi bırak (sizin veya Improved Garrisons'ın seçtiğine bırakır), 1 bağlılık, 2 milis, 3 yiyecek. Tımar başına geçersiz kılma, geçerli talimatlar üzerinden yapılır." />
+    <string id="hh_mcm_works_fallback_name" text="Bir tımar tamamen inşa edildiğinde" />
+    <string id="hh_mcm_works_hearth_hint" text="Köylerin inşaatı olmadığından, ofis bunun yerine ocaklarına bakar: sahip olunan her köye günlük ocak büyümesi eklenir, Hazine Nazırı'nın yeteneğine göre ölçeklenir." />
+    <string id="hh_mcm_works_hearth_name" text="Günlük köy ocağı bakımı" />
+    <string id="hh_mcm_works_pct_hint" text="Her yerleşimin kendi günlük gücünün yüzdesi olarak bonus inşaat gücü, Hazine Nazırı'nın yeteneğine göre ölçeklenir (0,70x ile 1,30x arası). 0 hız bonusunu devre dışı bırakır; usta bir Hazine Nazırı ile 500 altı kattan fazla hızlı inşa eder." />
+    <string id="hh_mcm_works_pct_name" text="Tam ustalıkta inşaat bonusu (%)" />
+    <string id="hh_mcm_works_prod_hint" text="Köylerinizin zaten ürettiği ticaret mallarına (tahıl, kumaş, hayvancılık, cevher...) ek birimler, Hazine Nazırı'nın yeteneğine göre ölçeklenerek her gün stoklarına eklenir. BİNEK ATLARI hariç tutulur - atlar Toplanma Görevlisi'nin alanıdır, böylece iki ofis asla çakışmaz. Bu, inşaat bonusunun ekonomik kardeşidir." />
+    <string id="hh_mcm_works_prod_name" text="Köy üretim bonusu (Hazine Nazırı, %)" />
+    <string id="hh_mcm_works_purse_hint" text="Haftalık hazine tamamlaması klan altınını bunun altına asla çekmez. Dokunulmamış bir savaş sandığı için bunu yükseltin; ofisin mülklere daha agresif fon sağlamasına izin vermek için düşürün." />
+    <string id="hh_mcm_works_purse_name" text="Mülk hazinesi rezerv tabanı" />
+    <string id="hh_mcm_works_treasury_hint" text="Hazine Nazırı'nın mülkler için harcadığı sınırlı fon. Her hafta klan kasasından bu miktara doğru tamamlanır (asla rezerv tabanının altına inmez) ve her arsa/proje bundan ödenir - böylece ucuz projelerin bir akını yalnızca ofis hazinesini tüketir, klanı değil. Daha yüksek hedef = daha agresif mülk büyümesi." />
+    <string id="hh_mcm_works_treasury_name" text="İmar Ofisi hazine hedefi" />
   </strings>
 </base>
