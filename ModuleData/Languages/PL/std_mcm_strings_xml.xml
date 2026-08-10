@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Polski" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="Priorytet poboru: rekruci elitarni" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Selektor przypisywania gubernatora renderuje portret 3D dla każdego kandydata; wielkie klany kolejkują tak wiele renderów naraz, że słabszy sprzęt (Steam Deck) może się zawiesić. Powyżej tej liczby kandydatów karty pomijają portrety i otwierają się natychmiast. 0 = zawsze renderuj portrety." />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="Pomiń portrety w selektorze powyżej N kandydatów" />
-    <string id="hh_mcm_herald_party_guard_hint" text="Wyszarza bohatera piastującego urząd Herolda w selektorach nowej drużyny i zmiany lidera, dzięki czemu nie uczynisz go przypadkowo liderem drużyny (co zawiesiłoby jego urząd). Aby mógł prowadzić drużynę, najpierw zwolnij go z urzędu." />
-    <string id="hh_mcm_herald_party_guard_name" text="Chroń heroldów przed przydziałem do drużyny" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Wyszarza lub ukrywa bohatera pełniącego urząd Herolda na listach dowódcy drużyny, zarządcy i mistrza karawany, byś przypadkiem nie nadał mu roli sprzecznej z jego urzędem — co go zawiesza i zatrzymuje filar, którym kieruje (zawieszony Skarbnik wstrzymuje Urząd Robót, a budowa staje we wszystkich włościach). Najpierw zwolnij go z urzędu." />
+    <string id="hh_mcm_herald_party_guard_name" text="Chroń heroldów przed przydziałem ról" />
     <string id="hh_mcm_muster_focus_hint" text="Dwa efekty, oba Poborowego: lenna ustawione na priorytet elitarny mnożą przez to szansę na elitarnego rekruta (ograniczoną do 90%, by podstawowi żołnierze nigdy nie zniknęli), a Rumaki Wojenne - składnik ulepszenia kawalerii - otrzymują ten sam mnożnik ponad bonus do produkcji koni. Rumaki Szlacheckie pozostają na stawce bazowej (nie mogą ulepszać oddziałów, więc ich wzmacnianie byłoby jedynie wyciekiem złota)." />
     <string id="hh_mcm_muster_focus_name" text="Mnożnik priorytetu elitarnego (lenna skupione)" />
     <string id="hh_mcm_muster_horses_hint" text="Dodatkowe jednostki koni, które twoje wioski już produkują, dodawane codziennie do ich zapasów handlowych, skalowane umiejętnością Poborowego. Rumaki Wojenne (poziom 2 ulepszenia kawalerii) otrzymują dodatkowo mnożnik priorytetu elitarnego, więc pojedyncze lenno z hodowlą koni może zapewnić prawdziwy strumień rumaków wojennych. Ustaw wysoko (do 500%), jeśli chcesz, by jedno miasto zaopatrywało cały klan w remonty." />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="Próg rezerwy skarbca majątków" />
     <string id="hh_mcm_works_treasury_hint" text="Ograniczony fundusz, który Skarbnik wydaje na majątki. Co tydzień uzupełnia go do tej kwoty z kasy klanu (nigdy poniżej progu rezerwy), a każda działka/projekt jest z niego opłacana - dzięki czemu fala tanich projektów drenuje jedynie skarbiec urzędu, a nie klan. Wyższy cel = bardziej agresywny rozwój majątków." />
     <string id="hh_mcm_works_treasury_name" text="Docelowy skarbiec Urzędu Robót Publicznych" />
+    <string id="hh_mcm_enable_presence_relations_name" text="Relacje z obecności" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="Prestiż wśród notabli osady rośnie samoczynnie, gdy twój ród jest obecny: zarządca buduje go od razu, a członek rodu stacjonujący w osadzie (twojej lub nie) zaczyna po podanej niżej liczbie dni. Skaluje się z Charyzmą i liczbą obecnych krewnych, ograniczony pułapem uprzejmości. Wył.: tylko czynne uprzejmości zmieniają relacje." />
+    <string id="hh_mcm_presence_station_days_name" text="Dni stacjonowania, zanim wzrośnie prestiż" />
+    <string id="hh_mcm_presence_station_days_hint" text="Ile kolejnych dni członek rodu musi przebywać w osadzie, zanim zacznie budować twój prestiż wśród jej notabli. Zarządca jest zwolniony i zaczyna od razu." />
+    <string id="hh_mcm_presence_gov_gain_name" text="Dzienny prestiż zarządcy" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="Bazowy prestiż, jaki zarządca dodaje codziennie każdemu notablowi swojego lenna, przed skalowaniem Charyzmą. Ograniczony dziennym limitem i pułapem uprzejmości." />
+    <string id="hh_mcm_presence_stationed_gain_name" text="Dzienny prestiż stacjonującego członka" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="Bazowy prestiż, jaki stacjonujący, niesprawujący rządów członek rodu dodaje codziennie każdemu notablowi po zadomowieniu, przed skalowaniem Charyzmą. Niższy niż u zarządcy; kilku stacjonujących krewnych sumuje się." />
+    <string id="hh_mcm_presence_cap_name" text="Obecność: maks. prestiż na notabla dziennie" />
+    <string id="hh_mcm_presence_cap_hint" text="Największy prestiż, jaki obecność może dodać jednemu notablowi w ciągu dnia, bez względu na liczbę stacjonujących tam krewnych. Utrzymuje to jako strużkę: liczba szybciej osiąga pułap, lecz nie przekroczy tego dziennego kroku ani pułapu uprzejmości." />
   </strings>
 </base>

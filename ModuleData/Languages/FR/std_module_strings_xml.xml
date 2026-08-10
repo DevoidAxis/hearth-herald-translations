@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Français" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME} a pris la commission de {TRACK}." />
     <string id="ch_ledger_comm_laid" text="{NAME} a déposé la commission de {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} est resté dans la mémoire des rangs comme {TRACK}." />
+    <string id="ch_comm_title_exchequer_herald" text="Héraut du Trésor" />
+    <string id="ch_comm_title_watch_herald" text="Héraut du Guet" />
+    <string id="ch_comm_title_muster_herald" text="Héraut du Rassemblement" />
+    <string id="ch_comm_title_arms_herald" text="Héraut d'Armes" />
+    <string id="ch_gov_guard" text="{HERO} sert de Héraut ({OFFICE}) — relevez-le de sa charge avant d'en faire un gouverneur." />
+    <string id="ch_works_idle_vacant" text="Office des Travaux inactif : aucun Trésorier n'est en fonction, la construction est donc suspendue dans tous vos domaines. Nommez un Trésorier (Chancellerie) pour reprendre les travaux." />
+    <string id="ch_works_idle_suspended" text="Office des Travaux inactif : votre Trésorier {HERO} n'est pas en fonction ({STATUS}), la construction est donc suspendue dans tous vos domaines. Réglez cela à la Chancellerie pour reprendre les travaux." />
   </strings>
 </base>

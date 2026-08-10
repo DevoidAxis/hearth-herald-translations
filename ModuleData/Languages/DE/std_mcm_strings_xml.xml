@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Deutsch" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="Musterungspriorität: Elite-Rekruten" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Der Gouverneurs-Auswahldialog rendert pro Kandidat ein 3D-Porträt; bei riesigen Clans werden so viele Renderings gleichzeitig angestoßen, dass schwächere Hardware (Steam Deck) abstürzen kann. Oberhalb dieser Kandidatenzahl überspringen die Karten Porträts und öffnen sich sofort. 0 = Porträts immer rendern." />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="Auswahl-Porträts über N Kandidaten überspringen" />
-    <string id="hh_mcm_herald_party_guard_hint" text="Graut einen Helden aus, der ein Herold-Amt innehat, in den Auswahldialogen für neue Gruppen und Anführerwechsel, damit Sie ihn nicht versehentlich zum Gruppenanführer machen (was sein Amt aussetzen würde). Entheben Sie ihn zuerst des Amtes, um eine Gruppe zu führen." />
-    <string id="hh_mcm_herald_party_guard_name" text="Herolde vor Gruppenzuweisung schützen" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Blendet einen Helden, der ein Heroldsamt bekleidet, in den Auswahllisten für Truppenführer, Statthalter und Karawanenmeister aus oder graut ihn aus, damit Ihr ihm nicht versehentlich eine Rolle gebt, die mit seinem Amt kollidiert — was das Amt aussetzt und die von ihm getragene Säule anhält (ein ausgesetzter Schatzmeister legt das Bauamt lahm, und der Bau ruht in allen Besitzungen). Enthebt ihn zuerst des Amtes." />
+    <string id="hh_mcm_herald_party_guard_name" text="Herolde vor Rollenzuweisung schützen" />
     <string id="hh_mcm_muster_focus_hint" text="Zwei Effekte, beide vom Musterungsmeister: Lehen mit Elite-Priorität multiplizieren die Elite-Rekruten-Chance mit diesem Wert (gedeckelt bei 90%, damit einfache Truppen nie verschwinden), und Kriegsrösser - die Zutat für das Kavallerie-Upgrade - erhalten denselben Multiplikator zusätzlich zum Pferdeproduktionsbonus. Adelspferde bleiben bei der Grundrate (sie können keine Truppen aufwerten, daher würde ein Boost hier nur Gold verschwenden)." />
     <string id="hh_mcm_muster_focus_name" text="Elite-Prioritätsmultiplikator (fokussierte Lehen)" />
     <string id="hh_mcm_muster_horses_hint" text="Zusätzliche Einheiten der Pferde, die Ihre eigenen Dörfer bereits produzieren, täglich zu ihrem Handelsbestand hinzugefügt, skaliert mit der Fertigkeit des Musterungsmeisters. Kriegsrösser (die Kavallerie-Upgrade-Stufe 2) erhalten zusätzlich den Elite-Fokus-Multiplikator, sodass ein einzelnes Pferdezucht-Lehen einen echten Kriegsross-Strom liefern kann. Hoch einstellen (bis zu 500%), wenn eine Stadt die gesamten Ersatzpferde des Clans tragen soll." />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="Untergrenze der Anwesens-Schatzkammerreserve" />
     <string id="hh_mcm_works_treasury_hint" text="Der begrenzte Fonds, den der Schatzmeister für Anwesen ausgibt. Jede Woche wird er aus der Clan-Kasse auf diesen Betrag aufgefüllt (nie unter die Reservegrenze), und jede Parzelle/jedes Projekt wird daraus bezahlt - sodass ein Schwall billiger Projekte nur die Amtskasse belastet, nicht den Clan. Höheres Ziel = aggressiveres Anwesenswachstum." />
     <string id="hh_mcm_works_treasury_name" text="Zielwert der Schatzkammer des Amts für Bauwesen" />
+    <string id="hh_mcm_enable_presence_relations_name" text="Präsenz-Beziehungen" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="Das Ansehen bei den Honoratioren einer Siedlung wächst von selbst, solange Euer Klan zugegen ist: Ein Statthalter mehrt es sofort, ein in einer Siedlung (Eurer oder fremder) stationiertes Klanmitglied beginnt nach den unten genannten Tagen. Skaliert mit Charme und der Zahl anwesender Verwandter, begrenzt durch die Höflichkeitsobergrenze. Aus: Nur aktive Höflichkeiten ändern Beziehungen." />
+    <string id="hh_mcm_presence_station_days_name" text="Tage stationiert, bevor Ansehen wächst" />
+    <string id="hh_mcm_presence_station_days_hint" text="Wie viele zusammenhängende Tage ein Klanmitglied in einer Siedlung verweilen muss, bevor es Euer Ansehen bei ihren Honoratioren zu mehren beginnt. Ein Statthalter ist ausgenommen und beginnt sofort." />
+    <string id="hh_mcm_presence_gov_gain_name" text="Tägliches Ansehen des Statthalters" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="Grundansehen, das ein Statthalter täglich jedem Honoratioren seines Lehens hinzufügt, vor der Charme-Skalierung. Begrenzt durch die Tagesobergrenze und die Höflichkeitsobergrenze." />
+    <string id="hh_mcm_presence_stationed_gain_name" text="Tägliches Ansehen des stationierten Mitglieds" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="Grundansehen, das ein stationiertes, nicht regierendes Klanmitglied nach dem Einleben täglich jedem Honoratioren hinzufügt, vor der Charme-Skalierung. Geringer als ein Statthalter; mehrere stationierte Verwandte summieren sich." />
+    <string id="hh_mcm_presence_cap_name" text="Präsenz: max. Ansehen je Honoratior pro Tag" />
+    <string id="hh_mcm_presence_cap_hint" text="Das meiste Ansehen, das Präsenz an einem Tag einem Honoratioren hinzufügen kann, wie viele Verwandte auch dort stationiert sind. Hält es ein Rinnsal: Zahlen erreichen die Obergrenze früher, können aber diesen Tagesschritt oder die Höflichkeitsobergrenze nicht überschreiten." />
   </strings>
 </base>

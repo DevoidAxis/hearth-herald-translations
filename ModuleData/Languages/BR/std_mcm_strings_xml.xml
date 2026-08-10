@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Português (BR)" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="Prioridade de recrutamento: recrutas de elite" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="O seletor de nomeação de governador renderiza um retrato 3D por candidato; clãs enormes enfileiram tantas renderizações de uma vez que hardwares mais fracos (Steam Deck) podem travar. Acima desse número de candidatos, os cartões pulam os retratos e abrem instantaneamente. 0 = sempre renderizar retratos." />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="Pular retratos do seletor acima de N candidatos" />
-    <string id="hh_mcm_herald_party_guard_hint" text="Deixa acinzentado um herói que ocupa um cargo de Arauto nos seletores de novo grupo e troca de líder, para que você não o torne acidentalmente líder de grupo (o que suspenderia seu cargo). Destitua-o do cargo primeiro para poder liderar um grupo." />
-    <string id="hh_mcm_herald_party_guard_name" text="Proteger arautos de designação de grupo" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Esmaece ou oculta um herói que ocupa um cargo de Arauto nas listas de líder de grupo, governador e mestre de caravana, para que você não lhe dê acidentalmente uma função que conflite com seu cargo — o que o suspende e para o pilar que ele conduz (um Tesoureiro suspenso interrompe o Escritório de Obras, e a construção para em todas as propriedades). Dispense-o do cargo primeiro." />
+    <string id="hh_mcm_herald_party_guard_name" text="Proteger arautos de atribuição de cargos" />
     <string id="hh_mcm_muster_focus_hint" text="Dois efeitos, ambos do Mestre de Recrutamento: feudos definidos com prioridade de elite multiplicam a chance de recruta de elite por este valor (limitado a 90% para que tropas básicas nunca desapareçam), e Montarias de Guerra - o ingrediente de melhoria de cavalaria - recebem este mesmo multiplicador além do bônus de produção de cavalos. Montarias Nobres permanecem na taxa base (não podem melhorar tropas, então aumentá-las seria apenas um dreno de ouro)." />
     <string id="hh_mcm_muster_focus_name" text="Multiplicador de prioridade de elite (feudos focados)" />
     <string id="hh_mcm_muster_horses_hint" text="Unidades extras dos cavalos que suas aldeias já produzem, adicionadas ao estoque comercial diariamente, escaladas pela habilidade do Mestre de Recrutamento. Montarias de Guerra (o nível 2 de melhoria de cavalaria) recebem o multiplicador de foco em Elite além disso, então um único feudo de rancho de cavalos pode fornecer um verdadeiro fluxo de montarias de guerra. Defina alto (até 500%) se quiser que uma cidade sustente toda a remonta do clã." />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="Piso de reserva do tesouro da propriedade" />
     <string id="hh_mcm_works_treasury_hint" text="O fundo limitado que o Exchequer gasta em propriedades. Toda semana ele repõe até este valor a partir do cofre do clã (nunca abaixo do piso de reserva), e cada lote/projeto é pago dele - assim, uma onda de projetos baratos drena apenas o tesouro do escritório, não o clã. Meta mais alta = crescimento de propriedades mais agressivo." />
     <string id="hh_mcm_works_treasury_name" text="Meta do tesouro do Escritório de Obras" />
+    <string id="hh_mcm_enable_presence_relations_name" text="Relações por presença" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="A reputação com os notáveis de um assentamento cresce por conta própria enquanto seu clã está presente: um governador a constrói de imediato, e um membro do clã estacionado num assentamento (seu ou não) começa após os dias abaixo. Escala com o Carisma e quantos parentes estão lá, limitada pelo teto de cortesias. Desligado: apenas cortesias ativas alteram relações." />
+    <string id="hh_mcm_presence_station_days_name" text="Dias estacionado antes de a reputação crescer" />
+    <string id="hh_mcm_presence_station_days_hint" text="Quantos dias contínuos um membro do clã deve permanecer num assentamento antes de começar a construir sua reputação com os notáveis dele. Um governador é isento e começa de imediato." />
+    <string id="hh_mcm_presence_gov_gain_name" text="Reputação diária do governador" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="Reputação base que um governador adiciona diariamente a cada notável de seu feudo, antes da escala por Carisma. Limitada pelo teto diário e pelo teto de cortesias." />
+    <string id="hh_mcm_presence_stationed_gain_name" text="Reputação diária do membro estacionado" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="Reputação base que um membro do clã estacionado e sem governo adiciona diariamente a cada notável depois de se ambientar, antes da escala por Carisma. Menor que a de um governador; vários parentes estacionados se somam." />
+    <string id="hh_mcm_presence_cap_name" text="Presença: reputação máx. por notável por dia" />
+    <string id="hh_mcm_presence_cap_hint" text="A maior reputação que a presença pode adicionar a um notável em um dia, por mais parentes que estejam estacionados ali. Mantém tudo num fluxo lento: números alcançam o teto mais cedo, mas não ultrapassam esse passo diário nem o teto de cortesias." />
   </strings>
 </base>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Español (LA)" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME} asumió la comisión de {TRACK}." />
     <string id="ch_ledger_comm_laid" text="{NAME} renunció a la comisión de {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} quedó en la memoria de las filas como {TRACK}." />
+    <string id="ch_comm_title_exchequer_herald" text="Heraldo del Tesoro" />
+    <string id="ch_comm_title_watch_herald" text="Heraldo de la Guardia" />
+    <string id="ch_comm_title_muster_herald" text="Heraldo de la Leva" />
+    <string id="ch_comm_title_arms_herald" text="Heraldo de Armas" />
+    <string id="ch_gov_guard" text="{HERO} sirve como tu Heraldo ({OFFICE}); relévalo del cargo antes de nombrarlo gobernador." />
+    <string id="ch_works_idle_vacant" text="Oficina de Obras inactiva: no hay ningún Tesorero en funciones, así que la construcción está pausada en todas tus posesiones. Nombra a un Tesorero (Cancillería) para reanudar las obras." />
+    <string id="ch_works_idle_suspended" text="Oficina de Obras inactiva: tu Tesorero {HERO} no está en funciones ({STATUS}), así que la construcción está pausada en todas tus posesiones. Resuélvelo en la Cancillería para reanudar las obras." />
   </strings>
 </base>

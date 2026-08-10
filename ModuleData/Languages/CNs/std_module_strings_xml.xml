@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="简体中文" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME}接受了{TRACK}的委任。" />
     <string id="ch_ledger_comm_laid" text="{NAME}卸下了{TRACK}的委任。" />
     <string id="ch_ledger_known_as" text="{NAME}作为{TRACK}留在了行伍的记忆中。" />
+    <string id="ch_comm_title_exchequer_herald" text="司库传令官" />
+    <string id="ch_comm_title_watch_herald" text="守望传令官" />
+    <string id="ch_comm_title_muster_herald" text="征召传令官" />
+    <string id="ch_comm_title_arms_herald" text="军械传令官" />
+    <string id="ch_gov_guard" text="{HERO} 担任你的传令官（{OFFICE}）——先解除其职务，才能任命为总督。" />
+    <string id="ch_works_idle_vacant" text="工务府闲置：没有司库在任，因此你所有领地的建造均已暂停。请任命一位司库（枢密院）以恢复建造。" />
+    <string id="ch_works_idle_suspended" text="工务府闲置：你的司库 {HERO} 未在履职（{STATUS}），因此你所有领地的建造均已暂停。请在枢密院处理此事以恢复建造。" />
   </strings>
 </base>

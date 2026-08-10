@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Türkçe" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME}, {TRACK} vazifesini üstlendi." />
     <string id="ch_ledger_comm_laid" text="{NAME}, {TRACK} vazifesini bıraktı." />
     <string id="ch_ledger_known_as" text="{NAME}, saflarda bir {TRACK} olarak hatırlandı." />
+    <string id="ch_comm_title_exchequer_herald" text="Hazine Habercisi" />
+    <string id="ch_comm_title_watch_herald" text="Nöbet Habercisi" />
+    <string id="ch_comm_title_muster_herald" text="Seferberlik Habercisi" />
+    <string id="ch_comm_title_arms_herald" text="Silah Habercisi" />
+    <string id="ch_gov_guard" text="{HERO} Haberciniz olarak görev yapıyor ({OFFICE}); vali yapmadan önce onu görevden alın." />
+    <string id="ch_works_idle_vacant" text="Bayındırlık Ofisi boşta: görevde bir Hazinedar yok, bu yüzden tüm topraklarınızda inşaat durdu. İnşaatı sürdürmek için bir Hazinedar atayın (Divan)." />
+    <string id="ch_works_idle_suspended" text="Bayındırlık Ofisi boşta: Hazinedarınız {HERO} görevde değil ({STATUS}), bu yüzden tüm topraklarınızda inşaat durdu. İnşaatı sürdürmek için sorunu Divan'da çözün." />
   </strings>
 </base>

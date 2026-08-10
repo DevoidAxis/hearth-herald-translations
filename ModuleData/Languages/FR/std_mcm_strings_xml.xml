@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Français" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="Priorité de rassemblement : recrues d'élite" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Le sélecteur de nomination de gouverneur affiche un portrait 3D par candidat ; les grands clans mettent tant de rendus en file d'attente à la fois que le matériel plus faible (Steam Deck) peut planter. Au-delà de ce nombre de candidats, les fiches omettent les portraits et s'ouvrent instantanément. 0 = toujours afficher les portraits." />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="Omettre les portraits du sélecteur au-delà de N candidats" />
-    <string id="hh_mcm_herald_party_guard_hint" text="Grise un héros qui détient une fonction de Héraut dans les sélecteurs de nouvelle troupe et de changement de chef, afin que vous ne puissiez pas en faire accidentellement un chef de troupe (ce qui suspendrait sa fonction). Déchargez-le d'abord de sa fonction pour qu'il puisse mener une troupe." />
-    <string id="hh_mcm_herald_party_guard_name" text="Protéger les hérauts de l'affectation aux troupes" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Grise ou masque un héros occupant une charge de Héraut dans les listes de chef de groupe, de gouverneur et de maître de caravane, afin que vous ne lui donniez pas par erreur un rôle en conflit avec sa charge — ce qui la suspend et arrête le pilier qu'il porte (un Trésorier suspendu paralyse l'Office des Travaux, et la construction s'arrête dans tous les domaines). Relevez-le d'abord de sa charge." />
+    <string id="hh_mcm_herald_party_guard_name" text="Protéger les hérauts de l'attribution de rôles" />
     <string id="hh_mcm_muster_focus_hint" text="Deux effets, tous deux du Rassembleur : les fiefs réglés en priorité élite multiplient la chance de recrue d'élite par ce facteur (plafonné à 90% pour que les troupes de base ne disparaissent jamais), et les Montures de Guerre - l'ingrédient d'amélioration de cavalerie - reçoivent ce même multiplicateur en plus du bonus de production de chevaux. Les Montures Nobles restent au taux de base (elles ne peuvent pas améliorer les troupes, donc les booster ne serait qu'un gouffre à or)." />
     <string id="hh_mcm_muster_focus_name" text="Multiplicateur de priorité élite (fiefs ciblés)" />
     <string id="hh_mcm_muster_horses_hint" text="Unités supplémentaires des chevaux que vos villages possédés produisent déjà, ajoutées à leur stock commercial quotidiennement, ajustées selon la compétence du Rassembleur. Les Montures de Guerre (le palier d'amélioration de cavalerie de niveau 2) reçoivent en plus le multiplicateur de focalisation Élite, si bien qu'un seul fief-ranch de chevaux peut fournir un véritable flux de montures de guerre. Réglez haut (jusqu'à 500%) si vous voulez qu'une seule ville assure toutes les montures de rechange du clan." />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="Seuil plancher de réserve de la trésorerie du domaine" />
     <string id="hh_mcm_works_treasury_hint" text="Le fonds plafonné que l'Intendant dépense pour les domaines. Chaque semaine, il le réapprovisionne vers ce montant depuis la bourse du clan (jamais en dessous du seuil plancher de réserve), et chaque parcelle/projet est payé depuis celui-ci - ainsi une vague de projets bon marché ne draine que la trésorerie de l'office, pas celle du clan. Cible plus élevée = croissance des domaines plus agressive." />
     <string id="hh_mcm_works_treasury_name" text="Cible de trésorerie de l'Office des Travaux" />
+    <string id="hh_mcm_enable_presence_relations_name" text="Relations de présence" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="Le prestige auprès des notables d'un fief croît de lui-même tant que votre clan est présent : un gouverneur le bâtit aussitôt, et un membre du clan posté dans un fief (le vôtre ou non) commence après le nombre de jours ci-dessous. Proportionnel au Charisme et au nombre de proches présents, plafonné par le plafond de courtoisie. Désactivé : seules les courtoisies actives modifient les relations." />
+    <string id="hh_mcm_presence_station_days_name" text="Jours en poste avant la hausse du prestige" />
+    <string id="hh_mcm_presence_station_days_hint" text="Combien de jours consécutifs un membre du clan doit rester dans un fief avant de commencer à bâtir votre prestige auprès de ses notables. Un gouverneur en est exempté et commence aussitôt." />
+    <string id="hh_mcm_presence_gov_gain_name" text="Prestige quotidien du gouverneur" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="Prestige de base qu'un gouverneur ajoute chaque jour à chaque notable de son fief, avant l'échelle du Charisme. Borné par le plafond quotidien et le plafond de courtoisie." />
+    <string id="hh_mcm_presence_stationed_gain_name" text="Prestige quotidien du membre en poste" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="Prestige de base qu'un membre du clan en poste et sans gouvernorat ajoute chaque jour à chaque notable une fois installé, avant l'échelle du Charisme. Inférieur à celui d'un gouverneur ; plusieurs proches en poste se cumulent." />
+    <string id="hh_mcm_presence_cap_name" text="Présence : prestige max. par notable et par jour" />
+    <string id="hh_mcm_presence_cap_hint" text="Le prestige maximal que la présence peut ajouter à un notable en un jour, quel que soit le nombre de proches en poste. Cela reste un filet : le nombre atteint le plafond plus tôt, mais ne dépasse ni ce pas quotidien ni le plafond de courtoisie." />
   </strings>
 </base>

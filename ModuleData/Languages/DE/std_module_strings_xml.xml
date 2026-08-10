@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Deutsch" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME} übernahm das Amt: {TRACK}." />
     <string id="ch_ledger_comm_laid" text="{NAME} legte das Amt nieder: {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} blieb den Reihen als {TRACK} in Erinnerung." />
+    <string id="ch_comm_title_exchequer_herald" text="Herold des Schatzamts" />
+    <string id="ch_comm_title_watch_herald" text="Herold der Wacht" />
+    <string id="ch_comm_title_muster_herald" text="Herold der Musterung" />
+    <string id="ch_comm_title_arms_herald" text="Herold der Waffen" />
+    <string id="ch_gov_guard" text="{HERO} dient als Euer Herold ({OFFICE}) — enthebt ihn des Amtes, bevor Ihr ihn zum Statthalter macht." />
+    <string id="ch_works_idle_vacant" text="Bauamt untätig: Es dient kein Schatzmeister, daher ruht der Bau in all Euren Besitzungen. Ernennt einen Schatzmeister (Kanzlei), um den Bau fortzusetzen." />
+    <string id="ch_works_idle_suspended" text="Bauamt untätig: Euer Schatzmeister {HERO} dient nicht ({STATUS}), daher ruht der Bau in all Euren Besitzungen. Regelt es in der Kanzlei, um den Bau fortzusetzen." />
   </strings>
 </base>

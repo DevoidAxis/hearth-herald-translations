@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <base xmlns="http://schemas.taleworlds.com/2007/04/GameSystem/" type="string">
   <tags>
     <tag language="Русский"/>
@@ -784,5 +784,12 @@
     <string id="ch_status_missing" text="Пропал без вести" />
     <string id="ch_status_suspended_fmt" text="Отстранён: {REASON}" />
     <string id="ch_status_vacant" text="Вакантно" />
+    <string id="ch_comm_title_exchequer_herald" text="Герольд казначейства" />
+    <string id="ch_comm_title_watch_herald" text="Дозорный герольд" />
+    <string id="ch_comm_title_muster_herald" text="Герольд сбора" />
+    <string id="ch_comm_title_arms_herald" text="Оружейный герольд" />
+    <string id="ch_gov_guard" text="{HERO} служит вашим герольдом ({OFFICE}) — освободите его от должности, прежде чем назначать губернатором." />
+    <string id="ch_works_idle_vacant" text="Управление работами простаивает: казначей не назначен, поэтому строительство приостановлено во всех ваших владениях. Назначьте казначея (Канцелярия), чтобы возобновить строительство." />
+    <string id="ch_works_idle_suspended" text="Управление работами простаивает: ваш казначей {HERO} не исполняет обязанности ({STATUS}), поэтому строительство приостановлено во всех ваших владениях. Устраните причину в Канцелярии, чтобы возобновить строительство." />
   </strings>
 </base>

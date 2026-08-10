@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="简体中文" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="征募优先级：精英兵种" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="指派总督的选择界面会为每个候选人渲染3D肖像；氏族庞大时会同时排队渲染大量肖像，较弱的硬件（如Steam Deck）可能因此崩溃。候选人数量超过此值时，卡片将跳过肖像渲染并立即打开。0 = 始终渲染肖像。" />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="超过N名候选人时跳过肖像渲染" />
-    <string id="hh_mcm_herald_party_guard_hint" text="在新建队伍和更换队长的选择界面中，将担任传令官职位的英雄显示为灰色不可选，以防止你不小心将其设为队长（这会导致其官职被暂停）。若要率队，请先解除其官职。" />
-    <string id="hh_mcm_herald_party_guard_name" text="保护传令官不被指派为队伍成员" />
+    <string id="hh_mcm_herald_party_guard_hint" text="在队伍首领、总督和商队队长的选择列表中，将担任传令官职务的英雄置灰或隐藏，以免你误将其指派到与其职务冲突的角色——这会使其职务被暂停，并停止其所掌管的支柱（被暂停的司库会使工务府停摆，所有领地的建造随之停止）。请先解除其职务。" />
+    <string id="hh_mcm_herald_party_guard_name" text="防止传令官被指派职务" />
     <string id="hh_mcm_muster_focus_hint" text="两项效果均属于募兵官：设为精英优先的封地，其精英兵种征募概率将乘以此系数（上限90%，确保基础兵种不会绝迹）；而战马 - - 骑兵升级所需的原料 - - 除了马匹产量加成外，也会额外乘以此相同系数。贵族坐骑则维持基础产率不变（它们无法升级部队，因此提升其产量只会白白浪费金币）。" />
     <string id="hh_mcm_muster_focus_name" text="精英优先系数（重点封地）" />
     <string id="hh_mcm_muster_horses_hint" text="为你名下村庄已经生产的马匹增加额外单位，每日加入其贸易库存，数值随募兵官的技能等级缩放。战马（二级骑兵升级层级）在马匹产量加成之上还会额外获得精英重点系数加成，因此单单一个养马封地就能提供源源不断的战马供应。若想让一座城镇承担全氏族的换马需求，可将其调高（最高500%）。" />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="地产金库储备下限" />
     <string id="hh_mcm_works_treasury_hint" text="财政官用于地产开发的有限资金。每周会从氏族金库补充至此目标金额（不会低于储备下限），且每一处地块／项目的花费均由此支付 - - 因此即使集中出现大量廉价项目，消耗的也只是该署金库,而非氏族本身。目标值越高，地产扩张越积极。" />
     <string id="hh_mcm_works_treasury_name" text="工务署金库目标额" />
+    <string id="hh_mcm_enable_presence_relations_name" text="驻留关系" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="只要你的家族在场，与聚落显贵的声望便会自行增长：总督立即建立声望，而驻扎在聚落（无论是否你的）的家族成员则在下列天数后开始。按魅力和在场亲族数量缩放，受礼遇上限约束。关闭时：仅主动礼遇改变关系。" />
+    <string id="hh_mcm_presence_station_days_name" text="声望增长前的驻留天数" />
+    <string id="hh_mcm_presence_station_days_hint" text="家族成员必须在某聚落连续驻留多少天，才会开始建立你与其显贵的声望。总督不受此限，立即开始。" />
+    <string id="hh_mcm_presence_gov_gain_name" text="总督每日声望" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="总督每日为其领地每位显贵增加的基础声望，尚未按魅力缩放。受每日上限和礼遇上限约束。" />
+    <string id="hh_mcm_presence_stationed_gain_name" text="驻留成员每日声望" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="驻留且不担任总督的家族成员在安顿之后，每日为每位显贵增加的基础声望，尚未按魅力缩放。低于总督；多名驻留亲族可叠加。" />
+    <string id="hh_mcm_presence_cap_name" text="驻留：每位显贵每日最大声望" />
+    <string id="hh_mcm_presence_cap_hint" text="无论有多少亲族驻留于此，驻留在一天内对单个显贵所能增加的最大声望。使其保持涓流：人数越多越早达到上限，但无法超过这一每日增量或礼遇上限。" />
   </strings>
 </base>

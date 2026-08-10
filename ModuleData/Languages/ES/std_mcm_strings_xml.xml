@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Español (LA)" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="Prioridad de reclutamiento: reclutas de élite" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="El selector de asignar gobernador renderiza un retrato 3D por candidato; los clanes enormes ponen en cola tantos renderizados a la vez que el hardware más débil (Steam Deck) puede fallar. Por encima de esta cantidad de candidatos, las tarjetas omiten los retratos y se abren al instante. 0 = renderizar siempre los retratos." />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="Omitir retratos del selector por encima de N candidatos" />
-    <string id="hh_mcm_herald_party_guard_hint" text="Atenúa a un héroe que ocupa un cargo de Heraldo en los selectores de nueva partida y cambio de líder, para que no puedas convertirlo accidentalmente en líder de partida (lo que suspendería su cargo). Libéralo del cargo primero para liderar una partida." />
-    <string id="hh_mcm_herald_party_guard_name" text="Proteger a los heraldos de la asignación de partida" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Atenúa u oculta a un héroe que ocupa un cargo de Heraldo en las listas de líder de partida, gobernador y maestro de caravana, para que no le asignes por error un rol que entre en conflicto con su cargo, lo que lo suspende y detiene el pilar que dirige (un Tesorero suspendido detiene la Oficina de Obras, y la construcción se detiene en todas las posesiones). Relévalo del cargo primero." />
+    <string id="hh_mcm_herald_party_guard_name" text="Proteger a los heraldos de asignaciones de cargo" />
     <string id="hh_mcm_muster_focus_hint" text="Dos efectos, ambos del Convocador: los feudos configurados con prioridad de élite multiplican la probabilidad de reclutas de élite por este valor (con un tope del 90% para que las tropas básicas nunca desaparezcan), y las Monturas de Guerra -el ingrediente de mejora de caballería- reciben este mismo multiplicador además del bono de producción de caballos. Las Monturas Nobles se dejan al ritmo base (no pueden mejorar tropas, así que potenciarlas solo sería un desagüe de oro)." />
     <string id="hh_mcm_muster_focus_name" text="Multiplicador de prioridad de élite (feudos enfocados)" />
     <string id="hh_mcm_muster_horses_hint" text="Unidades extra de los caballos que tus aldeas propias ya producen, añadidas a su reserva comercial diariamente, escaladas según la habilidad del Convocador. Las Monturas de Guerra (el nivel 2 de mejora de caballería) reciben el multiplicador de enfoque de Élite además, así que un solo feudo con rancho de caballos puede suministrar un flujo real de monturas de guerra. Configúralo alto (hasta 500%) si quieres que un solo pueblo cargue con todos los remontos del clan." />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="Piso de reserva de la tesorería de propiedades" />
     <string id="hh_mcm_works_treasury_hint" text="El fondo limitado que el Tesorero gasta en propiedades. Cada semana lo recarga hasta esta cantidad desde la bolsa del clan (nunca por debajo del piso de reserva), y cada parcela/proyecto se paga desde ahí, así que una oleada de proyectos baratos solo agota la tesorería de la oficina, no la del clan. Un objetivo más alto = crecimiento de propiedades más agresivo." />
     <string id="hh_mcm_works_treasury_name" text="Objetivo de tesorería de la Oficina de Obras" />
+    <string id="hh_mcm_enable_presence_relations_name" text="Relaciones por presencia" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="El prestigio con los notables de un asentamiento crece por sí solo mientras tu clan está presente: un gobernador lo construye de inmediato, y un miembro del clan apostado en un asentamiento (tuyo o no) empieza tras los días de abajo. Escala con el Carisma y cuántos parientes hay allí, limitado por el techo de cortesías. Desactivado: solo las cortesías activas mueven las relaciones." />
+    <string id="hh_mcm_presence_station_days_name" text="Días apostado antes de que crezca el prestigio" />
+    <string id="hh_mcm_presence_station_days_hint" text="Cuántos días seguidos debe permanecer un miembro del clan en un asentamiento antes de empezar a construir tu prestigio con sus notables. Un gobernador está exento y empieza de inmediato." />
+    <string id="hh_mcm_presence_gov_gain_name" text="Prestigio diario del gobernador" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="Prestigio base que un gobernador añade a diario a cada notable de su feudo, antes de la escala por Carisma. Limitado por el tope diario y el techo de cortesías." />
+    <string id="hh_mcm_presence_stationed_gain_name" text="Prestigio diario del miembro apostado" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="Prestigio base que un miembro del clan apostado y sin gobierno añade a diario a cada notable una vez asentado, antes de la escala por Carisma. Menor que el de un gobernador; varios parientes apostados se acumulan." />
+    <string id="hh_mcm_presence_cap_name" text="Presencia: prestigio máx. por notable al día" />
+    <string id="hh_mcm_presence_cap_hint" text="El máximo de prestigio que la presencia puede añadir a un notable en un día, por muchos parientes que estén apostados allí. Lo mantiene como un goteo: los números alcanzan antes el techo, pero no superan este paso diario ni el techo de cortesías." />
   </strings>
 </base>

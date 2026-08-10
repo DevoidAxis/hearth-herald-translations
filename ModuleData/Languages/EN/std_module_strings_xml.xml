@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="English" />
@@ -792,5 +792,12 @@
     <string id="ch_chy_auto_on" text="on" />
     <string id="ch_party_guard" text="{HERO} serves as your {OFFICE} Herald - relieve them of the office before making them a party leader." />
     <string id="ch_ledger_instr_edit" text="Standing instructions for {NAME} were revised: {SUMMARY}." />
+    <string id="ch_comm_title_exchequer_herald" text="Exchequer Herald" />
+    <string id="ch_comm_title_watch_herald" text="Watch Herald" />
+    <string id="ch_comm_title_muster_herald" text="Muster Herald" />
+    <string id="ch_comm_title_arms_herald" text="Arms Herald" />
+    <string id="ch_gov_guard" text="{HERO} serves as your {OFFICE} Herald - relieve them of the office before making them a governor." />
+    <string id="ch_works_idle_vacant" text="Office of Works idle: no Exchequer is serving, so construction is paused across your holdings. Appoint an Exchequer (Chancery) to resume building." />
+    <string id="ch_works_idle_suspended" text="Office of Works idle: your Exchequer {HERO} is not serving ({STATUS}), so construction is paused across your holdings. Resolve it in the Chancery to resume building." />
   </strings>
 </base>

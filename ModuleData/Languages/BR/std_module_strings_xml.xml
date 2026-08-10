@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Português (BR)" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME} assumiu a comissão de {TRACK}." />
     <string id="ch_ledger_comm_laid" text="{NAME} renunciou à comissão de {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} ficou na memória das fileiras como {TRACK}." />
+    <string id="ch_comm_title_exchequer_herald" text="Arauto do Tesouro" />
+    <string id="ch_comm_title_watch_herald" text="Arauto da Vigília" />
+    <string id="ch_comm_title_muster_herald" text="Arauto do Recrutamento" />
+    <string id="ch_comm_title_arms_herald" text="Arauto de Armas" />
+    <string id="ch_gov_guard" text="{HERO} serve como seu Arauto ({OFFICE}) — dispense-o do cargo antes de torná-lo governador." />
+    <string id="ch_works_idle_vacant" text="Escritório de Obras ocioso: nenhum Tesoureiro está servindo, então a construção está pausada em todas as suas propriedades. Nomeie um Tesoureiro (Chancelaria) para retomar as obras." />
+    <string id="ch_works_idle_suspended" text="Escritório de Obras ocioso: seu Tesoureiro {HERO} não está servindo ({STATUS}), então a construção está pausada em todas as suas propriedades. Resolva na Chancelaria para retomar as obras." />
   </strings>
 </base>

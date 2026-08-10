@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Türkçe" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="Toplanma önceliği: elit askerler" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Vali atama seçicisi her aday için 3D bir portre oluşturur; büyük klanlarda aynı anda o kadar çok render sıraya girer ki daha zayıf donanımlar (Steam Deck) çökebilir. Bu adaydan fazlası için kartlar portreleri atlar ve anında açılır. 0 = portreler her zaman oluşturulur." />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="N adaydan fazlasında seçici portrelerini atla" />
-    <string id="hh_mcm_herald_party_guard_hint" text="Yeni birlik ve lider değiştirme seçicilerinde Haberci ofisi tutan bir kahramanı grileştirir, böylece onları yanlışlıkla birlik lideri yapamazsınız (bu, ofisini askıya alır). Bir birliğe önderlik etmesi için önce onu ofisten alın." />
-    <string id="hh_mcm_herald_party_guard_name" text="Habercileri birlik atamasından koru" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Habercilik görevi taşıyan bir kahramanı; müfreze lideri, vali ve kervan başı seçim listelerinde soluklaştırır ya da gizler; böylece ona görevine çelişen bir rol vermeyip yanlışlıkla onu askıya almaz ve yürüttüğü sütunu durdurmazsınız (askıya alınan bir Hazinedar Bayındırlık Ofisi'ni durdurur ve tüm topraklarda inşaat durur). Önce onu görevden alın." />
+    <string id="hh_mcm_herald_party_guard_name" text="Habercileri görev atamasından koru" />
     <string id="hh_mcm_muster_focus_hint" text="İkisi de Toplanma Görevlisi'ne ait iki etki: elit önceliğine ayarlanmış tımarlarda elit asker şansı bununla çarpılır (temel askerler asla kaybolmasın diye %90 ile sınırlıdır) ve süvari yükseltme malzemesi olan Savaş Atları, at üretim bonusunun üzerine bu aynı çarpanı alır. Asil Atlar temel oranda bırakılır (askerleri yükseltemezler, bu yüzden onları güçlendirmek yalnızca bir altın kaybı olurdu)." />
     <string id="hh_mcm_muster_focus_name" text="Elit öncelik çarpanı (odaklı tımarlar)" />
     <string id="hh_mcm_muster_horses_hint" text="Sahip olduğunuz köylerin zaten ürettiği atlara ek birimler, Toplanma Görevlisi'nin yeteneğine göre ölçeklenerek her gün ticaret stoklarına eklenir. Savaş Atları (2. seviye süvari yükseltme kademesi) ayrıca Elit odak çarpanını da alır, böylece tek bir at çiftliği tımarı gerçek bir savaş atı akışı sağlayabilir. Bütün klanın binek atlarını tek bir kasabanın taşımasını istiyorsanız yüksek ayarlayın (%500'e kadar)." />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="Mülk hazinesi rezerv tabanı" />
     <string id="hh_mcm_works_treasury_hint" text="Hazine Nazırı'nın mülkler için harcadığı sınırlı fon. Her hafta klan kasasından bu miktara doğru tamamlanır (asla rezerv tabanının altına inmez) ve her arsa/proje bundan ödenir - böylece ucuz projelerin bir akını yalnızca ofis hazinesini tüketir, klanı değil. Daha yüksek hedef = daha agresif mülk büyümesi." />
     <string id="hh_mcm_works_treasury_name" text="İmar Ofisi hazine hedefi" />
+    <string id="hh_mcm_enable_presence_relations_name" text="Varlık ilişkileri" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="Klanınız oradayken bir yerleşimin ileri gelenleriyle itibar kendiliğinden artar: bir vali onu hemen inşa eder, bir yerleşimde (sizin ya da değil) konuşlanan bir klan üyesi ise aşağıdaki günlerden sonra başlar. Karizma ve oradaki akraba sayısıyla ölçeklenir, nezaket tavanıyla sınırlanır. Kapalı: ilişkileri yalnızca etkin nezaketler değiştirir." />
+    <string id="hh_mcm_presence_station_days_name" text="İtibar artmadan önce konuşlanma günü" />
+    <string id="hh_mcm_presence_station_days_hint" text="Bir klan üyesinin, bir yerleşimin ileri gelenleriyle itibarınızı inşa etmeye başlamadan önce orada kaç gün aralıksız kalması gerektiği. Bir vali bundan muaftır ve hemen başlar." />
+    <string id="hh_mcm_presence_gov_gain_name" text="Valinin günlük itibarı" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="Bir valinin, Karizma ölçeklemesinden önce her gün fiefindeki her ileri gelene eklediği temel itibar. Günlük üst sınır ve nezaket tavanıyla sınırlıdır." />
+    <string id="hh_mcm_presence_stationed_gain_name" text="Konuşlanan üyenin günlük itibarı" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="Konuşlanmış, valilik yapmayan bir klan üyesinin yerleştikten sonra, Karizma ölçeklemesinden önce her gün her ileri gelene eklediği temel itibar. Bir validen düşüktür; konuşlanan birden çok akraba birikir." />
+    <string id="hh_mcm_presence_cap_name" text="Varlık: ileri gelen başına günlük azami itibar" />
+    <string id="hh_mcm_presence_cap_hint" text="Orada kaç akraba konuşlanmış olursa olsun, varlığın bir günde tek bir ileri gelene ekleyebileceği en yüksek itibar. Bunu bir sızıntı olarak tutar: sayılar tavana daha erken ulaşır ama bu günlük adımı ya da nezaket tavanını aşamaz." />
   </strings>
 </base>

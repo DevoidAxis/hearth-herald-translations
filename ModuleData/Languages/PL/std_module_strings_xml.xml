@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Polski" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME} przyjął komisję: {TRACK}." />
     <string id="ch_ledger_comm_laid" text="{NAME} złożył komisję: {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} zapisał się w pamięci szeregów jako {TRACK}." />
+    <string id="ch_comm_title_exchequer_herald" text="Herold Skarbnik" />
+    <string id="ch_comm_title_watch_herald" text="Herold Straży" />
+    <string id="ch_comm_title_muster_herald" text="Herold Zaciągu" />
+    <string id="ch_comm_title_arms_herald" text="Herold Zbrojny" />
+    <string id="ch_gov_guard" text="{HERO} pełni funkcję Herolda ({OFFICE}) — zwolnij go z urzędu, zanim mianujesz go zarządcą." />
+    <string id="ch_works_idle_vacant" text="Urząd Robót bezczynny: żaden Skarbnik nie sprawuje urzędu, więc budowa jest wstrzymana we wszystkich twoich włościach. Mianuj Skarbnika (Kancelaria), aby wznowić budowę." />
+    <string id="ch_works_idle_suspended" text="Urząd Robót bezczynny: twój Skarbnik {HERO} nie sprawuje urzędu ({STATUS}), więc budowa jest wstrzymana we wszystkich twoich włościach. Rozwiąż to w Kancelarii, aby wznowić budowę." />
   </strings>
 </base>

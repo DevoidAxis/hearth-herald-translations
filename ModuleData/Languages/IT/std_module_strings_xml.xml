@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Italiano" />
@@ -28,5 +28,12 @@
     <string id="ch_ledger_comm_taken" text="{NAME} ha assunto la commissione di {TRACK}." />
     <string id="ch_ledger_comm_laid" text="{NAME} ha deposto la commissione di {TRACK}." />
     <string id="ch_ledger_known_as" text="{NAME} è rimasto nella memoria dei ranghi come {TRACK}." />
+    <string id="ch_comm_title_exchequer_herald" text="Araldo dell'Erario" />
+    <string id="ch_comm_title_watch_herald" text="Araldo della Guardia" />
+    <string id="ch_comm_title_muster_herald" text="Araldo dell'Adunata" />
+    <string id="ch_comm_title_arms_herald" text="Araldo d'Armi" />
+    <string id="ch_gov_guard" text="{HERO} è il tuo Araldo ({OFFICE}); sollevalo dall'incarico prima di nominarlo governatore." />
+    <string id="ch_works_idle_vacant" text="Ufficio dei Lavori inattivo: nessun Tesoriere è in carica, quindi la costruzione è sospesa in tutti i tuoi possedimenti. Nomina un Tesoriere (Cancelleria) per riprendere i lavori." />
+    <string id="ch_works_idle_suspended" text="Ufficio dei Lavori inattivo: il tuo Tesoriere {HERO} non è in carica ({STATUS}), quindi la costruzione è sospesa in tutti i tuoi possedimenti. Risolvi la questione in Cancelleria per riprendere i lavori." />
   </strings>
 </base>

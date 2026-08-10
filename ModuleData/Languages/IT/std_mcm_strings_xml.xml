@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="string">
   <tags>
     <tag language="Italiano" />
@@ -195,8 +195,8 @@
     <string id="hh_mcm_elite_recruit_multiplier_name2" text="Priorità di leva: reclute d'élite" />
     <string id="hh_mcm_gov_picker_portrait_limit_hint" text="Il selettore di nomina governatore genera un ritratto 3D per ogni candidato; i clan enormi mettono in coda così tanti rendering contemporaneamente che l'hardware più debole (Steam Deck) può bloccarsi. Oltre questo numero di candidati le schede saltano i ritratti e si aprono all'istante. 0 = renderizza sempre i ritratti." />
     <string id="hh_mcm_gov_picker_portrait_limit_name" text="Salta i ritratti del selettore oltre N candidati" />
-    <string id="hh_mcm_herald_party_guard_hint" text="Oscura un eroe che ricopre la carica di Araldo nei selettori di nuova compagnia e cambio comandante, così non puoi renderlo per errore capo compagnia (il che sospenderebbe la sua carica). Sollevalo prima dalla carica per guidare una compagnia." />
-    <string id="hh_mcm_herald_party_guard_name" text="Proteggi gli araldi dall'assegnazione a una compagnia" />
+    <string id="hh_mcm_herald_party_guard_hint" text="Attenua o nasconde un eroe che ricopre una carica di Araldo negli elenchi di comandante di gruppo, governatore e capo carovana, così da non assegnargli per errore un ruolo in conflitto con la sua carica — cosa che la sospende e ferma il pilastro che regge (un Tesoriere sospeso blocca l'Ufficio dei Lavori e la costruzione si ferma in tutti i possedimenti). Sollevalo prima dall'incarico." />
+    <string id="hh_mcm_herald_party_guard_name" text="Proteggi gli araldi dall'assegnazione di ruoli" />
     <string id="hh_mcm_muster_focus_hint" text="Due effetti, entrambi del Maestro di Leva: i feudi impostati su priorità élite moltiplicano la probabilità di reclute d'élite per questo valore (limitato al 90% affinché le truppe base non svaniscano mai), e i Destrieri da Guerra - l'ingrediente per l'aggiornamento della cavalleria - ricevono lo stesso moltiplicatore in aggiunta al bonus di produzione dei cavalli. I Destrieri Nobili restano al tasso base (non possono aggiornare le truppe, quindi potenziarli sarebbe solo uno spreco d'oro)." />
     <string id="hh_mcm_muster_focus_name" text="Moltiplicatore priorità élite (feudi focalizzati)" />
     <string id="hh_mcm_muster_horses_hint" text="Unità extra dei cavalli che i tuoi villaggi già producono, aggiunte alla loro scorta commerciale ogni giorno, scalate in base all'abilità del Maestro di Leva. I Destrieri da Guerra (livello 2 dell'aggiornamento cavalleria) ricevono in aggiunta il moltiplicatore Focus Élite, così un singolo feudo con allevamento di cavalli può fornire un vero flusso di destrieri da guerra. Impostalo alto (fino al 500%) se vuoi che una sola città rifornisca di rimonte l'intero clan." />
@@ -227,5 +227,15 @@
     <string id="hh_mcm_works_purse_name" text="Soglia minima di riserva della tesoreria della tenuta" />
     <string id="hh_mcm_works_treasury_hint" text="Il fondo limitato che il Ciambellano spende per le tenute. Ogni settimana lo rifornisce fino a questo importo prelevando dalla cassa del clan (mai sotto la soglia di riserva), e ogni appezzamento/progetto viene pagato da esso - così un'ondata di progetti economici prosciuga solo la tesoreria dell'ufficio, non quella del clan. Obiettivo più alto = crescita delle tenute più aggressiva." />
     <string id="hh_mcm_works_treasury_name" text="Obiettivo di tesoreria dell'Ufficio dei Lavori" />
+    <string id="hh_mcm_enable_presence_relations_name" text="Relazioni di presenza" />
+    <string id="hh_mcm_enable_presence_relations_hint" text="Il prestigio con i notabili di un insediamento cresce da solo finché il tuo casato è presente: un governatore lo costruisce subito, e un membro del casato di stanza in un insediamento (tuo o no) inizia dopo i giorni indicati sotto. Scala con il Carisma e con quanti parenti sono presenti, limitato dal tetto delle cortesie. Spento: solo le cortesie attive muovono le relazioni." />
+    <string id="hh_mcm_presence_station_days_name" text="Giorni di stanza prima che il prestigio cresca" />
+    <string id="hh_mcm_presence_station_days_hint" text="Quanti giorni consecutivi un membro del casato deve restare in un insediamento prima di iniziare a costruire il tuo prestigio con i suoi notabili. Un governatore è esente e inizia subito." />
+    <string id="hh_mcm_presence_gov_gain_name" text="Prestigio giornaliero del governatore" />
+    <string id="hh_mcm_presence_gov_gain_hint" text="Prestigio base che un governatore aggiunge ogni giorno a ciascun notabile del suo feudo, prima della scala del Carisma. Limitato dal tetto giornaliero e dal tetto delle cortesie." />
+    <string id="hh_mcm_presence_stationed_gain_name" text="Prestigio giornaliero del membro di stanza" />
+    <string id="hh_mcm_presence_stationed_gain_hint" text="Prestigio base che un membro del casato di stanza e senza governo aggiunge ogni giorno a ciascun notabile una volta ambientato, prima della scala del Carisma. Inferiore a un governatore; più parenti di stanza si sommano." />
+    <string id="hh_mcm_presence_cap_name" text="Presenza: prestigio max per notabile al giorno" />
+    <string id="hh_mcm_presence_cap_hint" text="Il massimo prestigio che la presenza può aggiungere a un notabile in un giorno, per quanti parenti siano di stanza lì. Lo mantiene un rivolo: i numeri raggiungono prima il tetto, ma non superano questo passo giornaliero né il tetto delle cortesie." />
   </strings>
 </base>
