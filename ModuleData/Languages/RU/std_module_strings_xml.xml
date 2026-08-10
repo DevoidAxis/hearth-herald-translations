@@ -729,5 +729,60 @@
     <string id="ch_route_hh_family" text="Семья и наследование" />
     <string id="ch_route_hh_recruit" text="Набор и свита" />
     <string id="ch_route_hh_roles" text="Соратники и назначения" />
+    <string id="ch_courtesy_block_captive" text="Здесь не место для любезностей." />
+    <string id="ch_courtesy_block_ceiling" text="Мы давно прошли пору любезностей, {NAME}. Ныне лишь дела решат, что стоит меж нашими домами." />
+    <string id="ch_courtesy_block_cooldown" text="Мы только что говорили. Дай времени немного пройти." />
+    <string id="ch_courtesy_block_daily" text="В сутках не так много часов для любезностей." />
+    <string id="ch_courtesy_block_generic" text="В другой раз, пожалуй." />
+    <string id="ch_courtesy_block_gold" text="Дар, достойный случая, нынче не по твоей мошне." />
+    <string id="ch_courtesy_block_war" text="Меж нами война. Словами этого сегодня не исправить." />
+    <string id="ch_courtesy_gift" text="Я принёс тебе дар. ({COURTESY_GIFT_COST} денаров)" />
+    <string id="ch_courtesy_gift_ok" text="Ты слишком щедр. Сие не будет забыто." />
+    <string id="ch_courtesy_gift_plain" text="Я принёс тебе дар." />
+    <string id="ch_courtesy_hub_reply" text="Разумеется. Что у тебя на уме?" />
+    <string id="ch_courtesy_leave" text="В другой раз." />
+    <string id="ch_courtesy_msg_desc" text="Твои домочадцы отвезут письмо и подобающий дар тому, с кем ты уже знаком. Достичь его издалека стоит дороже, а трогает сердце меньше, нежели беседа с глазу на глаз." />
+    <string id="ch_courtesy_msg_done" text="Твой гонец скачет к {NAME}. Пришла весть, что любезность приняли благосклонно (отношение {REL})." />
+    <string id="ch_courtesy_msg_none" text="Ныне нет никого из твоих знакомцев, до кого мог бы добраться гонец." />
+    <string id="ch_courtesy_msg_off" text="Любезности через гонца не используются." />
+    <string id="ch_courtesy_msg_row" text="{NAME} (отношение {REL}, {COST} денаров)" />
+    <string id="ch_courtesy_msg_title" text="Послать любезность" />
+    <string id="ch_courtesy_open" text="Позволь молвить слово." />
+    <string id="ch_courtesy_talk" text="Разделим чашу и побеседуем немного." />
+    <string id="ch_courtesy_talk_ok" text="С охотою. В доброй компании часы бегут легче." />
+    <string id="ch_dlg_recruit_accept" text="Это будет честью для меня, мой господин. Мои руки — твои." />
+    <string id="ch_dlg_recruit_offer" text="Моему клану нужны умелые руки. Ступай ко мне на службу — {RECRUIT_COST} денаров на обзаведение." />
+    <string id="ch_gov_pick_row2" text="{NAME} (Управление {STEWARD})" />
+    <string id="ch_herald_arrived" text="{HERO} прибыл в {SETTLEMENT} и принял должность: {OFFICE}." />
+    <string id="ch_herald_enroute1" text="{HERO} выступает в {SETTLEMENT}, дабы принять должность {OFFICE}; прибудет примерно через день." />
+    <string id="ch_herald_enrouten" text="{HERO} выступает в {SETTLEMENT}, дабы принять должность {OFFICE}; прибудет примерно через {DAYS} дн." />
+    <string id="ch_herald_recalled" text="Путь {HERO} к должности {OFFICE} отменён." />
+    <string id="ch_herald_restored_msg" text="Твой Герольд {OFFICE}, {HERO}, вновь приступил к службе." />
+    <string id="ch_herald_returns" text="{HERO} освобождён от должности {OFFICE} и возвращается в твой отряд." />
+    <string id="ch_herald_stationed" text="{HERO} поселяется в {SETTLEMENT} как Герольд {OFFICE}." />
+    <string id="ch_herald_stays" text="{HERO} освобождён от должности {OFFICE} и остаётся в {SETTLEMENT}." />
+    <string id="ch_herald_suspended_msg" text="Твой Герольд {OFFICE}, {HERO}, оставляет службу: {REASON}." />
+    <string id="ch_intrigue_refused" text="Сие невозможно, мой господин: {REASON}." />
+    <string id="ch_migrate_stationed" text="Твои герольды поселились в {SETTLEMENT}. Назначенные герольды отныне служат из родового гнезда твоего клана." />
+    <string id="ch_reason_by_order" text="отстранён твоим приказом" />
+    <string id="ch_reason_caravan" text="держатель ведёт караван" />
+    <string id="ch_reason_governor" text="держатель правит поселением" />
+    <string id="ch_reason_home_lost" text="родовое гнездо клана утрачено" />
+    <string id="ch_reason_other" text="у держателя иная обязанность" />
+    <string id="ch_reason_party" text="держатель ведёт собственный отряд" />
+    <string id="ch_send" text="Отправить" />
+    <string id="ch_state_cd1" text=" (готово через 1 день)" />
+    <string id="ch_state_cdn" text=" (готово через {DAYS} дн.)" />
+    <string id="ch_state_off" text=" (отключено в настройках)" />
+    <string id="ch_state_reason" text=" ({REASON})" />
+    <string id="ch_state_seat" text=" (вернуться в родовую вотчину или достичь {TIER} ступени)" />
+    <string id="ch_state_soon" text=" (скоро)" />
+    <string id="ch_status_active" text="На службе" />
+    <string id="ch_status_captured" text="В плену" />
+    <string id="ch_status_dead" text="Мёртв" />
+    <string id="ch_status_enroute" text="В пути к вотчине" />
+    <string id="ch_status_missing" text="Пропал без вести" />
+    <string id="ch_status_suspended_fmt" text="Отстранён: {REASON}" />
+    <string id="ch_status_vacant" text="Вакантно" />
   </strings>
 </base>
