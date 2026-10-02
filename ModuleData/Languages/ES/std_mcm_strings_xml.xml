@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Prestigio base que un miembro del clan apostado y sin gobierno añade a diario a cada notable una vez asentado, antes de la escala por Carisma. Menor que el de un gobernador; varios parientes apostados se acumulan." />
     <string id="hh_mcm_presence_cap_name" text="Presencia: prestigio máx. por notable al día" />
     <string id="hh_mcm_presence_cap_hint" text="El máximo de prestigio que la presencia puede añadir a un notable en un día, por muchos parientes que estén apostados allí. Lo mantiene como un goteo: los números alcanzan antes el techo, pero no superan este paso diario ni el techo de cortesías." />
+    <string id="hh_mcm_heralds_attend_name" text="Los heraldos acuden a tu sede" />
+    <string id="hh_mcm_heralds_attend_hint" text="Los heraldos en su cargo esperan en la sala del señor de tu Hogar del Clan. Un heraldo ya no puede liderar un grupo, una caravana ni gobernar, así que este es su sitio. Desactivado: solo aparece el Master Herald." />
   </strings>
 </base>

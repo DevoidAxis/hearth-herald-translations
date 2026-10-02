@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="驻留且不担任总督的家族成员在安顿之后，每日为每位显贵增加的基础声望，尚未按魅力缩放。低于总督；多名驻留亲族可叠加。" />
     <string id="hh_mcm_presence_cap_name" text="驻留：每位显贵每日最大声望" />
     <string id="hh_mcm_presence_cap_hint" text="无论有多少亲族驻留于此，驻留在一天内对单个显贵所能增加的最大声望。使其保持涓流：人数越多越早达到上限，但无法超过这一每日增量或礼遇上限。" />
+    <string id="hh_mcm_heralds_attend_name" text="传令官侍立于驻地" />
+    <string id="hh_mcm_heralds_attend_hint" text="在任的传令官会站在你家族驻地的领主大厅中。传令官本就不能统领队伍、经营商队或担任总督，所以这里就是他们的位置。关闭：只有 Master Herald 出现。" />
   </strings>
 </base>

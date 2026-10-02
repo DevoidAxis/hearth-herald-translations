@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Prestigio base che un membro del casato di stanza e senza governo aggiunge ogni giorno a ciascun notabile una volta ambientato, prima della scala del Carisma. Inferiore a un governatore; più parenti di stanza si sommano." />
     <string id="hh_mcm_presence_cap_name" text="Presenza: prestigio max per notabile al giorno" />
     <string id="hh_mcm_presence_cap_hint" text="Il massimo prestigio che la presenza può aggiungere a un notabile in un giorno, per quanti parenti siano di stanza lì. Lo mantiene un rivolo: i numeri raggiungono prima il tetto, ma non superano questo passo giornaliero né il tetto delle cortesie." />
+    <string id="hh_mcm_heralds_attend_name" text="Gli araldi presenziano alla tua sede" />
+    <string id="hh_mcm_heralds_attend_hint" text="Gli araldi in carica stanno nella sala del signore della tua Sede del Clan. Un araldo è già escluso da gruppi, carovane e governatorati, quindi il suo posto è qui. Disattivato: compare solo il Master Herald." />
   </strings>
 </base>

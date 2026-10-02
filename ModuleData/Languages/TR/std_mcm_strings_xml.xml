@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Konuşlanmış, valilik yapmayan bir klan üyesinin yerleştikten sonra, Karizma ölçeklemesinden önce her gün her ileri gelene eklediği temel itibar. Bir validen düşüktür; konuşlanan birden çok akraba birikir." />
     <string id="hh_mcm_presence_cap_name" text="Varlık: ileri gelen başına günlük azami itibar" />
     <string id="hh_mcm_presence_cap_hint" text="Orada kaç akraba konuşlanmış olursa olsun, varlığın bir günde tek bir ileri gelene ekleyebileceği en yüksek itibar. Bunu bir sızıntı olarak tutar: sayılar tavana daha erken ulaşır ama bu günlük adımı ya da nezaket tavanını aşamaz." />
+    <string id="hh_mcm_heralds_attend_name" text="Herald'lar yurdunda hazır bulunur" />
+    <string id="hh_mcm_heralds_attend_hint" text="Görevdeki Herald'lar Klan Yurdunun lordluk salonunda durur. Bir Herald zaten grup, kervan ve valilik görevinden men edilmiştir, bu yüzden yeri burasıdır. Kapalı: yalnızca Master Herald görünür." />
   </strings>
 </base>

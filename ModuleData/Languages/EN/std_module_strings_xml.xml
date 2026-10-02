@@ -799,5 +799,28 @@
     <string id="ch_gov_guard" text="{HERO} serves as your {OFFICE} Herald - relieve them of the office before making them a governor." />
     <string id="ch_works_idle_vacant" text="Office of Works idle: no Exchequer is serving, so construction is paused across your holdings. Appoint an Exchequer (Chancery) to resume building." />
     <string id="ch_works_idle_suspended" text="Office of Works idle: your Exchequer {HERO} is not serving ({STATUS}), so construction is paused across your holdings. Resolve it in the Chancery to resume building." />
+    <string id="ch_comm_bulk_done" text="{COUNT} take up the commission." />
+    <string id="ch_comm_bulk_partial" text="{COUNT} of {TOTAL} take up the commission; the rest remain ordinary companions." />
+    <string id="ch_comm_grant_desc2" text="Choose the companions to commission. Pick several and they all take the same commission." />
+    <string id="ch_comm_pick_all_desc" text="Choose one commission for all {COUNT} selected. Whatever the cap will not hold stays an ordinary companion, and you can commission them later through your Master Herald." />
+    <string id="ch_comm_pick_all_title" text="Commission the Intake" />
+    <string id="ch_comm_revoke_desc2" text="The clan reclaims its investment; everything earned in service is kept. Pick several to recall them together." />
+    <string id="ch_comm_revoke_done_many" text="{COUNT} lay down their commissions." />
+    <string id="ch_comm_revoke_fail_some" text="{COUNT} could not be revoked." />
+    <string id="ch_comm_row_party" text="{NAME} - with you" />
+    <string id="ch_comm_scope_all" text="All of them ({COUNT})" />
+    <string id="ch_comm_scope_away" text="Elsewhere ({COUNT})" />
+    <string id="ch_comm_scope_desc" text="Narrow the list before you pick." />
+    <string id="ch_comm_scope_party" text="Riding with you ({COUNT})" />
+    <string id="ch_comm_scope_title" text="Which of your house?" />
+    <string id="ch_comm_track_row_bulk" text="{TRACK} ({HELD}/{CAP}) - room for {ROOM} of {PICKED}" />
+    <string id="ch_promo_build_all_title" text="Shape the Intake" />
+    <string id="ch_promo_preset_all_intro" text="All {COUNT} were known throughout their battles as..." />
+    <string id="ch_promo_shape_alike" text="Shape them alike - one commission for all {COUNT} (and one calling, with Skill build at promotion on)." />
+    <string id="ch_promo_shape_alike_hint" text="Two decisions for the whole intake. With Skill build at promotion on, skills come from a preset calling; anything the commission caps will not hold stays an ordinary companion." />
+    <string id="ch_promo_shape_desc" text="How should this intake be shaped?" />
+    <string id="ch_promo_shape_each" text="Shape each one - {COUNT} in turn." />
+    <string id="ch_promo_shape_each_hint" text="The full walk per veteran, and the only way to hand-pick skills for an individual." />
+    <string id="ch_promo_shape_title" text="{COUNT} Raised from the Ranks" />
   </strings>
 </base>

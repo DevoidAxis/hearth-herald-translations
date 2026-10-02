@@ -210,7 +210,7 @@
     <string id="hh_mcm_promotion_main_pool_share_name" text="Skill build: main pool share %" />
     <string id="hh_mcm_promotion_support_priority_hint" text="How the support pool spreads across the supporting skills. 0 = even; higher front-loads the higher-priority supporting skills." />
     <string id="hh_mcm_promotion_support_priority_name" text="Skill build: support priority" />
-    <string id="hh_mcm_promotion_max_per_review_hint" text="How many veterans you can ennoble in one review. Over-killing a troop type banks several elevations, so you can promote more than one of the same type at once (like Distinguished Service)." />
+    <string id="hh_mcm_promotion_max_per_review_hint" text="How many veterans you can ennoble in one review. Over-killing a troop type banks several elevations, so you can promote more than one of the same type at once (like Distinguished Service). Raise it when you are building a corps: pick a whole intake at once and shape them with one commission (and one calling, when Skill build at promotion is on)." />
     <string id="hh_mcm_promotion_max_per_review_name" text="Promotions per review" />
     <string id="hh_mcm_promotion_skill_bonuses_hint" text="How many skills you pick each round of the skill build." />
     <string id="hh_mcm_promotion_skill_bonuses_name" text="Skill build: skills per round" />
@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Base relation a stationed, non-governing clan member adds daily to each notable once settled in, before Charm scaling. Lower than a governor; several stationed kin stack." />
     <string id="hh_mcm_presence_cap_name" text="Presence: max standing per notable per day" />
     <string id="hh_mcm_presence_cap_hint" text="The most relation presence can add to one notable in a day, however many kin are stationed there. Keeps it a trickle: numbers reach the ceiling sooner, they cannot pass this daily step or the courtesy ceiling." />
+    <string id="hh_mcm_heralds_attend_name" text="Heralds attend your seat" />
+    <string id="hh_mcm_heralds_attend_hint" text="Seated heralds stand in the lord&#x27;s hall of your clan home. A herald is already barred from party, caravan, and governor duty, so this is where they are. Off: only the Master Herald appears." />
   </strings>
 </base>

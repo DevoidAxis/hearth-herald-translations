@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Bazowy prestiż, jaki stacjonujący, niesprawujący rządów członek rodu dodaje codziennie każdemu notablowi po zadomowieniu, przed skalowaniem Charyzmą. Niższy niż u zarządcy; kilku stacjonujących krewnych sumuje się." />
     <string id="hh_mcm_presence_cap_name" text="Obecność: maks. prestiż na notabla dziennie" />
     <string id="hh_mcm_presence_cap_hint" text="Największy prestiż, jaki obecność może dodać jednemu notablowi w ciągu dnia, bez względu na liczbę stacjonujących tam krewnych. Utrzymuje to jako strużkę: liczba szybciej osiąga pułap, lecz nie przekroczy tego dziennego kroku ani pułapu uprzejmości." />
+    <string id="hh_mcm_heralds_attend_name" text="Heroldowie w siedzibie klanu" />
+    <string id="hh_mcm_heralds_attend_hint" text="Heroldowie na urzędzie stoją w sali lorda w siedzibie twojego klanu. Herold i tak nie może prowadzić drużyny, karawany ani zarządzać osadą, więc tu jest jego miejsce. Wyłączone: pojawia się tylko Master Herald." />
   </strings>
 </base>

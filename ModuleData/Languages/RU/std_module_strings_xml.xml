@@ -791,5 +791,28 @@
     <string id="ch_gov_guard" text="{HERO} служит вашим герольдом ({OFFICE}) — освободите его от должности, прежде чем назначать губернатором." />
     <string id="ch_works_idle_vacant" text="Управление работами простаивает: казначей не назначен, поэтому строительство приостановлено во всех ваших владениях. Назначьте казначея (Канцелярия), чтобы возобновить строительство." />
     <string id="ch_works_idle_suspended" text="Управление работами простаивает: ваш казначей {HERO} не исполняет обязанности ({STATUS}), поэтому строительство приостановлено во всех ваших владениях. Устраните причину в Канцелярии, чтобы возобновить строительство." />
+    <string id="ch_comm_bulk_done" text="{COUNT} принимают чин." />
+    <string id="ch_comm_bulk_partial" text="Чин принимают {COUNT} из {TOTAL}; остальные остаются простыми спутниками." />
+    <string id="ch_comm_grant_desc2" text="Выберите спутников, которым пожаловать чин. Если выбрать нескольких, все получат один и тот же чин." />
+    <string id="ch_comm_pick_all_desc" text="Выберите один чин для всех выбранных ({COUNT}). Кому не хватит мест, останутся простыми спутниками; им можно пожаловать чин позже через главного герольда." />
+    <string id="ch_comm_pick_all_title" text="Пожаловать чин пополнению" />
+    <string id="ch_comm_revoke_desc2" text="Клан забирает обратно вложенное; все заслуги, добытые на службе, остаются при них. Выберите нескольких, чтобы отозвать чины разом." />
+    <string id="ch_comm_revoke_done_many" text="{COUNT} слагают свои чины." />
+    <string id="ch_comm_revoke_fail_some" text="Не удалось отозвать чин у {COUNT}." />
+    <string id="ch_comm_row_party" text="{NAME} - с вами" />
+    <string id="ch_comm_scope_all" text="Все ({COUNT})" />
+    <string id="ch_comm_scope_away" text="В других местах ({COUNT})" />
+    <string id="ch_comm_scope_desc" text="Сузьте список, прежде чем выбирать." />
+    <string id="ch_comm_scope_party" text="Едут с вами ({COUNT})" />
+    <string id="ch_comm_scope_title" text="Кого из вашего дома?" />
+    <string id="ch_comm_track_row_bulk" text="{TRACK} ({HELD}/{CAP}) - мест хватит для {ROOM} из {PICKED}" />
+    <string id="ch_promo_build_all_title" text="Становление пополнения" />
+    <string id="ch_promo_preset_all_intro" text="В своих битвах все {COUNT} прослыли..." />
+    <string id="ch_promo_shape_alike" text="Всех одинаково - один чин на всех ({COUNT}), а при включённой сборке навыков ещё и одно призвание." />
+    <string id="ch_promo_shape_alike_hint" text="Два решения на всё пополнение. При включённой сборке навыков их задаёт готовое призвание; кому не хватит мест в чинах, останутся простыми спутниками." />
+    <string id="ch_promo_shape_desc" text="Как сформировать это пополнение?" />
+    <string id="ch_promo_shape_each" text="Каждого по отдельности - {COUNT} по очереди." />
+    <string id="ch_promo_shape_each_hint" text="Полный путь для каждого ветерана; только так можно вручную подобрать навыки отдельному человеку." />
+    <string id="ch_promo_shape_title" text="Возвышены из рядов: {COUNT}" />
   </strings>
 </base>

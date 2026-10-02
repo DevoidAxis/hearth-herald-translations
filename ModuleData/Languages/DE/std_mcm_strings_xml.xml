@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Grundansehen, das ein stationiertes, nicht regierendes Klanmitglied nach dem Einleben täglich jedem Honoratioren hinzufügt, vor der Charme-Skalierung. Geringer als ein Statthalter; mehrere stationierte Verwandte summieren sich." />
     <string id="hh_mcm_presence_cap_name" text="Präsenz: max. Ansehen je Honoratior pro Tag" />
     <string id="hh_mcm_presence_cap_hint" text="Das meiste Ansehen, das Präsenz an einem Tag einem Honoratioren hinzufügen kann, wie viele Verwandte auch dort stationiert sind. Hält es ein Rinnsal: Zahlen erreichen die Obergrenze früher, können aber diesen Tagesschritt oder die Höflichkeitsobergrenze nicht überschreiten." />
+    <string id="hh_mcm_heralds_attend_name" text="Herolde am Clansitz" />
+    <string id="hh_mcm_heralds_attend_hint" text="Eingesetzte Herolde stehen in der Lordhalle deines Clansitzes. Ein Herold ist ohnehin von Gruppen-, Karawanen- und Statthalterdienst ausgeschlossen, also ist das sein Platz. Aus: Nur der Master Herald erscheint." />
   </strings>
 </base>

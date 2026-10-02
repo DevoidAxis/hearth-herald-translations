@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Reputação base que um membro do clã estacionado e sem governo adiciona diariamente a cada notável depois de se ambientar, antes da escala por Carisma. Menor que a de um governador; vários parentes estacionados se somam." />
     <string id="hh_mcm_presence_cap_name" text="Presença: reputação máx. por notável por dia" />
     <string id="hh_mcm_presence_cap_hint" text="A maior reputação que a presença pode adicionar a um notável em um dia, por mais parentes que estejam estacionados ali. Mantém tudo num fluxo lento: números alcançam o teto mais cedo, mas não ultrapassam esse passo diário nem o teto de cortesias." />
+    <string id="hh_mcm_heralds_attend_name" text="Os arautos comparecem à sua sede" />
+    <string id="hh_mcm_heralds_attend_hint" text="Os arautos em seus cargos ficam no salão do senhor da sua Sede do Clã. Um arauto já não pode liderar grupo, caravana nem governar, então é aqui que ele fica. Desligado: só o Master Herald aparece." />
   </strings>
 </base>

@@ -237,5 +237,7 @@
     <string id="hh_mcm_presence_stationed_gain_hint" text="Prestige de base qu'un membre du clan en poste et sans gouvernorat ajoute chaque jour à chaque notable une fois installé, avant l'échelle du Charisme. Inférieur à celui d'un gouverneur ; plusieurs proches en poste se cumulent." />
     <string id="hh_mcm_presence_cap_name" text="Présence : prestige max. par notable et par jour" />
     <string id="hh_mcm_presence_cap_hint" text="Le prestige maximal que la présence peut ajouter à un notable en un jour, quel que soit le nombre de proches en poste. Cela reste un filet : le nombre atteint le plafond plus tôt, mais ne dépasse ni ce pas quotidien ni le plafond de courtoisie." />
+    <string id="hh_mcm_heralds_attend_name" text="Les hérauts se tiennent à votre siège" />
+    <string id="hh_mcm_heralds_attend_hint" text="Les hérauts en poste se tiennent dans la grande salle de votre foyer de clan. Un héraut est déjà exclu des groupes, des caravanes et des postes de gouverneur, c'est donc là qu'il se trouve. Désactivé : seul le Master Herald apparaît." />
   </strings>
 </base>
